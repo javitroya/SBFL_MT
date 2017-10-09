@@ -10,6 +10,7 @@ This project’s aim is to obtain the EXAM score out of the matching tables obta
 The class can be executed by right-clicking and selecting Run As -> Java Application. A file called EXAM_Results.csv will be created within the folder corresponding to the executed case study.
 
 "SpecBased_FaultLoc_MT"
+
 This project contains the executable to compute the suspiciousness values with the 18 techniques. Folders “models_<caseStudyName>” contain all the artifacts regarding each of the case studies. 
 The executable Java file is available at src->es.us.eii.faul.localization.mt.main-> FaultLocalizationMT_Main
 In order to execute it with the different model transformations serving as case studies and the different mutants, several lines of code must be commented and uncommented. After doing so, the class can be executed by right-clicking and selecting Run As -> Java Application. The code contains explanations for executing each case study:

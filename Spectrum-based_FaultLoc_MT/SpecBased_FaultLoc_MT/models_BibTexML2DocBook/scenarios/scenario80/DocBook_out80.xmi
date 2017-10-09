@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[bbmfxuur m] InProceedings A metrics suite for object oriented design Erich Gamma Thomas M. J. Fruchterman Nenad Medvidovic Gerard J. Holzmann 1987 jgd-yebgov"/>
+        <paras content="[bonnk-ggwa] InBook The model checker SPIN Elisabeth Freeman Nenad Medvidovic Liangzhao Zeng Dorothy E. Denning 1994 hpdeakqwyc 81"/>
+        <paras content="[fvqqjs_sri] Misc"/>
+        <paras content="[hg qhonx_d] Misc"/>
+        <paras/>
+        <paras content="[ujjy-iewt_] InProceedings Complexity measure Craig Larman Nenad Medvidovic Donald E. Knuth 2000 pzq--ddmlo"/>
+        <paras content="[vig-b_ndjv] Book A metrics suite for object oriented design Wang Yi Wang Yi Marlon Dumas 1987 _h- xilqai"/>
+        <paras content="[xpgw_ xbaz] Misc"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="The model checker SPIN"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

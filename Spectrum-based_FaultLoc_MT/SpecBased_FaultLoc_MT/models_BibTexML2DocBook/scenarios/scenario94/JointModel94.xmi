@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="t-hcrexzoy" year="1995" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+      <authors author="Robert C. Martin"/>
+      <authors author="Richard N. Taylor"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="g_rekat-vc" year="1984"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="zd_kkhkph " year="1997"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="djelygsikv" year="1987"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="_uzwozxfem" year="1994" title="A classification and coparison framework for software architecture description languages" publisher="qlftab-kdp" booktitle="hmuq_u-agx">
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="tdwettondk" year="1987" title="Graph drawing by force-directed placement" publisher="mmosgvfwjh" booktitle="posdqv-psb">
+      <authors author="Martin Fowler"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="ebqgktcl y" year="1995" title="Program slicing" publisher="b-myexfoko" chapter="38">
+      <authors author="Marlon Dumas"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Wang Yi"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="hxtzx xzyz" year="1997" title="QoS-aware middleware for Web services composition" publisher="btmhfduqgv" chapter="59">
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="pyjpyu-isx" year="1991" title="A metrics suite for object oriented design" publisher="dm-qjg  ts" chapter="37">
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="xdirj--caa"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="mzptaeuyqg"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="a-hp rdbqw" year="1997" title="Program slicing" school="ldubwjn_sp">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Wang Yi"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="mxe kqplza" year="2000" title="Uppaal in a nutshell" school="psyyyxklzv">
+      <authors author="Craig Larman"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="t-bekiv_uz" year="2004" title="Program slicing" school="quhod mvr-">
+      <authors author="Bruce Schneier"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Erich Gamma"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="tnr-kfa jp" year="1994" title="QoS-aware middleware for Web services composition" school="kkkwqgbvfc">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id=" b_anvhhrm" year="2000" title="A classification and coparison framework for software architecture description languages" school="vbftqzqnfl">
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id=" jezgabkgk" year="1997" title="QoS-aware middleware for Web services composition" school="jmfzaopz h">
+      <authors author="Marlon Dumas"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ b_anvhhrm] MasterThesis A classification and coparison framework for software architecture description languages Marlon Dumas 2000 vbftqzqnfl"/>
+          <paras content="[ jezgabkgk] MasterThesis QoS-aware middleware for Web services composition Marlon Dumas 1997 jmfzaopz h"/>
+          <paras content="[_uzwozxfem] InCollection A classification and coparison framework for software architecture description languages Gerard J. Holzmann Thomas M. J. Fruchterman Robert C. Martin 1994 hmuq_u-agx qlftab-kdp"/>
+          <paras content="[a-hp rdbqw] PhDThesis Program slicing Donald E. Knuth Wang Yi 1997 ldubwjn_sp"/>
+          <paras content="[djelygsikv] Booklet 1987"/>
+          <paras content="[ebqgktcl y] InBook Program slicing Marlon Dumas Chris F. Kemerer Wang Yi 1995 b-myexfoko 38"/>
+          <paras content="[g_rekat-vc] Booklet 1984"/>
+          <paras content="[hxtzx xzyz] InBook QoS-aware middleware for Web services composition Paul Pettersson 1997 btmhfduqgv 59"/>
+          <paras content="[mxe kqplza] PhDThesis Uppaal in a nutshell Craig Larman Robert C. Martin Richard N. Taylor Martin Fowler 2000 psyyyxklzv"/>
+          <paras content="[mzptaeuyqg] Misc"/>
+          <paras content="[pyjpyu-isx] InBook A metrics suite for object oriented design Gerard J. Holzmann 1991 dm-qjg  ts 37"/>
+          <paras content="[t-bekiv_uz] PhDThesis Program slicing Bruce Schneier Chris F. Kemerer Erich Gamma Bruce Schneier 2004 quhod mvr-"/>
+          <paras/>
+          <paras content="[tdwettondk] InCollection Graph drawing by force-directed placement Martin Fowler Marlon Dumas 1987 posdqv-psb mmosgvfwjh"/>
+          <paras content="[tnr-kfa jp] MasterThesis QoS-aware middleware for Web services composition Shyam R. Chidamber Shyam R. Chidamber Paul Pettersson Nenad Medvidovic 1994 kkkwqgbvfc"/>
+          <paras content="[xdirj--caa] Misc"/>
+          <paras content="[zd_kkhkph ] Booklet 1997"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

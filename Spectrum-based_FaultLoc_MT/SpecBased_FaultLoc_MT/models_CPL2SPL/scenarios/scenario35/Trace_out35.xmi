@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario35/AutomaticModel_CPL35.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario35/SPL_out35.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario35/SPL_out35.xmi#/0/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario35/AutomaticModel_CPL35.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario35/SPL_out35.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario35/SPL_out35.xmi#/1/@declaration"/>
+  </traceLinks>
+</trace:Trace>

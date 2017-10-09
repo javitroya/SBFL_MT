@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:StringSwitch" field="foasglxcio">
+    <strings is="dbqouiigyu" contains="tyuulzfbox"/>
+    <strings contains="iouswoocnc"/>
+    <strings is="mabmjldfoe" contains="xxktgmdbzu"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="sezbmpjyxn">
+    <strings is="sefevlmgke" contains="ijjvshytnb"/>
+    <strings is="upynzwnwqi" contains="gxowwneljs"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="xdtdoftugi">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+    <languages matches="kkappyvoie"/>
+    <languages matches="ndsqgqbwdf"/>
+    <languages matches="tosnzkgcap"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="hvfhhimvmw">
+    <times dtstart="hlzowdmhth" duration="zxmfpxokba" count="zxdzauhrxp" interval="loxvyetmgr" byDay="wugwhyjuun" byWeekNo="xmyhrbvmdf" wkst="cgvbqxjxan"/>
+    <times dtstart="xweingnytn" freq="tspshkaosa" count="cogdamqsdc" interval="iabzwpkphg" byMonthDay="vzsaibgqbr" byYearDay="hpmruyykck" byWeekNo="ktkvetqbek" byMonth="ebmfeucubt" wkst="elyimhimni"/>
+    <times contents="//@elements.5" dtstart="aautbwfbyq" duration="pukujbntqh" count="dasujslctg" interval="bmyzwfhecp" byDay="hzalrdcwnv" byMonthDay="thfzwfcatw" byWeekNo="zkbyiszpdt" wkst="rtgtomqbzz" bySetPos="ohxtkonbwm"/>
+  </elements>
+  <elements xsi:type="CPL:Location" contents="//@elements.4" url="iekqzuhhqx" priority="qkgwqyfssp" clear="gnpdnuqyqv"/>
+  <elements xsi:type="CPL:Location" url="jaazurxzmg" clear="dlrqfhnutl"/>
+  <elements xsi:type="CPL:Location" contents="//@elements.1" url="emymaaqhos" priority="kbscfvvwys" clear="qeugiscfpw"/>
+</CPL:CPLModel>

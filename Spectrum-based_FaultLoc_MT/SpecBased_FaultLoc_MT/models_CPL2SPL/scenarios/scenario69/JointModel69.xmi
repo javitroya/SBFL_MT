@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="foasglxcio">
+      <strings is="dbqouiigyu" contains="tyuulzfbox"/>
+      <strings contains="iouswoocnc"/>
+      <strings is="mabmjldfoe" contains="xxktgmdbzu"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="sezbmpjyxn">
+      <strings is="sefevlmgke" contains="ijjvshytnb"/>
+      <strings is="upynzwnwqi" contains="gxowwneljs"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="xdtdoftugi">
+      <notPresent/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <notPresent/>
+      <languages matches="kkappyvoie"/>
+      <languages matches="ndsqgqbwdf"/>
+      <languages matches="tosnzkgcap"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <notPresent/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzurl="hvfhhimvmw">
+      <times dtstart="hlzowdmhth" duration="zxmfpxokba" count="zxdzauhrxp" interval="loxvyetmgr" byDay="wugwhyjuun" byWeekNo="xmyhrbvmdf" wkst="cgvbqxjxan"/>
+      <times dtstart="xweingnytn" freq="tspshkaosa" count="cogdamqsdc" interval="iabzwpkphg" byMonthDay="vzsaibgqbr" byYearDay="hpmruyykck" byWeekNo="ktkvetqbek" byMonth="ebmfeucubt" wkst="elyimhimni"/>
+      <times contents="/0/@elements.5" dtstart="aautbwfbyq" duration="pukujbntqh" count="dasujslctg" interval="bmyzwfhecp" byDay="hzalrdcwnv" byMonthDay="thfzwfcatw" byWeekNo="zkbyiszpdt" wkst="rtgtomqbzz" bySetPos="ohxtkonbwm"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" contents="/0/@elements.4" url="iekqzuhhqx" priority="qkgwqyfssp" clear="gnpdnuqyqv"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="jaazurxzmg" clear="dlrqfhnutl"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" contents="/0/@elements.1" url="emymaaqhos" priority="kbscfvvwys" clear="qeugiscfpw"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="foasglxcio"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="sezbmpjyxn"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="xdtdoftugi"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+</xmi:XMI>

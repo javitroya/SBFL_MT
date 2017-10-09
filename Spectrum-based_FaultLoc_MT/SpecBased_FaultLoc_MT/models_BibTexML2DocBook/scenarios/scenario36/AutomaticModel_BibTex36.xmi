@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:TechReport" id="oohpgsdvkp" year="1987" title="Graph drawing by force-directed placement">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="vwm-ezv l-" title="Uppaal in a nutshell" note="ajlagiicav">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="_d-tlravzb" title="Complexity measure" note="t-macpgqvy">
+    <authors author="Craig Larman"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="jkqijvlkts" year="1997" title="An intrusion-detection model" booktitle="isgbmo-vol">
+    <authors author="Erich Gamma"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="afrfabpqfz" year="2004" title="An intrusion-detection model" booktitle="b_yqn- njp">
+    <authors author="Bruce Schneier"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="afpwgnvvxy" year="1987" title="QoS-aware middleware for Web services composition" publisher="dlt_altgis" booktitle="cgadvglk-i">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="rcjit_-xfi"/>
+  <entries xsi:type="BibTeX:Misc" id="_qxzvdaqfr"/>
+  <entries xsi:type="BibTeX:Misc" id="kbmpy  _sz"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="vrlj-hcbs " year="1976" title="Uppaal in a nutshell" school="wkfuchvxdi">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+</BibTeX:BibTeXFile>

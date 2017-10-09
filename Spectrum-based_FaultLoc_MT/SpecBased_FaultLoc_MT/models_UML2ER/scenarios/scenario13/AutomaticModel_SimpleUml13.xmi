@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="zuuwyqqn f">
+  <ownedElements name="Computer"/>
+  <ownedElements name="House">
+    <ownedProperty name="hbneoc_q e" primitiveType="Boolean" isContainment="true"/>
+    <ownedProperty name="xnessvob_z" complexType="//@ownedElements.1"/>
+    <ownedProperty name="tw_mtvxbxx" primitiveType="Boolean"/>
+  </ownedElements>
+</SimpleUml:Package>

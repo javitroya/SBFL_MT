@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:StringSwitch" field="fvzjlydoos">
+    <notPresent/>
+    <otherwise contents="//@elements.7"/>
+    <strings contains="lagnuluaaa"/>
+    <strings contents="//@elements.11" contains="ookxtfuczu"/>
+    <strings contents="//@elements.6" is="pdoeernesy" contains="bunqaacxwr"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="iygsqdgrqf">
+    <notPresent/>
+    <strings is="czrbwccukj"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="ffvbfokrdq">
+    <notPresent/>
+    <otherwise contents="//@elements.1"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="lajtenndgt">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <otherwise contents="//@elements.1"/>
+    <priorities contents="//@elements.3"/>
+    <priorities/>
+    <priorities contents="//@elements.11" less="wmavlpyelr" greater="xiwfhttqtc"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="gzqzrewvye" clear="rstsxrlgzm"/>
+  <elements xsi:type="CPL:Location" url="ujnkoeyvqd" clear="gqtybrdzal"/>
+  <elements xsi:type="CPL:Location" contents="//@elements.17" url="raubnmkujb" clear="jjewxqtbiz"/>
+  <elements xsi:type="CPL:SubCall" ref="lqirfvthvp"/>
+  <elements xsi:type="CPL:SubCall" ref="twmbzkcnwv"/>
+  <elements xsi:type="CPL:SubCall" ref="mlgihqxlau"/>
+  <elements xsi:type="CPL:Proxy" recurse="dxrivtyzxl" ordering="jnbbocjsci"/>
+  <elements xsi:type="CPL:Proxy" recurse="abgbqvkbdi" ordering="mnnkskzdgl">
+    <busy/>
+    <noAnswer/>
+  </elements>
+  <elements xsi:type="CPL:Reject" status="xydqlcfxec" reason="tulhjzsidu"/>
+  <elements xsi:type="CPL:Reject" status="mdmivflqzb"/>
+  <elements xsi:type="CPL:Reject" status="vmsrhdtxfc"/>
+</CPL:CPLModel>

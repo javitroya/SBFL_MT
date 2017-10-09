@@ -1,0 +1,596 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+module MergeMetamodels;
+create OUT : JointMM from IN1 : SourceMM, IN2 : TargetMM;
+
+--After this transformation is executed, a Joint Metamodel is created. In order for everything to work properly, we have to
+--manually deleted the EGenericTypes that appear at the end of the metamodel when opened with the text mode
+
+helper def : jointPackage : JointMM!EPackage = OclAny; --This is a local variable for storing the EPackage of the joint MM
+helper def : rootClass : JointMM!EClass = OclAny; --This is a local variable for storing the Root EClass of the joint MM
+helper def : sourceRootRef : JointMM!EReference = OclAny; --This is a local variable for storing the containment reference departing from the Root EClass to point the Root EClass of the source MM
+helper def : targetRootRef : JointMM!EReference = OclAny; --This is a local variable for storing the containment reference departing from the Root EClass to point the Root EClass of the target MM
+helper def : abstractClasses : Sequence(MOF!EClass) = Sequence{}; --This is a local variable for referrencing the abstract classes of both metamodels
+
+entrypoint rule CreateJoinMM(){
+	to
+		jointPackage : JointMM!EPackage(
+			name <- 'jointPackage',
+			nsURI <- 'http://jointPackage/1.0',
+			nsPrefix <- 'jointPackage',
+			eClassifiers <- Sequence{rootClass}
+		),
+		rootClass : JointMM!EClass(
+			name <- 'JointMM',
+			eReferences <- Sequence{sourceRootRef, targetRootRef}
+		),
+		sourceRootRef : JointMM!EReference(
+			name <- 'sourceRoot',	
+			lowerBound <- 1,
+			upperBound <- 1,
+			containment <- true--,
+			--eType <- This is set later, in the initialization of the source root
+			--eReferenceType <- rootClass			
+		),
+		targetRootRef : JointMM!EReference(
+			name <- 'targetRoot',	
+			lowerBound <- 1,
+			upperBound <- 1,
+			containment <- true--,
+			--eType <- This is set later, in the initialization of the target root
+			--eOpposite <- joinTargetRef
+			--eReferenceType <- rootClass
+		)
+	do{
+		thisModule.jointPackage <- jointPackage;
+		thisModule.rootClass <- rootClass;
+		thisModule.sourceRootRef <- sourceRootRef;
+		thisModule.targetRootRef <- targetRootRef;		
+		for (c in SourceMM!EClass.allInstances()){
+			if (c.abstract){
+				thisModule.abstractClasses <- thisModule.abstractClasses -> append(c);
+			}
+		}
+		for (c in TargetMM!EClass.allInstances()){
+			if (c.abstract){
+				thisModule.abstractClasses <- thisModule.abstractClasses -> append(c);
+			}
+		}
+	}
+}
+
+------------------------- Copy of elements from the Source Metamodel and Target Metamodel -----------------------
+
+-- Let us treat first the root class
+rule EClassRoot2EClassSM{
+	-- If the metamodel is properly designed, the following filter will select only 1 EClass: The ROOT class of the source metamodel
+	from 
+	  eclass_IN : SourceMM!EClass in IN1 (not eclass_IN.abstract and 
+						SourceMM!EReference.allInstances() -> select(r | r.eReferenceType=eclass_IN or eclass_IN.eSuperTypes.includes(r.eReferenceType)) -> isEmpty())
+ 	to
+  	eclass_OUT : JointMM!EClass (
+   	eAnnotations <- eclass_IN.eAnnotations,
+   	name <- 'Src' + eclass_IN.name,
+   	--instanceClassName <- 'Src' + eclass_IN.instanceClassName,
+   	--instanceTypeName <- eclass_IN.instanceTypeName,
+   	eTypeParameters <- eclass_IN.eTypeParameters,
+   	abstract <- eclass_IN.abstract,
+   	interface <- eclass_IN.interface,
+    eSuperTypes <- eclass_IN.eSuperTypes,
+	eOperations <- eclass_IN.eOperations,
+   	eStructuralFeatures <- eclass_IN.eStructuralFeatures--,
+   	--eGenericSuperTypes <- eclass_IN.eGenericSuperTypes--,
+   	--ePackage <- thisModule.jointPackage -- We cannot do this as ePackage is not changeable
+  	)
+  	do{
+  		--Let's make the containment reference from the Root EClass point this EClass
+		thisModule.sourceRootRef.eType <- eclass_OUT;
+		--Since ePackage is non modifiable, we have to add a class in a ePackage through the eClassifiers
+  		thisModule.jointPackage.eClassifiers <- thisModule.jointPackage.eClassifiers -> append(eclass_OUT);
+  	}
+ }
+
+-- Everything is copied from EClass to EClass, but the copied EClass has to inherit from 
+rule EClass2EClassSM {
+ from
+ -- If the metamodel is properly designed, the following filter will select all the classes of the source metamodel but the root class
+  eclass_IN : SourceMM!EClass in IN1 (eclass_IN.abstract or 
+						not SourceMM!EReference.allInstances() -> select(r | r.eReferenceType=eclass_IN or eclass_IN.eSuperTypes.includes(r.eReferenceType)) -> isEmpty())
+ to
+  eclass_OUT : JointMM!EClass (
+   eAnnotations <- eclass_IN.eAnnotations,
+   name <- 'Src' + eclass_IN.name,
+   --instanceClassName <- 'Src' + eclass_IN.instanceClassName,
+   --instanceTypeName <- eclass_IN.instanceTypeName,
+   eTypeParameters <- eclass_IN.eTypeParameters,
+   abstract <- eclass_IN.abstract,
+   interface <- eclass_IN.interface,
+   eSuperTypes <- eclass_IN.eSuperTypes,
+   eOperations <- eclass_IN.eOperations,
+   eStructuralFeatures <- eclass_IN.eStructuralFeatures--,
+   --eGenericSuperTypes <- eclass_IN.eGenericSuperTypes--,
+   --ePackage <- thisModule.jointPackage -- We cannot do this as ePackage is not changeable
+  )
+  do{
+  	--Since ePackage is non modifiable, we have to add a class in a ePackage through the eClassifiers
+  	thisModule.jointPackage.eClassifiers <- thisModule.jointPackage.eClassifiers -> append(eclass_OUT);
+  }
+ }
+
+-- Now for the target MM. Let us treat first the root class
+rule EClassRoot2EClassTM{
+	-- If the metamodel is properly designed, the following filter will select only 1 EClass: The ROOT class of the target metamodel
+	from 
+	  eclass_IN : TargetMM!EClass in IN2 (not eclass_IN.abstract and 
+						TargetMM!EReference.allInstances() -> select(r | r.eReferenceType=eclass_IN or eclass_IN.eSuperTypes.includes(r.eReferenceType)) -> isEmpty())
+ 	to
+  	eclass_OUT : JointMM!EClass (
+   	eAnnotations <- eclass_IN.eAnnotations,
+   	name <- 'Trg' + eclass_IN.name,
+   	--instanceClassName <- 'Src' + eclass_IN.instanceClassName,
+   	--instanceTypeName <- eclass_IN.instanceTypeName,
+   	eTypeParameters <- eclass_IN.eTypeParameters,
+   	abstract <- eclass_IN.abstract,
+   	interface <- eclass_IN.interface,
+    eSuperTypes <- eclass_IN.eSuperTypes,
+	eOperations <- eclass_IN.eOperations,
+   	eStructuralFeatures <- eclass_IN.eStructuralFeatures--,
+   	--eGenericSuperTypes <- eclass_IN.eGenericSuperTypes--,
+   	--ePackage <- thisModule.jointPackage -- We cannot do this as ePackage is not changeable
+  	)
+  	do{
+  		--Let's make the containment reference from the Root EClass point this EClass
+		thisModule.targetRootRef.eType <- eclass_OUT;
+		--Since ePackage is non modifiable, we have to add a class in a ePackage through the eClassifiers
+  		thisModule.jointPackage.eClassifiers <- thisModule.jointPackage.eClassifiers -> append(eclass_OUT);
+  	}
+ }
+
+-- Everything is copied from EClass to EClass, but the copied EClass has to inherit from 
+rule EClass2EClassTM {
+ from
+ -- If the metamodel is properly designed, the following filter will select all the classes but the root class of the target metamodel
+  eclass_IN : TargetMM!EClass in IN2 (eclass_IN.abstract or 
+						not TargetMM!EReference.allInstances() -> select(r | r.eReferenceType=eclass_IN or eclass_IN.eSuperTypes.includes(r.eReferenceType)) -> isEmpty())
+ to
+  eclass_OUT : JointMM!EClass (
+   eAnnotations <- eclass_IN.eAnnotations,
+   name <- 'Trg' + eclass_IN.name,
+   --instanceClassName <- 'Src' + eclass_IN.instanceClassName,
+   --instanceTypeName <- eclass_IN.instanceTypeName,
+   eTypeParameters <- eclass_IN.eTypeParameters,
+   abstract <- eclass_IN.abstract,
+   interface <- eclass_IN.interface,
+   eSuperTypes <- eclass_IN.eSuperTypes,
+   eOperations <- eclass_IN.eOperations,
+   eStructuralFeatures <- eclass_IN.eStructuralFeatures--,
+   --eGenericSuperTypes <- eclass_IN.eGenericSuperTypes--,
+   --ePackage <- thisModule.jointPackage -- We cannot do this as ePackage is not changeable
+  )
+  do{
+  	--Since ePackage is non modifiable, we have to add a class in a ePackage through the eClassifiers
+  	thisModule.jointPackage.eClassifiers <- thisModule.jointPackage.eClassifiers -> append(eclass_OUT);
+  }
+ }
+
+
+-- Everything is copied
+rule EAttribute2EAttributeSM {
+ from
+  eattribute_IN : SourceMM!EAttribute in IN1
+ to
+  eattribute_OUT : JointMM!EAttribute (
+   eAnnotations <- eattribute_IN.eAnnotations,
+   name <- eattribute_IN.name,
+   ordered <- eattribute_IN.ordered,
+   unique <- eattribute_IN.unique,
+   lowerBound <- eattribute_IN.lowerBound,
+   upperBound <- eattribute_IN.upperBound,
+   eType <- eattribute_IN.eType,
+   eGenericType <- eattribute_IN.eGenericType,
+   changeable <- eattribute_IN.changeable,
+   volatile <- eattribute_IN.volatile,
+   transient <- eattribute_IN.transient,
+   defaultValueLiteral <- eattribute_IN.defaultValueLiteral,
+   unsettable <- eattribute_IN.unsettable,
+   derived <- eattribute_IN.derived,
+   iD <- eattribute_IN.iD
+  )
+}
+
+rule EAttribute2EAttributeTM {
+ from
+  eattribute_IN : TargetMM!EAttribute in IN2
+ to
+  eattribute_OUT : JointMM!EAttribute (
+   eAnnotations <- eattribute_IN.eAnnotations,
+   name <- eattribute_IN.name,
+   ordered <- eattribute_IN.ordered,
+   unique <- eattribute_IN.unique,
+   lowerBound <- eattribute_IN.lowerBound,
+   upperBound <- eattribute_IN.upperBound,
+   eType <- eattribute_IN.eType,
+   eGenericType <- eattribute_IN.eGenericType,
+   changeable <- eattribute_IN.changeable,
+   volatile <- eattribute_IN.volatile,
+   transient <- eattribute_IN.transient,
+   defaultValueLiteral <- eattribute_IN.defaultValueLiteral,
+   unsettable <- eattribute_IN.unsettable,
+   derived <- eattribute_IN.derived,
+   iD <- eattribute_IN.iD
+  )
+}
+
+-- Everything is copied
+rule EAnnotation2EAnnotationSM {
+ from
+  eannotation_IN : SourceMM!EAnnotation in IN1
+ to
+  eannotation_OUT : JointMM!EAnnotation (
+   eAnnotations <- eannotation_IN.eAnnotations,
+   source <- eannotation_IN.source,
+   details <- eannotation_IN.details,
+   eModelElement <- eannotation_IN.eModelElement,
+   contents <- eannotation_IN.contents,
+   references <- eannotation_IN.references
+  )
+}
+
+rule EAnnotation2EAnnotationTM {
+ from
+  eannotation_IN : TargetMM!EAnnotation in IN2
+ to
+  eannotation_OUT : JointMM!EAnnotation (
+   eAnnotations <- eannotation_IN.eAnnotations,
+   source <- eannotation_IN.source,
+   details <- eannotation_IN.details,
+   eModelElement <- eannotation_IN.eModelElement,
+   contents <- eannotation_IN.contents,
+   references <- eannotation_IN.references
+  )
+}
+
+-- Everything is copied
+rule EDataType2EDataTypeSM {
+ from
+  edatatype_IN : SourceMM!EDataType in IN1
+ to
+  edatatype_OUT : JointMM!EDataType (
+   eAnnotations <- edatatype_IN.eAnnotations,
+   name <- edatatype_IN.name,
+   instanceClassName <- edatatype_IN.instanceClassName,
+   instanceTypeName <- edatatype_IN.instanceTypeName,
+   eTypeParameters <- edatatype_IN.eTypeParameters,
+   serializable <- edatatype_IN.serializable
+  )
+}
+
+rule EDataType2EDataTypeTM {
+ from
+  edatatype_IN : TargetMM!EDataType in IN2 (not edatatype_IN.oclIsTypeOf(TargetMM!EEnum))
+ to
+  edatatype_OUT : JointMM!EDataType (
+   eAnnotations <- edatatype_IN.eAnnotations,
+   name <- edatatype_IN.name,
+   instanceClassName <- edatatype_IN.instanceClassName,
+   instanceTypeName <- edatatype_IN.instanceTypeName,
+   eTypeParameters <- edatatype_IN.eTypeParameters,
+   serializable <- edatatype_IN.serializable
+  )
+}
+
+-- Everything is copied
+rule EEnum2EEnumSM {
+ from
+  eenum_IN : SourceMM!EEnum in IN1
+ to
+  eenum_OUT : JointMM!EEnum (
+   eAnnotations <- eenum_IN.eAnnotations,
+   name <- eenum_IN.name,
+   instanceClassName <- eenum_IN.instanceClassName,
+   instanceTypeName <- eenum_IN.instanceTypeName,
+   eTypeParameters <- eenum_IN.eTypeParameters,
+   serializable <- eenum_IN.serializable,
+   eLiterals <- eenum_IN.eLiterals
+  )
+}
+
+rule EEnum2EEnumTM {
+ from
+  eenum_IN : TargetMM!EEnum in IN2
+ to
+  eenum_OUT : JointMM!EEnum (
+   eAnnotations <- eenum_IN.eAnnotations,
+   name <- eenum_IN.name,
+   instanceClassName <- eenum_IN.instanceClassName,
+   instanceTypeName <- eenum_IN.instanceTypeName,
+   eTypeParameters <- eenum_IN.eTypeParameters,
+   serializable <- eenum_IN.serializable,
+   eLiterals <- eenum_IN.eLiterals
+  )
+}
+
+-- Everything is copied
+rule EEnumLiteral2EEnumLiteralSM {
+ from
+  eenumliteral_IN : SourceMM!EEnumLiteral in IN1
+ to
+  eenumliteral_OUT : JointMM!EEnumLiteral (
+   eAnnotations <- eenumliteral_IN.eAnnotations,
+   name <- eenumliteral_IN.name,
+   value <- eenumliteral_IN.value,
+   instance <- eenumliteral_IN.instance,
+   literal <- eenumliteral_IN.literal
+  )
+}
+
+rule EEnumLiteral2EEnumLiteralTM {
+ from
+  eenumliteral_IN : TargetMM!EEnumLiteral in IN2
+ to
+  eenumliteral_OUT : JointMM!EEnumLiteral (
+   eAnnotations <- eenumliteral_IN.eAnnotations,
+   name <- eenumliteral_IN.name,
+   value <- eenumliteral_IN.value,
+   --instance <- eenumliteral_IN.instance,
+   literal <- eenumliteral_IN.literal
+  )
+}
+
+-- Everything is copied
+rule EFactory2EFactorySM {
+ from
+  efactory_IN : SourceMM!EFactory in IN1
+ to
+  efactory_OUT : JointMM!EFactory (
+   eAnnotations <- efactory_IN.eAnnotations,
+   ePackage <- efactory_IN.ePackage
+  )
+}
+
+rule EFactory2EFactoryTM {
+ from
+  efactory_IN : TargetMM!EFactory in IN2
+ to
+  efactory_OUT : JointMM!EFactory (
+   eAnnotations <- efactory_IN.eAnnotations,
+   ePackage <- efactory_IN.ePackage
+  )
+}
+
+-- Everything is copied
+--rule EObject2EObjectSM {
+-- from
+--  eobject_IN : SourceMM!EObject
+-- to
+--  eobject_OUT : JointMM!EObject
+--}
+
+-- Everything is copied
+rule EOperation2EOperationSM {
+ from
+  eoperation_IN : SourceMM!EOperation in IN1
+ to
+  eoperation_OUT : JointMM!EOperation (
+   eAnnotations <- eoperation_IN.eAnnotations,
+   name <- eoperation_IN.name,
+   ordered <- eoperation_IN.ordered,
+   unique <- eoperation_IN.unique,
+   lowerBound <- eoperation_IN.lowerBound,
+   upperBound <- eoperation_IN.upperBound,
+   eType <- eoperation_IN.eType,
+   eGenericType <- eoperation_IN.eGenericType,
+   eTypeParameters <- eoperation_IN.eTypeParameters,
+   eParameters <- eoperation_IN.eParameters,
+   eExceptions <- eoperation_IN.eExceptions,
+   eGenericExceptions <- eoperation_IN.eGenericExceptions
+  )
+}
+
+rule EOperation2EOperationTM {
+ from
+  eoperation_IN : TargetMM!EOperation in IN2
+ to
+  eoperation_OUT : JointMM!EOperation (
+   eAnnotations <- eoperation_IN.eAnnotations,
+   name <- eoperation_IN.name,
+   ordered <- eoperation_IN.ordered,
+   unique <- eoperation_IN.unique,
+   lowerBound <- eoperation_IN.lowerBound,
+   upperBound <- eoperation_IN.upperBound,
+   eType <- eoperation_IN.eType,
+   eGenericType <- eoperation_IN.eGenericType,
+   eTypeParameters <- eoperation_IN.eTypeParameters,
+   eParameters <- eoperation_IN.eParameters,
+   eExceptions <- eoperation_IN.eExceptions,
+   eGenericExceptions <- eoperation_IN.eGenericExceptions
+  )
+}
+
+-- We don't want to copy the ePackages since we want to put all classes in a new one
+--rule EPackage2EPackageSM {
+-- from
+--  epackage_IN : SourceMM!EPackage
+-- to
+--  epackage_OUT : JointMM!EPackage (
+--   eAnnotations <- epackage_IN.eAnnotations,
+--   name <- epackage_IN.name,
+--   nsURI <- epackage_IN.nsURI,
+--   nsPrefix <- epackage_IN.nsPrefix,
+--   eFactoryInstance <- epackage_IN.eFactoryInstance,
+--   eClassifiers <- epackage_IN.eClassifiers,
+--   eSubpackages <- epackage_IN.eSubpackages
+--  )
+--}
+
+-- Everything is copied
+rule EParameter2EParameterSM {
+ from
+  eparameter_IN : SourceMM!EParameter in IN1
+ to
+  eparameter_OUT : JointMM!EParameter (
+   eAnnotations <- eparameter_IN.eAnnotations,
+   name <- eparameter_IN.name,
+   ordered <- eparameter_IN.ordered,
+   unique <- eparameter_IN.unique,
+   lowerBound <- eparameter_IN.lowerBound,
+   upperBound <- eparameter_IN.upperBound,
+   eType <- eparameter_IN.eType,
+   eGenericType <- eparameter_IN.eGenericType
+  )
+}
+
+rule EParameter2EParameterTM {
+ from
+  eparameter_IN : TargetMM!EParameter in IN2
+ to
+  eparameter_OUT : JointMM!EParameter (
+   eAnnotations <- eparameter_IN.eAnnotations,
+   name <- eparameter_IN.name,
+   ordered <- eparameter_IN.ordered,
+   unique <- eparameter_IN.unique,
+   lowerBound <- eparameter_IN.lowerBound,
+   upperBound <- eparameter_IN.upperBound,
+   eType <- eparameter_IN.eType,
+   eGenericType <- eparameter_IN.eGenericType
+  )
+}
+
+-- Everything is copied
+rule EStringToStringMapEntry2EStringToStringMapEntrySM {
+ from
+  estringtostringmapentry_IN : SourceMM!EStringToStringMapEntry in IN1
+ to
+  estringtostringmapentry_OUT : JointMM!EStringToStringMapEntry (
+   key <- estringtostringmapentry_IN.key,
+   value <- estringtostringmapentry_IN.value
+  )
+}
+
+rule EStringToStringMapEntry2EStringToStringMapEntryTM {
+ from
+  estringtostringmapentry_IN : TargetMM!EStringToStringMapEntry in IN2
+ to
+  estringtostringmapentry_OUT : JointMM!EStringToStringMapEntry (
+   key <- estringtostringmapentry_IN.key,
+   value <- estringtostringmapentry_IN.value
+  )
+}
+
+-- Everything is copied
+rule ETypeParameter2ETypeParameterSM {
+ from
+  etypeparameter_IN : SourceMM!ETypeParameter in IN1
+ to
+  etypeparameter_OUT : JointMM!ETypeParameter (
+   eAnnotations <- etypeparameter_IN.eAnnotations,
+   name <- etypeparameter_IN.name,
+   eBounds <- etypeparameter_IN.eBounds
+  )
+}
+
+rule ETypeParameter2ETypeParameterTM {
+ from
+  etypeparameter_IN : TargetMM!ETypeParameter in IN2
+ to
+  etypeparameter_OUT : JointMM!ETypeParameter (
+   eAnnotations <- etypeparameter_IN.eAnnotations,
+   name <- etypeparameter_IN.name,
+   eBounds <- etypeparameter_IN.eBounds
+  )
+}
+
+---- Everything is copied
+rule EGenericType2EGenericTypeSM {
+ from
+ --We only select those whose eClassifier is not abstract. Otherwise, the EGenericType remains pending in the MM and the OCLInEcore view cannot be opened
+ --egenerictype_IN : SourceMM!EGenericType in IN1 (not thisModule.abstractClasses -> includes(egenerictype_IN.eClassifier))
+ egenerictype_IN : SourceMM!EGenericType in IN1
+ to
+  egenerictype_OUT : JointMM!EGenericType (
+   eUpperBound <- egenerictype_IN.eUpperBound,
+   eTypeArguments <- egenerictype_IN.eTypeArguments,
+   eLowerBound <- egenerictype_IN.eLowerBound,
+   eTypeParameter <- egenerictype_IN.eTypeParameter,
+   eClassifier <- egenerictype_IN.eClassifier
+  )
+}
+
+rule EGenericType2EGenericTypeTM {
+ from
+  --We only select those whose eClassifier is not abstract. Otherwise, the EGenericType remains pending in the MM and the OCLInEcore view cannot be opened
+ --egenerictype_IN : TargetMM!EGenericType in IN2 (not thisModule.abstractClasses -> includes(egenerictype_IN.eClassifier))
+ egenerictype_IN : TargetMM!EGenericType in IN2 
+ to
+  egenerictype_OUT : JointMM!EGenericType (
+   eUpperBound <- egenerictype_IN.eUpperBound,
+   eTypeArguments <- egenerictype_IN.eTypeArguments,
+   eLowerBound <- egenerictype_IN.eLowerBound,
+   eTypeParameter <- egenerictype_IN.eTypeParameter,
+   eClassifier <- egenerictype_IN.eClassifier
+  )
+}
+
+
+---- Everything is copied
+rule EReference2EReferenceSM {
+ from
+  ereference_IN : SourceMM!EReference in IN1
+ to
+  ereference_OUT : JointMM!EReference (
+   eAnnotations <- ereference_IN.eAnnotations,
+   name <- ereference_IN.name,
+   ordered <- ereference_IN.ordered,
+   unique <- ereference_IN.unique,
+   lowerBound <- ereference_IN.lowerBound,
+   upperBound <- ereference_IN.upperBound,
+   eType <- ereference_IN.eType,
+   eGenericType <- ereference_IN.eGenericType,
+   changeable <- ereference_IN.changeable,
+   volatile <- ereference_IN.volatile,
+   transient <- ereference_IN.transient,
+   defaultValueLiteral <- ereference_IN.defaultValueLiteral,
+   unsettable <- ereference_IN.unsettable,
+   derived <- ereference_IN.derived,
+   containment <- ereference_IN.containment,
+   resolveProxies <- ereference_IN.resolveProxies,
+   eOpposite <- ereference_IN.eOpposite,
+   eKeys <- ereference_IN.eKeys
+  )
+}
+
+rule EReference2EReferenceTM{
+ from
+  ereference_IN : TargetMM!EReference in IN2
+ to
+  ereference_OUT : JointMM!EReference (
+   eAnnotations <- ereference_IN.eAnnotations,
+   name <- ereference_IN.name,
+   ordered <- ereference_IN.ordered,
+   unique <- ereference_IN.unique,
+   lowerBound <- ereference_IN.lowerBound,
+   upperBound <- ereference_IN.upperBound,
+   eType <- ereference_IN.eType,
+   eGenericType <- ereference_IN.eGenericType,
+   changeable <- ereference_IN.changeable,
+   volatile <- ereference_IN.volatile,
+   transient <- ereference_IN.transient,
+   defaultValueLiteral <- ereference_IN.defaultValueLiteral,
+   unsettable <- ereference_IN.unsettable,
+   derived <- ereference_IN.derived,
+   containment <- ereference_IN.containment,
+   resolveProxies <- ereference_IN.resolveProxies,
+   eOpposite <- ereference_IN.eOpposite,
+   eKeys <- ereference_IN.eKeys
+  )
+}
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ATL_File2Model/src/ATL_File2Model/ATLFile2Model.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="ATL_File2Model.ATLFile2Model"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="Transformations/BibTeX2DocBook_Mutant1.atl&#13;&#10;Transformations/BibTeX2DocBook_Mutant1.xmi"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ATL_File2Model"/>
+</launchConfiguration>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[_d-tlravzb] Unpublished Complexity measure Craig Larman Steve McConnell Shyam R. Chidamber Erich Gamma t-macpgqvy"/>
+        <paras content="[_qxzvdaqfr] Misc"/>
+        <paras content="[afpwgnvvxy] InCollection QoS-aware middleware for Web services composition Kim G. Larsen Chris F. Kemerer 1987 cgadvglk-i dlt_altgis"/>
+        <paras content="[afrfabpqfz] InProceedings An intrusion-detection model Bruce Schneier Philippe Kruchten 2004 b_yqn- njp"/>
+        <paras content="[jkqijvlkts] InProceedings An intrusion-detection model Erich Gamma Steve McConnell Nenad Medvidovic 1997 isgbmo-vol"/>
+        <paras content="[kbmpy  _sz] Misc"/>
+        <paras content="[oohpgsdvkp] TechReport Graph drawing by force-directed placement Richard N. Taylor Liangzhao Zeng Nenad Medvidovic 1987"/>
+        <paras content="[rcjit_-xfi] Misc"/>
+        <paras content="[vrlj-hcbs ] PhDThesis Uppaal in a nutshell Kim G. Larsen Robert C. Martin Philippe Kruchten Edward N. Reingold 1976 wkfuchvxdi"/>
+        <paras content="[vwm-ezv l-] Unpublished Uppaal in a nutshell Kim G. Larsen Chris F. Kemerer Shyam R. Chidamber ajlagiicav"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List"/>
+    </articles>
+  </books>
+</DocBook:DocBook>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="acmxbshkaz" year="1995" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="lccjtb_ltz" year="1984" title="Graph drawing by force-directed placement" journal="Information and Software Technology">
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ptpkryakpk" year="1995" title="An intrusion-detection model" journal="IEEE Transactions on Software Engineering">
+      <authors author="Richard N. Taylor"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ntkuegmiok" year="1984" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+      <authors author="Bruce Schneier"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="xebdgvxlqu" year="1994" title="Program slicing"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="i mvvejndx" year="1984" title="Complexity measure" booktitle="zdn dqz-t ">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="m-winpyokz" year="2000" title="Program slicing" publisher="- mzhra-ve" booktitle="y-bqowuvjp">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="kew xekt m" year="1995" title="Program slicing" publisher="neorojg-jp" chapter="96">
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="qhy-jxcef " year="1984" title="QoS-aware middleware for Web services composition" publisher="xw- z-gpst" chapter="56">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="satvqwsmga"/>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras/>
+          <paras content="[i mvvejndx] InProceedings Complexity measure Shyam R. Chidamber Philippe Kruchten Marlon Dumas Philippe Kruchten 1984 zdn dqz-t "/>
+          <paras content="[kew xekt m] InBook Program slicing Bruce Schneier 1995 neorojg-jp 96"/>
+          <paras/>
+          <paras content="[m-winpyokz] InCollection Program slicing Philippe Kruchten Edward N. Reingold Liangzhao Zeng 2000 y-bqowuvjp - mzhra-ve"/>
+          <paras/>
+          <paras/>
+          <paras content="[qhy-jxcef ] InBook QoS-aware middleware for Web services composition Donald E. Knuth Edward N. Reingold Chris F. Kemerer Marlon Dumas 1984 xw- z-gpst 56"/>
+          <paras content="[satvqwsmga] Misc"/>
+          <paras content="[xebdgvxlqu] Proceedings Program slicing 1994"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Shyam R. Chidamber"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Information and Software Technology"/>
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software -- Practice and Experience"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="psoonrzerf" year="1991" title="Uppaal in a nutshell">
+      <authors author="Erich Gamma"/>
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="- iikpafe_" year="1976" title="A metrics suite for object oriented design">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="dyubn-l-hy" year="1976" title="Complexity measure">
+      <authors author="Wang Yi"/>
+      <authors author="Wang Yi"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[- iikpafe_] TechReport A metrics suite for object oriented design Chris F. Kemerer Philippe Kruchten Liangzhao Zeng Bruce Schneier 1976"/>
+          <paras content="[dyubn-l-hy] TechReport Complexity measure Wang Yi Wang Yi Robert C. Martin 1976"/>
+          <paras content="[psoonrzerf] TechReport Uppaal in a nutshell Erich Gamma Elisabeth Freeman Dorothy E. Denning Steve McConnell 1991"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

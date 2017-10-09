@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id=" u hkagblw" year="1997" title="Complexity measure" journal="Software and Systems Modeling">
+    <authors author="Wang Yi"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="zsug-tddpz" year="2000" title="A metrics suite for object oriented design" journal="Software and Systems Modeling">
+    <authors author="Craig Larman"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="asrou acdy" year="1995" title="The model checker SPIN" journal="Software -- Practice and Experience">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="rgdthquidf" year="1987" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Steve McConnell"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="isxwxmuk_z" year="1997" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Erich Gamma"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="uahpjeoogi" year="1997" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Book" id="hzrmoegw-v" year="1976" title="A metrics suite for object oriented design" publisher="wtn-pkbt-g">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="sqxdj_ ql_" year="1984" title="4 + 1 view model of architecture" publisher="-scs_xl_uc">
+    <authors author="Bruce Schneier"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="flfdvgybib" year="2000" title="An intrusion-detection model" school="cdgxvit_fk">
+    <authors author="Steve McConnell"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+</BibTeX:BibTeXFile>

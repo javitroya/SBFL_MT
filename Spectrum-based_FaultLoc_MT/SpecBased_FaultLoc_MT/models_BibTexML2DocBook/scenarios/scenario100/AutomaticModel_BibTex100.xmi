@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="cbfluubuyt" year="2000" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="rbmdxaogem" year="1995"/>
+  <entries xsi:type="BibTeX:Booklet" id="ry_unezced" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="djptvendqg" year="1995"/>
+  <entries xsi:type="BibTeX:Book" id="asgmnmbqk " year="1987" title="An intrusion-detection model" publisher="uligmpo_mh">
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="wqvdlaqazp" year="1997" title="An intrusion-detection model" publisher="oinlbo-dbr">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="zoxvdzu tc" year="1984" title="4 + 1 view model of architecture" school="nx bhrzi_f">
+    <authors author="Steve McConnell"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="x z-eggnfz" year="1991" title="A classification and coparison framework for software architecture description languages" school="a_uax_lbxy">
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="uhvozol gy" year="2000" title="Program slicing" school="xjb nnqp  ">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+</BibTeX:BibTeXFile>

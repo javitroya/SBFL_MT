@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="jfxivvobxc">
+    <ownedElements name="Product">
+      <ownedProperty name="sxy_yazxbh" primitiveType="Integer" isContainment="true"/>
+    </ownedElements>
+    <ownedElements name="Computer" superClasses="/0/@ownedElements.0"/>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="jfxivvobxc">
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="Integer"/>
+    </entities>
+    <entities name="new name for the class"/>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

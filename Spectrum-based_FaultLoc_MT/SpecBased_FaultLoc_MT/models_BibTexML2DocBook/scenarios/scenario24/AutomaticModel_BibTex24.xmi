@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:TechReport" id="zhzamkc-su" year="1994" title="An intrusion-detection model">
+    <authors author="Paul Pettersson"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="xctpaojcck" title="QoS-aware middleware for Web services composition"/>
+  <entries xsi:type="BibTeX:Manual" id="fmaqb_tuy_" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Manual" id="_yztavhlss" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Book" id="yasy-ecmzm" year="2000" title="An intrusion-detection model" publisher="q-o xdmyjh">
+    <authors author="Martin Fowler"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Craig Larman"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="ajmxxsmiwz" year="1976" title="Uppaal in a nutshell" publisher="bptoqkj mi">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="gobraajwmn" year="1995" title="An intrusion-detection model" school="bkvgwngoxl">
+    <authors author="Erich Gamma"/>
+    <authors author="Wang Yi"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="e_crd_ram_" year="1991" title="Graph drawing by force-directed placement" school="wc-kbrgx x">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+</BibTeX:BibTeXFile>

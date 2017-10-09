@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/SpecBased_FaultLoc_MT/src" modelPluginID="SpecBased_FaultLoc_MT"
+    modelName="JointMM_Ecore2Maude" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>JointMM_Ecore2Maude.ecore</foreignModel>
+  <genPackages prefix="JointPackage_Ecore2Maude" disposableProviderFactory="true"
+      ecorePackage="JointMM_Ecore2Maude.ecore#/">
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//JointMM">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//JointMM/sourceRoot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//JointMM/targetRoot"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEStringToStringMapEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStringToStringMapEntry/key"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStringToStringMapEntry/value"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEAttribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEAttribute/iD"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEAttribute/eAttributeType"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEClass">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEClass/abstract"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEClass/interface"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eSuperTypes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eOperations"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eAllAttributes"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eAllReferences"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eReferences"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eAttributes"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eAllContainments"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eAllOperations"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eAllStructuralFeatures"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eAllSuperTypes"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eIDAttribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClass/eStructuralFeatures"/>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEClass/isSuperTypeOf">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEClass/isSuperTypeOf/someClass"/>
+      </genOperations>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEClass/getFeatureCount"/>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEClass/getEStructuralFeature">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEClass/getEStructuralFeature/featureID"/>
+      </genOperations>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEClass/getFeatureID">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEClass/getFeatureID/feature"/>
+      </genOperations>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEClass/getEStructuralFeature.1">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEClass/getEStructuralFeature.1/featureName"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEClassifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEClassifier/instanceClassName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEClassifier/instanceTypeName"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEClassifier/ePackage"/>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEClassifier/getClassifierID"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEDataType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEDataType/serializable"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEEnum">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEEnum/eLiterals"/>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEEnum/getEEnumLiteral">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEEnum/getEEnumLiteral/name"/>
+      </genOperations>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEEnum/getEEnumLiteral.1">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEEnum/getEEnumLiteral.1/value"/>
+      </genOperations>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEEnum/getEEnumLiteralByLiteral">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEEnum/getEEnumLiteralByLiteral/literal"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEEnumLiteral">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEEnumLiteral/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEEnumLiteral/literal"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEEnumLiteral/eEnum"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//SrcENamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcENamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEOperation">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEOperation/eContainingClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEOperation/eParameters"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEOperation/eExceptions"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEPackage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEPackage/nsURI"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEPackage/nsPrefix"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEPackage/eClassifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEPackage/eSubpackages"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEPackage/eSuperPackage"/>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEPackage/getEClassifier">
+        <genParameters ecoreParameter="JointMM_Ecore2Maude.ecore#//SrcEPackage/getEClassifier/name"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEParameter">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEParameter/eOperation"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEReference">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEReference/containment"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEReference/container"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEReference/resolveProxies"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEReference/eOpposite"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEReference/eReferenceType"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEReference/eKeys"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/changeable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/volatile"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/transient"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/defaultValueLiteral"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/unsettable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/derived"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/eContainingClass"/>
+      <genOperations ecoreOperation="JointMM_Ecore2Maude.ecore#//SrcEStructuralFeature/getFeatureID"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//SrcETypedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcETypedElement/ordered"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcETypedElement/unique"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcETypedElement/lowerBound"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcETypedElement/upperBound"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcETypedElement/many"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//SrcETypedElement/required"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//SrcETypedElement/eType"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgMaudeSpec">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgMaudeSpec/els"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgMaudeSpec/printableEls"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgMembership">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgMembership/term"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgMembership/sort"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgEquation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgEquation/lhs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgEquation/rhs"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgRule">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgRule/lhs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgRule/rhs"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgMembershipCond">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgMembershipCond/rhs"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgBooleanCond"/>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgMatchingCond">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgMatchingCond/rhs"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgEqualCond">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgEqualCond/rhs"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgMaudeTopEl">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgMaudeTopEl/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgModExpression"/>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgInstModExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgInstModExp/modExp"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgInstModExp/views"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgRenModExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgRenModExp/modExp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgRenModExp/renamings"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgCompModExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgCompModExp/modExps"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgModuleIdModExp">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgModuleIdModExp/module"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgTheoryIdModExp">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgTheoryIdModExp/theory"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgParameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgParameter/label"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgParameter/modExp"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgTheory">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgTheory/els"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgFTheory"/>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgSTheory"/>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgModule">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgModule/els"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgModule/params"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgFModule"/>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgSModule"/>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgModElement">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgModElement/module"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgModElement/theory"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgModImportation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgModImportation/imports"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgSort">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgSort/subsortRels"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgSort/supersortRels"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgSort/kind"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgKind">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgKind/sorts"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgSubsortRel">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgSubsortRel/subsorts"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgSubsortRel/supersorts"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgOperation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgOperation/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgOperation/coarity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgOperation/arity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgOperation/atts"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgStatement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgStatement/label"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgStatement/atts"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgStatement/conds"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgCondition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgCondition/lhs"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgEquationalCond"/>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgRewriteCond">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgRewriteCond/rhs"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgTerm">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgTerm/type"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgConstant/op"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgRecTerm">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgRecTerm/op"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgRecTerm/args"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgVariable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgVariable/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgView">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgView/from"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgView/to"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgView/els"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgViewMapping"/>
+    <genClasses image="false" ecoreClass="JointMM_Ecore2Maude.ecore#//TrgRenMapping"/>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgTermMapping">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgTermMapping/from"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgTermMapping/to"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgSortMapping">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgSortMapping/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgSortMapping/to"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgOpTypedMapping">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgOpTypedMapping/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgOpTypedMapping/to"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgOpTypedMapping/atts"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgOpMapping">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Ecore2Maude.ecore#//TrgOpMapping/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgOpMapping/to"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Ecore2Maude.ecore#//TrgLabelMapping">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgLabelMapping/from"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Ecore2Maude.ecore#//TrgLabelMapping/to"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

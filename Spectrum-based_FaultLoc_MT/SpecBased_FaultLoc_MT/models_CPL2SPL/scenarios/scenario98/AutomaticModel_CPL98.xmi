@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:TimeSwitch" tzid="ulgylxcvtq">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="vadcwslibh" tzurl="kkdphvqrat">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:SubCall" ref="vwiacjeupd"/>
+  <elements xsi:type="CPL:SubCall" ref="qwvbxcuqqj"/>
+  <elements xsi:type="CPL:SubCall" ref="tgpgqbmmkn"/>
+  <elements xsi:type="CPL:Redirect" permanent="iqiawywunf"/>
+  <elements xsi:type="CPL:Redirect" permanent="aavxgbwxal"/>
+  <elements xsi:type="CPL:Redirect" permanent="navsevpyki"/>
+</CPL:CPLModel>

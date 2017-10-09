@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="oeiityjqzm" year="1995" title="The model checker SPIN" journal="Software and Systems Modeling">
+    <authors author="Martin Fowler"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mbdorudnzg" year="2004" title="Program slicing" journal="Information and Software Technology">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="uuugthqezq"/>
+  <entries xsi:type="BibTeX:Misc" id="vswrlvpxj_"/>
+  <entries xsi:type="BibTeX:Misc" id="uozqtjdi_z"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="qmyr_wtzhl" year="1995" title="Complexity measure" school="wioxtso uc">
+    <authors author="Martin Fowler"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+</BibTeX:BibTeXFile>

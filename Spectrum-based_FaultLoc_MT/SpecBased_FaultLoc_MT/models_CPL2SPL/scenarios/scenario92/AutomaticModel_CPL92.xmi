@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:LanguageSwitch"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="ydfgaqgxmc" tzurl="rrxrspodtk">
+    <times dtstart="sdlchwfxnm" dtend="hcvlqgzcyk" duration="cvpcjrfzzq" until="smroamhztp" interval="szscmgkyml" bySecond="nectypixtx" byHour="kbvbccuxtm" byYearDay="tthzaqqtzm" byWeekNo="picobxhyvd" byMonth="sibhqprerl" wkst="imxzeixkwt"/>
+    <times contents="//@elements.2" dtstart="bszkwxrfvb" duration="winrixisio" freq="iwbhqhbdig" count="snswungxhi" interval="kotkroiptr" bySecond="vvuaihjcar" byMinute="zsdukdckad" byMonthDay="oybgdsirjx" byYearDay="emsualcjmy" byWeekNo="wifrarmkwz" byMonth="xuwkgxmwfd" wkst="jjebyzomwg"/>
+    <times dtstart="srvhmbpvcx" dtend="ckcykieqbh" duration="ydwyjxcdvq" freq="kgkgkgilkt" until="aglxeizhwi" count="krozjuvfmb" interval="ghpzanfjol" byHour="ciktlmwsxo" byDay="oepllvjpqv" byMonthDay="gnozuiwysr" byMonth="swnddfafup" wkst="hugyianphg"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="wnpbpftpbl"/>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:Location" contents="//@elements.7" url="ygfbxfqkje" priority="qdgzvoyyny" clear="lfhpnjyscb"/>
+  <elements xsi:type="CPL:SubCall" ref="hqmsadqeav"/>
+  <elements xsi:type="CPL:SubCall" ref="etrhfeakow"/>
+  <elements xsi:type="CPL:Proxy" timeout="oqggyuhjke" recurse="rtlzdeidoj" ordering="gmhmqxtoxe">
+    <busy/>
+    <noAnswer/>
+    <redirection contents="//@elements.6"/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" timeout="gwzxysfhdr" recurse="uakdxkesez" ordering="itbqgqftsp">
+    <busy contents="//@elements.9"/>
+    <redirection/>
+    <default/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" recurse="isybmovbqy" ordering="rxmgibjwwp">
+    <noAnswer contents="//@elements.13"/>
+    <redirection/>
+    <default/>
+  </elements>
+  <elements xsi:type="CPL:Redirect" permanent="kixutdyksg"/>
+  <elements xsi:type="CPL:Redirect" permanent="eyjmbdtqlu"/>
+  <elements xsi:type="CPL:Redirect" permanent="musmqtxifq"/>
+</CPL:CPLModel>

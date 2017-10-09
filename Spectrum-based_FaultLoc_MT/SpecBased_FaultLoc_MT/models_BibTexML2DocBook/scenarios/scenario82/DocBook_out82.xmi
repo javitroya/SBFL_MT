@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[qammnktuqi] Book An intrusion-detection model Edward N. Reingold Dorothy E. Denning 1976 sjc_qgfcfq"/>
+        <paras content="[tbqyhduext] InBook QoS-aware middleware for Web services composition Philippe Kruchten 1984 vfrxyktryt 16"/>
+        <paras content="[v_wgmjlvlm] Book An intrusion-detection model Philippe Kruchten 1991 fdxychhdgj"/>
+        <paras/>
+        <paras content="[yucmflfx-r] MasterThesis Program slicing Thomas M. J. Fruchterman 1991  ticmjr hn"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Information and Software Technology"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

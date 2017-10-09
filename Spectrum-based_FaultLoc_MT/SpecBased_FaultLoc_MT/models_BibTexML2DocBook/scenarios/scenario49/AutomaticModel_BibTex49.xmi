@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="keu-e_ ssn" year="1994" title="Uppaal in a nutshell" journal="Information and Software Technology">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="pclncjnewj" year="2000" title="A metrics suite for object oriented design">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Wang Yi"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="curtewzcwy" year="1987" title="Program slicing">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="_n--_hrxri" year="1995" title="Uppaal in a nutshell">
+    <authors author="Erich Gamma"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="zpaqhgcwck" year="1976"/>
+  <entries xsi:type="BibTeX:Booklet" id="qcxrycdff " year="1995"/>
+  <entries xsi:type="BibTeX:InCollection" id="mqfczya-dd" year="1994" title="Graph drawing by force-directed placement" publisher="nn-ui_bs-z" booktitle="euei-epl-y">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="rammdxjqu_" year="1997" title="Complexity measure" publisher="fykfmxrnns" booktitle="ohfompggct">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="f_ aqnt_vj" year="1976" title="The model checker SPIN" publisher="nlnwtlmkxf" booktitle="lfftoyqymo">
+    <authors author="Craig Larman"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="ekayjjqwfn" year="1997" title="Program slicing" school="uurp okjh-">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="_pczzmf xs" year="1997" title="Program slicing" school="mjmdojosnq">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Wang Yi"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+</BibTeX:BibTeXFile>

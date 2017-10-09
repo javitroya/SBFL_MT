@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="sxug  u-uq" year="1987" title="Complexity measure" journal="IEEE Transactions on Software Engineering">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qqqjtlwjkp" year="1984" title="QoS-aware middleware for Web services composition" journal="Software and Systems Modeling">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="epnthzo-ng" year="2004" title="Complexity measure" journal="Information and Software Technology">
+    <authors author="Steve McConnell"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="rzx ihygcd" year="1995" title="QoS-aware middleware for Web services composition" journal="Information and Software Technology">
+    <authors author="Robert C. Martin"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="njfov-mcr " year="1976" title="Program slicing" journal="IEEE Transactions on Software Engineering">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="wtqyiduoqm" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Manual" id="ewzhachtkj" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Manual" id="bhpf jxc-w" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Booklet" id="lmsn kdoqs" year="1994"/>
+  <entries xsi:type="BibTeX:InCollection" id=" -n-k ahaf" year="2000" title="An intrusion-detection model" publisher="-z-bfn per" booktitle="dfnkwicjvy">
+    <authors author="Wang Yi"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="dshlpvonao"/>
+      <subActions contents="/0/@elements.1" id="eakhwkbrie"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="wxuogiallg">
+      <strings contents="/0/@elements.1" is="gvxusppnpy"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <priorities equal="yyrcupcggf"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="hmycipuczd" priority="tbqlmjjibh" clear="lzazploktp"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="wxuogiallg"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+</xmi:XMI>

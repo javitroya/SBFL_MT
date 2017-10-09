@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="imxwurlnmc" year="1995" title="Program slicing">
+      <authors author="Paul Pettersson"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id=" mb stnnhh" title="Program slicing" note="dwjwp-ylnn">
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="duhtpqgmln" year="1997" title="Complexity measure"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="khuw x gsf" year="2000" title="QoS-aware middleware for Web services composition" publisher="kncjzxx_qg">
+      <authors author="Craig Larman"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="gzdxqyetdt" year="1997" title="4 + 1 view model of architecture" school=" zmthnzfie">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="eojnsmqbyz" year="2000" title="A classification and coparison framework for software architecture description languages" school="wobbdl-p_a">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="j_qoifcabl" year="1994" title="Program slicing" school="mfqoh cxyb">
+      <authors author="Craig Larman"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ mb stnnhh] Unpublished Program slicing Martin Fowler dwjwp-ylnn"/>
+          <paras content="[duhtpqgmln] Proceedings Complexity measure 1997"/>
+          <paras content="[eojnsmqbyz] PhDThesis A classification and coparison framework for software architecture description languages Chris F. Kemerer Martin Fowler Robert C. Martin 2000 wobbdl-p_a"/>
+          <paras content="[gzdxqyetdt] PhDThesis 4 + 1 view model of architecture Liangzhao Zeng Richard N. Taylor Gerard J. Holzmann Marlon Dumas 1997  zmthnzfie"/>
+          <paras content="[imxwurlnmc] TechReport Program slicing Paul Pettersson Shyam R. Chidamber 1995"/>
+          <paras content="[j_qoifcabl] PhDThesis Program slicing Craig Larman Robert C. Martin Philippe Kruchten 1994 mfqoh cxyb"/>
+          <paras content="[khuw x gsf] Book QoS-aware middleware for Web services composition Craig Larman Chris F. Kemerer Kim G. Larsen Steve McConnell 2000 kncjzxx_qg"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

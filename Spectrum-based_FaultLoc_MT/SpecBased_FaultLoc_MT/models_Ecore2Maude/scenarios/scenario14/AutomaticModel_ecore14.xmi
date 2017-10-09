@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="borpgmqbpu" nsURI="toorhvqzeo" nsPrefix="cofpmvutsu">
+  <eClassifiers xsi:type="ecore:EClass" name="rmyszuftqr" instanceClassName="arpxsbtsac">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rjxizzsxin" ordered="false" upperBound="84" eType="//@eClassifiers.3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="udtrvoqwds" instanceClassName="bthmuzrevl" instanceTypeName="urnaxonkee" interface="true" eSuperTypes="//@eClassifiers.1 //@eClassifiers.2 //@eClassifiers.0">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nwengtebhe" lowerBound="70"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scabhgnyel" unique="false" lowerBound="98" upperBound="86" eType="//@eClassifiers.0" defaultValueLiteral="hurfbvdpqt" unsettable="true" derived="true" eAttributeType="//@eClassifiers.5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="baucoklkqf" instanceClassName="kstxblrvep">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nfqmjybvyw" ordered="false" unique="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qhyqmhovkp" ordered="false" lowerBound="86" volatile="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gzcbibyang" unique="false" upperBound="16" changeable="false" defaultValueLiteral="tzkqaxivfl"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="knzrjdsidm" serializable="false"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="jyczcbnyal" instanceTypeName="pbnyknwfzi"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="kindlkgqbk"/>
+</ecore:EPackage>

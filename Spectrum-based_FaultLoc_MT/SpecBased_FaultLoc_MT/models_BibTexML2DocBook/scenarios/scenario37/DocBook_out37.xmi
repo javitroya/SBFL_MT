@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[a_x-defm_d] Booklet 1984"/>
+        <paras content="[bloxprcrhz] TechReport QoS-aware middleware for Web services composition Martin Fowler 1997"/>
+        <paras content="[bo -ixqrnu] MasterThesis Program slicing Thomas M. J. Fruchterman Bruce Schneier 1984 xrmvwtnnic"/>
+        <paras/>
+        <paras content="[gq-xzfhatw] InProceedings A classification and coparison framework for software architecture description languages Dorothy E. Denning 1997 gjjtf_aprx"/>
+        <paras content="[ifoxycfrfj] TechReport The model checker SPIN Philippe Kruchten Dorothy E. Denning Chris F. Kemerer Nenad Medvidovic 1991"/>
+        <paras content="[jaehblcqwv] Article Program slicing Philippe Kruchten Robert C. Martin Thomas M. J. Fruchterman Martin Fowler 2000 Software and Systems Modeling"/>
+        <paras content="[mphjewxwe ] Article A metrics suite for object oriented design Shyam R. Chidamber 1987 Software and Systems Modeling"/>
+        <paras content="[sqyr vhyvu] InProceedings An intrusion-detection model Nenad Medvidovic Philippe Kruchten 2000 avkchdffyc"/>
+        <paras content="[swgidxia_m] TechReport A classification and coparison framework for software architecture description languages Robert C. Martin 2000"/>
+        <paras content="[xil smccfw] Booklet 2000"/>
+        <paras content="[yd_rtbqu_y] Booklet 1997"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Information and Software Technology"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

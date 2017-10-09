@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="xjblorsodi" year="1997" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Craig Larman"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="iwtytzagbe" year="2004" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="nkd zfoknk" year="1994" title="QoS-aware middleware for Web services composition" school="ql z_o_hdm">
+    <authors author="Robert C. Martin"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="fbwgnklpnm" year="1987" title="A metrics suite for object oriented design" school="ctjxqkhj c">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="sclpnwbii-" year="1984" title="A metrics suite for object oriented design" school="z-mfrnvnt ">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+</BibTeX:BibTeXFile>

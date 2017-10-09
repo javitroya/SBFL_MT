@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="cfpbgcnols">
+      <notPresent/>
+      <strings contains="wdspwiuajr"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="ltolxadzqr" clear="slxtmarice"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" contents="/0/@elements.4" url="deojodqxyt" priority="uiymovlsff" clear="besnwsqsjd"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="ugqixejajj" priority="ztkxvohxpi" clear="lubrjztgfa"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="qhyuwtkoho"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="jiidsodgel"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="cfpbgcnols"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+</xmi:XMI>

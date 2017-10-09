@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="AutomaticModel_CPL1.xmi#//@elements.0"/>
+    <targetElements href="out_SPL1.xmi#/0"/>
+    <targetElements href="out_SPL1.xmi#/0/@service"/>
+    <targetElements href="out_SPL1.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL1.xmi#//@elements.1/@notPresent"/>
+    <targetElements href="out_SPL1.xmi#/1"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="AutomaticModel_CPL1.xmi#//@elements.2"/>
+    <targetElements href="out_SPL1.xmi#/2"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.0"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.0/@declaration"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.0/@declaration/@type"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.0/@declaration/@initExp"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="AutomaticModel_CPL1.xmi#//@elements.3"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration/@type"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration/@initExp"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="NoAnswer2SelectCase">
+    <sourceElements href="AutomaticModel_CPL1.xmi#//@elements.3/@noAnswer"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.0"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.0/@values.0"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.0/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirection2SelectCase">
+    <sourceElements href="AutomaticModel_CPL1.xmi#//@elements.3/@redirection"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.1"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.1/@values.0"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.1/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Default2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL1.xmi#//@elements.2/@default"/>
+    <targetElements href="out_SPL1.xmi#/2/@statements.1/@selectDefault"/>
+  </traceLinks>
+</trace:Trace>

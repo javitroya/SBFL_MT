@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="-y lnl-mxd" year="2004" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="imnyklqyfv" year="1984" title="The model checker SPIN" journal="Information and Software Technology">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="jiinrmllbn" year="1995" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="fmv_kyufst" year="1987" title="4 + 1 view model of architecture" journal="Information and Software Technology">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="prdexwnufr" year="1987" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id=" xhryopzky" year="1984" title="4 + 1 view model of architecture" journal="Journal of Systems and Software">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="q_wrlx_ayx" title="Program slicing" note="q-qoudptzg">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="cy-whj--fs" title="Complexity measure" note="atsykfcwnm">
+    <authors author="Paul Pettersson"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="hsrnnjb ih" title="Graph drawing by force-directed placement" note="yixnjdttxo">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="hglsjnltuo" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Manual" id="rrtcditp_d" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Manual" id="pm w-c_jtf" title="QoS-aware middleware for Web services composition"/>
+  <entries xsi:type="BibTeX:Proceedings" id="tnckeir vc" year="1987" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Proceedings" id="i_uhpgbpgu" year="1994" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Proceedings" id="jueh_hxnjb" year="1976" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:InProceedings" id="omaqwmnswa" year="1984" title="A metrics suite for object oriented design" booktitle="xwp dgulnl">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="xsrjcbitva" year="1997" title="A metrics suite for object oriented design" booktitle="szhxqhziis">
+    <authors author="Martin Fowler"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="azckchvraf" year="1997" title="A metrics suite for object oriented design" booktitle="xojjruipkc">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="liheknlvyy" year="1997" title="Complexity measure" publisher="nbbbphpbkh">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="qokocpqitx" year="2000" title="The model checker SPIN" publisher="asyelune-n">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="coel-ueyab" year="1984" title="The model checker SPIN" school="reonumilqi">
+    <authors author="Paul Pettersson"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+</BibTeX:BibTeXFile>

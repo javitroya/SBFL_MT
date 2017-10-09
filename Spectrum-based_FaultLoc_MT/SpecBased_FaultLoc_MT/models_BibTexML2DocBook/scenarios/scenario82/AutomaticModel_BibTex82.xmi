@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="yqdjvtvvhi" year="1976" title="Complexity measure" journal="Information and Software Technology">
+    <authors author="Erich Gamma"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="v_wgmjlvlm" year="1991" title="An intrusion-detection model" publisher="fdxychhdgj">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="qammnktuqi" year="1976" title="An intrusion-detection model" publisher="sjc_qgfcfq">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="tbqyhduext" year="1984" title="QoS-aware middleware for Web services composition" publisher="vfrxyktryt" chapter="16">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="yucmflfx-r" year="1991" title="Program slicing" school=" ticmjr hn">
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+</BibTeX:BibTeXFile>

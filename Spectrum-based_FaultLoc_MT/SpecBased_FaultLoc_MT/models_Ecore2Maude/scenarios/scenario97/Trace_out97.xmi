@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="MetamodelEqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.2/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.2/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.2/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElConstant">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#/"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.3/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="MetamodelEqPackages">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.3"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.3/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.3/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Initialize">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.0/@imports"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.3"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.4"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.5"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.6"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.7"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.8"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.9"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.10"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.11"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.12"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.13"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.14"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.15"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.16"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.17"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/0/@els.0/@els.18"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.1"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.5"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.5/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.5/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.5/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqMetamodel">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.6"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.6/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.6/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.6/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqSupPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.7"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.7/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.7/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.7/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.8/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqSubPackages">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.8"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.8/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.8/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElConstant">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.9/@rhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElConstant">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.9/@rhs/@args.1"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElConstant">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.9/@rhs/@args.2"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.10"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.19"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.28"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqClasses">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.9"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.9/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.9/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Package2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#/"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.4"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.13"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.13/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.13/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.13/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqIsAbstract">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.14"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.14/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.14/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.14/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.15"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.15/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.15/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.15/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.16/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqSuperTypes">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.16"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.16/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.16/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.17/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqReferences">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.17"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.17/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.17/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.18/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqAttributes">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.18"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.18/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.18/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Class2Sort">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.10"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.11"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.12"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.22"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.22/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.22/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.22/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqIsAbstract">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.23"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.23/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.23/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.23/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.24"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.24/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.24/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.24/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.25/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqSuperTypes">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.25"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.25/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.25/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.26/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqReferences">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.26"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.26/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.26/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.27/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqAttributes">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.27"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.27/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.27/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Class2Sort">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.19"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.20"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.21"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.31"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.31/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.31/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.31/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqIsAbstract">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.32"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.32/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.32/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.32/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.33"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.33/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.33/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.33/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.34/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqSuperTypes">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.34"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.34/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.34/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.35/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqReferences">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.35"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.35/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.35/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.36/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="ClassEqAttributes">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.36"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.36/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.36/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Class2Sort">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.28"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.29"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.30"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.38"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.38/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.38/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.38/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.39"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.39/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.39/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.39/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.40"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.40/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.40/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.40/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.41"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.41/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.41/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.41/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.42"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.42/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.42/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.42/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.43"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.43/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.43/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.43/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.44"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.44/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.44/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.44/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.45"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.45/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.45/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.45/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqSpecificDefaultValue">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.46"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.46/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.46/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.46/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.0/@eStructuralFeatures.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.37"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.48"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.48/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.48/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.48/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.49"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.49/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.49/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.49/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.50"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.50/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.50/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.50/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.51"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.51/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.51/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.51/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.52"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.52/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.52/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.52/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.53"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.53/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.53/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.53/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.54"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.54/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.54/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.54/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.55"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.55/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.55/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.55/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqSpecificDefaultValue">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.56"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.56/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.56/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.56/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.0/@eStructuralFeatures.1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.47"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.58"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.58/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.58/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.58/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.59"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.59/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.59/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.59/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.60"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.60/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.60/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.60/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.61"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.61/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.61/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.61/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.62"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.62/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.62/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.62/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.63"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.63/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.63/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.63/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.64"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.64/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.64/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.64/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.65"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.65/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.65/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.65/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.0/@eStructuralFeatures.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.57"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.67"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.67/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.67/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.67/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.68"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.68/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.68/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.68/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.69"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.69/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.69/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.69/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.70"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.70/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.70/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.70/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.71"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.71/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.71/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.71/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.72"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.72/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.72/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.72/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.73"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.73/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.73/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.73/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.74"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.74/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.74/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.74/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.1/@eStructuralFeatures.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.66"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.76"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.76/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.76/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.76/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.77"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.77/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.77/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.77/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.78"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.78/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.78/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.78/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.79"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.79/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.79/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.79/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.80"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.80/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.80/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.80/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.81"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.81/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.81/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.81/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.82"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.82/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.82/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.82/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.83"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.83/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.83/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.83/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.1/@eStructuralFeatures.1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.75"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.85"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.85/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.85/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.85/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.86"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.86/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.86/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.86/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.87"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.87/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.87/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.87/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.88"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.88/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.88/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.88/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.89"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.89/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.89/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.89/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.90"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.90/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.90/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.90/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.91"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.91/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.91/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.91/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.92"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.92/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.92/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.92/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.1/@eStructuralFeatures.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.84"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.94"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.94/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.94/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.94/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.95"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.95/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.95/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.95/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.96"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.96/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.96/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.96/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.97"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.97/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.97/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.97/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.98"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.98/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.98/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.98/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.99"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.99/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.99/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.99/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.100"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.100/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.100/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.100/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.101"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.101/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.101/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.101/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.2/@eStructuralFeatures.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.93"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.103"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.103/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.103/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.103/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.104"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.104/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.104/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.104/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.105"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.105/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.105/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.105/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.106"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.106/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.106/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.106/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.107"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.107/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.107/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.107/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.108"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.108/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.108/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.108/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.109"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.109/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.109/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.109/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.110"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.110/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.110/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.110/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.2/@eStructuralFeatures.1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.102"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.112"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.112/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.112/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.112/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqType">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.113"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.113/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.113/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.113/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLowerBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.114"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.114/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.114/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.114/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqUpperBound">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.115"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.115/@rhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.115/@rhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.115/@lhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqContainingClass">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.116"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.116/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.116/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.116/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqIsId">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.117"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.117/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.117/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.117/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsOrdered">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.118"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.118/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.118/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.118/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqIsUnique">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.119"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.119/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.119/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.119/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="AttEqSpecificDefaultValue">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.120"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.120/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.120/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.120/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="Attribute2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.2/@eStructuralFeatures.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.111"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumEqMetaAux">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.124"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.124/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.124/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.124/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.125"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.125/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.125/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.125/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.126"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.126/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.126/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.126/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumEqDefaultValue">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.127"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.127/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.127/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.127/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="mtOrdConstant">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.128/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLiterals">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.128"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.128/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.128/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Enum2Sort">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.6"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.121"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.122"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.123"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumEqMetaAux">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.132"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.132/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.132/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.132/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.133"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.133/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.133/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.133/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.134"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.134/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.134/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.134/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumEqDefaultValue">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.135"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.135/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.135/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.135/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumLitConstant">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.136/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLiterals">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.136"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.136/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.136/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Enum2Sort">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.7"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.129"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.130"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.131"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumEqMetaAux">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.140"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.140/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.140/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.140/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.141"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.141/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.141/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.141/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.142"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.142/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.142/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.142/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumEqDefaultValue">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.143"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.143/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.143/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.143/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumLitConstant">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.144/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EqLiterals">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.144"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.144/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.144/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Enum2Sort">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario97/AutomaticModel_ecore97.xmi#//@eClassifiers.8"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.137"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.138"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.139"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumLiteral2Operation">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.145"/>
+  </traceLinks>
+  <traceLinks ruleName="EnumLiteral2Operation">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario97/Maude_out97.xmi#/1/@els.146"/>
+  </traceLinks>
+</trace:Trace>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="acmxbshkaz" year="1995" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="lccjtb_ltz" year="1984" title="Graph drawing by force-directed placement" journal="Information and Software Technology">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ptpkryakpk" year="1995" title="An intrusion-detection model" journal="IEEE Transactions on Software Engineering">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ntkuegmiok" year="1984" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Bruce Schneier"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="xebdgvxlqu" year="1994" title="Program slicing"/>
+  <entries xsi:type="BibTeX:InProceedings" id="i mvvejndx" year="1984" title="Complexity measure" booktitle="zdn dqz-t ">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="m-winpyokz" year="2000" title="Program slicing" publisher="- mzhra-ve" booktitle="y-bqowuvjp">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="kew xekt m" year="1995" title="Program slicing" publisher="neorojg-jp" chapter="96">
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="qhy-jxcef " year="1984" title="QoS-aware middleware for Web services composition" publisher="xw- z-gpst" chapter="56">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="satvqwsmga"/>
+</BibTeX:BibTeXFile>

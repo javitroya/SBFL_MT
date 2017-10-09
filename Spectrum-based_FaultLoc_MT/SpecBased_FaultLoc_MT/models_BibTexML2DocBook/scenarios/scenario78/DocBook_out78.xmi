@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[-kdlbfetee] Manual Graph drawing by force-directed placement"/>
+        <paras content="[_snqui_-zx] Article The model checker SPIN Philippe Kruchten Marlon Dumas 1987 Software -- Practice and Experience"/>
+        <paras content="[bmcssbl--k] Booklet 1991"/>
+        <paras content="[dg gnag_fk] Book Uppaal in a nutshell Chris F. Kemerer 1987 rraod_qsap"/>
+        <paras content="[iffa_myueu] Manual QoS-aware middleware for Web services composition"/>
+        <paras content="[jpgbyflmex] MasterThesis Uppaal in a nutshell Gerard J. Holzmann Liangzhao Zeng 1976 g_yvvbwubx"/>
+        <paras content="[mhyhznjyev] Booklet 1991"/>
+        <paras/>
+        <paras/>
+        <paras content="[uzyqw-ei c] Book Program slicing Dorothy E. Denning Steve McConnell Martin Fowler 1976 -tjnruwbau"/>
+        <paras content="[vk a--ejhb] Book A classification and coparison framework for software architecture description languages Gerard J. Holzmann Nenad Medvidovic Bruce Schneier 1997 snmx_ubomm"/>
+        <paras content="[vpjvw-jqaf] Article A metrics suite for object oriented design Dorothy E. Denning 1987 Software and Systems Modeling"/>
+        <paras content="[vtltn zouk] Manual A classification and coparison framework for software architecture description languages"/>
+        <paras/>
+        <paras content="[ysqxrjuv_m] Booklet 1997"/>
+        <paras content="[zccxhqbm-y] Article Complexity measure Shyam R. Chidamber Shyam R. Chidamber 1987 Information and Software Technology"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Information and Software Technology"/>
+        <paras content="Software -- Practice and Experience"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

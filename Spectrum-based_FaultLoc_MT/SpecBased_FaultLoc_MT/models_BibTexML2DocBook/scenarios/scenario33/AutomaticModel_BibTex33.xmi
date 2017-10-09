@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id=" kmycf-htc" year="1987" title="An intrusion-detection model" journal="IEEE Transactions on Software Engineering">
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="yug-vodcll" year="1991" title="4 + 1 view model of architecture" journal="Information and Software Technology">
+    <authors author="Robert C. Martin"/>
+    <authors author="Craig Larman"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mpozdqmkpr" year="1995" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="hhrlfkajno" year="1997" title="A metrics suite for object oriented design" journal="Software and Systems Modeling">
+    <authors author="Wang Yi"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="nboqfrnfk-" title="Program slicing" note="ukuqyycrpm">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="lqmk-evfnc" title="QoS-aware middleware for Web services composition" note="kgkcnmmiwq">
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="datnqbetwc" title="QoS-aware middleware for Web services composition" note=" n-sq_kcia">
+    <authors author="Marlon Dumas"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="lesnewblwk" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Manual" id="sxt-kpsgix" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:InProceedings" id="docww_jrvj" year="2004" title="A classification and coparison framework for software architecture description languages" booktitle="brzt_w-gye">
+    <authors author="Martin Fowler"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="s-yx_m goj" year="2000"/>
+  <entries xsi:type="BibTeX:Booklet" id="ualoff_ jq" year="1994"/>
+  <entries xsi:type="BibTeX:InBook" id="fy_qwjman " year="1995" title="Uppaal in a nutshell" publisher="gq_lyakxzt" chapter="87">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="xr_zptmosv" year="1984" title="4 + 1 view model of architecture" publisher="uyowabvegv" chapter="93">
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="rpej_qulpf" year="1984" title="Uppaal in a nutshell" publisher="fjqyqdcsz-" chapter="33">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+</BibTeX:BibTeXFile>

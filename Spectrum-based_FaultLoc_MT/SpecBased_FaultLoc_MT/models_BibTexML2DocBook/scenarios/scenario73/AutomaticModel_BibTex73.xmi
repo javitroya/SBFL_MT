@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="pn rlz_naz" year="2000" title="4 + 1 view model of architecture" journal="Software and Systems Modeling">
+    <authors author="Craig Larman"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="yfjfpvuufy" year="1997" title="Complexity measure">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="hrhjnpk_d " year="1994" title="Graph drawing by force-directed placement">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="uxegqcct-e" year="1987" title="Complexity measure" booktitle="q-lpu-seko">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="gvimxu gzb" year="1994" title="Complexity measure" publisher="hqhcqanqsd">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="ygguymrsyk" year="1997" title="Program slicing" publisher="erd-tlvgo-">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="mda-pq-blt" year="1997" title="The model checker SPIN" publisher="nkpmuco_dh" booktitle="ol_hphgemb">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="kaymrhsprm" year="1987" title="An intrusion-detection model" publisher="ldpzwglv-u" booktitle="vdvrelpziz">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="x__vpoukaj" year="1976" title="The model checker SPIN" publisher="wyujkqnxcv" booktitle="ggclchvmdv">
+    <authors author="Steve McConnell"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="o-xsbshmke" year="1995" title="A metrics suite for object oriented design" publisher="zxlyilabxt" chapter="37">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="pxyghymm-t"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="nhnsmezeim" year="1997" title="Program slicing" school=" cowxew_pc">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="clzbnssr-s" year="1987" title="Uppaal in a nutshell" school="cuwrpx-kqv">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Wang Yi"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="tstm--zyze" year="1976" title="Graph drawing by force-directed placement" school="irtyxsnmwj">
+    <authors author="Wang Yi"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+</BibTeX:BibTeXFile>

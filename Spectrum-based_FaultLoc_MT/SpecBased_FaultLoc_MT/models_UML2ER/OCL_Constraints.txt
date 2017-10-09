@@ -1,0 +1,57 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+--The following 10 OCL constraints are taken from the TSE 2015 paper
+
+--OCL1. It checks that for every Package, there must be created an ERModel with the same name
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name))
+
+--OCL2. It checks that for every Package, there must be created an ERModel with the same name and that for every ownedElements (Class) of the former there is an entity (EntityType) in the latter with the same name. Note, we use "exists" instead of "any" in case in the source model there are classes/properties with the same name
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name))))
+
+--OCL3. It checks that for every Package, there must be created an ERModel with the same name and that for every ownedElements (Class) of the former there is an entity (EntityType) in the latter with the same name. Besides, for every property of the class there must be a Feature created with the same name. Note, we use "exists" instead of "any" in case in the source model there are classes/properties/features with the same name
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name and class.ownedProperty->forAll(prop | entity.features->exists(f | f.name = prop.name))))))
+
+--OCL4. It checks that there is the same number of NamedElement instances and Element instances
+SrcNamedElement.allInstances()-> size() = TrgElement.allInstances()->size()
+
+--OCL5. It checks that the amount of Package instances equals the amount of ERModel instances
+SrcPackage.allInstances()->size() = TrgERModel.allInstances()->size()
+
+--OCL6. It checks that the amount of Class instances equals amount of EntityType instances
+SrcClass.allInstances()->size() = TrgEntityType.allInstances()->size()
+
+--OCL7. It checks that the amount of Property instances equals amount of Feature instances
+SrcProperty.allInstances()->size() <= TrgFeature.allInstances()->size()
+
+--OCL8.
+--SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name and class.ownedProperty->forAll(prop | (not prop.primitiveType.oclIsUndefined() and prop.primitiveType<>'') implies entity.features-> select(f|f.oclIsTypeOf(TrgAttribute)) -> exists(f | f.name = prop.name))))))
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name and class.ownedProperty->forAll(prop | (prop.complexType.oclIsUndefined()) implies entity.features-> select(f|f.oclIsTypeOf(TrgAttribute)) -> exists(f | f.name = prop.name))))))
+    
+--OCL9. It checks that for every Package, there must be created an ERModel with the same name and that for every ownedElement (Class) of the former there is an entity (EntityType) in the latter with the same name. Finally, if the Property has a complexType, then a Reference with the same name must be created and, besides, if the Property has isContainment set to true, then the Reference is of type WeakReference. Note, we use "exists" instead of "any" in case in the source model there are classes/properties/features with the same name
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name and class.ownedProperty->forAll(prop | (not prop.complexType.oclIsUndefined() and not prop.isContainment) implies entity.features-> select(f|f.oclIsTypeOf(TrgWeakReference)) -> exists(f | f.name = prop.name))))))
+         
+--OCL10. It checks that for every Package, there must be created an ERModel with the same name and that for every ownedElement (Class) of the former there is an entity (EntityType) in the latter with the same name. Finally, if the Property has a complexType, then a Reference with the same name must be created and, besides, if the Property has isContainment set to false, then the Reference is of type StrongReference. Note, we use "exists" instead of "any" in case in the source model there are classes/properties/features with the same name
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name and class.ownedProperty->forAll(prop | (not prop.complexType.oclIsUndefined() and prop.isContainment) implies entity.features-> select(f|f.oclIsTypeOf(TrgStrongReference)) -> exists(f | f.name = prop.name))))))
+
+--End of the 10 OCL constraints taken from the TSE 2015 paper
+
+--OCL11. It checks that for every Package, there must be created an ERModel with the same name and that for every ownedElement (Class) of the former there is an entity (EntityType) in the latter with the same name. Finally, if the complexType of the Properties is undefined, then an Attribute with the same name must be created. Note, we use "exists" instead of "any" in case in the source model there are classes/properties with the same name   
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name and class.ownedProperty->forAll(prop | prop.complexType.oclIsUndefined() implies entity.features-> select(f|f.oclIsTypeOf(TrgAttribute)) -> exists(f | f.name = prop.name))))))
+        
+--OCL12. It checks that for every Package, there must be created an ERModel with the same name and that for every ownedElement (Class) of the former there is an entity (EntityType) in the latter with the same name. Finally, if the complexType of the Properties is undefined, then an Attribute is created. The Attribute has, as type, the primitiveType of the Property; if the latter is undefined, then the type of the Attribute is 'NoType'. Note, we use "exists" instead of "any" in case in the source model there are classes/properties with the same name   
+SrcPackage.allInstances()->forAll(p | TrgERModel.allInstances()->exists(e | p.name = e.name and p.ownedElements->forAll(class | e.entities->exists(entity | entity.name = class.name and class.ownedProperty->forAll(prop | prop.complexType.oclIsUndefined() implies entity.features-> exists(f | TrgAttribute.allInstances()-> exists(a | a=f and a.type = if prop.primitiveType.oclIsUndefined() then 'NoType' else prop.primitiveType endif)))))))        
+ 
+--OCL13. It checks that the name of the type of every WeakReference in the target model must be the same as that of a class in the source model
+TrgWeakReference.allInstances()->forAll(r | SrcClass.allInstances()->exists(c | r.type.name = c.name))
+
+--OCL14. It checks that the name of the type of every StrongReference in the target model must be the same as that of a class in the source model
+TrgStrongReference.allInstances()->forAll(r | SrcClass.allInstances()->exists(c | r.type.name = c.name))

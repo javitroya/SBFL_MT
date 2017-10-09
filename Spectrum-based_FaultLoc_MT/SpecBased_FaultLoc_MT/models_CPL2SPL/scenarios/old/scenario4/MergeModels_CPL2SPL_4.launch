@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
+<stringAttribute key="ATL File Name" value="/SpecBased_FaultLoc_MT/models_CPL2SPL/MergeModels.atl"/>
+<stringAttribute key="ATL VM" value="EMF-specific VM"/>
+<stringAttribute key="ATL_COMPILER" value="atl2006"/>
+<booleanAttribute key="IS_REFINING" value="false"/>
+<mapAttribute key="Input">
+<mapEntry key="IN1" value="CPL"/>
+<mapEntry key="IN2" value="SPL"/>
+</mapAttribute>
+<mapAttribute key="Libs"/>
+<mapAttribute key="Model Handler">
+<mapEntry key="CPL" value="EMF"/>
+<mapEntry key="JointModel" value="EMF"/>
+<mapEntry key="SPL" value="EMF"/>
+</mapAttribute>
+<mapAttribute key="ModelType">
+<mapEntry key="CPL" value="METAMODELINPUT"/>
+<mapEntry key="IN1" value="MODELINPUT"/>
+<mapEntry key="IN2" value="MODELINPUT"/>
+<mapEntry key="JointModel" value="METAMODELOUTPUT"/>
+<mapEntry key="OUT" value="MODELOUTPUT"/>
+<mapEntry key="SPL" value="METAMODELINPUT"/>
+</mapAttribute>
+<mapAttribute key="Options">
+<mapEntry key="OPTION_CLEAR" value="true"/>
+<mapEntry key="OPTION_CONTENT_TYPE" value="false"/>
+<mapEntry key="OPTION_DERIVED" value="true"/>
+<mapEntry key="allowInterModelReferences" value="true"/>
+<mapEntry key="printExecutionTime" value="true"/>
+<mapEntry key="step" value="false"/>
+<mapEntry key="supportUML2Stereotypes" value="false"/>
+</mapAttribute>
+<listAttribute key="OrderedInput">
+<listEntry value="IN1"/>
+<listEntry value="IN2"/>
+</listAttribute>
+<listAttribute key="OrderedOutput">
+<listEntry value="OUT"/>
+</listAttribute>
+<mapAttribute key="Output">
+<mapEntry key="OUT" value="JointModel"/>
+</mapAttribute>
+<mapAttribute key="Path">
+<mapEntry key="CPL" value="/SpecBased_FaultLoc_MT/models_CPL2SPL/CPL.ecore"/>
+<mapEntry key="IN1" value="/SpecBased_FaultLoc_MT/models_CPL2SPL/scenarios/scenario4/AutomaticModel_CPL4.xmi"/>
+<mapEntry key="IN2" value="/SpecBased_FaultLoc_MT/models_CPL2SPL/scenarios/scenario4/out_SPL4.xmi"/>
+<mapEntry key="JointModel" value="/SpecBased_FaultLoc_MT/models_CPL2SPL/JointMM_CPL2SPL.ecore"/>
+<mapEntry key="OUT" value="/SpecBased_FaultLoc_MT/models_CPL2SPL/scenarios/scenario4/JointModel4.xmi"/>
+<mapEntry key="SPL" value="/SpecBased_FaultLoc_MT/models_CPL2SPL/SPL.ecore"/>
+</mapAttribute>
+<listAttribute key="Superimpose"/>
+<stringAttribute key="bad_container_name" value="\SpecBased_FaultLoc_MT\models_BibTexML2Do"/>
+</launchConfiguration>

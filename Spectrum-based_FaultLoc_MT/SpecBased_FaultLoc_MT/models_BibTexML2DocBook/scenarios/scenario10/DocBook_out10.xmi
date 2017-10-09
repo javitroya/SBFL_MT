@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[-ejx__nhjq] InProceedings An intrusion-detection model Erich Gamma Kim G. Larsen Bruce Schneier 2000 ktsgrhq-aq"/>
+        <paras content="[acubennttl] InCollection Complexity measure Marlon Dumas 1994 yp qvgspch wo_yi-srne"/>
+        <paras/>
+        <paras content="[bvusdeylmb] TechReport 4 + 1 view model of architecture Dorothy E. Denning 1976"/>
+        <paras content="[cvs-laezto] InProceedings 4 + 1 view model of architecture Dorothy E. Denning 1997 -juav fo b"/>
+        <paras content="[egbbtfkgrm] PhDThesis Graph drawing by force-directed placement Donald E. Knuth Marlon Dumas Donald E. Knuth Dorothy E. Denning 1976 s-gjubmiva"/>
+        <paras content="[gtbauu-no_] Misc"/>
+        <paras content="[izahfkvfgd] TechReport Graph drawing by force-directed placement Philippe Kruchten Chris F. Kemerer Wang Yi Steve McConnell 2000"/>
+        <paras content="[lbntutblkk] InCollection 4 + 1 view model of architecture Gerard J. Holzmann Dorothy E. Denning Philippe Kruchten Paul Pettersson 1997 kzeskjnbyn hsgjnr lxz"/>
+        <paras content="[ly_otsekod] Manual Uppaal in a nutshell"/>
+        <paras content="[nqdn_alrk_] PhDThesis Complexity measure Dorothy E. Denning Steve McConnell Bruce Schneier Liangzhao Zeng 1997 vcmusqe_lo"/>
+        <paras content="[qnlhisjkez] Misc"/>
+        <paras content="[tmztgm vie] Book A metrics suite for object oriented design Philippe Kruchten 1997 r-udgqmehp"/>
+        <paras content="[twrlbvvx  ] InProceedings Uppaal in a nutshell Edward N. Reingold Erich Gamma Richard N. Taylor 1976 x-nqmhdlcr"/>
+        <paras content="[unlbsseamw] Manual Program slicing"/>
+        <paras content="[yufvumz- d] InCollection The model checker SPIN Kim G. Larsen Nenad Medvidovic Bruce Schneier 1997 uvmtpn__vi  wmnfohkd "/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Information and Software Technology"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

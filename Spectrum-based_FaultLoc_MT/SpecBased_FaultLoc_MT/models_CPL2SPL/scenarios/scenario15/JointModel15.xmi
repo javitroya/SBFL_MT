@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="hpnzybekef">
+      <otherwise/>
+      <strings contents="/0/@elements.3" is="hqlxjimspp"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="ivbhitkyhg">
+      <notPresent/>
+      <strings is="musexwdvca"/>
+      <strings contents="/0/@elements.8" is="sirddjiqqq" contains="wnzqfasjew"/>
+      <strings is="ziurcksmnw"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="omdgsuarmg" clear="ovpqfkmpwh"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="dwyonounng"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="nlyqnpeqvi"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" recurse="vtpcbijzdy" ordering="xmptobyrun">
+      <default/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="kbxpicxotv" recurse="ffbrbdemdn" ordering="hduoniqiam"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="gvoubvrobr" reason="ugtectvtqz"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="mtpkubarth"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="xkofytappp"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgCompoundStat>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+      <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="r">
+        <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+        <initExp xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+          <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+      <matchedExp xsi:type="jointPackage_CPL2SPL:TrgVariable" source="/1/@statements.0/@declaration"/>
+      <selectDefault>
+        <commentsBefore>// default</commentsBefore>
+      </selectDefault>
+    </statements>
+  </jointPackage_CPL2SPL:TrgCompoundStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="hpnzybekef"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="ivbhitkyhg"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+</xmi:XMI>

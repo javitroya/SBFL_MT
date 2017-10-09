@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="zqsk-qsmkj" year="1976" title="Complexity measure" journal="Journal of Systems and Software">
+    <authors author="Bruce Schneier"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="hwfzewmwcq" year="1987" title="Program slicing" journal="Information and Software Technology">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="xxnxksgswa" year="2004" title="A metrics suite for object oriented design">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="irfhid  vi" year="1995" title="An intrusion-detection model">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ipqqid-ru-" year="1995" title="The model checker SPIN">
+    <authors author="Bruce Schneier"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="eolhxmqxmp" year="1987" title="QoS-aware middleware for Web services composition"/>
+  <entries xsi:type="BibTeX:InProceedings" id="-zdimzodbp" year="1995" title="Graph drawing by force-directed placement" booktitle="jatibvleih">
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="-dayfmdyud" year="1997" title="Program slicing" booktitle="jnsmw xb_i">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="ljchsbjoey" year="1987" title="Complexity measure" publisher="cuxxsaaycb">
+    <authors author="Martin Fowler"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="mvwese-bbd" year="1987" title="An intrusion-detection model" publisher="yc-goohnjh" booktitle="xvbatvb-cs">
+    <authors author="Martin Fowler"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="wn rbvnofm" year="1997" title="A classification and coparison framework for software architecture description languages" publisher="sejai-_im-" booktitle="ibknrulan_">
+    <authors author="Martin Fowler"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="fhybvbxfbc" year="1987" title="4 + 1 view model of architecture" publisher="bblcabotsn" booktitle="rjyp hxvpu">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+</BibTeX:BibTeXFile>

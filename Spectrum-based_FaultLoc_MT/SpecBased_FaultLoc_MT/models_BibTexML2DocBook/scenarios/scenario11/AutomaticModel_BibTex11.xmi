@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="imtgq_ ink" year="1984" title="An intrusion-detection model" journal="Software -- Practice and Experience">
+    <authors author="Robert C. Martin"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ggawk_g_uw" year="1995" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ppjpnvys_f" year="1997" title="The model checker SPIN" journal="Information and Software Technology">
+    <authors author="Steve McConnell"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="kd j--ih-p" year="1976" title="Complexity measure" journal="IEEE Transactions on Software Engineering">
+    <authors author="Steve McConnell"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="g mtyywouw" year="1984" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Proceedings" id="szwxsqdzaz" year="1987" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:InProceedings" id="z jlijspxz" year="2004" title="QoS-aware middleware for Web services composition" booktitle="tpwhfmthb ">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="ibmfwfydnh" year="1991" title="QoS-aware middleware for Web services composition" booktitle="kwwqcaqttj">
+    <authors author="Erich Gamma"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="hrr_nwuhbo" year="1987" title="Complexity measure" booktitle="tbkaxon_bs">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="hzxilep-rw" year="1997" title="Uppaal in a nutshell" publisher="mmni_g-phx" booktitle="svxfmaadda">
+    <authors author="Erich Gamma"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="banqqfj-it" year="1997" title="4 + 1 view model of architecture" publisher="koudpvrgwv" booktitle="pmkwfsldrx">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="gczkukpdmo" year="1995" title="Program slicing" publisher="sodgstxrq " chapter="12">
+    <authors author="Robert C. Martin"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="qabf_zhfno"/>
+  <entries xsi:type="BibTeX:Misc" id="rrchdavw_ "/>
+</BibTeX:BibTeXFile>

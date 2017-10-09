@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="crcti-urqm" year="2000" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Paul Pettersson"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="k_gcgwhq l" year="1997" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ucnss-ekql" year="1987" title="The model checker SPIN" journal="Software and Systems Modeling">
+    <authors author="Erich Gamma"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="j aqmqtkqy" year="1997" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="--r-p_azmb" year="1995" title="Uppaal in a nutshell" journal="IEEE Transactions on Software Engineering">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ar_foqdtpw" year="1997" title="QoS-aware middleware for Web services composition">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="vhvndmhctq" title="Graph drawing by force-directed placement" note=" vgdvlfhuy">
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="dxj- zx-tg" title="4 + 1 view model of architecture" note=" zz_gqgdbv">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="egu_rkcays" title="Program slicing" note="jzljqnzrtu">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="zmeel_fr_a" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:Manual" id="uedc-oksbr" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:Manual" id="vwyfx-ult_" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:Booklet" id="--cjzxdqct" year="1984"/>
+  <entries xsi:type="BibTeX:Booklet" id="lgzpbzlqhp" year="1987"/>
+  <entries xsi:type="BibTeX:Booklet" id="hxkbxtd zu" year="1994"/>
+  <entries xsi:type="BibTeX:Book" id="pi_mliwapo" year="2004" title="The model checker SPIN" publisher="stzyenqbk-">
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="mszrkwnwwc" year="1984" title="4 + 1 view model of architecture" publisher="qqv_znrzar">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="hbomu yghs" year="1994" title="Program slicing" publisher="-qjtfbrbfb" chapter="99">
+    <authors author="Bruce Schneier"/>
+  </entries>
+</BibTeX:BibTeXFile>

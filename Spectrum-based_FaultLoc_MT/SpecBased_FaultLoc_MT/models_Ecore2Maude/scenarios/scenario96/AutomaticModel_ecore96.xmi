@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="krzinvlqii">
+  <eClassifiers xsi:type="ecore:EClass" name="levewcgmax" interface="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="clavdgacmw" lowerBound="89" upperBound="44" volatile="true" unsettable="true" iD="true" eAttributeType="//@eClassifiers.3"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="npnwivypwg" eType="//@eClassifiers.0" volatile="true" defaultValueLiteral="htbfpfrugz"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="awuvpzlohn" lowerBound="67"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="nbwyntaxbk" instanceClassName="dyslbuwpfd" serializable="false"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="vedcgdiebq" instanceClassName="zzdkcxoowp" instanceTypeName="odltqbaevg"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="sibmjtzoqq" instanceTypeName="cklhkesaiq"/>
+</ecore:EPackage>

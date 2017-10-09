@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="rrposmfxhs">
+    <notPresent contents="//@elements.1"/>
+    <times dtstart="kfeztorvhh" dtend="kspgxywoqk" freq="plgyielemv" interval="bazflfsmsr" bySecond="mdllldpcvw" byHour="ikkksxocik" byYearDay="touafgdzbd" byMonth="ffaoeunais" wkst="tbyeqcwste"/>
+    <times dtstart="zottkhdqhc" freq="ezfrtzwwkv" count="ywfjhmzfip" interval="cxnhynuvcd" byYearDay="dzxnfybvtx" byMonth="ypiaffqwxj" wkst="ufviaomioe" bySetPos="hqkcegjrki"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="qmgkluqiza">
+    <times dtstart="etuwxbbnlv" duration="yvxrgdrecr" freq="wfptghcwsi" until="dadasgxdvh" interval="lyjbrpwcuf" bySecond="jhhcfjlfsy" byHour="kxlfldiijd" byYearDay="odsougdzsp" wkst="xzftowpsuu"/>
+    <times dtstart="bqtsxuyfyn" dtend="sdpjwhsxba" interval="dufubkpmcs" byYearDay="hwyfjaevop" byWeekNo="exgetfbrtl" wkst="tmvzpgglgs" bySetPos="aqhtdqlbbm"/>
+    <times dtstart="xtdtlzvzqo" duration="aquxdwbygp" until="ftmufwhqvq" count="xtuxzuxkyq" interval="knpzjgtebs" bySecond="qrzqckhfwi" byMinute="msfyyblbvg" byWeekNo="xcvrhzcisz" byMonth="kygvlstojy" wkst="eqrnyadpaj"/>
+  </elements>
+</CPL:CPLModel>

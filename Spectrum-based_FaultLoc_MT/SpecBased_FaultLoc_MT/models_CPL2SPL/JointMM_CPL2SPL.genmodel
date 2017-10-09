@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/SpecBased_FaultLoc_MT/src" modelPluginID="SpecBased_FaultLoc_MT"
+    modelName="JointMM_CPL2SPL" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>JointMM_CPL2SPL.ecore</foreignModel>
+  <genPackages prefix="JointPackage_CPL2SPL" disposableProviderFactory="true" ecorePackage="JointMM_CPL2SPL.ecore#/0">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/Direction">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/Direction/inout"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/Direction/in"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/Direction/out"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/SIPMethod">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/ACK"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/BYE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/CANCEL"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/INVITE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/NOTIFY"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/OPTIONS"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/REACK"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/REGISTER"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/REINVITE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/REREGISTER"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/RESUBSCRIBE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPMethod/SUBSCRIBE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/ControlMethod">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ControlMethod/deploy"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ControlMethod/undeploy"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ControlMethod/uninvite"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ControlMethod/unregister"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ControlMethod/unsubscribe"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/PrimitiveType">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/void"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/bool"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/int"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/request"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/response"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/string"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/time"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/PrimitiveType/uri"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/Modifier">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/Modifier/LIFO"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/Modifier/FIFO"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/FunctionLocation">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/FunctionLocation/remote"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/FunctionLocation/local"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/SIPHeader">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/CALL_ID"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/CONTACT"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/CSEQ"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/EVENT"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/FROM"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/MAX_FORWARDS"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/SUBSCRIPTION_STATE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/TO"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SIPHeader/VIA"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/SuccessKind">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SuccessKind/OK"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/SuccessKind/ACCEPTED"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/ClientErrorKind">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/ADDRESS_INCOMPLETE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/AMBIGUOUS"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/BAD_EXTENSION"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/BAD_REQUEST"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/BUSY_HERE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/CALL_OR_TRANSACTION_DOES_NOT_EXIST"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/EXTENSION_REQUIRED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/FORBIDDEN"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/GONE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/INTERVAL_TOO_BRIEF"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/LOOP_DETECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/METHOD_NOT_ALLOWED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/NOT_ACCEPTABLE_HERE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/NOT_ACCEPTABLE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/NOT_FOUND"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/PAYMENT_REQUIRED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/PROXY_AUTHENTICATION_REQUIRED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/REQUESTURI_TOO_LONG"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/REQUEST_ENTITY_TOO_LARGE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/REQUEST_PENDING"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/REQUEST_TERMINATED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/REQUEST_TIMEOUT"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/TEMPORARILY_UNAVAILABLE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/TOO_MANY_HOPS"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/UNAUTHORIZED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/UNDECIPHERABLE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/UNSUPPORTED_MEDIA_TYPE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ClientErrorKind/UNSUPPORTED_URI_SCHEME"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/GlobalErrorKind">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/GlobalErrorKind/BUSY_EVERYWHERE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/GlobalErrorKind/DECLINE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/GlobalErrorKind/DOES_NOT_EXIST_ANYWHERE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/GlobalErrorKind/NOT_ACCEPTABLE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/RedirectionErrorKind">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/RedirectionErrorKind/ALTERNATIVE_SERVICE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/RedirectionErrorKind/MOVED_PERMANENTLY"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/RedirectionErrorKind/MOVED_TEMPORARILY"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/RedirectionErrorKind/MULTIPLE_CHOICES"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/RedirectionErrorKind/USE_PROXY"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="JointMM_CPL2SPL.ecore#/0/ServerErrorKind">
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ServerErrorKind/BAD_GATEWAY"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ServerErrorKind/MESSAGE_TOO_LARGE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ServerErrorKind/NOT_IMPLEMENTED"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ServerErrorKind/SERVER_INTERNAL_ERROR"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ServerErrorKind/SERVER_TIMEOUT"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ServerErrorKind/SERVICE_UNAVAILABLE"/>
+      <genEnumLiterals ecoreEnumLiteral="JointMM_CPL2SPL.ecore#/0/ServerErrorKind/VERSION_NOT_SUPPORTED"/>
+    </genEnums>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/JointMM">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/JointMM/sourceRoot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/JointMM/targetRoot"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcCPLModel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcCPLModel/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcCPL">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcCPL/subActions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcCPL/outgoing"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcCPL/incoming"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcAddressSwitch">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcAddressSwitch/field"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcAddressSwitch/subField"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcAddressSwitch/addresses"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcStringSwitch">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcStringSwitch/field"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcStringSwitch/strings"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcLanguageSwitch">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcLanguageSwitch/languages"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcTimeSwitch">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcTimeSwitch/tzid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcTimeSwitch/tzurl"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcTimeSwitch/times"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcPrioritySwitch">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcPrioritySwitch/priorities"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcProxy">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcProxy/timeout"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcProxy/recurse"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcProxy/ordering"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcProxy/busy"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcProxy/noAnswer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcProxy/redirection"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcProxy/failure"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcProxy/default"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcRedirect">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcRedirect/permanent"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcReject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcReject/status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcReject/reason"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcElement"/>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcNodeContainer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcNodeContainer/contents"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSubAction">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSubAction/id"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcOutgoing"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcIncoming"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcNotPresent"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcOtherwise"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSwitchedAddress">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedAddress/is"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedAddress/contains"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedAddress/subDomainOf"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSwitchedString">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedString/is"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedString/contains"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSwitchedLanguage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedLanguage/matches"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/dtstart"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/dtend"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/duration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/freq"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/until"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/count"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/interval"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/bySecond"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/byMinute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/byHour"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/byDay"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/byMonthDay"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/byYearDay"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/byWeekNo"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/byMonth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/wkst"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedTime/bySetPos"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSwitchedPriority">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedPriority/less"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedPriority/greater"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSwitchedPriority/equal"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcBusy"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcNoAnswer"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcRedirection"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcFailure"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcDefault"/>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcNode"/>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSwitch">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcSwitch/notPresent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/SrcSwitch/otherwise"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcLocation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcLocation/url"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcLocation/priority"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcLocation/clear"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSubCall">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/SrcSubCall/ref"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcAction"/>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/SrcSignallingAction"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgProgram">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgProgram/service"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgStructureProperty">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgStructureProperty/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgStructureProperty/type"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgClientErrorResponse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgClientErrorResponse/errorKind"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgGlobalErrorResponse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgGlobalErrorResponse/errorKind"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgRedirectionErrorResponse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgRedirectionErrorResponse/errorKind"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgServerErrorResponse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgServerErrorResponse/errorKind"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgLocatedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgLocatedElement/location"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgLocatedElement/commentsBefore"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgLocatedElement/commentsAfter"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgService">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgService/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgService/declarations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgService/sessions"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSession"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgRegistration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgRegistration/declarations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgRegistration/sessions"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgDialog">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgDialog/declarations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgDialog/methods"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgEvent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgEvent/eventId"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgEvent/declarations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgEvent/methods"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgMethod">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgMethod/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgMethod/direction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgMethod/methodName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgMethod/arguments"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgMethod/statements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgMethod/branches"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgArgument"/>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgMethodName"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSIPMethodName">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgSIPMethodName/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgControlMethodName">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgControlMethodName/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgBranch">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgBranch/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgDefaultBranch"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgNamedBranch">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgNamedBranch/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgTypeExpression"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSimpleType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgSimpleType/type"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSequenceType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgSequenceType/modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgSequenceType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgSequenceType/size"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgDefinedType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgDefinedType/typeName"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgDeclaration">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgDeclaration/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgVariableDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgVariableDeclaration/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgVariableDeclaration/initExp"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgFunctionDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgFunctionDeclaration/returnType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgFunctionDeclaration/arguments"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgRemoteFunctionDeclaration">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgRemoteFunctionDeclaration/functionLocation"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgLocalFunctionDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgLocalFunctionDeclaration/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgStructureDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgStructureDeclaration/properties"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgFunctionCall">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgFunctionCall/function"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgFunctionCall/parameters"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgStatement"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgCompoundStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgCompoundStat/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSetStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSetStat/target"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSetStat/setValue"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgDeclarationStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgDeclarationStat/declaration"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgReturnStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgReturnStat/returnedValue"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgReturnStat/branch"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgIfStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgIfStat/condition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgIfStat/thenStatements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgIfStat/elseStatements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgWhenStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgWhenStat/idExp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgWhenStat/whenHeaders"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgWhenStat/statements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgWhenStat/elseStatements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgForeachStat">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgForeachStat/iteratorName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgForeachStat/sequenceExp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgForeachStat/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSelectStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSelectStat/matchedExp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSelectStat/selectCases"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSelectStat/selectDefault"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgFunctionCallStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgFunctionCallStat/functionCall"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgContinueStat"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgBreakStat"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgPushStat">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgPushStat/target"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgPushStat/pushedValue"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgWhenHeader">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgWhenHeader/headerId"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgWhenHeader/value"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSelectMember">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSelectMember/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSelectDefault"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSelectCase">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSelectCase/values"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgExpression"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgConstantExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgConstantExp/value"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgOperatorExp">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgOperatorExp/opName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgOperatorExp/leftExp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgOperatorExp/rightExp"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgForwardExp">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgForwardExp/isParallel"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgForwardExp/exp"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgWithExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgWithExp/exp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgWithExp/msgFields"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgBlockExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgBlockExp/exp"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgReasonExp"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgBODYExp"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgRequestURIExp"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgPopExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgPopExp/source"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgFunctionCallExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgFunctionCallExp/functionCall"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgPlace"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSIPHeaderPlace">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgSIPHeaderPlace/header"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgVariablePlace"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgPropertyCallPlace">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgPropertyCallPlace/propName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgPropertyCallPlace/source"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgVariable">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgVariable/source"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgMessageField">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgMessageField/exp"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgReasonMessageField"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgHeadedMessageField">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgHeadedMessageField/headerId"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgConstant"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgBooleanConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgBooleanConstant/value"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgIntegerConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgIntegerConstant/value"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgStringConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgStringConstant/value"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgURIConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgURIConstant/uri"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSequenceConstant">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgSequenceConstant/values"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgResponseConstant">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_CPL2SPL.ecore#/0/TrgResponseConstant/response"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgResponse"/>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgSuccessResponse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_CPL2SPL.ecore#/0/TrgSuccessResponse/successKind"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_CPL2SPL.ecore#/0/TrgErrorResponse"/>
+  </genPackages>
+</genmodel:GenModel>

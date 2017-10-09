@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="fqmdspb-dx" year="2004" title="A classification and coparison framework for software architecture description languages" journal="Journal of Systems and Software">
+    <authors author="Marlon Dumas"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="zmtsaeyeeg" year="1987" title="The model checker SPIN" journal="Software -- Practice and Experience">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="rrhwdvfdh-" year="1997" title="A classification and coparison framework for software architecture description languages" journal="Journal of Systems and Software">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="petl aaqti" year="1995" title="Graph drawing by force-directed placement" journal="Software -- Practice and Experience">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Craig Larman"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="oiowgno xh" year="2000"/>
+  <entries xsi:type="BibTeX:Booklet" id="qwg mdcram" year="1976"/>
+  <entries xsi:type="BibTeX:Booklet" id="p  cankccw" year="1997"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="phwenybjst" year="1984" title="A classification and coparison framework for software architecture description languages" school="wibowoqh_m">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+</BibTeX:BibTeXFile>

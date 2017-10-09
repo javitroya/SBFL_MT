@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:AddressSwitch" field="smwpnfjkyk"/>
+  <elements xsi:type="CPL:StringSwitch" field="qxbzrgligb">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="yodwbchhpp">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="zjmewichwo">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="zknqikrdns" tzurl="qjgvtxvjys"/>
+  <elements xsi:type="CPL:Redirect" permanent="ygtlrinaab"/>
+  <elements xsi:type="CPL:Redirect" permanent="exowzgujgc"/>
+  <elements xsi:type="CPL:Redirect" permanent="keyvhgqzbc"/>
+</CPL:CPLModel>

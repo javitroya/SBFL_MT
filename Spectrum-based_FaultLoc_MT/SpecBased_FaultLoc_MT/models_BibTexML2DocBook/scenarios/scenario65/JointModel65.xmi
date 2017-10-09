@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="b ri-qua-c" year="1987" title="Program slicing" journal="Software and Systems Modeling">
+      <authors author="Craig Larman"/>
+      <authors author="Bruce Schneier"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="ljte rlotb" year="2004" title="A metrics suite for object oriented design">
+      <authors author="Wang Yi"/>
+      <authors author="Craig Larman"/>
+      <authors author="Erich Gamma"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="m p_geojss" year="1987"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="orgbev_hum" year="1995"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="asgbdozpob" year="2004" title="QoS-aware middleware for Web services composition" publisher="n orzbfycd" booktitle="dbuhwjspvb">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="scvun frvo" year="1984" title="Uppaal in a nutshell" publisher="zcwyjjh-su" booktitle="vlkocljhnd">
+      <authors author="Chris F. Kemerer"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="bgdbswaofq" year="1997" title="A metrics suite for object oriented design" publisher="wph sopx-d" booktitle="-oer frgqx">
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="nihafefhak" year="1997" title="A metrics suite for object oriented design" publisher="-brjfpisog" chapter="70">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Craig Larman"/>
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="htgexrfphx" year="2000" title="A classification and coparison framework for software architecture description languages" publisher="-vhecw cvd" chapter="34">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[asgbdozpob] InCollection QoS-aware middleware for Web services composition Nenad Medvidovic Craig Larman 2004 dbuhwjspvb n orzbfycd"/>
+          <paras/>
+          <paras content="[bgdbswaofq] InCollection A metrics suite for object oriented design Nenad Medvidovic 1997 -oer frgqx wph sopx-d"/>
+          <paras content="[htgexrfphx] InBook A classification and coparison framework for software architecture description languages Elisabeth Freeman Elisabeth Freeman Richard N. Taylor Kim G. Larsen 2000 -vhecw cvd 34"/>
+          <paras content="[ljte rlotb] TechReport A metrics suite for object oriented design Wang Yi Craig Larman Erich Gamma Martin Fowler 2004"/>
+          <paras content="[m p_geojss] Booklet 1987"/>
+          <paras content="[nihafefhak] InBook A metrics suite for object oriented design Thomas M. J. Fruchterman Craig Larman Liangzhao Zeng 1997 -brjfpisog 70"/>
+          <paras content="[orgbev_hum] Booklet 1995"/>
+          <paras content="[scvun frvo] InCollection Uppaal in a nutshell Chris F. Kemerer 1984 vlkocljhnd zcwyjjh-su"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

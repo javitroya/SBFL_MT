@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="aeupjwccim" nsURI="tnmlccebtv">
+  <eClassifiers xsi:type="ecore:EClass" name="swwqsudnad" instanceClassName="cktrufrjkl" interface="true" eSuperTypes="//@eClassifiers.1"/>
+  <eClassifiers xsi:type="ecore:EClass" name="bjaqgiuyas" instanceTypeName="mpisqfafux" eSuperTypes="//@eClassifiers.0">
+    <eOperations name="ewpjwnmlsi" upperBound="89"/>
+  </eClassifiers>
+</ecore:EPackage>

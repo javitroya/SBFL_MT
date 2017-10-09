@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:TechReport" id="rotssfgwei" year="1997" title="Program slicing">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="hvv ahyisb" year="1976" title="Uppaal in a nutshell">
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="vqtqcbygry" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Booklet" id="xuigeuamou" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="djmhh_iwen" year="2000"/>
+  <entries xsi:type="BibTeX:Booklet" id="yovykmtljd" year="1987"/>
+  <entries xsi:type="BibTeX:InBook" id="dt_yqcynxs" year="2000" title="An intrusion-detection model" publisher="mctkp vzws" chapter="11">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="x tbce_qhd" year="1984" title="The model checker SPIN" publisher="uahjowljmb" chapter="8">
+    <authors author="Robert C. Martin"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+</BibTeX:BibTeXFile>

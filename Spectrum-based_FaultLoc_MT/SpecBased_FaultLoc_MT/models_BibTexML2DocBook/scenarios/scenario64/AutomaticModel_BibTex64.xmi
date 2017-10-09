@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="buyvlldcdp" year="2004" title="A metrics suite for object oriented design" journal="Software -- Practice and Experience">
+    <authors author="Marlon Dumas"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ozvgxt ouy" year="1987" title="QoS-aware middleware for Web services composition" journal="Information and Software Technology">
+    <authors author="Paul Pettersson"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="zbyuywujdj" year="1997" title="4 + 1 view model of architecture" journal="Software and Systems Modeling">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="flnov-_re_" year="1994" title="A classification and coparison framework for software architecture description languages" journal="IEEE Transactions on Software Engineering">
+    <authors author="Marlon Dumas"/>
+    <authors author="Craig Larman"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="maiostcdjr" year="1995" title="Complexity measure">
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ybecngcwje" year="1997" title="QoS-aware middleware for Web services composition">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="iuruji pc-" year="1994" title="Program slicing">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="quhphpsemz" year="2004" title="A metrics suite for object oriented design" school="uo-r-myitx">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="uockqmrroi" year="1991" title="QoS-aware middleware for Web services composition" school="asxyc qhzt">
+    <authors author="Paul Pettersson"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="yrzciwcqgo" year="1997" title="A metrics suite for object oriented design" school="iggyijl wa">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+</BibTeX:BibTeXFile>

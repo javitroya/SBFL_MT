@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario7/AutomaticModel_CPL7.xmi#//@elements.0/@priorities.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/0/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario7/AutomaticModel_CPL7.xmi#//@elements.0/@priorities.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/1/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario7/AutomaticModel_CPL7.xmi#//@elements.1/@priorities.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/2/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario7/AutomaticModel_CPL7.xmi#//@elements.1/@priorities.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario7/SPL_out7.xmi#/3/@returnType"/>
+  </traceLinks>
+</trace:Trace>

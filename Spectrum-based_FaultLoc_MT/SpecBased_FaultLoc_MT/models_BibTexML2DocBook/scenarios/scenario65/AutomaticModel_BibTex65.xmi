@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="b ri-qua-c" year="1987" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Craig Larman"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ljte rlotb" year="2004" title="A metrics suite for object oriented design">
+    <authors author="Wang Yi"/>
+    <authors author="Craig Larman"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="m p_geojss" year="1987"/>
+  <entries xsi:type="BibTeX:Booklet" id="orgbev_hum" year="1995"/>
+  <entries xsi:type="BibTeX:InCollection" id="asgbdozpob" year="2004" title="QoS-aware middleware for Web services composition" publisher="n orzbfycd" booktitle="dbuhwjspvb">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="scvun frvo" year="1984" title="Uppaal in a nutshell" publisher="zcwyjjh-su" booktitle="vlkocljhnd">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="bgdbswaofq" year="1997" title="A metrics suite for object oriented design" publisher="wph sopx-d" booktitle="-oer frgqx">
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="nihafefhak" year="1997" title="A metrics suite for object oriented design" publisher="-brjfpisog" chapter="70">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Craig Larman"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="htgexrfphx" year="2000" title="A classification and coparison framework for software architecture description languages" publisher="-vhecw cvd" chapter="34">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="tkfvyyl-se">
+    <ownedElements name="House" superClasses="/0/@ownedElements.1 /0/@ownedElements.2">
+      <ownedProperty name=" ngayc buh" primitiveType="Boolean" complexType="/0/@ownedElements.0" isContainment="true"/>
+      <ownedProperty name="kyzdsoir u" complexType="/0/@ownedElements.0"/>
+    </ownedElements>
+    <ownedElements name="Country" superClasses="/0/@ownedElements.1">
+      <ownedProperty name="mr haxkme " isContainment="true"/>
+    </ownedElements>
+    <ownedElements name="House">
+      <ownedProperty name="z-kxitpidu" isContainment="true"/>
+    </ownedElements>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="tkfvyyl-se">
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.0"/>
+    </entities>
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+    </entities>
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+    </entities>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

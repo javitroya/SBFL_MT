@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="mmcxr-d-ls" year="1984" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ylgrnziang" year="1994" title="Graph drawing by force-directed placement" journal="Software -- Practice and Experience">
+    <authors author="Martin Fowler"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ovhkqgsmtr" year="1976" title="Graph drawing by force-directed placement" journal="Journal of Systems and Software">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="hdzx fnqol" year="1987" title="Complexity measure" journal="Information and Software Technology">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="utzmx hinn" year="1997" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="lgcyzikwwt" year="1997" title="The model checker SPIN" journal="IEEE Transactions on Software Engineering">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="evmjsemza " title="Program slicing"/>
+  <entries xsi:type="BibTeX:Manual" id="eolphxfyax" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Manual" id="sjp-jlks_w" title="QoS-aware middleware for Web services composition"/>
+  <entries xsi:type="BibTeX:InProceedings" id="tbvsrp-wxb" year="2000" title="An intrusion-detection model" booktitle="qnarpxwjos">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="frjsjzawue" year="1994" title="4 + 1 view model of architecture" publisher="wgvvnvysve">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="brsy--ixc " year="2004" title="Graph drawing by force-directed placement" publisher="nrxtqybfeg">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="spbbqcweyj" year="1991" title="The model checker SPIN" school="gcwv dr wg">
+    <authors author="Robert C. Martin"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id=" rxypgitxh" year="2004" title="Graph drawing by force-directed placement" school="fizjsptuka">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="b gatrmgxq" year="1997" title="An intrusion-detection model" school="grbdbqgstr">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="qmkrojhev-" year="2004" title="A metrics suite for object oriented design" school="_aulohkejq">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="yn dtpr uf" year="1991" title="QoS-aware middleware for Web services composition" school="lpmfmavzli">
+    <authors author="Martin Fowler"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="eayxqunnsw" year="1997" title="4 + 1 view model of architecture" school="crovbbjymz">
+    <authors author="Marlon Dumas"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+</BibTeX:BibTeXFile>

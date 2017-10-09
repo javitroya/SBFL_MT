@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <outgoing/>
+      <incoming/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="wchtqbsdok" subField="tzqtavpinx">
+      <addresses contains="qlbujhkdjt" subDomainOf="kwphucuoat"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="owxruqedzd">
+      <notPresent/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="ihnscliwyo">
+      <notPresent contents="/0/@elements.3"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="rosgqvhtfb">
+      <notPresent/>
+      <strings is="svkjylstdh"/>
+      <strings/>
+      <strings contains="wjlugffsbd"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <languages matches="arvqucyqdq"/>
+      <languages matches="olptykcfxt"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent contents="/0/@elements.7"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcRedirect" permanent="vhjzkhdxaj"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcRedirect" permanent="uuugoaoton"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="owxruqedzd"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="ihnscliwyo"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="rosgqvhtfb"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgWithExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+        <value xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgReasonMessageField">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+          <value xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgHeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgWithExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+        <value xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgReasonMessageField">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+          <value xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgHeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="jointPackage_CPL2SPL:TrgStringConstant"/>
+    </selectCases>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgConstantExp/>
+  <jointPackage_CPL2SPL:TrgConstantExp/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+</xmi:XMI>

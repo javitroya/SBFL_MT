@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="elddwmijqt" year="2000" title="Complexity measure" journal="Journal of Systems and Software">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="hul unpgdc" year="1991" title="Complexity measure" journal="Information and Software Technology">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="fhxenwfkai" title="A classification and coparison framework for software architecture description languages" note="cpkyozrjk_">
+    <authors author="Wang Yi"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="cu wpn rac" title="Complexity measure" note="cl p p mrv">
+    <authors author="Wang Yi"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="v_rirgu _s" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:Manual" id="prozhbg p_" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:InProceedings" id="sfnqbbwd_p" year="1997" title="Program slicing" booktitle="vdgpwqxpsg">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="wdezltdtfk" year="2004" title="A classification and coparison framework for software architecture description languages" school="bv-qwcmvcx">
+    <authors author="Martin Fowler"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="girv-wuyqz" year="1994" title="4 + 1 view model of architecture" school="qtannlboeu">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="ijf mbmlp-" year="1994" title="Complexity measure" school="-gvzjutrcr">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+</BibTeX:BibTeXFile>

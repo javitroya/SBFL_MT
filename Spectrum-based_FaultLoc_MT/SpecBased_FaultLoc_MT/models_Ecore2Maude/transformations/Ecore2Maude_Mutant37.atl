@@ -1,0 +1,1497 @@
+-- @atlcompiler atl2006
+module ec2ma_Mutant37; 
+create OUT : Maude, TM : TMM from IN : Ecore; 
+-- The user chooses only to transform a subset of all the EClasses and all the EReferences
+helper def : metamodelName : String = 
+	let rootPackages : Sequence(Ecore!EPackage) = 
+		Ecore!EPackage.allInstancesFrom('IN')->select(p | p.eSuperPackage.oclIsUndefined()) in
+		'@' + rootPackages->first().name.processSpecModChars().processSpecOpChars() + '@'
+;
+
+helper context String def: escapeQuotes() : String =
+	let finalString : String = self.split('"')->iterate(e; res : String = '' | res + e + '\\"') in
+	finalString->substring(1, finalString.size()-2);
+
+helper context String def : processSpecOpChars() : String =
+    self.regexReplaceAll('`','@\'@').regexReplaceAll('_','@-@').regexReplaceAll(' ','@#@');	
+
+helper context String def : processSpecModChars() : String =
+   self.replaceAll('{','-').replaceAll('}','-').replaceAll('(','-').replaceAll(')','-').replaceAll('[','-')
+	.replaceAll(']','-').replaceAll(',','-').replaceAll(' ','-');
+
+helper context OclAny def : maudeLiteralName(enum : Ecore!EEnum) : String =
+   self.toString().processSpecOpChars() + '@' + enum.maudeNameAux(); 
+
+helper context OclAny def : maudeName() : String =
+	let maudeName : String = self.maudeNameAux() in
+	if maudeName.oclIsUndefined() then 'NONAMED' + self.oclType().toString()
+	else maudeName.processSpecOpChars() endif;
+	
+helper context OclAny def : maudeNameAux() : String =
+if (self.oclIsKindOf(Ecore!EPackage)) then
+	if (self.eSuperPackage.oclIsUndefined())then 
+		self.name 
+    else 
+    	self.name + '@' + self.eSuperPackage.maudeName()  
+    endif
+else if (self.oclIsKindOf(Ecore!EClassifier)) then
+	    if (self.ePackage.oclIsUndefined())then 
+			self.name
+	    else 
+	    	self.name + '@' + self.ePackage.maudeName()  
+	    endif
+	else if (self.oclIsKindOf(Ecore!EStructuralFeature)) then
+			self.name + '@' + if (self.eContainingClass.oclIsUndefined()) 
+								then self.refImmediateComposite().refImmediateComposite().maudeName()
+								else self.eContainingClass.maudeName() endif
+		else if (self.oclIsKindOf(Ecore!EEnumLiteral)) then
+				self.name + '@' + self.eEnum.maudeName()
+			else 'NONAMED' + self.oclType().toString() 
+			endif
+		endif
+	endif
+endif;
+ 
+
+helper context Ecore!ENamedElement def: normalizedName() : String = '"' + self.name + '"';
+	
+helper context OclAny def: maudeSort() : Maude!Sort =
+		if self.oclIsTypeOf(Ecore!EPackage) then
+				thisModule.sortPack										
+		else
+			if self.oclIsTypeOf(Ecore!EClass) then
+				thisModule.sortClass
+			else
+				if self.oclIsTypeOf(Ecore!EReference) then
+					thisModule.sortRef
+				else
+					if self.oclIsTypeOf(Ecore!EAttribute) then
+						thisModule.sortAtt
+					else
+						if self.oclIsTypeOf(Ecore!EEnum) then
+							thisModule.sortEnumeration
+						else if self.oclIsTypeOf(Ecore!EEnumLiteral) then
+								thisModule.sortEnumInst
+							else		
+								thisModule.errorSort
+							endif
+						endif
+					endif
+				endif
+			endif	
+		endif;
+
+helper def : lhsType(s : Sequence(Ecore!ENamedElement)) : Maude!Sort =
+	if s -> size()=1 then
+		s->first().maudeSort()
+	else
+		thisModule.myListSort
+	endif;
+
+
+helper context Ecore!EPackage def: maudeMaybePackSort() : Maude!Sort =
+	if self.eSuperPackage.oclIsUndefined() then	
+		thisModule.sortOclVoid
+	else
+		thisModule.sortPack
+	endif;
+
+helper context Ecore!EReference def: maudeMaybeRefSort() : Maude!Sort =
+	if self.eOpposite.oclIsUndefined() then	
+		thisModule.sortOclVoid
+	else
+		thisModule.sortRef
+	endif;
+
+helper context Ecore!EStructuralFeature def: maudeEqTypeAttRef() : Maude!Sort =
+	if self.oclIsTypeOf(Ecore!EReference) then
+		thisModule.sortClass
+	else
+		thisModule.sortDataType
+	endif;
+
+helper context Ecore!EAttribute def: attDataType() : String = 
+	if self.eAttributeType.oclIsUndefined() then '@NoType' else if self.eAttributeType = Ecore!EString or self.eAttributeType.name = 'String' then
+		'@String'
+	else
+		if self.eAttributeType = Ecore!EBoolean or self.eAttributeType = Ecore!EBooleanObject or self.eAttributeType.name = 'Boolean' then
+			'@Bool'
+		else
+			if self.eAttributeType = Ecore!EInt or self.eAttributeType = Ecore!EIntegerObject or self.eAttributeType.name = 'Integer' then
+				'@Int'
+			else
+				if self.eAttributeType = Ecore!EFloat or self.eAttributeType = Ecore!EFloatObject 
+					or self.eAttributeType = Ecore!EDouble or self.eAttributeType = Ecore!EDoubleObject
+					or self.eAttributeType.name = 'Double' then
+					'@Float'
+				else
+					if self.eAttributeType.oclIsTypeOf(Ecore!EEnum) then
+						self.eAttributeType.maudeName()					
+					else
+						'@DataType'
+					endif
+				endif
+			endif
+		endif
+	endif endif;
+
+helper def: listSort : Maude!Sort = OclUndefined;
+helper def: listOperator : String = '_#_';
+helper def: mtOrdOperator : String = 'mt-ord';
+helper def: nullMaybeOp : String = 'null'; 
+helper def: emptyListOp : String = 'nil';
+helper def: myListOp : String = '__';
+helper def: mSpec : Maude!MaudeSpec = OclUndefined;
+helper def: sortMetamod : Maude!Sort = OclUndefined;
+helper def: sortClass : Maude!Sort = OclUndefined; 
+helper def: sModule : Maude!SModule = OclUndefined;
+helper def: sModuleEcore : Maude!SModule = OclUndefined;
+helper def: sortPack : Maude!Sort = OclUndefined;
+helper def: sortDataType : Maude!Sort = OclUndefined;
+helper def: sortClassifier : Maude!Sort = OclUndefined;
+helper def: sortRef : Maude!Sort = OclUndefined;
+helper def: sortAtt : Maude!Sort = OclUndefined;
+helper def: sortInt : Maude!Sort = OclUndefined;
+helper def: sortBool : Maude!Sort = OclUndefined;
+helper def: sortString : Maude!Sort = OclUndefined;
+helper def: sortEnumeration : Maude!Sort = OclUndefined;
+helper def: sortEnumInst : Maude!Sort = OclUndefined;
+helper def: errorSort : Maude!Sort = OclUndefined;
+helper def: namedElList : Maude!Sort = OclUndefined;
+helper def: myListSort : Maude!Sort = OclUndefined;
+helper def: sortOclVoid : Maude!Sort = OclUndefined;
+helper def: sortBasicType : Maude!Sort = OclUndefined;
+
+--For storing the trace information
+helper def : trace : TMM!Trace = OclUndefined;
+
+entrypoint rule createTrace()
+{
+	to
+		tr : TMM!Trace( )
+	
+	do {
+		thisModule.trace <- tr;
+		thisModule.Initialize();
+	}	
+}
+
+--R1 entrypoint rule Initialize(){
+rule Initialize(){
+	to
+		mSpec : Maude!MaudeSpec(
+			els <- Sequence{sModuleEcore},
+			printableEls <- Sequence{}
+			),
+		sModule : Maude!SModule(
+			name <- thisModule.metamodelName.toUpper(),  
+			els <- mImport
+			),
+		
+		mImport : Maude!ModImportation(	
+			imports <- moduleIdModExp		
+			),
+		moduleIdModExp : Maude!ModuleIdModExp(
+			"module" <- sModuleEcore
+			),
+		sModuleEcore : Maude!SModule(
+			name <- '@ECORE@'
+			),		
+		
+		sortPack : Maude!Sort (
+			name <- '@Package',
+			"module" <- sModuleEcore
+			),
+		sortBasicType : Maude!Sort (
+			name <- '@BasicType',
+			"module" <- sModuleEcore
+			),
+		sortClassifier : Maude!Sort (
+			name <- '@Classifier',
+			"module" <- sModuleEcore
+			),
+		sortDataType : Maude!Sort (
+			name <- '@DataType',
+			"module" <- sModuleEcore
+			),
+		sortClass : Maude!Sort (
+			name <- '@Class',	
+			"module" <- sModuleEcore
+			),
+		sortMetamod : Maude!Sort (
+			name <- '@Metamodel',
+			"module" <- sModuleEcore
+			),
+		errorSort : Maude!Sort (
+			name <- '@ERROR@',
+			"module" <- sModuleEcore
+		),			
+		sortAtt : Maude!Sort (
+			name <- '@Attribute',
+			"module" <- sModuleEcore
+			),
+		sortRef : Maude!Sort (
+			name <- '@Reference',
+			"module" <- sModuleEcore
+			),
+
+		sortInt : Maude!Sort (		
+			name <- 'Int',
+			"module" <- sModuleEcore
+			),
+		sortNat : Maude!Sort (		
+			name <- 'Nat',
+			"module" <- sModuleEcore
+			),
+		sortNat2 : Maude!Sort (		
+			name <- 'Nat',
+			"module" <- sModuleEcore
+			),
+		sortBool : Maude!Sort (	
+			name <- 'Bool',
+			"module" <- sModuleEcore
+			),
+		sortString : Maude!Sort (		
+			name <- 'String',
+			"module" <- sModuleEcore
+			),
+
+		listSort : Maude!Sort ( 
+			name <- 'List{OCL-Exp}',
+			"module" <- sModuleEcore
+			),	
+			
+		sortEnumeration : Maude!Sort (
+			name <- '@Enumeration',
+			"module" <- sModuleEcore		
+			),
+		sortEnumInst : Maude!Sort (
+			name <- '@EnumerationInstance',
+			"module" <- sModuleEcore		
+			),
+		myListSort : Maude!Sort (
+			name <- 'MyList',
+			"module" <- sModuleEcore
+			),
+		sortOclVoid : Maude!Sort (
+			name <- 'OclVoid',
+			"module" <- sModuleEcore
+			),
+			
+		opMetaMod : Maude!Operation (
+			name <- thisModule.metamodelName,
+			coarity <- sortMetamod,
+			"module" <- sModule
+			),
+		--For storing the trace information
+--		tr : TMM!Trace(
+--			--traceLinks <- Sequence{tl}
+--		)--,
+		tl : TMM!TraceLink(
+			ruleName <- 'Initialize',
+			targetElements <- Sequence{mSpec, sModule, mImport, moduleIdModExp, sModuleEcore, sortPack, sortBasicType, sortClassifier, sortDataType, sortClass, sortMetamod, errorSort, sortAtt, sortRef, sortInt, sortNat, sortNat2, sortBool, sortString, listSort, sortEnumeration, sortEnumInst, myListSort, sortOclVoid, opMetaMod}
+		)
+		
+		do{
+			thisModule.mSpec <- mSpec; 
+			thisModule.sortMetamod <- sortMetamod;
+			thisModule.mSpec <- mSpec;
+			thisModule.sortClass <- sortClass;
+			thisModule.sModule <- sModule;
+			thisModule.sModuleEcore <- sModuleEcore;
+			thisModule.sortClassifier <- sortClassifier;
+			thisModule.sortPack <- sortPack;
+			thisModule.sortDataType <- sortDataType;
+			thisModule.sortRef <- sortRef;			
+			thisModule.sortAtt <- sortAtt;			
+			thisModule.sortInt <- sortInt;
+			thisModule.sortBool <- sortBool;
+			thisModule.sortString <- sortString;	
+			thisModule.sortEnumeration <- sortEnumeration;
+			thisModule.sortEnumInst <- sortEnumInst;
+			thisModule.MetamodelEqName();
+			thisModule.MetamodelEqPackages();	
+			thisModule.errorSort <- errorSort;
+			thisModule.myListSort <- myListSort;
+			thisModule.sortOclVoid <- sortOclVoid;
+			thisModule.sortBasicType <- sortBasicType;
+			thisModule.listSort <- listSort;
+			--For storing the trace information
+			--thisModule.trace <- tr;
+			thisModule.trace.traceLinks <- tl;
+		}
+}
+--R2
+rule MetamodelEqName() {		
+	to							
+		eqName : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqName,
+			rhs <- rhsEqName
+			),
+		lhsEqName : Maude!RecTerm(
+			op <- 'name',
+			type <- thisModule.sortString,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- thisModule.metamodelName,
+			type <- thisModule.sortMetamod
+			),
+		rhsEqName : Maude!Constant(
+			op <- '"' + thisModule.metamodelName.substring(2,thisModule.metamodelName.size() - 1) + '"',
+			type <- thisModule.sortString
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'MetamodelEqName',
+			targetElements <- Sequence{eqName, lhsEqName, cteName, rhsEqName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}		
+}
+--R3
+rule MetamodelEqPackages() {
+	to
+		eqPack : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqPack,
+			rhs <- if Ecore!EPackage.allInstancesFrom('IN')->select(p|p.eSuperPackage.oclIsUndefined()) -> isEmpty() then
+						thisModule.EmptyList('')
+					else
+						if Ecore!EPackage.allInstancesFrom('IN')->select(p|p.eSuperPackage.oclIsUndefined()) -> size() = 1 then
+							thisModule.NamedElConstant(Ecore!EPackage.allInstancesFrom('IN')->select(p|p.eSuperPackage.oclIsUndefined())->first())
+						else
+							thisModule.NamedElList(Ecore!EPackage.allInstancesFrom('IN')->select(p|p.eSuperPackage.oclIsUndefined()))
+						endif
+					endif
+
+			),
+		lhsEqPack : Maude!RecTerm(
+			op <- 'packages',
+			type <- thisModule.lhsType(Ecore!EPackage.allInstancesFrom('IN')->select(p|p.eSuperPackage.oclIsUndefined()).asSequence()),
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- thisModule.metamodelName,
+			type <- thisModule.sortMetamod
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'MetamodelEqPackages',
+			targetElements <- Sequence{eqPack, lhsEqPack, cteName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R4
+rule Package2Operation{
+	from
+		pack : Ecore!EPackage
+	to
+		opPack : Maude!Operation(
+			name <- pack.maudeName(),
+			coarity <- thisModule.sortPack,
+			"module" <- thisModule.sModule
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Package2Operation',
+			targetElements <- Sequence{opPack}
+		)
+	do{
+		thisModule.EqName(pack);
+		thisModule.PackEqMetamodel(pack);
+		thisModule.PackEqSupPackage(pack);
+		thisModule.PackEqSubPackages(pack);
+		thisModule.PackEqClasses(pack);
+		-- trace information
+		tl.sourceElements <- Sequence{pack};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R5
+rule PackEqMetamodel (pack : Ecore!EPackage) {
+	to
+		eqName : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqName,
+			rhs <- rhsEqName
+			),
+		lhsEqName : Maude!RecTerm(
+			op <- 'metamodel',
+			type <- thisModule.sortMetamod,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- pack.maudeName(),
+			type <- thisModule.sortPack
+			),
+		rhsEqName : Maude!Constant(
+			op <- thisModule.metamodelName,
+			type <- thisModule.sortMetamod
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'PackEqMetamodel',
+			targetElements <- Sequence{eqName, lhsEqName, cteName, rhsEqName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R6
+rule PackEqSupPackage (pack : Ecore!EPackage) {
+	to
+		eqSupPack : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqSupPack,
+			rhs <- rhsEqSupPack
+			),
+		lhsEqSupPack : Maude!RecTerm(
+			op <- 'superPackage',
+			type <- pack.maudeMaybePackSort(),
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- pack.maudeName(),
+			type <- thisModule.sortPack
+			),
+		rhsEqSupPack : Maude!Constant(
+			op <- if pack.eSuperPackage.oclIsUndefined() then
+						thisModule.nullMaybeOp
+					else
+						pack.eSuperPackage.maudeName()
+					endif,
+			type <- pack.maudeMaybePackSort()
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'PackEqSupPackage',
+			targetElements <- Sequence{eqSupPack, lhsEqSupPack, cteName, rhsEqSupPack}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R7
+rule PackEqSubPackages(pack : Ecore!EPackage) {
+	to
+		eqSubPack : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqSubPack,
+			rhs <- 
+					if pack.eSubpackages -> isEmpty() then
+						thisModule.EmptyList('')
+					else
+						if pack.eSubpackages -> size() = 1 then
+							thisModule.NamedElConstant(pack.eSubpackages->first())
+						else
+							thisModule.NamedElList(pack.eSubpackages)
+						endif
+					endif
+			),
+		lhsEqSubPack : Maude!RecTerm(
+			op <- 'subPackages',
+			type <- thisModule.myListSort,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- pack.maudeName(),
+			type <- thisModule.sortPack
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'PackEqSubPackages',
+			targetElements <- Sequence{eqSubPack, lhsEqSubPack, cteName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R8
+rule PackEqClasses (pack : Ecore!ENamedElement) {
+	to
+		eqClasses : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqClasses,
+			rhs <- 
+					if pack.eClassifiers -> select(c|c.oclIsTypeOf(Ecore!EClass)) -> isEmpty() then
+						thisModule.EmptyList('')
+					else
+						if pack.eClassifiers -> select(c|c.oclIsTypeOf(Ecore!EClass))-> size() = 1 then
+							thisModule.NamedElConstant(pack.eClassifiers->first())
+						else
+							thisModule.NamedElList(pack.eClassifiers -> select(c|c.oclIsTypeOf(Ecore!EClass))) --para que sólo se metan en la lista los EClass y no los EDataType
+						endif
+					endif
+			),
+		lhsEqClasses : Maude!RecTerm(
+			op <- 'classes',
+			type <- thisModule.myListSort, 
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- pack.maudeName(),
+			type <- thisModule.sortPack
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'PackEqClasses',
+			targetElements <- Sequence{eqClasses, lhsEqClasses, cteName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R9
+rule Class2Sort{
+	from
+		class : Ecore!EClass  (class.eStructuralFeatures->size()>4)          -- Mutation: filter addition
+	to
+		sort : Maude!Sort (
+			name <- class.maudeName(),
+			"module" <- thisModule.sModule 
+			),
+		
+		ssort : Maude!SubsortRel(
+			"module" <- thisModule.sModule,
+			supersorts <- if class.eSuperTypes.isEmpty() then
+								thisModule.sortClass 
+							else 
+								class.eSuperTypes->collect(c | if (not c.ePackage.oclIsUndefined()) then
+                                       if c.ePackage.name = 'ecore' then
+                                       thisModule.createSort(c) else c endif
+                                   		else c endif)
+							endif, 
+			subsorts <- Set{sort}
+			),
+			
+		cte : Maude!Operation(
+			name <- class.maudeName(),
+			"module" <- thisModule.sModule,
+			coarity <- class
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Class2Sort',
+			targetElements <- Sequence{sort, ssort, cte}
+		)
+	do{
+		thisModule.EqName(class);
+		thisModule.ClassEqIsAbstract(class);
+		thisModule.EqPackage(class);
+		thisModule.ClassEqSuperTypes(class);
+		thisModule.ClassEqReferences(class);
+		thisModule.ClassEqAttributes(class);
+		-- trace information
+		tl.sourceElements <- Sequence{class};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R10
+unique lazy rule createSort{
+	from
+		class : Ecore!EClassifier(class.oclIsTypeOf(Ecore!EClass))
+	to
+		sort : Maude!Sort (
+			name <- class.maudeName(),
+			"module" <- thisModule.sModuleEcore 
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'createSort',
+			targetElements <- Sequence{sort}
+		)
+	do{
+		-- trace information
+		tl.sourceElements <- Sequence{class};
+		thisModule.trace.traceLinks <- tl;
+	}
+
+}
+--R11
+rule EqName (namedElement : Ecore!ENamedElement) {
+	to
+		eqName : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqName,
+			rhs <- rhsEqName
+			),
+		lhsEqName : Maude!RecTerm(
+			op <- 'name',
+			type <- thisModule.sortString,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- namedElement.maudeName(),
+			type <- namedElement.maudeSort()
+			),
+		rhsEqName : Maude!Constant(
+			op <- namedElement.normalizedName(),
+			type <- thisModule.sortString
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqName',
+			targetElements <- Sequence{eqName, lhsEqName, cteName, rhsEqName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R12
+rule ClassEqIsAbstract(class : Ecore!EClassifier) {
+	to
+		eqIsAbs : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqIsAbs,
+			rhs <- rhsEqIsAbs
+			),
+		lhsEqIsAbs : Maude!RecTerm(
+			op <- 'isAbstract',
+			type <- thisModule.sortBool,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- class.maudeName(),
+			type <- thisModule.sortClass
+			),
+		rhsEqIsAbs : Maude!Constant(
+			op <- 'isAbstract', --class.isAbstract().toString(),
+			type <- thisModule.sortBool
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'ClassEqIsAbstract',
+			targetElements <- Sequence{eqIsAbs, lhsEqIsAbs, cteName, rhsEqIsAbs}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R13
+rule EqPackage(eClassif : Ecore!EClassifier) {
+	to
+		eqPack : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqPack,
+			rhs <- rhsEqPack
+			),
+		lhsEqPack : Maude!RecTerm(
+			op <- 'package',
+			type <- thisModule.sortPack,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- eClassif.maudeName(),
+			type <- eClassif.maudeSort()
+			),							
+		rhsEqPack : Maude!Constant(
+			op <- eClassif.ePackage.maudeName(),
+			type <- thisModule.sortPack
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqPackage',
+			targetElements <- Sequence{eqPack, lhsEqPack, cteName, rhsEqPack}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R14
+rule ClassEqSuperTypes(class : Ecore!EClassifier) {
+	to
+		eqSuperTypes : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqSuperTypes,
+			rhs <- 
+					if class.eSuperTypes -> isEmpty() then
+						thisModule.EmptyList('')
+					else						
+						if class.eSuperTypes -> size() = 1 then
+							thisModule.NamedElConstant(class.eSuperTypes->first())
+						else
+							thisModule.NamedElList(class.eSuperTypes)
+						endif
+					endif
+			),
+		lhsEqSuperTypes : Maude!RecTerm(
+			op <- 'superTypes',
+			type <- thisModule.myListSort,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- class.maudeName(),
+			type <- thisModule.sortClass
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'ClassEqSuperTypes',
+			targetElements <- Sequence{eqSuperTypes, lhsEqSuperTypes, cteName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R15
+lazy rule EmptyList {
+	from	
+		blank : String							
+	to											
+		rhsEmptyList : Maude!Constant(
+			op <- thisModule.emptyListOp,
+			type <- thisModule.myListSort
+		),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EmptyList',
+			targetElements <- Sequence{rhsEmptyList}
+		)
+	do{
+		-- trace information
+		--tl.sourceElements <- Sequence{blank};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R16
+lazy rule NamedElList {
+	from
+		namedElList : Sequence(Ecore!ENamedElement)
+	to
+		rhsList : Maude!RecTerm(
+			op <- thisModule.myListOp,
+			type <- thisModule.myListSort,
+			args <- namedElList->collect(c|thisModule.NamedElConstant(c))
+		),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'NamedElList',
+			targetElements <- Sequence{namedElList}
+		)
+	do{
+		-- trace information
+		--tl.sourceElements <- Sequence{namedElList};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R17
+lazy rule NamedElConstant {
+	from
+		namedEl : Ecore!ENamedElement
+	to
+		rhsConstant : Maude!Constant(
+			op <- namedEl.maudeName(),
+			type <- namedEl.maudeSort()
+		),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'NamedElConstant',
+			targetElements <- Sequence{rhsConstant}
+		)
+	do{
+		-- trace information
+		tl.sourceElements <- Sequence{namedEl};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R18
+rule ClassEqReferences(class : Ecore!EClassifier) {
+	to
+		eqReferences : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqReferences,
+			rhs <- 
+					if class.eReferences -> isEmpty() then
+						thisModule.EmptyList('')
+					else
+						if class.eReferences->size() = 1 then
+							thisModule.NamedElConstant(class.eReferences->first())
+						else
+							thisModule.NamedElList(class.eReferences)
+						endif
+					endif
+			),
+		lhsEqReferences : Maude!RecTerm(
+			op <- 'references',
+			type <- thisModule.myListSort,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- class.maudeName(),
+			type <- thisModule.sortClass
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'ClassEqReferences',
+			targetElements <- Sequence{eqReferences, lhsEqReferences, cteName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R19
+rule ClassEqAttributes(class : Ecore!EClassifier) {
+	to
+		eqAttributes : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqAttributes,
+			rhs <-
+					if class.eAttributes -> isEmpty() then
+						thisModule.EmptyList('')
+					else
+						if class.eAttributes->size() = 1 then
+							thisModule.NamedElConstant(class.eAttributes->first())
+						else
+							thisModule.NamedElList(class.eAttributes)
+						endif
+					endif
+			),
+		lhsEqAttributes : Maude!RecTerm(
+			op <- 'attributes',
+			type <- thisModule.myListSort,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- class.maudeName(),
+			type <- thisModule.sortClass
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'ClassEqAttributes',
+			targetElements <- Sequence{eqAttributes, lhsEqAttributes, cteName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R20
+rule Reference2Operation {
+	from
+		ref : Ecore!EReference  (ref.containment)					-- Mutation: filter addition
+	to
+		opRef : Maude!Operation(
+			name <- ref.maudeName(),
+			"module" <- thisModule.sModule,
+			coarity <- thisModule.sortRef
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Reference2Operation',
+			targetElements <- Sequence{opRef}
+		)
+	do{
+		thisModule.EqName(ref);
+		thisModule.EqType(ref);
+		thisModule.RefEqOpposite(ref);
+		thisModule.EqLowerBound(ref);
+		thisModule.EqUpperBound(ref);
+		thisModule.EqContainingClass(ref);
+		thisModule.RefEqIsContainment(ref);
+		thisModule.EqIsOrdered(ref);
+		thisModule.EqIsUnique(ref);
+		-- trace information
+		tl.sourceElements <- Sequence{ref};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R21
+rule EqType (stFeat : Ecore!EStructuralFeature ) {
+	to
+		eqType : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqType,
+			rhs <- rhsEqType
+			),
+		lhsEqType : Maude!RecTerm(
+			op <- 'type',
+			type <- stFeat.maudeEqTypeAttRef(),
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- stFeat.maudeName(),
+			type <- stFeat.maudeSort()
+			),
+		rhsEqType : Maude!Constant(
+			op <- if stFeat.oclIsTypeOf(Ecore!EReference) then
+						if stFeat.eReferenceType.oclIsUndefined() then '@NoType' else stFeat.eReferenceType.maudeName() endif
+					else
+						stFeat.attDataType()
+					endif,
+			type <- stFeat.maudeEqTypeAttRef()
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqType',
+			targetElements <- Sequence{eqType, lhsEqType, cteName, rhsEqType}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R22
+rule RefEqOpposite (ref : Ecore!EReference ) {
+	to
+		eqOpposite : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqOpposite,
+			rhs <- rhsEqOpposite
+			),
+		lhsEqOpposite : Maude!RecTerm(
+			op <- 'opposite',
+			type <- ref.maudeMaybeRefSort(),
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- ref.maudeName(),
+			type <- thisModule.sortRef
+			),
+		rhsEqOpposite : Maude!Constant(
+			op <- if ref.eOpposite.oclIsUndefined() then
+						thisModule.nullMaybeOp
+					else
+						ref.eOpposite.maudeName()
+					endif,
+			type <- ref.maudeMaybeRefSort()
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'RefEqOpposite',
+			targetElements <- Sequence{eqOpposite, lhsEqOpposite, cteName, rhsEqOpposite}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R23
+rule EqLowerBound (stFeat : Ecore!EStructuralFeature ) {
+	to
+		eqLBound : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqLBound,
+			rhs <- rhsEqLBound
+			),
+		lhsEqLBound : Maude!RecTerm(
+			op <- 'lowerBound',
+			type <- thisModule.sortInt,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- stFeat.maudeName(),
+			type <- stFeat.maudeSort()
+			),
+		rhsEqLBound : Maude!Constant(
+			op <- stFeat.lowerBound.toString(),
+			type <- thisModule.sortInt
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqLowerBound',
+			targetElements <- Sequence{eqLBound, lhsEqLBound, cteName, rhsEqLBound}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R24
+rule EqUpperBound (stFeat : Ecore!EStructuralFeature) {
+	to
+		eqUBound : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqUBound,
+			rhs <- rhsEqUBound
+			),
+		lhsEqUBound : Maude!RecTerm(
+			op <- 'upperBound',
+			type <- thisModule.sortInt,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- stFeat.maudeName(),
+			type <- stFeat.maudeSort()
+			),
+		rhsEqUBound : Maude!Constant(
+			op <- if stFeat.upperBound = -1 then 
+						'*'
+					else
+						stFeat.upperBound.toString()
+					endif,
+			type <- thisModule.sortInt
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqUpperBound',
+			targetElements <- Sequence{eqUBound, lhsEqUBound, cteName, rhsEqUBound}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+			
+}
+--R25
+rule EqContainingClass (stFeat : Ecore!EStructuralFeature ) {
+	to
+		eqContClass : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqContClass,
+			rhs <- rhsEqContClass
+			),
+		lhsEqContClass : Maude!RecTerm(
+			op <- 'containingClass',
+			type <- thisModule.sortClass,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- stFeat.maudeName(),
+			type <- stFeat.maudeSort()
+			),
+		rhsEqContClass : Maude!Constant(
+			op <- if (stFeat.eContainingClass.oclIsUndefined()) 
+							
+						then stFeat.refImmediateComposite().refImmediateComposite().maudeName()
+					else 
+						stFeat.eContainingClass.maudeName() 
+					endif, 
+			type <- thisModule.sortClass
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqContainingClass',
+			targetElements <- Sequence{eqContClass, lhsEqContClass, cteName, rhsEqContClass}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R26
+rule RefEqIsContainment (ref : Ecore!EReference ) {
+	to
+		eqIsContain : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqIsContain,
+			rhs <- rhsEqIsContain
+			),
+		lhsEqIsContain : Maude!RecTerm(
+			op <- 'isContainment',
+			type <- thisModule.sortBool,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- ref.maudeName(),
+			type <- thisModule.sortRef
+			),
+		rhsEqIsContain : Maude!Constant(
+			op <- ref.containment.toString(),
+			type <- thisModule.sortBool
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'RefEqIsContainment',
+			targetElements <- Sequence{eqIsContain, lhsEqIsContain, cteName, rhsEqIsContain}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R27
+rule EqIsOrdered (stFeat : Ecore!EStructuralFeature ) {
+	to
+		eqIsOrdered : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqIsOrdered,
+			rhs <- rhsEqIsOrdered
+			),
+		lhsEqIsOrdered : Maude!RecTerm(
+			op <- 'isOrdered',
+			type <- thisModule.sortBool,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- stFeat.maudeName(),
+			type <- thisModule.maudeSort()
+			),
+		rhsEqIsOrdered : Maude!Constant(
+			op <- stFeat.ordered.toString(),
+			type <- thisModule.sortBool
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqIsOrdered',
+			targetElements <- Sequence{eqIsOrdered, lhsEqIsOrdered, cteName, rhsEqIsOrdered}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R28
+rule EqIsUnique (stFeat : Ecore!EStructuralFeature ) {
+	to
+		eqIsUnique : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqIsUnique,
+			rhs <- rhsEqIsUnique
+			),
+		lhsEqIsUnique : Maude!RecTerm(
+			op <- 'isUnique',
+			type <- thisModule.sortBool,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- stFeat.maudeName(),
+			type <- thisModule.maudeSort()
+			),
+		rhsEqIsUnique : Maude!Constant(
+			op <- stFeat.unique.toString(),
+			type <- thisModule.sortBool
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqIsUnique',
+			targetElements <- Sequence{eqIsUnique, lhsEqIsUnique, cteName, rhsEqIsUnique}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R29
+rule Attribute2Operation {
+	from
+		att : Ecore!EAttribute
+	to
+		opAtt : Maude!Operation(
+			name <- att.maudeName(),
+			"module" <- thisModule.sModule,
+			coarity <- thisModule.sortAtt
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Attribute2Operation',
+			targetElements <- Sequence{opAtt}
+		)
+	do{
+		thisModule.EqName(att);
+		thisModule.EqType(att);
+		thisModule.EqLowerBound(att);
+		thisModule.EqUpperBound(att);
+		thisModule.EqContainingClass(att);
+		thisModule.AttEqIsId(att);
+		thisModule.EqIsOrdered(att);
+		thisModule.EqIsUnique(att);
+		if (not att.defaultValueLiteral.oclIsUndefined()){
+			thisModule.AttEqSpecificDefaultValue(att);
+		}
+		-- trace information
+		tl.sourceElements <- Sequence{att};
+		thisModule.trace.traceLinks <- tl;
+	}
+} 
+--R30
+rule AttEqIsId(att : Ecore!EAttribute) {
+	to
+		eqIsId : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqIsId,
+			rhs <- rhsEqIsId
+			),
+		lhsEqIsId : Maude!RecTerm(
+			op <- 'isId',
+			type <- thisModule.sortBool,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- att.maudeName(),
+			type <- thisModule.sortAtt
+			),
+		rhsEqIsId : Maude!Constant(
+			op <- att.iD.toString(),
+			type <- thisModule.sortBool
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'AttEqIsId',
+			targetElements <- Sequence{eqIsId, lhsEqIsId, cteName, rhsEqIsId}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R31
+rule AttEqSpecificDefaultValue(att : Ecore!EAttribute) {
+	to
+		eqSDValue : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqSDValue,
+			rhs <- rhsEqSDValue
+			),
+		lhsEqSDValue : Maude!RecTerm(
+			op <- 'specificDefaultValue',
+			type <- thisModule.sortBasicType,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- att.maudeName(),
+			type <- thisModule.sortAtt
+			),
+		rhsEqSDValue : Maude!Constant(
+			op <- 	if att.eAttributeType.oclIsUndefined() then ' ' else if (att.eAttributeType = Ecore!EString) or (att.eAttributeType.name = 'String') then
+						'"' + att.defaultValueLiteral.escapeQuotes() + '"'
+					else 
+						if att.eAttributeType.oclIsTypeOf(Ecore!EEnum) then 
+							att.defaultValueLiteral.maudeLiteralName(att.eType).processSpecOpChars()
+						else att.defaultValueLiteral
+						endif
+					endif endif,
+			type <- thisModule.sortBasicType
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'AttEqSpecificDefaultValue',
+			targetElements <- Sequence{eqSDValue, lhsEqSDValue, cteName, rhsEqSDValue}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R32
+rule Enum2Sort{
+	from
+		enum : Ecore!EEnum
+	to
+		sortEnum : Maude!Sort (
+			name <- enum.maudeName(),
+			"module" <- thisModule.sModule 
+			),		
+		ssortEnum : Maude!SubsortRel(
+			"module" <- thisModule.sModule,
+			supersorts <- thisModule.sortEnumInst,
+			subsorts <- Set{sortEnum}
+			),
+		constantEnum : Maude!Operation(
+			name <- enum.maudeName(),
+			"module" <- thisModule.sModule,
+			coarity <- thisModule.sortEnumeration
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Enum2Sort',
+			targetElements <- Sequence{sortEnum, ssortEnum, constantEnum}
+		)
+	do{		
+		thisModule.EnumEqMetaAux(enum);
+		thisModule.EqName(enum);
+		thisModule.EqPackage(enum);
+		thisModule.EnumEqDefaultValue(enum);
+		thisModule.EqLiterals(enum);
+		-- trace information
+		tl.sourceElements <- Sequence{enum};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R33
+rule EnumEqMetaAux (enum : Ecore!EEnum) {
+	to
+		eqMetaAux : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqMetaAux,
+			rhs <- rhsEqMetaAux
+			),
+		lhsEqMetaAux : Maude!RecTerm(
+			op <- 'metaAux',
+			type <- thisModule.sortEnumeration, 
+			args <- variable
+			),
+		variable : Maude!Variable(
+			name <- 'X',	
+			type <- enum 
+			),							
+		rhsEqMetaAux : Maude!Constant(
+			op <- thisModule.resolveTemp(enum,'sortEnum').name,
+			type <- thisModule.sortEnumeration		 			
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EnumEqMetaAux',
+			targetElements <- Sequence{eqMetaAux, lhsEqMetaAux, variable, rhsEqMetaAux}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}									
+}
+--R34
+rule EnumEqDefaultValue(enum : Ecore!EEnum) {
+	to
+		eqEnum : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqEnum,
+			rhs <- rhsEqEnum
+			),
+		lhsEqEnum : Maude!RecTerm(
+			op <- 'defaultValue',
+			type <- thisModule.sortEnumInst,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- enum.maudeName(),
+			type <- thisModule.sortEnumeration
+			),							
+		rhsEqEnum : Maude!Constant(
+			op <- enum.eLiterals->first().toString().processSpecOpChars() + '@' + enum.maudeName(),
+			type <- thisModule.sortEnumInst			 			
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EnumEqDefaultValue',
+			targetElements <- Sequence{eqEnum, lhsEqEnum, cteName, rhsEqEnum}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}								
+}
+--R35
+rule EqLiterals(enum : Ecore!EClassifier) {
+	to
+		eqLiterals : Maude!Equation (
+			"module" <- thisModule.sModule,
+			lhs <- lhsEqLiterals,
+			rhs <-
+					if enum.eLiterals -> isEmpty() then
+						thisModule.mtOrdConstant('') 
+					else
+						if enum.eLiterals->size() = 1 then
+							thisModule.EnumLitConstant(enum.eLiterals->first())
+						else
+							thisModule.EnumLitList(enum.eLiterals, enum)
+						endif
+					endif
+			),
+		lhsEqLiterals : Maude!RecTerm(
+			op <- 'literals',
+			type <- thisModule.myListSort,
+			args <- cteName
+			),
+		cteName : Maude!Constant(
+			op <- enum.maudeName(),
+			type <- thisModule.sortEnumeration
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EqLiterals',
+			targetElements <- Sequence{eqLiterals, lhsEqLiterals, cteName}
+		)
+	do{
+		-- trace information
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R36
+lazy rule mtOrdConstant{
+	from
+		blank : String
+	to
+		mt : Maude!Constant(
+			op <- thisModule.mtOrdOperator,
+			type <- thisModule.listSort
+		),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'mtOrdConstant',
+			targetElements <- Sequence{mt}
+		)
+	do{
+		-- trace information
+		--tl.sourceElements <- Sequence{blank};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R37	
+lazy rule EnumLitList {
+	from
+		enumLitList : Sequence(Ecore!EEnumLiteral),
+		enum : Ecore!EEnum
+	to
+		rhsList : Maude!RecTerm(
+			op <- thisModule.listOperator, 
+			type <- thisModule.listSort,
+			args <- enumLitList->collect(c|thisModule.EnumLitConstant(c, enum))
+		),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EnumLitList',
+			targetElements <- Sequence{rhsList}
+		)
+	do{
+		-- trace information
+		--tl.sourceElements <- Sequence{enumLitList, enum};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R38
+lazy rule EnumLitConstant {
+	from
+		namedEl : Ecore!EEnumLiteral,
+		enum : Ecore!EEnum
+	to
+		rhsConstant : Maude!Constant(
+			--op <- namedEl.toString().processSpecOpChars() + '@' + enum.maudeName(), 
+			op <- namedEl.name.processSpecOpChars() + '@',--+ enum.maudeName(),	
+			type <- thisModule.sortEnumInst
+		),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EnumLitConstant',
+			targetElements <- Sequence{rhsConstant}
+		)
+	do{
+		-- trace information
+		--tl.sourceElements <- Sequence{namedEl, enum};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+--R39
+rule EnumLiteral2Operation {
+	from
+		enumLit : Ecore!EEnumLiteral
+	to
+		opLit : Maude!Operation (
+			name <- enumLit.maudeName(),
+			"module" <- thisModule.sModule,
+			coarity <- enumLit.eEnum
+			),
+		--For storing the trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'EnumLiteral2Operation',
+			targetElements <- Sequence{opLit}
+		)
+	do{
+		-- trace information
+		--tl.sourceElements <- Sequence{enumLit};
+		thisModule.trace.traceLinks <- tl;
+	}
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="wldakvxkql" year="1991" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Craig Larman"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="tzgpnpg lb" year="1995" title="Complexity measure" journal="Software -- Practice and Experience">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="u wxxixjmo" year="2000" title="A classification and coparison framework for software architecture description languages" journal="Journal of Systems and Software">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="dq-rljcpzq" year="1995" title="Uppaal in a nutshell" booktitle="dtfnooz-wk">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="vbessuysvd" year="1994" title="Program slicing" booktitle="jdkjbcpimc">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="plejvxnizs" year="1997" title="The model checker SPIN" publisher="-dfgbcrhkl">
+    <authors author="Bruce Schneier"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="fixe-tlnat" year="1976" title="An intrusion-detection model" school="xqllaridpq">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Craig Larman"/>
+  </entries>
+</BibTeX:BibTeXFile>

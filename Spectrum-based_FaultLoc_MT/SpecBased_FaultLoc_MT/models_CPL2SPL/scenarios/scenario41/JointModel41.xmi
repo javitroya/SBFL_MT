@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jointPackage_CPL2SPL:SrcCPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+    <languages matches="aeokohxdrg"/>
+    <languages matches="xnntuqhlqi"/>
+    <languages matches="eeafebspcw"/>
+  </elements>
+  <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="dbjtesfwte" priority="nupwruxkdo" clear="elzxruwakx"/>
+  <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" contents="//@elements.0" url="qocnstcjrx" priority="xfrwagkpli" clear="arubxzkfyq"/>
+  <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="ucnvbzqpws"/>
+  <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="wdnjpmavbt"/>
+  <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="yltfexqjbi" reason="adujonysvd"/>
+</jointPackage_CPL2SPL:SrcCPLModel>

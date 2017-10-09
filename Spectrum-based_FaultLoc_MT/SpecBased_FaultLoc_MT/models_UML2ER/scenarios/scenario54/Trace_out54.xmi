@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Package">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#/"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#/"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#/"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#/"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Attributes">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0/@ownedProperty.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0/@ownedProperty.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0/@ownedProperty.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Attributes">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0/@ownedProperty.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0/@ownedProperty.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario54/AutomaticModel_SimpleUML54.xmi#//@ownedElements.0/@ownedProperty.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario54/ER_out54.xmi#//@entities.0/@features.1"/>
+  </traceLinks>
+</trace:Trace>

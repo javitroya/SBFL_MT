@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="z sqqusnjs" year="2000" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="fptvuxvaug" year="1994" title="Graph drawing by force-directed placement" journal="IEEE Transactions on Software Engineering">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="jevltuygef" year="1994" title="Program slicing" journal="Information and Software Technology">
+    <authors author="Wang Yi"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="myumkyxsuq" year="1984" title="Complexity measure" journal="Software and Systems Modeling">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ocvmhguwzy" year="1995" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="twzuifltbj" year="1991" title="An intrusion-detection model" journal="Software -- Practice and Experience">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="hku-suk-hx" year="1997" title="Program slicing">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="cwysfdifpo" year="1997" title="QoS-aware middleware for Web services composition">
+    <authors author="Paul Pettersson"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="dmliwziqrd" year="1984" title="A metrics suite for object oriented design" booktitle="xigesot_zb">
+    <authors author="Robert C. Martin"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="_tmxzoeifd" year="1995" title="Complexity measure" booktitle="scvxguymka">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="ru-rhgkf_s" year="1994" title="Complexity measure" booktitle="xqdjqoxarv">
+    <authors author="Martin Fowler"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="wnryjnqw_ " year="1991"/>
+  <entries xsi:type="BibTeX:Booklet" id="kduu_enjpx" year="2000"/>
+  <entries xsi:type="BibTeX:InBook" id="fd-nrnlhso" year="2000" title="4 + 1 view model of architecture" publisher="pcowkfswjv" chapter="48">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="nchmwzahg " year="1991" title="QoS-aware middleware for Web services composition" publisher="l_goopuopl" chapter="73">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id=" mwgjduofc" year="1991" title="The model checker SPIN" publisher="wnxunyzwzs" chapter="27">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+</BibTeX:BibTeXFile>

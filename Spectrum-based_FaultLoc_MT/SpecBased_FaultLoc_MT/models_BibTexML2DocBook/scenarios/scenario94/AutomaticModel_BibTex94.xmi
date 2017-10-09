@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="t-hcrexzoy" year="1995" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+    <authors author="Robert C. Martin"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="g_rekat-vc" year="1984"/>
+  <entries xsi:type="BibTeX:Booklet" id="zd_kkhkph " year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="djelygsikv" year="1987"/>
+  <entries xsi:type="BibTeX:InCollection" id="_uzwozxfem" year="1994" title="A classification and coparison framework for software architecture description languages" publisher="qlftab-kdp" booktitle="hmuq_u-agx">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="tdwettondk" year="1987" title="Graph drawing by force-directed placement" publisher="mmosgvfwjh" booktitle="posdqv-psb">
+    <authors author="Martin Fowler"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="ebqgktcl y" year="1995" title="Program slicing" publisher="b-myexfoko" chapter="38">
+    <authors author="Marlon Dumas"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="hxtzx xzyz" year="1997" title="QoS-aware middleware for Web services composition" publisher="btmhfduqgv" chapter="59">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="pyjpyu-isx" year="1991" title="A metrics suite for object oriented design" publisher="dm-qjg  ts" chapter="37">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="xdirj--caa"/>
+  <entries xsi:type="BibTeX:Misc" id="mzptaeuyqg"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="a-hp rdbqw" year="1997" title="Program slicing" school="ldubwjn_sp">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="mxe kqplza" year="2000" title="Uppaal in a nutshell" school="psyyyxklzv">
+    <authors author="Craig Larman"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="t-bekiv_uz" year="2004" title="Program slicing" school="quhod mvr-">
+    <authors author="Bruce Schneier"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="tnr-kfa jp" year="1994" title="QoS-aware middleware for Web services composition" school="kkkwqgbvfc">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id=" b_anvhhrm" year="2000" title="A classification and coparison framework for software architecture description languages" school="vbftqzqnfl">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id=" jezgabkgk" year="1997" title="QoS-aware middleware for Web services composition" school="jmfzaopz h">
+    <authors author="Marlon Dumas"/>
+  </entries>
+</BibTeX:BibTeXFile>

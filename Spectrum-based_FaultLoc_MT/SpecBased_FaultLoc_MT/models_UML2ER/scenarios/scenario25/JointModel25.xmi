@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="_sf xuui_k">
+    <ownedElements name="Computer"/>
+    <ownedElements name="Computer"/>
+    <ownedElements name="Computer"/>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="_sf xuui_k">
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

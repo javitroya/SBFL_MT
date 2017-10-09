@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <notPresent contents="/0/@elements.8"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <notPresent contents="/0/@elements.13"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch">
+      <times dtstart="mwpztdnrqo" freq="ujkqmrbihh" until="flvpbolemu" count="vdizowycrl" interval="zbstzrputd" byMinute="sogusubgmx" byDay="qifdsunrbk" byMonthDay="fxmaopjuka" byYearDay="vqytxsmczp" wkst="yaahndzcsp"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzid="kxrxzpchuu" tzurl="kzruvxlrjt">
+      <notPresent/>
+      <times dtstart="tjenaesukf" count="bgtbobrgzi" interval="mkgprehngs" byHour="yjoisgqona" byDay="yskhlbohez" wkst="xxkerxfyno"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <priorities contents="/0/@elements.9" greater="xczojpbeym" equal="pqpmnvpaxn"/>
+      <priorities less="snoxccrkqo" greater="xuhqjhnhxa" equal="rixrrdfiis"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent contents="/0/@elements.6"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent/>
+      <priorities less="cokaoevxxe" greater="bsxjwkpmcq" equal="hlrvptsucg"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="xdgozwucsu"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="eotgnrasdi"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="rgzfclodbi"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcRedirect" permanent="xzwqjsrbsh"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcRedirect" permanent="lbzlbeaiyn"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration name="xczojpbeym">
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration name="xuhqjhnhxa">
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration name="bsxjwkpmcq">
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgWithExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+        <value xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgReasonMessageField">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+          <value xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgHeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgWithExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+        <value xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgReasonMessageField">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+          <value xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgHeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgConstantExp/>
+  <jointPackage_CPL2SPL:TrgConstantExp/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+</xmi:XMI>

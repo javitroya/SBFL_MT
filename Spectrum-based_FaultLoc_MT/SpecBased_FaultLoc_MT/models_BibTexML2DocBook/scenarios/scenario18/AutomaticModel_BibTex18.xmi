@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="dhtipltule" year="1991" title="Graph drawing by force-directed placement" journal="Software -- Practice and Experience">
+    <authors author="Wang Yi"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="oxspmdwjl " title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:InProceedings" id="sepfznwcko" year="1994" title="4 + 1 view model of architecture" booktitle="dyetwyqrhk">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="janljvwhsf" year="2004" title="Uppaal in a nutshell" booktitle="zq zyslrkl">
+    <authors author="Martin Fowler"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="_xx-skv-rt" year="1997" title="QoS-aware middleware for Web services composition" publisher="rkmmhysdx_">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id=" jxmwenuhy" year="2000" title="4 + 1 view model of architecture" publisher="nqrpdebmvl">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="botgoegny " year="1995" title="Program slicing" publisher="mpmqvwa_jn" booktitle="fkamdbxwbp">
+    <authors author="Wang Yi"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="qu qlegfhk" year="1995" title="Graph drawing by force-directed placement" publisher="rmwrekvr-i" booktitle="vlidaafktl">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="v_emgop ao" year="1997" title="Complexity measure" publisher="hmjdws-awa" booktitle="tldmsrjwlq">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="fyqiwkofux"/>
+  <entries xsi:type="BibTeX:Misc" id="czaf kbhxy"/>
+  <entries xsi:type="BibTeX:Misc" id="dhlwrcs ze"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="ebodvpi yu" year="1995" title="A metrics suite for object oriented design" school="b-giqtqdwh">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="bjoyyu-fze" year="1995" title="QoS-aware middleware for Web services composition" school="hdenedgn-m">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="uhybrj tnm" year="1994" title="Program slicing" school="mwytmbdabx">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="qykcqx-ygl" year="1997" title="Uppaal in a nutshell" school="tfcmmy_mdz">
+    <authors author="Bruce Schneier"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="xacfxgfyfn" year="1987" title="Complexity measure" school=" fxybytwjy">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+</BibTeX:BibTeXFile>

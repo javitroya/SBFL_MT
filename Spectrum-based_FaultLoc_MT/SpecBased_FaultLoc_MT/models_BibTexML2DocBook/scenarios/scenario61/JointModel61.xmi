@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="cosmekkrum" year="1995" title="Graph drawing by force-directed placement" journal="Information and Software Technology">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Chris F. Kemerer"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="mbsgirhfxm" year="1984" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="xbxoiskgkf" year="2004" title="Graph drawing by force-directed placement" journal="Journal of Systems and Software">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="tzynwm_-qh" year="1976" title="QoS-aware middleware for Web services composition" journal="Information and Software Technology">
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="jzrcg dcsw" year="2004" title="Graph drawing by force-directed placement" publisher=" wxiqkoj c" chapter="41">
+      <authors author="Martin Fowler"/>
+      <authors author="Chris F. Kemerer"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="o_vlwe-ism" year="1997" title="A classification and coparison framework for software architecture description languages" school="iuww-fesrq">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Erich Gamma"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="cgo hwxdti" year="1976" title="A classification and coparison framework for software architecture description languages" school="pps-htixcg">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="fc-sinx-ki" year="1984" title="A classification and coparison framework for software architecture description languages" school="iqkkxlsroc">
+      <authors author="Marlon Dumas"/>
+      <authors author="Craig Larman"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="vr-eo jfiv" year="1995" title="Program slicing" school="zdhqc hmik">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[cgo hwxdti] MasterThesis A classification and coparison framework for software architecture description languages Philippe Kruchten Erich Gamma 1976 pps-htixcg"/>
+          <paras/>
+          <paras content="[fc-sinx-ki] MasterThesis A classification and coparison framework for software architecture description languages Marlon Dumas Craig Larman Edward N. Reingold Edward N. Reingold 1984 iqkkxlsroc"/>
+          <paras content="[jzrcg dcsw] InBook Graph drawing by force-directed placement Martin Fowler Chris F. Kemerer 2004  wxiqkoj c 41"/>
+          <paras/>
+          <paras content="[o_vlwe-ism] PhDThesis A classification and coparison framework for software architecture description languages Philippe Kruchten Erich Gamma Martin Fowler Edward N. Reingold 1997 iuww-fesrq"/>
+          <paras content="[tzynwm_-qh] Article QoS-aware middleware for Web services composition Elisabeth Freeman 1976 Information and Software Technology"/>
+          <paras content="[vr-eo jfiv] MasterThesis Program slicing Nenad Medvidovic Chris F. Kemerer Steve McConnell Philippe Kruchten 1995 zdhqc hmik"/>
+          <paras content="[xbxoiskgkf] Article Graph drawing by force-directed placement Philippe Kruchten Edward N. Reingold 2004 Journal of Systems and Software"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Steve McConnell"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Information and Software Technology"/>
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

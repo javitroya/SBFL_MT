@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/SpecBased_FaultLoc_MT/src" modelPluginID="SpecBased_FaultLoc_MT"
+    modelName="JointMM" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>JointMM.ecore</foreignModel>
+  <genPackages prefix="JointPackage" disposableProviderFactory="true" ecorePackage="JointMM.ecore#/0">
+    <genClasses ecoreClass="JointMM.ecore#/0/JointMM">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/JointMM/sourceRoot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/JointMM/targetRoot"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcBibTeXFile">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/SrcBibTeXFile/entries"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcArticle">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcArticle/journal"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcTechReport"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcUnpublished">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcUnpublished/note"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcManual"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcProceedings"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcInProceedings"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcBooklet"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcBook">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcBook/publisher"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcInCollection"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcInBook">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcInBook/chapter"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcPhDThesis"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcMasterThesis"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcAuthor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcAuthor/author"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/SrcBibTeXEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcBibTeXEntry/id"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/SrcAuthoredEntry">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/SrcAuthoredEntry/authors"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/SrcDatedEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcDatedEntry/year"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/SrcTitledEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcTitledEntry/title"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/SrcBookTitledEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcBookTitledEntry/booktitle"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/SrcMisc"/>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/SrcThesisEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/SrcThesisEntry/school"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/TrgDocBook">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/TrgDocBook/books"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/TrgBook">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/TrgBook/articles"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/TrgTitledElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/TrgTitledElement/title"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/TrgArticle">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/TrgArticle/sections_1"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM.ecore#/0/TrgSection">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/TrgSection/paras"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/TrgSect1">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM.ecore#/0/TrgSect1/sections_2"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM.ecore#/0/TrgSect2"/>
+    <genClasses ecoreClass="JointMM.ecore#/0/TrgPara">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM.ecore#/0/TrgPara/content"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM.ecore#/0/TrgPara/section"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

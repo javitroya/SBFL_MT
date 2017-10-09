@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.0"/>
+    <targetElements href="out_SPL9.xmi#/0"/>
+    <targetElements href="out_SPL9.xmi#/0/@service"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.1"/>
+    <targetElements href="out_SPL9.xmi#/1"/>
+    <targetElements href="out_SPL9.xmi#/1/@service"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.2"/>
+    <targetElements href="out_SPL9.xmi#/2"/>
+    <targetElements href="out_SPL9.xmi#/2/@service"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.3"/>
+    <targetElements href="out_SPL9.xmi#/3"/>
+    <targetElements href="out_SPL9.xmi#/3/@service"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.0/@subActions.0"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.0"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.0/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.0/@subActions.1"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.1"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.1/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.0/@subActions.2"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.2"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.2/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.0/@subActions.3"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.1/@subActions.0"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@declarations.0"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@declarations.0/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.1/@subActions.1"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@declarations.1"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@declarations.1/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.1/@subActions.2"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@declarations.2"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@declarations.2/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.2/@subActions.0"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.0"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.0/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.2/@subActions.1"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.1"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.1/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.2/@subActions.2"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.2"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.2/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.2/@subActions.3"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.3"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@declarations.3/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.3/@subActions.0"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@declarations.0"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@declarations.0/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.3/@subActions.1"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@declarations.1"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@declarations.1/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.0/@incoming"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.0"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.1/@incoming"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@sessions.0/@methods.0"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.2/@incoming"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@sessions.0/@methods.0"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.3/@incoming"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@sessions.0/@methods.0"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Outgoing2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.0/@outgoing"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.1"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.1/@type"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.1/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Outgoing2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.1/@outgoing"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@sessions.0/@methods.1"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@sessions.0/@methods.1/@type"/>
+    <targetElements href="out_SPL9.xmi#/1/@service/@sessions.0/@methods.1/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Outgoing2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.2/@outgoing"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@sessions.0/@methods.1"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@sessions.0/@methods.1/@type"/>
+    <targetElements href="out_SPL9.xmi#/2/@service/@sessions.0/@methods.1/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Outgoing2Method">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.3/@outgoing"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@sessions.0/@methods.1"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@sessions.0/@methods.1/@type"/>
+    <targetElements href="out_SPL9.xmi#/3/@service/@sessions.0/@methods.1/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.4/@notPresent"/>
+    <targetElements href="out_SPL9.xmi#/11/@selectCases.2"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.5/@notPresent"/>
+    <targetElements href="out_SPL9.xmi#/4"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.7/@notPresent"/>
+    <targetElements href="out_SPL9.xmi#/5"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.8/@notPresent"/>
+    <targetElements href="out_SPL9.xmi#/6"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.9/@notPresent"/>
+    <targetElements href="out_SPL9.xmi#/7"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.10/@notPresent"/>
+    <targetElements href="out_SPL9.xmi#/8"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.11/@notPresent"/>
+    <targetElements href="out_SPL9.xmi#/9"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.13"/>
+    <targetElements href="out_SPL9.xmi#/15/@statements.0"/>
+    <targetElements href="out_SPL9.xmi#/15/@statements.0/@returnedValue"/>
+    <targetElements href="out_SPL9.xmi#/15/@statements.0/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.14"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.0/@statements.0"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.0/@statements.0/@returnedValue"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@sessions.0/@methods.0/@statements.0/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.15"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@exp"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@exp/@value"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@msgFields.0"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@msgFields.1"/>
+    <targetElements href="out_SPL9.xmi#/0/@service/@declarations.3/@statements.0/@returnedValue/@msgFields.1/@exp"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.16"/>
+    <targetElements href="out_SPL9.xmi#/10"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@exp"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@exp/@value"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@msgFields.0"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@msgFields.1"/>
+    <targetElements href="out_SPL9.xmi#/10/@returnedValue/@msgFields.1/@exp"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.4"/>
+    <targetElements href="out_SPL9.xmi#/11"/>
+    <targetElements href="out_SPL9.xmi#/11/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.5"/>
+    <targetElements href="out_SPL9.xmi#/13/@statements.0"/>
+    <targetElements href="out_SPL9.xmi#/13/@statements.0/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="SwitchedAddress2SelectCase">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.4/@addresses.0"/>
+    <targetElements href="out_SPL9.xmi#/11/@selectCases.0"/>
+    <targetElements href="out_SPL9.xmi#/11/@selectCases.0/@values.0"/>
+  </traceLinks>
+  <traceLinks ruleName="SwitchedAddress2SelectCase">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.4/@addresses.1"/>
+    <targetElements href="out_SPL9.xmi#/11/@selectCases.1"/>
+    <targetElements href="out_SPL9.xmi#/11/@selectCases.1/@values.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.4/@otherwise"/>
+    <targetElements href="out_SPL9.xmi#/11/@selectDefault"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.5/@otherwise"/>
+    <targetElements href="out_SPL9.xmi#/12"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.7/@otherwise"/>
+    <targetElements href="out_SPL9.xmi#/13"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.8/@otherwise"/>
+    <targetElements href="out_SPL9.xmi#/14"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.9/@otherwise"/>
+    <targetElements href="out_SPL9.xmi#/15"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.10/@otherwise"/>
+    <targetElements href="out_SPL9.xmi#/16"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="AutomaticModel_CPL9.xmi#//@elements.11/@otherwise"/>
+    <targetElements href="out_SPL9.xmi#/17"/>
+  </traceLinks>
+</trace:Trace>

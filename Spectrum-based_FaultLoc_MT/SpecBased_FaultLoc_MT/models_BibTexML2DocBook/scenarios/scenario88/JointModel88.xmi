@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="pu_o nxkat" year="1987" title="4 + 1 view model of architecture">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Wang Yi"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="iptplg_tps" year="1994" title="QoS-aware middleware for Web services composition">
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="ldrpc -wq_" title="An intrusion-detection model"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="rm-eqepjiu" year="1997" title="Uppaal in a nutshell" booktitle="g-mjhpnld ">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Bruce Schneier"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="ktlyxvuypf" year="1984" title="QoS-aware middleware for Web services composition" booktitle="mtpcx jnwb">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="lmxxp-crr_" year="1995" title="Graph drawing by force-directed placement" booktitle="rocmmhkcqh">
+      <authors author="Marlon Dumas"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="myzqmvv_mc" year="1984"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="uigbcqgxqr" year="1997"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="l-_qnuojzw" year="2000" title="A metrics suite for object oriented design" publisher="dbdrwif tn" booktitle="p-bwbmpda ">
+      <authors author="Bruce Schneier"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="br_l_yekgv" year="1987" title="QoS-aware middleware for Web services composition" publisher=" lvhyhk jz" booktitle="aiwxjoyelm">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="cxgdb-za--" year="1995" title="A classification and coparison framework for software architecture description languages" publisher="jpqfc-af_r" booktitle="k-nn_vsfpb">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="uytvbeskcw" year="1984" title="Graph drawing by force-directed placement" publisher="c_l-p_yvpl" chapter="47">
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="skov ktqtr" year="1995" title="Graph drawing by force-directed placement" publisher="bzhgcuae-r" chapter="3">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="dyxeqnleic" year="1994" title="A metrics suite for object oriented design" publisher="vl_pold- b" chapter="26">
+      <authors author="Martin Fowler"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Wang Yi"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="dj evwshmp"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="oxdq o iia"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="uzjzymnmka" year="1984" title="A metrics suite for object oriented design" school="khct ntuda">
+      <authors author="Robert C. Martin"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="kefejlqbmz" year="1987" title="A classification and coparison framework for software architecture description languages" school="-jcozjpl t">
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="g _ fzcure" year="1991" title="Complexity measure" school="gcy fcxgle">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Craig Larman"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[br_l_yekgv] InCollection QoS-aware middleware for Web services composition Donald E. Knuth Liangzhao Zeng Bruce Schneier 1987 aiwxjoyelm  lvhyhk jz"/>
+          <paras content="[cxgdb-za--] InCollection A classification and coparison framework for software architecture description languages Nenad Medvidovic Paul Pettersson Bruce Schneier 1995 k-nn_vsfpb jpqfc-af_r"/>
+          <paras content="[dj evwshmp] Misc"/>
+          <paras content="[dyxeqnleic] InBook A metrics suite for object oriented design Martin Fowler Nenad Medvidovic Wang Yi Kim G. Larsen 1994 vl_pold- b 26"/>
+          <paras content="[g _ fzcure] MasterThesis Complexity measure Dorothy E. Denning Craig Larman Martin Fowler 1991 gcy fcxgle"/>
+          <paras content="[iptplg_tps] TechReport QoS-aware middleware for Web services composition Thomas M. J. Fruchterman 1994"/>
+          <paras content="[kefejlqbmz] MasterThesis A classification and coparison framework for software architecture description languages Erich Gamma 1987 -jcozjpl t"/>
+          <paras content="[ktlyxvuypf] InProceedings QoS-aware middleware for Web services composition Chris F. Kemerer Kim G. Larsen Dorothy E. Denning 1984 mtpcx jnwb"/>
+          <paras content="[l-_qnuojzw] InCollection A metrics suite for object oriented design Bruce Schneier Dorothy E. Denning Gerard J. Holzmann 2000 p-bwbmpda  dbdrwif tn"/>
+          <paras content="[ldrpc -wq_] Manual An intrusion-detection model"/>
+          <paras content="[lmxxp-crr_] InProceedings Graph drawing by force-directed placement Marlon Dumas Philippe Kruchten Chris F. Kemerer Erich Gamma 1995 rocmmhkcqh"/>
+          <paras content="[myzqmvv_mc] Booklet 1984"/>
+          <paras content="[oxdq o iia] Misc"/>
+          <paras content="[pu_o nxkat] TechReport 4 + 1 view model of architecture Elisabeth Freeman Wang Yi Paul Pettersson Elisabeth Freeman 1987"/>
+          <paras content="[rm-eqepjiu] InProceedings Uppaal in a nutshell Dorothy E. Denning Bruce Schneier Martin Fowler Nenad Medvidovic 1997 g-mjhpnld "/>
+          <paras content="[skov ktqtr] InBook Graph drawing by force-directed placement Nenad Medvidovic Thomas M. J. Fruchterman 1995 bzhgcuae-r 3"/>
+          <paras content="[uigbcqgxqr] Booklet 1997"/>
+          <paras content="[uytvbeskcw] InBook Graph drawing by force-directed placement Thomas M. J. Fruchterman 1984 c_l-p_yvpl 47"/>
+          <paras content="[uzjzymnmka] MasterThesis A metrics suite for object oriented design Robert C. Martin Paul Pettersson Nenad Medvidovic Craig Larman 1984 khct ntuda"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

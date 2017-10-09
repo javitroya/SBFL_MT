@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="eelnv nwhb" title="The model checker SPIN" note="wmzwmcqgtx">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="tzw-j ajng" title="QoS-aware middleware for Web services composition" note="zzkxzcl-xi">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="kyqfjmuajq" title="Complexity measure" note="vgljuultsf">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="svhzwtcien" year="1984"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="dlnokjklkd" year="1997"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="ij-recqrjx" year="2004"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="whnvpsaqle" year="2004" title="A classification and coparison framework for software architecture description languages" school="lalirvhplj">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Wang Yi"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="swsviidbxe" year="1994" title="A metrics suite for object oriented design" school="pccdeknpkp">
+      <authors author="Marlon Dumas"/>
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="uvbqzavcye" year="1984" title="Graph drawing by force-directed placement" school="yutipafyoq">
+      <authors author="Wang Yi"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[dlnokjklkd] Booklet 1997"/>
+          <paras content="[eelnv nwhb] Unpublished The model checker SPIN Edward N. Reingold Steve McConnell Bruce Schneier wmzwmcqgtx"/>
+          <paras content="[ij-recqrjx] Booklet 2004"/>
+          <paras content="[kyqfjmuajq] Unpublished Complexity measure Thomas M. J. Fruchterman Paul Pettersson Thomas M. J. Fruchterman vgljuultsf"/>
+          <paras content="[svhzwtcien] Booklet 1984"/>
+          <paras content="[swsviidbxe] PhDThesis A metrics suite for object oriented design Marlon Dumas Dorothy E. Denning 1994 pccdeknpkp"/>
+          <paras content="[tzw-j ajng] Unpublished QoS-aware middleware for Web services composition Dorothy E. Denning Thomas M. J. Fruchterman Kim G. Larsen zzkxzcl-xi"/>
+          <paras content="[uvbqzavcye] PhDThesis Graph drawing by force-directed placement Wang Yi 1984 yutipafyoq"/>
+          <paras content="[whnvpsaqle] PhDThesis A classification and coparison framework for software architecture description languages Elisabeth Freeman Martin Fowler Wang Yi Steve McConnell 2004 lalirvhplj"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="The model checker SPIN"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

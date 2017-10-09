@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="ade-opmfjd" year="1984" title="A metrics suite for object oriented design" journal="Information and Software Technology">
+    <authors author="Martin Fowler"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="izahfkvfgd" year="2000" title="Graph drawing by force-directed placement">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Wang Yi"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="bvusdeylmb" year="1976" title="4 + 1 view model of architecture">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="ly_otsekod" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:Manual" id="unlbsseamw" title="Program slicing"/>
+  <entries xsi:type="BibTeX:InProceedings" id="-ejx__nhjq" year="2000" title="An intrusion-detection model" booktitle="ktsgrhq-aq">
+    <authors author="Erich Gamma"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="cvs-laezto" year="1997" title="4 + 1 view model of architecture" booktitle="-juav fo b">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="twrlbvvx  " year="1976" title="Uppaal in a nutshell" booktitle="x-nqmhdlcr">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="tmztgm vie" year="1997" title="A metrics suite for object oriented design" publisher="r-udgqmehp">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="acubennttl" year="1994" title="Complexity measure" publisher="wo_yi-srne" booktitle="yp qvgspch">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="yufvumz- d" year="1997" title="The model checker SPIN" publisher=" wmnfohkd " booktitle="uvmtpn__vi">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="lbntutblkk" year="1997" title="4 + 1 view model of architecture" publisher="hsgjnr lxz" booktitle="kzeskjnbyn">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="qnlhisjkez"/>
+  <entries xsi:type="BibTeX:Misc" id="gtbauu-no_"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="nqdn_alrk_" year="1997" title="Complexity measure" school="vcmusqe_lo">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="egbbtfkgrm" year="1976" title="Graph drawing by force-directed placement" school="s-gjubmiva">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+</BibTeX:BibTeXFile>

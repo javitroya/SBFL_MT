@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="xwcuuisfhn"/>
+      <subActions contents="/0/@elements.7" id="apcphcqeqr"/>
+      <subActions contents="/0/@elements.9" id="rlxtceavbm"/>
+      <incoming contents="/0/@elements.3"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="pwjkkqqiwv"/>
+      <subActions id="tskoewfmvw"/>
+      <outgoing/>
+      <incoming/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="jbjqhsnkyf">
+      <otherwise/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="klfnafitam"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzid="ffqvfiqpsj" tzurl="abtdxbbzrr">
+      <otherwise/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzurl="uddfpaprha"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="cusrzbhzwc" priority="nxwmfznwwz" clear="admocbmxih"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="cvwtygjtrq" clear="dcstvtchvc"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" recurse="pyoonjiony" ordering="dvukfvobia">
+      <busy contents="/0/@elements.7"/>
+      <noAnswer/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="bvfvwnmeff" recurse="hrenuytqqu" ordering="xuakijpyno"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+          <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+            <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+          </statements>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgCompoundStat>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+      <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="r">
+        <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+        <initExp xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+          <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+      <matchedExp xsi:type="jointPackage_CPL2SPL:TrgVariable" source="/3/@statements.0/@declaration"/>
+      <selectCases>
+        <commentsBefore>// busy</commentsBefore>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="BUSY_HERE"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// noanswer</commentsBefore>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+        </values>
+      </selectCases>
+    </statements>
+  </jointPackage_CPL2SPL:TrgCompoundStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+    <selectDefault/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+</xmi:XMI>

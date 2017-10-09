@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="tzeliovlkh" year="1994" title="Graph drawing by force-directed placement" journal="Software -- Practice and Experience">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Wang Yi"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="k_obzbagud" year="1984" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mzwkemwpol" year="1987" title="Uppaal in a nutshell" journal="Information and Software Technology">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="i  pig-ndg" year="1984" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+    <authors author="Craig Larman"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qhrhiq_lqb" year="1997" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="oy-mindcio" title="Complexity measure" note="ymcdwxzh z">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="cictfjicax" year="1991" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:Proceedings" id="ihslmgfleu" year="1987" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:InCollection" id="gjfxkavtmy" year="1987" title="Graph drawing by force-directed placement" publisher="ur_srxzaf " booktitle="ekueaf kvr">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="yjfsqhdssb" year="1997" title="Graph drawing by force-directed placement" publisher="cqirljir e" booktitle="plldyrwaci">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="ldojiflxbf" year="1987" title="QoS-aware middleware for Web services composition" publisher="tudkhygaag" booktitle="k_teekavy_">
+    <authors author="Erich Gamma"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="vsqenpshrr" year="1987" title="A metrics suite for object oriented design" school="bhkn-jbrgo">
+    <authors author="Bruce Schneier"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+</BibTeX:BibTeXFile>

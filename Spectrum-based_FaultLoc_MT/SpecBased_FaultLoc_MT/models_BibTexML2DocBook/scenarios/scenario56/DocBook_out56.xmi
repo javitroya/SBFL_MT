@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[cisk_isd-n] Article QoS-aware middleware for Web services composition Shyam R. Chidamber Erich Gamma 1987 IEEE Transactions on Software Engineering"/>
+        <paras content="[kucoxgyt t] Booklet 1995"/>
+        <paras content="[opnypttnqs] Booklet 1997"/>
+        <paras content="[q zb qx--t] Manual Complexity measure"/>
+        <paras content="[uebgay-axs] Article QoS-aware middleware for Web services composition Dorothy E. Denning 2000 Software -- Practice and Experience"/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Craig Larman"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Shyam R. Chidamber"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="Complexity measure"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Software -- Practice and Experience"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

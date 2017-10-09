@@ -1,0 +1,33 @@
+In the following it is displayed the suspiciousness, according to different coefficients, for those OCL constraints that are not satisfied. 
+
+
+OCL5;SrcAuthor.allInstances()->forAll(a | TrgPara.allInstances()->exists(p | p.content = a.author and p.section.title = 'Authors List'))
+;Russel Rao;Cohen;Kulcynski2;Tarantula;Ochiai; Confidence
+Article_Title_NoJournal;0.6;0.0;0.8;1.0;0.7745966692414834;0.6
+TitledEntry_Title_NoArticle;1.0;0.0;1.0;1.0;1.0;1.0
+Article_NoTitle_Journal;0.2;0.0;0.6;1.0;0.4472135954999579;0.2
+Article_Title_Journal;1.0;0.0;1.0;1.0;1.0;1.0
+Author;1.0;0.0;1.0;1.0;1.0;1.0
+Article_NoTitle_NoJournal;0.3;0.0;0.65;1.0;0.5477225575051661;0.3
+UntitledEntry;0.8;0.0;0.9;1.0;0.8944271909999159;0.8
+Main;1.0;0.0;1.0;1.0;1.0;1.0
+TitledEntry_NoTitle_NoArticle;0.9;0.0;0.95;1.0;0.9486832980505138;0.9
+EXAM metric;0.1111111111111111;0.3333333333333333;0.4444444444444444;0.2222222222222222;0.2222222222222222
+
+OCL19;not TrgSect1.allInstances() -> asSequence() -> select(s | s.title = 'Authors List') -> first().paras -> exists(p1,p2 | p1<>p2 and p1.content=p2.content)
+;Russel Rao;Cohen;Kulcynski2;Tarantula;Ochiai; Confidence
+Article_Title_NoJournal;0.6;0.0;0.8;1.0;0.7745966692414834;0.6
+TitledEntry_Title_NoArticle;1.0;0.0;1.0;1.0;1.0;1.0
+Article_NoTitle_Journal;0.2;0.0;0.6;1.0;0.4472135954999579;0.2
+Article_Title_Journal;1.0;0.0;1.0;1.0;1.0;1.0
+Author;1.0;0.0;1.0;1.0;1.0;1.0
+Article_NoTitle_NoJournal;0.3;0.0;0.65;1.0;0.5477225575051661;0.3
+UntitledEntry;0.8;0.0;0.9;1.0;0.8944271909999159;0.8
+Main;1.0;0.0;1.0;1.0;1.0;1.0
+TitledEntry_NoTitle_NoArticle;0.9;0.0;0.95;1.0;0.9486832980505138;0.9
+EXAM metric;0.2222222222222222;0.4444444444444444;0.3333333333333333;0.3333333333333333;0.4444444444444444
+
+Summary of the quality of the different techniques according to the EXAM metric
+;Russel Rao;Cohen;Kulcynski2;Tarantula;Ochiai
+OCL5;0.1111111111111111;0.3333333333333333;0.4444444444444444;0.2222222222222222;0.2222222222222222
+OCL19;0.2222222222222222;0.4444444444444444;0.3333333333333333;0.3333333333333333;0.4444444444444444

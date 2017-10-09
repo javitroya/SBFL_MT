@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario38/AutomaticModel_CPL38.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario38/AutomaticModel_CPL38.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/1/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/1/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario38/AutomaticModel_CPL38.xmi#//@elements.0/@incoming"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service/@sessions.0/@methods.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Outgoing2Method">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario38/AutomaticModel_CPL38.xmi#//@elements.0/@outgoing"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service/@sessions.0/@methods.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service/@sessions.0/@methods.1/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/0/@service/@sessions.0/@methods.1/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario38/AutomaticModel_CPL38.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/2/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario38/AutomaticModel_CPL38.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/3/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario38/AutomaticModel_CPL38.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario38/SPL_out38.xmi#/4/@declaration"/>
+  </traceLinks>
+</trace:Trace>

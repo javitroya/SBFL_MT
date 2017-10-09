@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <SPL:LocalFunctionDeclaration>
+    <returnType xsi:type="SPL:SimpleType" type="response"/>
+  </SPL:LocalFunctionDeclaration>
+  <SPL:LocalFunctionDeclaration>
+    <returnType xsi:type="SPL:SimpleType" type="response"/>
+  </SPL:LocalFunctionDeclaration>
+  <SPL:LocalFunctionDeclaration name="xiwfhttqtc">
+    <returnType xsi:type="SPL:SimpleType" type="response"/>
+    <statements xsi:type="SPL:ReturnStat">
+      <returnedValue xsi:type="SPL:FunctionCallExp">
+        <functionCall/>
+      </returnedValue>
+    </statements>
+  </SPL:LocalFunctionDeclaration>
+  <SPL:LocalFunctionDeclaration>
+    <returnType xsi:type="SPL:SimpleType" type="response"/>
+  </SPL:LocalFunctionDeclaration>
+  <SPL:RedirectionErrorResponse errorKind="USE_PROXY"/>
+  <SPL:RedirectionErrorResponse errorKind="USE_PROXY"/>
+  <SPL:RedirectionErrorResponse errorKind="USE_PROXY"/>
+  <SPL:RedirectionErrorResponse errorKind="USE_PROXY"/>
+  <SPL:RedirectionErrorResponse errorKind="USE_PROXY"/>
+  <SPL:ReturnStat>
+    <returnedValue xsi:type="SPL:ForwardExp">
+      <exp xsi:type="SPL:ConstantExp"/>
+    </returnedValue>
+  </SPL:ReturnStat>
+  <SPL:CompoundStat>
+    <statements xsi:type="SPL:DeclarationStat">
+      <declaration xsi:type="SPL:VariableDeclaration" name="r">
+        <type xsi:type="SPL:SimpleType" type="response"/>
+        <initExp xsi:type="SPL:ForwardExp">
+          <exp xsi:type="SPL:ConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="SPL:SelectStat">
+      <matchedExp xsi:type="SPL:Variable" source="/10/@statements.0/@declaration"/>
+      <selectCases>
+        <commentsBefore>// busy</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="BUSY_HERE"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// noanswer</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+        </values>
+      </selectCases>
+    </statements>
+  </SPL:CompoundStat>
+  <SPL:ReturnStat>
+    <returnedValue xsi:type="SPL:FunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </SPL:ReturnStat>
+  <SPL:ReturnStat>
+    <returnedValue xsi:type="SPL:FunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </SPL:ReturnStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="fvzjlydoos"/>
+  </SPL:DeclarationStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="ffvbfokrdq"/>
+  </SPL:DeclarationStat>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault>
+    <statements xsi:type="SPL:DeclarationStat">
+      <declaration xsi:type="SPL:VariableDeclaration" name="iygsqdgrqf"/>
+    </statements>
+  </SPL:SelectDefault>
+</xmi:XMI>

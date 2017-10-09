@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="upzpxha-ho" year="1976" title="An intrusion-detection model" journal="Journal of Systems and Software">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Wang Yi"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="rplrbwgxxr" year="1997" title="An intrusion-detection model" journal="Journal of Systems and Software">
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ns_lxpsldv" year="1995" title="4 + 1 view model of architecture" journal="Software and Systems Modeling">
+      <authors author="Erich Gamma"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="-dsosgucqu" title="Program slicing" note="bozfxeptlb">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Craig Larman"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="elvttusjec" title="Complexity measure" note="m hgvaqdtt">
+      <authors author="Bruce Schneier"/>
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="bcfsqvhqbr" year="1984" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="-n ywcqlpk" year="1991" title="Program slicing" booktitle="erp_vbexiw">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Richard N. Taylor"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="wugqywyfzs" year="1995" title="A classification and coparison framework for software architecture description languages" booktitle="tqdzq bkpo">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="-moufgw_ys" year="1997" title="The model checker SPIN" booktitle="wjizqvkdiz">
+      <authors author="Erich Gamma"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="ujovbbgeia" year="1994"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="faj jhoxjo" year="1976"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="omfavfwmj-" year="1987" title="The model checker SPIN" publisher="cl-d-xvlkd" booktitle="wikntbxfv ">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="oxyzwkqwdi" year="1976" title="The model checker SPIN" publisher="drmqhj kew" chapter="2">
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="alplaoku u" year="1997" title="Program slicing" school="arx_galhkh">
+      <authors author="Martin Fowler"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[-dsosgucqu] Unpublished Program slicing Nenad Medvidovic Craig Larman Paul Pettersson bozfxeptlb"/>
+          <paras content="[-moufgw_ys] InProceedings The model checker SPIN Erich Gamma Thomas M. J. Fruchterman Robert C. Martin 1997 wjizqvkdiz"/>
+          <paras content="[-n ywcqlpk] InProceedings Program slicing Richard N. Taylor Liangzhao Zeng Richard N. Taylor 1991 erp_vbexiw"/>
+          <paras content="[alplaoku u] PhDThesis Program slicing Martin Fowler Nenad Medvidovic Shyam R. Chidamber Elisabeth Freeman 1997 arx_galhkh"/>
+          <paras content="[bcfsqvhqbr] Proceedings A classification and coparison framework for software architecture description languages 1984"/>
+          <paras content="[elvttusjec] Unpublished Complexity measure Bruce Schneier Erich Gamma m hgvaqdtt"/>
+          <paras content="[faj jhoxjo] Booklet 1976"/>
+          <paras/>
+          <paras content="[omfavfwmj-] InCollection The model checker SPIN Dorothy E. Denning Marlon Dumas Liangzhao Zeng 1987 wikntbxfv  cl-d-xvlkd"/>
+          <paras content="[oxyzwkqwdi] InBook The model checker SPIN Craig Larman 1976 drmqhj kew 2"/>
+          <paras content="[rplrbwgxxr] Article An intrusion-detection model Martin Fowler 1997 Journal of Systems and Software"/>
+          <paras content="[ujovbbgeia] Booklet 1994"/>
+          <paras/>
+          <paras content="[wugqywyfzs] InProceedings A classification and coparison framework for software architecture description languages Kim G. Larsen Bruce Schneier 1995 tqdzq bkpo"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="The model checker SPIN"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

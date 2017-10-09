@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions id="xsqudzczfk"/>
+    <subActions id="zscmvcblbu"/>
+    <subActions id="eepnbmaiif"/>
+    <outgoing contents="//@elements.1"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="bphrbjhraa" subField="vtzndskhus"/>
+  <elements xsi:type="CPL:AddressSwitch" field="fujstqeeau">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities contents="//@elements.5" less="nxvprpyxio" greater="yttqowlptd" equal="mkdyfjoxpc"/>
+    <priorities contents="//@elements.1" less="ffmdvgxidm"/>
+  </elements>
+  <elements xsi:type="CPL:Reject" status="cootmpjeoa" reason="wmlurlxqle"/>
+  <elements xsi:type="CPL:Reject" status="hwunjsxbyy"/>
+</CPL:CPLModel>

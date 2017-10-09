@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="di u-gubwl" year="1997" title="Complexity measure" journal="IEEE Transactions on Software Engineering">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Craig Larman"/>
+      <authors author="Donald E. Knuth"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id=" tayhbpabi" title="Graph drawing by force-directed placement" note="rfs-dp-uib">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="pw-ekpv-xb" title="4 + 1 view model of architecture" note="bxaqxbfweq">
+      <authors author="Bruce Schneier"/>
+      <authors author="Bruce Schneier"/>
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="rqpju-ipgt" year="1976" title="The model checker SPIN" publisher="sgbzjsevla" booktitle="kstdzgap_d">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Bruce Schneier"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="-nilqornj-" year="1976" title="Complexity measure" publisher="rec mea o " booktitle="keeewhttmu">
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="_fu-h-kpnd"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="awfeltlujj"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="oypfknnstp" year="1997" title="Uppaal in a nutshell" school="vtxlf-uerh">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="mjgafgtdzu" year="2004" title="The model checker SPIN" school="hremdkhtzi">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Craig Larman"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="p-zfdof-em" year="1987" title="Uppaal in a nutshell" school="ue-rmpj vj">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Richard N. Taylor"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ tayhbpabi] Unpublished Graph drawing by force-directed placement Elisabeth Freeman Martin Fowler Marlon Dumas Martin Fowler rfs-dp-uib"/>
+          <paras content="[-nilqornj-] InCollection Complexity measure Nenad Medvidovic 1976 keeewhttmu rec mea o "/>
+          <paras content="[_fu-h-kpnd] Misc"/>
+          <paras content="[awfeltlujj] Misc"/>
+          <paras/>
+          <paras content="[mjgafgtdzu] MasterThesis The model checker SPIN Philippe Kruchten Craig Larman Edward N. Reingold Marlon Dumas 2004 hremdkhtzi"/>
+          <paras content="[oypfknnstp] MasterThesis Uppaal in a nutshell Donald E. Knuth Elisabeth Freeman 1997 vtxlf-uerh"/>
+          <paras content="[p-zfdof-em] MasterThesis Uppaal in a nutshell Liangzhao Zeng Paul Pettersson Richard N. Taylor 1987 ue-rmpj vj"/>
+          <paras content="[pw-ekpv-xb] Unpublished 4 + 1 view model of architecture Bruce Schneier Bruce Schneier Gerard J. Holzmann Philippe Kruchten bxaqxbfweq"/>
+          <paras content="[rqpju-ipgt] InCollection The model checker SPIN Donald E. Knuth Chris F. Kemerer Bruce Schneier Robert C. Martin 1976 kstdzgap_d sgbzjsevla"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

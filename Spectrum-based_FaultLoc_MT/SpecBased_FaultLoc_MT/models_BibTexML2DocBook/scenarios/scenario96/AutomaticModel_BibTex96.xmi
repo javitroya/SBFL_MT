@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="anaiwppcik" year="1976" title="Graph drawing by force-directed placement" journal="Journal of Systems and Software">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="vlglqceqkd" year="1987" title="4 + 1 view model of architecture">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="aywjsgycbd" year="2000" title="A classification and coparison framework for software architecture description languages">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="mtw eye rs" year="1994" title="Uppaal in a nutshell">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="xuhyyrrimp" title="A metrics suite for object oriented design" note="uahskkjjyh">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="_sz-q- lqr" title="An intrusion-detection model" note="rswrvlqjao">
+    <authors author="Erich Gamma"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="-wgyg omei" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:InBook" id="qgexmbizzf" year="1976" title="A classification and coparison framework for software architecture description languages" publisher="qzumrj-fpc" chapter="43">
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="qrfts srjq" year="2004" title="QoS-aware middleware for Web services composition" school="mwuudnrkml">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="ykdlbi -qf" year="1997" title="Program slicing" school="qyiofae vm">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="jm_kbdhbcn" year="2004" title="A metrics suite for object oriented design" school="xlkqm cdbk">
+    <authors author="Steve McConnell"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+</BibTeX:BibTeXFile>

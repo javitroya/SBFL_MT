@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <incoming/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <incoming contents="//@elements.6"/>
+  </elements>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:AddressSwitch" field="zgzaauxkfx">
+    <addresses is="gwnrwjuaah" contains="jnxanexkag" subDomainOf="rxocugvvub"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="hrpldhquwn">
+    <addresses subDomainOf="yvjaejyjxa"/>
+    <addresses contains="mtldckyuzx" subDomainOf="yowxrccwei"/>
+    <addresses/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="laolqoepqd">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="vnyhpsvwaj">
+    <strings/>
+    <strings contains="hxtplkznsh"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="zqsqzpjykx"/>
+  <elements xsi:type="CPL:Location" contents="//@elements.5" url="sbupuezhiy" priority="dreyzkedmz" clear="xcsgmxiywv"/>
+  <elements xsi:type="CPL:Reject" status="lmkzqxuaww"/>
+</CPL:CPLModel>

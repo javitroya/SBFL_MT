@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Maude="http://MaudeMM/1.0">
+  <Maude:MaudeSpec>
+    <els xsi:type="Maude:SModule" name="@ECORE@">
+      <els xsi:type="Maude:Sort" name="@Package"/>
+      <els xsi:type="Maude:Sort" name="@BasicType"/>
+      <els xsi:type="Maude:Sort" name="@Classifier"/>
+      <els xsi:type="Maude:Sort" name="@DataType"/>
+      <els xsi:type="Maude:Sort" name="@Class"/>
+      <els xsi:type="Maude:Sort" name="@Metamodel"/>
+      <els xsi:type="Maude:Sort" name="@ERROR@"/>
+      <els xsi:type="Maude:Sort" name="@Attribute"/>
+      <els xsi:type="Maude:Sort" name="@Reference"/>
+      <els xsi:type="Maude:Sort" name="Int"/>
+      <els xsi:type="Maude:Sort" name="Nat"/>
+      <els xsi:type="Maude:Sort" name="Nat"/>
+      <els xsi:type="Maude:Sort" name="Bool"/>
+      <els xsi:type="Maude:Sort" name="String"/>
+      <els xsi:type="Maude:Sort" name="List{OCL-Exp}"/>
+      <els xsi:type="Maude:Sort" name="@Enumeration"/>
+      <els xsi:type="Maude:Sort" name="@EnumerationInstance" subsortRels="/1/@els.11"/>
+      <els xsi:type="Maude:Sort" name="MyList"/>
+      <els xsi:type="Maude:Sort" name="OclVoid"/>
+    </els>
+  </Maude:MaudeSpec>
+  <Maude:SModule name="@NZLQSNAVMR@">
+    <els xsi:type="Maude:ModImportation">
+      <imports xsi:type="Maude:ModuleIdModExp" module="/0/@els.0"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="@nzlqsnavmr@" coarity="/0/@els.0/@els.5"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.5" op="@nzlqsnavmr@"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;nzlqsnavmr&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.0" op="packages">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.5" op="@nzlqsnavmr@"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="nzlqsnavmr"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="nzlqsnavmr" coarity="/0/@els.0/@els.0"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;nzlqsnavmr&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.5" op="metamodel">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.5" op="@nzlqsnavmr@"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="superPackage">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="subPackages">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="classes">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Sort" name="rxbrkoenhj@nzlqsnavmr" supersortRels="/1/@els.11"/>
+    <els xsi:type="Maude:SubsortRel" subsorts="/1/@els.10" supersorts="/0/@els.0/@els.16"/>
+    <els xsi:type="Maude:Operation" name="rxbrkoenhj@nzlqsnavmr" coarity="/0/@els.0/@els.15"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.15" op="metaAux">
+        <args xsi:type="Maude:Variable" type="/1/@els.10" name="X"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="rxbrkoenhj@nzlqsnavmr"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="rxbrkoenhj@nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;rxbrkoenhj&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.0" op="package">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="rxbrkoenhj@nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="nzlqsnavmr"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.16" op="defaultValue">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="rxbrkoenhj@nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.16" op="OclUndefined@rxbrkoenhj@nzlqsnavmr"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="literals">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="rxbrkoenhj@nzlqsnavmr"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.14" op="mt-ord"/>
+    </els>
+  </Maude:SModule>
+</xmi:XMI>

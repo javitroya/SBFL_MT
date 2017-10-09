@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:StringSwitch" field="lnzoqalbmp">
+    <notPresent/>
+    <otherwise/>
+    <strings contains="lrfdsyfcnv"/>
+    <strings contents="//@elements.4" is="vombvagfwu"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="juipemrjev">
+    <strings contains="linakvsuce"/>
+    <strings/>
+    <strings/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="epahrpoees">
+    <notPresent/>
+    <strings contents="//@elements.5" is="poudxdhdhp" contains="hchouqnkds"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <otherwise/>
+  </elements>
+</CPL:CPLModel>

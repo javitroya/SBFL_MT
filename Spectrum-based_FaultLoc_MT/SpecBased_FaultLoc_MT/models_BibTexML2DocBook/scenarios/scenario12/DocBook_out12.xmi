@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[--xf__dyfk] TechReport Complexity measure Shyam R. Chidamber Liangzhao Zeng Elisabeth Freeman 1994"/>
+        <paras content="[_eutiyn h-] Proceedings Program slicing 1987"/>
+        <paras content="[gzreetfkvb] Article An intrusion-detection model Nenad Medvidovic 1995 IEEE Transactions on Software Engineering"/>
+        <paras content="[jujm_o tje] Unpublished Complexity measure Marlon Dumas Marlon Dumas Marlon Dumas Elisabeth Freeman xwbfdfem_h"/>
+        <paras content="[lahj-ixzul] Unpublished Complexity measure Edward N. Reingold Wang Yi -re viysfl"/>
+        <paras content="[mxadvkarzv] Booklet 1994"/>
+        <paras/>
+        <paras content="[ppkytrpesc] Proceedings Complexity measure 2004"/>
+        <paras content="[tkhgevhirf] Unpublished The model checker SPIN Gerard J. Holzmann Dorothy E. Denning Edward N. Reingold --hjcdhwfw"/>
+        <paras content="[tymndcgdjm] InCollection Program slicing Bruce Schneier Bruce Schneier Shyam R. Chidamber 1991 wgsyb _pfz qaemjdsvuh"/>
+        <paras content="[zvkwntlu-s] TechReport Program slicing Donald E. Knuth 1997"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Program slicing"/>
+        <paras content="The model checker SPIN"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

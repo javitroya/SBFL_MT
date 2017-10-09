@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="_z k -gkc " year="1991" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Craig Larman"/>
+    <authors author="Wang Yi"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="dty ai-xlo" year="2004" title="Graph drawing by force-directed placement" journal="IEEE Transactions on Software Engineering">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="zsmhp_xwvf" title="4 + 1 view model of architecture" note="fy--ny odo">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="vyb mqqqlc" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Misc" id="ojytbrmtix"/>
+  <entries xsi:type="BibTeX:Misc" id="v-wfcjzmed"/>
+  <entries xsi:type="BibTeX:Misc" id="kmup-uasui"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="lli d_xtk " year="1997" title="A classification and coparison framework for software architecture description languages" school="gknlqyr_cs">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Wang Yi"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="_urvswbcgu" year="1976" title="Complexity measure" school="xlssdhib _">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+</BibTeX:BibTeXFile>

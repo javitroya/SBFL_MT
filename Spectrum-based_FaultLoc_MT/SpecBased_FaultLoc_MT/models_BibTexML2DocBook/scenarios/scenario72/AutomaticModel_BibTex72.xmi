@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id=" lpxe-vo_m" year="1987" title="A metrics suite for object oriented design" journal="IEEE Transactions on Software Engineering">
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="kaphjnqhgv" year="1997" title="4 + 1 view model of architecture" journal="Information and Software Technology">
+    <authors author="Wang Yi"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="xq zgbfi-t" year="1991" title="The model checker SPIN">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="iiq-qakxko" title="4 + 1 view model of architecture" note="jyeglhxda ">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="xounxnvtxi" title="A metrics suite for object oriented design" note="ungyfgjez_">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="dgrxiehlmf" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:InCollection" id="fk_gfpfxhj" year="1997" title="The model checker SPIN" publisher="jwywjtvvsf" booktitle="phkbgbqxut">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="wjruwgepzc" year="2004" title="QoS-aware middleware for Web services composition" publisher="qbexbdmyux" booktitle="ourcdu_ns-">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="oubbztopoh" year="1997" title="QoS-aware middleware for Web services composition" publisher="jkgxsbldjd" booktitle="hgl_kdglpe">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="h_opvjuudw"/>
+  <entries xsi:type="BibTeX:Misc" id="hxv-_nuiwi"/>
+</BibTeX:BibTeXFile>

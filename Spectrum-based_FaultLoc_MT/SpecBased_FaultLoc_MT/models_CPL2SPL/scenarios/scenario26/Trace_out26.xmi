@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario26/AutomaticModel_CPL26.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/0/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario26/AutomaticModel_CPL26.xmi#//@elements.2/@priorities.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/1/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario26/AutomaticModel_CPL26.xmi#//@elements.2/@priorities.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/2/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario26/AutomaticModel_CPL26.xmi#//@elements.2/@priorities.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/3/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario26/AutomaticModel_CPL26.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/4/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="SwitchedAddress2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario26/AutomaticModel_CPL26.xmi#//@elements.1/@addresses.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/4/@selectCases.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario26/SPL_out26.xmi#/4/@selectCases.0/@values.0"/>
+  </traceLinks>
+</trace:Trace>

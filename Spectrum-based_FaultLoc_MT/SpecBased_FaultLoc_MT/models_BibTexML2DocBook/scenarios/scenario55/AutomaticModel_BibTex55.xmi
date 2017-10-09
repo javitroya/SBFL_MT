@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="flt -t-pvu" year="1995" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Steve McConnell"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="crspe-jw-m" year="1997" title="Program slicing" journal="IEEE Transactions on Software Engineering">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gwntlxrezu" year="1976" title="A metrics suite for object oriented design" journal="Software -- Practice and Experience">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="dlzf ajptq" year="2000" title="An intrusion-detection model" journal="Information and Software Technology">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Craig Larman"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="btj yib-k " year="2004" title="A metrics suite for object oriented design" journal="Journal of Systems and Software">
+    <authors author="Steve McConnell"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id=" w_ddz_zxh" year="2004" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+    <authors author="Bruce Schneier"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="i_tcoiz_qg" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:Manual" id="-uhqhndunk" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:Booklet" id="ehtcizfzf-" year="1987"/>
+  <entries xsi:type="BibTeX:Booklet" id="dfzqdljmqh" year="1995"/>
+  <entries xsi:type="BibTeX:Booklet" id="p zu_txtno" year="1976"/>
+  <entries xsi:type="BibTeX:Book" id="-zchcjqlt " year="1976" title="An intrusion-detection model" publisher="lkdxvnojwr">
+    <authors author="Steve McConnell"/>
+    <authors author="Craig Larman"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="sgdawyihhj" year="1997" title="A metrics suite for object oriented design" publisher="-bkamn_s e">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Craig Larman"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="tlezyhdl-r" year="1995" title="QoS-aware middleware for Web services composition" publisher="xgzkvdvqzb">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="cem_bta hv" year="2000" title="A metrics suite for object oriented design" school="zs_mcgqa--">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+</BibTeX:BibTeXFile>

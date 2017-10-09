@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="xsqudzczfk"/>
+      <subActions id="zscmvcblbu"/>
+      <subActions id="eepnbmaiif"/>
+      <outgoing contents="/0/@elements.1"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="bphrbjhraa" subField="vtzndskhus"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="fujstqeeau">
+      <otherwise/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <priorities contents="/0/@elements.5" less="nxvprpyxio" greater="yttqowlptd" equal="mkdyfjoxpc"/>
+      <priorities contents="/0/@elements.1" less="ffmdvgxidm"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="cootmpjeoa" reason="wmlurlxqle"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="hwunjsxbyy"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+          <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+            <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+          </statements>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration name="yttqowlptd">
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+    <selectDefault/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+</xmi:XMI>

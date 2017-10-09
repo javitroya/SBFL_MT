@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="rd- euqd_t" year="1997" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qfdrrffyze" year="2000" title="Graph drawing by force-directed placement" journal="IEEE Transactions on Software Engineering">
+    <authors author="Martin Fowler"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="cmt_h-yboy" year="2000" title="Graph drawing by force-directed placement" journal="Software -- Practice and Experience">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="nkhqgvdi c" year="1976" title="The model checker SPIN" journal="Journal of Systems and Software">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="teoqqi_lfr" year="1976" title="QoS-aware middleware for Web services composition" journal="Software and Systems Modeling">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ivcihztoxi" year="1987" title="QoS-aware middleware for Web services composition">
+    <authors author="Wang Yi"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="sqss_dphyn" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:InProceedings" id="ych vsclrr" year="1987" title="A metrics suite for object oriented design" booktitle="ojbodaiqip">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="bashlcmspf" year="1984" title="Complexity measure" booktitle="ws_rt_cezf">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="srrm-vgxrx" year="2000"/>
+  <entries xsi:type="BibTeX:Book" id="sh_e-s-mki" year="1994" title="A classification and coparison framework for software architecture description languages" publisher="yjnwgibtav">
+    <authors author="Martin Fowler"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="oroitrfjq " year="2000" title="4 + 1 view model of architecture" publisher="ooxx rss_d" booktitle="jojznmlkmy">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="xzty rxroj" year="2000" title="A metrics suite for object oriented design" publisher="zcilaxjowh" booktitle="zvsgykbzeh">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="p iwubdatl" year="1995" title="The model checker SPIN" publisher="lfcmvlosud" booktitle="guxqr qe_t">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="cwyxvyzibo" year="1976" title="QoS-aware middleware for Web services composition" school=" syunmwuqg">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="hqtcm-z__a" year="1984" title="A metrics suite for object oriented design" school="lq rnqnqjj">
+    <authors author="Bruce Schneier"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="uwmjapkzyu" year="1991" title="Program slicing" school="pdaiowfziu">
+    <authors author="Bruce Schneier"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+</BibTeX:BibTeXFile>

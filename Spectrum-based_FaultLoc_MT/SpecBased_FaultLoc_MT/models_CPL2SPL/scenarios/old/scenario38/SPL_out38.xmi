@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <SPL:Program>
+    <service name="unnamed">
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="ydebwcqyma">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="looicuwmig">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="awqrppfonn">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="SPL:Dialog">
+        <methods direction="in">
+          <type xsi:type="SPL:SimpleType" type="response"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="SPL:SimpleType" type="request"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </SPL:Program>
+  <SPL:Program>
+    <service name="unnamed">
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="cilzzyjoka">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="upoveaiqws">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="dhylqabdvw">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="aqxlgpizdk">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="SPL:Dialog">
+        <methods direction="in">
+          <type xsi:type="SPL:SimpleType" type="response"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="INVITE"/>
+          <statements xsi:type="SPL:ReturnStat">
+            <returnedValue xsi:type="SPL:WithExp">
+              <exp xsi:type="SPL:ConstantExp">
+                <value xsi:type="SPL:ResponseConstant">
+                  <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+                </value>
+              </exp>
+              <msgFields xsi:type="SPL:ReasonMessageField">
+                <exp xsi:type="SPL:ConstantExp">
+                  <value xsi:type="SPL:StringConstant" value="unspecified"/>
+                </exp>
+              </msgFields>
+              <msgFields xsi:type="SPL:HeadedMessageField" headerId="#contact:">
+                <exp xsi:type="SPL:ConstantExp"/>
+              </msgFields>
+            </returnedValue>
+          </statements>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="SPL:SimpleType" type="request"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </SPL:Program>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:SelectStat>
+    <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant" value="hegxsivdyb"/>
+    </selectCases>
+    <selectCases xsi:type="SPL:RedirectionErrorResponse"/>
+    <selectDefault/>
+  </SPL:SelectStat>
+  <SPL:SelectStat>
+    <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant" value="akyztrwuba"/>
+    </selectCases>
+    <selectCases xsi:type="SPL:RedirectionErrorResponse"/>
+    <selectDefault/>
+  </SPL:SelectStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="aehahkqkic"/>
+  </SPL:DeclarationStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="ojtzbbcmpy"/>
+  </SPL:DeclarationStat>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+</xmi:XMI>

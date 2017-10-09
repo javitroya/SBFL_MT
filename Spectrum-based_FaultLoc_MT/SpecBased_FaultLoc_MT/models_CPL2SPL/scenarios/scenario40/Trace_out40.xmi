@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario40/AutomaticModel_CPL40.xmi#//@elements.0/@notPresent"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario40/SPL_out40.xmi#/"/>
+  </traceLinks>
+</trace:Trace>

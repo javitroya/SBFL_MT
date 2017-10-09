@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="frcpjuiyi_" year="1995" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+    <authors author="Erich Gamma"/>
+    <authors author="Wang Yi"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qfd-dgsp-z" year="2004" title="Program slicing" journal="Software -- Practice and Experience">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ammtspehlb" year="1994" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="pruqgojssv" year="1991" title="Complexity measure" journal="Software -- Practice and Experience">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qiukuagiwo" year="1994" title="A metrics suite for object oriented design" journal="IEEE Transactions on Software Engineering">
+    <authors author="Marlon Dumas"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="lg-jtu_vqj" year="1995" title="An intrusion-detection model" journal="Software -- Practice and Experience">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="om-ki- y h" year="1995" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:Proceedings" id="_uhcxfqkmm" year="2000" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Proceedings" id="akm_uqazvf" year="1995" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Misc" id="xotgrjzbus"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="-fartfhnnk" year="1991" title="The model checker SPIN" school="lttlgatxfu">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+</BibTeX:BibTeXFile>

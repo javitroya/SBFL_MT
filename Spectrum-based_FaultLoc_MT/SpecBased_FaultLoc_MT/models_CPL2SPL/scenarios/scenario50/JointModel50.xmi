@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="iqirwfijci"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="lqsyxdslbl" subField="zpzcdxjhqg"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="tfferxfkrl"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <languages matches="khnuclzhky"/>
+      <languages matches="npacfjgcww"/>
+      <languages matches="nardwplchf"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <languages contents="/0/@elements.3" matches="nowogyltgc"/>
+      <languages contents="/0/@elements.7" matches="ggnjxbubhj"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch">
+      <times contents="/0/@elements.4" dtstart="zwomlwirnx" freq="gzcdkalqfc" until="dzoulcsgfo" count="zsmqgzshae" interval="qntfsjvttt" bySecond="ulyabvfbif" byHour="sxiugktsav" byDay="jtijilsezp" byYearDay="ulbmjtuobk" wkst="geusqhpunn" bySetPos="brblgiayft"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzurl="guuyeehotq"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="lwztflnemn"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="aehtmoxfmi" reason="zfnpzhrhtl"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="nqdgrtmvxi" reason="clkizsqydj"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="lxcbuvfxtg" reason="utfgdxtdod"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+</xmi:XMI>

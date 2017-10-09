@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="zsbdxtivld" nsURI="klpkxjhitu" nsPrefix="xrekewnqcx">
+  <eClassifiers xsi:type="ecore:EClass" name="vnuxsfjecz" instanceTypeName="xdtbrdfllp">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="evrtlqybuu" eType="//@eClassifiers.0" defaultValueLiteral="pwrfusqzon" unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhdpioydjt" unique="false" lowerBound="86" defaultValueLiteral="gmmfwaepgn" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bjtsmksycc" lowerBound="24" eOpposite="//@eClassifiers.0/@eStructuralFeatures.1" eKeys="//@eClassifiers.0/@eStructuralFeatures.0"/>
+  </eClassifiers>
+</ecore:EPackage>

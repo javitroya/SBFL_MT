@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="lwm-dwavns" year="1984" title="QoS-aware middleware for Web services composition" journal="Journal of Systems and Software">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gldvosezya" year="1976" title="4 + 1 view model of architecture" journal="Software and Systems Modeling">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ep_vb_vf-l" year="2004" title="4 + 1 view model of architecture" journal="IEEE Transactions on Software Engineering">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ugdd_-ltti" year="1995" title="Program slicing" journal="IEEE Transactions on Software Engineering">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="zopfadyenh" year="1994" title="Graph drawing by force-directed placement" booktitle="mahggcrqq ">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="igcwnqsrab" year="1976" title="QoS-aware middleware for Web services composition" booktitle="w vqdgaicm">
+    <authors author="Erich Gamma"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="az_gfcxogr" year="1991" title="A classification and coparison framework for software architecture description languages" booktitle=" j-gvyiyzw">
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="d_mjdjeyw " year="1984" title="4 + 1 view model of architecture" school="vvdpuon-ef">
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="oyttw kouf" year="1997" title="A classification and coparison framework for software architecture description languages" school="culxxvcgpn">
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="lrvgzjli g" year="2000" title="QoS-aware middleware for Web services composition" school="wlhiymffha">
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+</BibTeX:BibTeXFile>

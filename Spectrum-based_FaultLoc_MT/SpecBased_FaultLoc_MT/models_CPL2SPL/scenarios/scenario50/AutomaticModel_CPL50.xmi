@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:AddressSwitch" field="iqirwfijci"/>
+  <elements xsi:type="CPL:AddressSwitch" field="lqsyxdslbl" subField="zpzcdxjhqg"/>
+  <elements xsi:type="CPL:AddressSwitch" field="tfferxfkrl"/>
+  <elements xsi:type="CPL:LanguageSwitch"/>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages matches="khnuclzhky"/>
+    <languages matches="npacfjgcww"/>
+    <languages matches="nardwplchf"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages contents="//@elements.3" matches="nowogyltgc"/>
+    <languages contents="//@elements.7" matches="ggnjxbubhj"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch">
+    <times contents="//@elements.4" dtstart="zwomlwirnx" freq="gzcdkalqfc" until="dzoulcsgfo" count="zsmqgzshae" interval="qntfsjvttt" bySecond="ulyabvfbif" byHour="sxiugktsav" byDay="jtijilsezp" byYearDay="ulbmjtuobk" wkst="geusqhpunn" bySetPos="brblgiayft"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="guuyeehotq"/>
+  <elements xsi:type="CPL:SubCall" ref="lwztflnemn"/>
+  <elements xsi:type="CPL:Reject" status="aehtmoxfmi" reason="zfnpzhrhtl"/>
+  <elements xsi:type="CPL:Reject" status="nqdgrtmvxi" reason="clkizsqydj"/>
+  <elements xsi:type="CPL:Reject" status="lxcbuvfxtg" reason="utfgdxtdod"/>
+</CPL:CPLModel>

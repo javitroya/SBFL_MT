@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="imtgq_ ink" year="1984" title="An intrusion-detection model" journal="Software -- Practice and Experience">
+      <authors author="Robert C. Martin"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ggawk_g_uw" year="1995" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Erich Gamma"/>
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ppjpnvys_f" year="1997" title="The model checker SPIN" journal="Information and Software Technology">
+      <authors author="Steve McConnell"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="kd j--ih-p" year="1976" title="Complexity measure" journal="IEEE Transactions on Software Engineering">
+      <authors author="Steve McConnell"/>
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="g mtyywouw" year="1984" title="The model checker SPIN"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="szwxsqdzaz" year="1987" title="Graph drawing by force-directed placement"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="z jlijspxz" year="2004" title="QoS-aware middleware for Web services composition" booktitle="tpwhfmthb ">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="ibmfwfydnh" year="1991" title="QoS-aware middleware for Web services composition" booktitle="kwwqcaqttj">
+      <authors author="Erich Gamma"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="hrr_nwuhbo" year="1987" title="Complexity measure" booktitle="tbkaxon_bs">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="hzxilep-rw" year="1997" title="Uppaal in a nutshell" publisher="mmni_g-phx" booktitle="svxfmaadda">
+      <authors author="Erich Gamma"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="banqqfj-it" year="1997" title="4 + 1 view model of architecture" publisher="koudpvrgwv" booktitle="pmkwfsldrx">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="gczkukpdmo" year="1995" title="Program slicing" publisher="sodgstxrq " chapter="12">
+      <authors author="Robert C. Martin"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="qabf_zhfno"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="rrchdavw_ "/>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[banqqfj-it] InCollection 4 + 1 view model of architecture Shyam R. Chidamber Martin Fowler Robert C. Martin Shyam R. Chidamber 1997 pmkwfsldrx koudpvrgwv"/>
+          <paras content="[g mtyywouw] Proceedings The model checker SPIN 1984"/>
+          <paras content="[gczkukpdmo] InBook Program slicing Robert C. Martin Nenad Medvidovic Gerard J. Holzmann Gerard J. Holzmann 1995 sodgstxrq  12"/>
+          <paras/>
+          <paras content="[hrr_nwuhbo] InProceedings Complexity measure Shyam R. Chidamber Thomas M. J. Fruchterman 1987 tbkaxon_bs"/>
+          <paras content="[hzxilep-rw] InCollection Uppaal in a nutshell Erich Gamma Richard N. Taylor Nenad Medvidovic 1997 svxfmaadda mmni_g-phx"/>
+          <paras content="[ibmfwfydnh] InProceedings QoS-aware middleware for Web services composition Erich Gamma Nenad Medvidovic 1991 kwwqcaqttj"/>
+          <paras/>
+          <paras/>
+          <paras content="[ppjpnvys_f] Article The model checker SPIN Steve McConnell Paul Pettersson 1997 Information and Software Technology"/>
+          <paras content="[qabf_zhfno] Misc"/>
+          <paras content="[rrchdavw_ ] Misc"/>
+          <paras content="[szwxsqdzaz] Proceedings Graph drawing by force-directed placement 1987"/>
+          <paras content="[z jlijspxz] InProceedings QoS-aware middleware for Web services composition Liangzhao Zeng Nenad Medvidovic 2004 tpwhfmthb "/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Information and Software Technology"/>
+          <paras content="Software -- Practice and Experience"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

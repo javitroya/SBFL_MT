@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:StringSwitch" field="qlzztjulce"/>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:Location" contents="//@elements.4" url="dvzxjkjxuy" priority="uhbpjwelxf" clear="lwtfbcaiot"/>
+  <elements xsi:type="CPL:Location" url="qkgqiwbegi" priority="abdicigawv" clear="kwsfnogngm"/>
+  <elements xsi:type="CPL:Location" url="iahtmscksv" clear="zpniufvgxz"/>
+  <elements xsi:type="CPL:Proxy" recurse="zairdgzdtf" ordering="antpywatdi">
+    <noAnswer/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" timeout="sjjcacrqfq" recurse="olxokkugwj" ordering="tmyioodqeb">
+    <busy/>
+    <noAnswer/>
+  </elements>
+  <elements xsi:type="CPL:Reject" status="czruszlozq" reason="xbzwskkuqp"/>
+  <elements xsi:type="CPL:Reject" status="eftifzwkxx"/>
+</CPL:CPLModel>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <incoming/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <outgoing/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <otherwise/>
+      <languages matches="juoigmqess"/>
+      <languages matches="gcvvgzkdsl"/>
+      <languages matches="qrbjnnimlz"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <otherwise/>
+      <priorities greater="kngkvwzohg" equal="cijsmaeylk"/>
+      <priorities less="ybkbnfatht" greater="halfgrcaei" equal="fvtjlxvais"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcRedirect" permanent="hsvackqvzp"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcRedirect" permanent="oslwgglpmi"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration name="kngkvwzohg">
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgLocalFunctionDeclaration name="halfgrcaei">
+    <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+  </jointPackage_CPL2SPL:TrgLocalFunctionDeclaration>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgWithExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+        <value xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgReasonMessageField">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+          <value xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgHeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgWithExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+        <value xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgReasonMessageField">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+          <value xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgHeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgConstantExp/>
+  <jointPackage_CPL2SPL:TrgConstantExp/>
+</xmi:XMI>

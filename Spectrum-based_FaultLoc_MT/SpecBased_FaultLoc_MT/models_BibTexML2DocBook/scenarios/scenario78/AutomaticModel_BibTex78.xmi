@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="qmjgqk-sgy" year="2000" title="Program slicing" journal="Software -- Practice and Experience">
+    <authors author="Martin Fowler"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="xekpkbk ht" year="1997" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="_snqui_-zx" year="1987" title="The model checker SPIN" journal="Software -- Practice and Experience">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qtrdq-zpbh" year="2004" title="QoS-aware middleware for Web services composition" journal="Information and Software Technology">
+    <authors author="Paul Pettersson"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="vpjvw-jqaf" year="1987" title="A metrics suite for object oriented design" journal="Software and Systems Modeling">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="zccxhqbm-y" year="1987" title="Complexity measure" journal="Information and Software Technology">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="-kdlbfetee" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Manual" id="iffa_myueu" title="QoS-aware middleware for Web services composition"/>
+  <entries xsi:type="BibTeX:Manual" id="vtltn zouk" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Booklet" id="ysqxrjuv_m" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="mhyhznjyev" year="1991"/>
+  <entries xsi:type="BibTeX:Booklet" id="bmcssbl--k" year="1991"/>
+  <entries xsi:type="BibTeX:Book" id="uzyqw-ei c" year="1976" title="Program slicing" publisher="-tjnruwbau">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="vk a--ejhb" year="1997" title="A classification and coparison framework for software architecture description languages" publisher="snmx_ubomm">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="dg gnag_fk" year="1987" title="Uppaal in a nutshell" publisher="rraod_qsap">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="jpgbyflmex" year="1976" title="Uppaal in a nutshell" school="g_yvvbwubx">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+</BibTeX:BibTeXFile>

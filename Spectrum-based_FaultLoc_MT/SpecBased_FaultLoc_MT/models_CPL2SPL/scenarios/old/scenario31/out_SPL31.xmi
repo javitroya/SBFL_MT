@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SPL:Program xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <service name="unnamed">
+    <declarations xsi:type="SPL:LocalFunctionDeclaration" name="fkquizbtyx">
+      <returnType xsi:type="SPL:SimpleType" type="response"/>
+    </declarations>
+    <declarations xsi:type="SPL:LocalFunctionDeclaration" name="kopjhbayns">
+      <returnType xsi:type="SPL:SimpleType" type="response"/>
+    </declarations>
+    <declarations xsi:type="SPL:LocalFunctionDeclaration" name="gdbioicqyv">
+      <returnType xsi:type="SPL:SimpleType" type="response"/>
+    </declarations>
+    <sessions xsi:type="SPL:Dialog">
+      <methods direction="in">
+        <type xsi:type="SPL:SimpleType" type="response"/>
+        <methodName xsi:type="SPL:SIPMethodName" name="INVITE"/>
+      </methods>
+      <methods direction="out">
+        <type xsi:type="SPL:SimpleType" type="request"/>
+        <methodName xsi:type="SPL:SIPMethodName" name="NOTIFY"/>
+      </methods>
+    </sessions>
+  </service>
+</SPL:Program>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="nzhbpmggdt"/>
+      <subActions contents="/0/@elements.30" id="rcyethtjfw"/>
+      <outgoing/>
+      <incoming/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="wqrtbhmvjp"/>
+      <subActions id="xnohvppyzn"/>
+      <subActions id="zhtnkfwvdj"/>
+      <outgoing/>
+      <incoming/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="fbwiusttyk"/>
+      <outgoing contents="/0/@elements.21"/>
+      <incoming contents="/0/@elements.12"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL">
+      <subActions id="wtkiehkejy"/>
+      <subActions id="blvxaxxxbh"/>
+      <subActions contents="/0/@elements.26" id="pkdbjiflub"/>
+      <subActions id="xokhgsnbbr"/>
+      <outgoing/>
+      <incoming/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="pwktbtlajt" subField="ivrjmpkuyx">
+      <notPresent/>
+      <otherwise contents="/0/@elements.29"/>
+      <addresses contains="sfsrwsfyom"/>
+      <addresses contains="wlfjwfxhor" subDomainOf="sejfkiiqbs"/>
+      <addresses is="gpaukgrrmx" contains="zeqgqwavgs" subDomainOf="jrwlfbrolr"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="xzbhszbaoc">
+      <notPresent contents="/0/@elements.16"/>
+      <otherwise/>
+      <addresses contents="/0/@elements.12" is="ssasqtdbwk"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="bjoumfgzcf" subField="nlbgxizwci">
+      <notPresent/>
+      <otherwise contents="/0/@elements.11"/>
+      <addresses is="gmnaljdexl" contains="mhifuwyxrg" subDomainOf="yzjiuisakz"/>
+      <addresses contents="/0/@elements.19"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="shgwoekrba">
+      <notPresent/>
+      <otherwise/>
+      <strings/>
+      <strings is="uthyvcoyil" contains="xrlbthmaix"/>
+      <strings is="japprdjlyi" contains="xxzlwdcaqk"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="gpezwrhlrs">
+      <notPresent/>
+      <otherwise/>
+      <strings contains="hpbdogjqdz"/>
+      <strings contents="/0/@elements.7" is="xjidftlapc" contains="yzxnibsvjt"/>
+      <strings contains="zpnfefnxew"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="dxhejaduim">
+      <notPresent/>
+      <otherwise/>
+      <strings contains="tffhtvwumy"/>
+      <strings is="ollxesexdb" contains="qrtegwydnj"/>
+      <strings is="qwdhnspxgm"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <notPresent/>
+      <otherwise/>
+      <languages matches="zgmtesnzvs"/>
+      <languages contents="/0/@elements.13" matches="ijbmrigxra"/>
+      <languages contents="/0/@elements.26" matches="ervtgppuaw"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <notPresent/>
+      <otherwise/>
+      <languages matches="ysqnqujosj"/>
+      <languages contents="/0/@elements.27" matches="jdfhepqmki"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzurl="ibbhibpang">
+      <notPresent contents="/0/@elements.22"/>
+      <otherwise/>
+      <times dtstart="cutkmoxrnj" dtend="lbzjdpmgqz" until="vmtnlfyxen" count="ydgayknhap" interval="myjyyjmyji" byDay="bcggxegqhd" byYearDay="vidjynjmyi" byWeekNo="lucoglpsaq" wkst="dfcxwhmswh"/>
+      <times contents="/0/@elements.9" dtstart="yyrkyhgaji" duration="wpmyjddsuw" freq="akkgfmpxag" until="pqnqlmcucw" interval="ctynlhehkh" byDay="kcerzfneju" byYearDay="izdxsvszgb" byWeekNo="pzdtpniudr" byMonth="pojxzwokzg" wkst="daxsmgemgr" bySetPos="mwjxfbevpd"/>
+      <times dtstart="rnhdkoqjbh" duration="ocylcqxdxs" interval="mhthepgpba" bySecond="ksrbeumlhc" byMonthDay="itoluchoqj" byYearDay="vvtwoxyxsi" wkst="ryzcdhodjw"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzurl="nusjmuwtxc">
+      <notPresent contents="/0/@elements.15"/>
+      <otherwise/>
+      <times dtstart="hldrxbcnfy" freq="kwgdslojev" until="ozulnaoijb" count="qaltoujnjf" interval="mrmijlhmth" bySecond="dfthlazeqg" byMinute="ugzkjtfjlr" byMonthDay="rbbglaotwr" byYearDay="axkuiaaxre" byMonth="zcxiohmqwj" wkst="rksftpqgql"/>
+      <times contents="/0/@elements.10" dtstart="oonujqytwk" duration="lbczvdvjgh" until="kferzywtrp" interval="zwtxeqvoci" bySecond="surjoqenuc" byDay="pelfdtyejk" byMonthDay="iuspcsscci" byYearDay="ldapjgfanv" byWeekNo="ioovtycepx" wkst="ksjynvoont" bySetPos="ymqirwxyjp"/>
+      <times dtstart="tficysstjg" dtend="rkboduqeud" duration="lmdpnwjjia" freq="kkutfwxhar" until="dynnduumlo" interval="fekbitutvn" bySecond="wunopqrsfv" byMinute="slzwqziazz" byHour="mdikgahrwn" byDay="lftqlxozjs" byYearDay="dbkovqjpll" wkst="uyvkywbbfl"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzid="vpxxumsouc" tzurl="egrtmgkvit">
+      <notPresent/>
+      <otherwise contents="/0/@elements.11"/>
+      <times contents="/0/@elements.9" dtstart="jizeillrsy" until="tvfzmvgefb" count="axbknofcpg" interval="mmxyjiticc" byHour="dilviafrbb" byDay="ejsvmlbtcq" byMonthDay="luckwvviof" byYearDay="bcrrpcazef" byWeekNo="cjdgzaqyhu" wkst="cwavcsibbl" bySetPos="solwegzxgv"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzid="wgdrbpjgno" tzurl="xzltfzlzmf">
+      <notPresent/>
+      <otherwise/>
+      <times contents="/0/@elements.27" dtstart="hsjrkounhc" dtend="iuypvnwlzm" duration="qyvkvsioup" until="qzxtafntlq" interval="defcnouthp" bySecond="zwetejausb" byMinute="agcbptjmgu" byHour="acdgdbieys" byWeekNo="rfczlbuqyf" wkst="hvkgtiuysf" bySetPos="plluxhzaaz"/>
+      <times contents="/0/@elements.6" dtstart="ookcocjxar" dtend="hquadjjmqm" freq="mjrtrwgftt" interval="ydjrgxykkd" byMinute="rfkpdxdmbc" byDay="qzfsxnkrwy" byMonthDay="rtdjyqsqcg" byYearDay="onsnyiqpao" byMonth="nawwkfxdvw" wkst="llnptetlxi"/>
+      <times dtstart="mdqgoucexa" dtend="aydcsdqnej" duration="rwompgmbem" freq="tezztyjlbb" interval="qixmarhslr" bySecond="aihbaplhcp" byMinute="kmwdhravcc" byMonthDay="mzzhhgrugs" byYearDay="reckyyvazt" byWeekNo="rwducvvtyz" byMonth="jczleihwzp" wkst="zpmygvtjrq" bySetPos="pxnnvmaanp"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent/>
+      <otherwise contents="/0/@elements.22"/>
+      <priorities/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent/>
+      <otherwise/>
+      <priorities greater="kpxredukxz" equal="jazmzpjlhh"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent/>
+      <otherwise contents="/0/@elements.9"/>
+      <priorities greater="xzimvybqdh" equal="peiuclhkcv"/>
+      <priorities greater="dbpcyjsrdl"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcPrioritySwitch">
+      <notPresent/>
+      <otherwise/>
+      <priorities greater="onbjrukzao" equal="johhrcpayb"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="jywqntgjpd" priority="fqjdnbqlxl" clear="qzyfajlxhz"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" url="natslkkske" priority="cihsccyunc" clear="csvogxastk"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="thrmpftfhv"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcSubCall" ref="rfqleqfkvq"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="ytkgeogiux" recurse="srypxzdtww" ordering="llytvrnlnr">
+      <busy/>
+      <noAnswer contents="/0/@elements.19"/>
+      <redirection/>
+      <failure/>
+      <default/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="kjgorttqdw" recurse="jbquypvzuu" ordering="poltquxzmt">
+      <busy contents="/0/@elements.26"/>
+      <noAnswer/>
+      <redirection/>
+      <failure/>
+      <default contents="/0/@elements.7"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="ztymgszkng" recurse="fldivwbwqh" ordering="bvsuhsndcb">
+      <busy/>
+      <noAnswer/>
+      <redirection/>
+      <failure/>
+      <default/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcRedirect" permanent="tkhkaxlmlc"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="tdcxpiulmu" reason="fuletgsqvi"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="dnoytevimu" reason="ucpzjtavbz"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="gfzdkkjkay"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcReject" status="fpqbfvgyzt"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="nzhbpmggdt">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="rcyethtjfw">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="wqrtbhmvjp">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="xnohvppyzn">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="zhtnkfwvdj">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="fbwiusttyk">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="wtkiehkejy">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="blvxaxxxbh">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="pkdbjiflub">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="jointPackage_CPL2SPL:TrgLocalFunctionDeclaration" name="xokhgsnbbr">
+        <returnType xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog">
+        <methods direction="in">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="request"/>
+          <methodName xsi:type="jointPackage_CPL2SPL:TrgSIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgCompoundStat>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+      <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="r">
+        <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+        <initExp xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+          <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+      <matchedExp xsi:type="jointPackage_CPL2SPL:TrgVariable" source="/5/@statements.0/@declaration"/>
+      <selectCases>
+        <commentsBefore>// busy</commentsBefore>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="BUSY_HERE"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// noanswer</commentsBefore>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// redirection</commentsBefore>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MULTIPLE_CHOICES"/>
+        </values>
+      </selectCases>
+      <selectCases xsi:type="jointPackage_CPL2SPL:TrgErrorResponse"/>
+      <selectDefault>
+        <commentsBefore>// default</commentsBefore>
+      </selectDefault>
+    </statements>
+  </jointPackage_CPL2SPL:TrgCompoundStat>
+  <jointPackage_CPL2SPL:TrgCompoundStat>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+      <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="r">
+        <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+        <initExp xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+          <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+      <matchedExp xsi:type="jointPackage_CPL2SPL:TrgVariable" source="/6/@statements.0/@declaration"/>
+      <selectCases>
+        <commentsBefore>// busy</commentsBefore>
+        <statements xsi:type="jointPackage_CPL2SPL:TrgCompoundStat">
+          <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+            <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="r">
+              <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+              <initExp xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+                <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+              </initExp>
+            </declaration>
+          </statements>
+          <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+            <matchedExp xsi:type="jointPackage_CPL2SPL:TrgVariable" source="/6/@statements.1/@selectCases.0/@statements.0/@statements.0/@declaration"/>
+            <selectCases>
+              <commentsBefore>// busy</commentsBefore>
+              <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+                <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="BUSY_HERE"/>
+              </values>
+            </selectCases>
+            <selectCases>
+              <commentsBefore>// noanswer</commentsBefore>
+              <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+                <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+              </values>
+            </selectCases>
+            <selectCases>
+              <commentsBefore>// redirection</commentsBefore>
+              <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+                <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MULTIPLE_CHOICES"/>
+              </values>
+            </selectCases>
+            <selectCases xsi:type="jointPackage_CPL2SPL:TrgErrorResponse"/>
+            <selectDefault>
+              <commentsBefore>// default</commentsBefore>
+            </selectDefault>
+          </statements>
+        </statements>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="BUSY_HERE"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// noanswer</commentsBefore>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// redirection</commentsBefore>
+        <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MULTIPLE_CHOICES"/>
+        </values>
+      </selectCases>
+      <selectCases xsi:type="jointPackage_CPL2SPL:TrgErrorResponse"/>
+      <selectDefault>
+        <commentsBefore>// default</commentsBefore>
+        <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+          <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="shgwoekrba"/>
+        </statements>
+      </selectDefault>
+    </statements>
+  </jointPackage_CPL2SPL:TrgCompoundStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="gpezwrhlrs"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgWithExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+        <value xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+          <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgReasonMessageField">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp">
+          <value xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="jointPackage_CPL2SPL:TrgHeadedMessageField" headerId="#contact:">
+        <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+      </msgFields>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="jointPackage_CPL2SPL:TrgStringConstant"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="jointPackage_CPL2SPL:TrgStringConstant"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="gpaukgrrmx"/>
+    </selectCases>
+    <selectCases xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse"/>
+    <selectDefault/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="ssasqtdbwk"/>
+    </selectCases>
+    <selectCases xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse"/>
+    <selectDefault/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="jointPackage_CPL2SPL:TrgStringConstant" value="gmnaljdexl"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="jointPackage_CPL2SPL:TrgStringConstant"/>
+    </selectCases>
+    <selectCases xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse"/>
+    <selectDefault/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgReturnStat">
+      <returnedValue xsi:type="jointPackage_CPL2SPL:TrgFunctionCallExp">
+        <functionCall/>
+      </returnedValue>
+    </statements>
+  </jointPackage_CPL2SPL:TrgSelectDefault>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgSelectDefault>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+      <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="dxhejaduim"/>
+    </statements>
+  </jointPackage_CPL2SPL:TrgSelectDefault>
+  <jointPackage_CPL2SPL:TrgSelectDefault/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse/>
+</xmi:XMI>

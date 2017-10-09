@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="jirwm_-epa" year="1987" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="njhurrlbae" year="1995" title="A metrics suite for object oriented design">
+      <authors author="Richard N. Taylor"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="qjgbtogu w" year="2004" title="Complexity measure">
+      <authors author="Paul Pettersson"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="wrebiubmsk" title="Graph drawing by force-directed placement" note="dqwdcd-fwz">
+      <authors author="Paul Pettersson"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="me-wwzdver" title="Complexity measure" note="kmhl_etdee">
+      <authors author="Steve McConnell"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Wang Yi"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="dgd_ecbksa" title="An intrusion-detection model" note="o_txydvvds">
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="bizolg_h_r" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="flebyaqlup" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="nbp hfnxtf" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="gibrqtn-wf" year="1995" title="An intrusion-detection model" publisher="recbgizx_m" chapter="4">
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="kntzardnri"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="lupqmjcosh"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="nbkczjkqxd" year="1997" title="Uppaal in a nutshell" school="eskc_brnvn">
+      <authors author="Erich Gamma"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Wang Yi"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[bizolg_h_r] Manual 4 + 1 view model of architecture"/>
+          <paras content="[dgd_ecbksa] Unpublished An intrusion-detection model Steve McConnell o_txydvvds"/>
+          <paras content="[flebyaqlup] Manual 4 + 1 view model of architecture"/>
+          <paras content="[gibrqtn-wf] InBook An intrusion-detection model Bruce Schneier 1995 recbgizx_m 4"/>
+          <paras/>
+          <paras content="[kntzardnri] Misc"/>
+          <paras content="[lupqmjcosh] Misc"/>
+          <paras content="[me-wwzdver] Unpublished Complexity measure Steve McConnell Thomas M. J. Fruchterman Nenad Medvidovic Wang Yi kmhl_etdee"/>
+          <paras content="[nbkczjkqxd] MasterThesis Uppaal in a nutshell Erich Gamma Edward N. Reingold Wang Yi Philippe Kruchten 1997 eskc_brnvn"/>
+          <paras content="[nbp hfnxtf] Manual 4 + 1 view model of architecture"/>
+          <paras content="[njhurrlbae] TechReport A metrics suite for object oriented design Richard N. Taylor 1995"/>
+          <paras content="[qjgbtogu w] TechReport Complexity measure Paul Pettersson Marlon Dumas Philippe Kruchten 2004"/>
+          <paras content="[wrebiubmsk] Unpublished Graph drawing by force-directed placement Paul Pettersson Thomas M. J. Fruchterman Gerard J. Holzmann Elisabeth Freeman dqwdcd-fwz"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

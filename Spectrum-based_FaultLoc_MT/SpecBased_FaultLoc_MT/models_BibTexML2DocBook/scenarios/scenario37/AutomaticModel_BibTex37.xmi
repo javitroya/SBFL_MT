@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="gorgvkpvne" year="1984" title="A metrics suite for object oriented design" journal="Information and Software Technology">
+    <authors author="Steve McConnell"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mphjewxwe " year="1987" title="A metrics suite for object oriented design" journal="Software and Systems Modeling">
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="jaehblcqwv" year="2000" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ifoxycfrfj" year="1991" title="The model checker SPIN">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="bloxprcrhz" year="1997" title="QoS-aware middleware for Web services composition">
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="swgidxia_m" year="2000" title="A classification and coparison framework for software architecture description languages">
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="sqyr vhyvu" year="2000" title="An intrusion-detection model" booktitle="avkchdffyc">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="gq-xzfhatw" year="1997" title="A classification and coparison framework for software architecture description languages" booktitle="gjjtf_aprx">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="yd_rtbqu_y" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="a_x-defm_d" year="1984"/>
+  <entries xsi:type="BibTeX:Booklet" id="xil smccfw" year="2000"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="bo -ixqrnu" year="1984" title="Program slicing" school="xrmvwtnnic">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+</BibTeX:BibTeXFile>

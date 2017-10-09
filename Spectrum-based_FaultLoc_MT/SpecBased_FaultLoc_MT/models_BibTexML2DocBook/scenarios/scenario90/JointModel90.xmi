@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="wldakvxkql" year="1991" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Craig Larman"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="tzgpnpg lb" year="1995" title="Complexity measure" journal="Software -- Practice and Experience">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="u wxxixjmo" year="2000" title="A classification and coparison framework for software architecture description languages" journal="Journal of Systems and Software">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="dq-rljcpzq" year="1995" title="Uppaal in a nutshell" booktitle="dtfnooz-wk">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="vbessuysvd" year="1994" title="Program slicing" booktitle="jdkjbcpimc">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="plejvxnizs" year="1997" title="The model checker SPIN" publisher="-dfgbcrhkl">
+      <authors author="Bruce Schneier"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Wang Yi"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="fixe-tlnat" year="1976" title="An intrusion-detection model" school="xqllaridpq">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Bruce Schneier"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Craig Larman"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[dq-rljcpzq] InProceedings Uppaal in a nutshell Liangzhao Zeng Craig Larman 1995 dtfnooz-wk"/>
+          <paras content="[fixe-tlnat] MasterThesis An intrusion-detection model Liangzhao Zeng Bruce Schneier Liangzhao Zeng Craig Larman 1976 xqllaridpq"/>
+          <paras content="[plejvxnizs] Book The model checker SPIN Bruce Schneier Steve McConnell Paul Pettersson Wang Yi 1997 -dfgbcrhkl"/>
+          <paras/>
+          <paras/>
+          <paras content="[vbessuysvd] InProceedings Program slicing Dorothy E. Denning Dorothy E. Denning Steve McConnell Elisabeth Freeman 1994 jdkjbcpimc"/>
+          <paras/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software -- Practice and Experience"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="di u-gubwl" year="1997" title="Complexity measure" journal="IEEE Transactions on Software Engineering">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Craig Larman"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id=" tayhbpabi" title="Graph drawing by force-directed placement" note="rfs-dp-uib">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="pw-ekpv-xb" title="4 + 1 view model of architecture" note="bxaqxbfweq">
+    <authors author="Bruce Schneier"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="rqpju-ipgt" year="1976" title="The model checker SPIN" publisher="sgbzjsevla" booktitle="kstdzgap_d">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="-nilqornj-" year="1976" title="Complexity measure" publisher="rec mea o " booktitle="keeewhttmu">
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="_fu-h-kpnd"/>
+  <entries xsi:type="BibTeX:Misc" id="awfeltlujj"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="oypfknnstp" year="1997" title="Uppaal in a nutshell" school="vtxlf-uerh">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="mjgafgtdzu" year="2004" title="The model checker SPIN" school="hremdkhtzi">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Craig Larman"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="p-zfdof-em" year="1987" title="Uppaal in a nutshell" school="ue-rmpj vj">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+</BibTeX:BibTeXFile>

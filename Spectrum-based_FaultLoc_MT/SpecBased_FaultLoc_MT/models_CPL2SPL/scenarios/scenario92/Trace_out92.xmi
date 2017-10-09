@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.9"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.0/@declaration"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.0/@declaration/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.0/@declaration/@initExp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.10"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.0/@declaration"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.0/@declaration/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.0/@declaration/@initExp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.11"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.0/@declaration"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.0/@declaration/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.0/@declaration/@initExp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Busy2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.9/@busy"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.0/@values.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.0/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Busy2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.10/@busy"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@values.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="NoAnswer2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.9/@noAnswer"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.1/@values.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.1/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="NoAnswer2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.11/@noAnswer"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@values.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirection2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.9/@redirection"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.2/@values.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.0/@statements.0/@statements.1/@selectCases.2/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirection2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.10/@redirection"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.1/@values.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectCases.1/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirection2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.11/@redirection"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.1/@values.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.1/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Default2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.10/@default"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/0/@statements.1/@selectDefault"/>
+  </traceLinks>
+  <traceLinks ruleName="Default2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.11/@default"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectDefault"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.7"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/2/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/2/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.8"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/3/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/3/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.12"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue/@msgFields.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/4/@returnedValue/@msgFields.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/5"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.13"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue/@msgFields.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/1/@statements.1/@selectCases.0/@statements.0/@returnedValue/@msgFields.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/6"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario92/AutomaticModel_CPL92.xmi#//@elements.14"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue/@msgFields.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/7/@returnedValue/@msgFields.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario92/SPL_out92.xmi#/8"/>
+  </traceLinks>
+</trace:Trace>

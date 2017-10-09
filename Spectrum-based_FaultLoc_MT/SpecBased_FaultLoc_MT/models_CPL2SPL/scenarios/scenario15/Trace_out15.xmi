@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.1/@notPresent"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.6"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/1/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/1/@returnedValue/@exp"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.0/@declaration"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.0/@declaration/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.0/@declaration/@initExp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Default2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.5/@default"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/2/@statements.1/@selectDefault"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/3/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/3/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/4/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/4/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/5/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/6"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/6/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario15/AutomaticModel_CPL15.xmi#//@elements.0/@otherwise"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario15/SPL_out15.xmi#/7"/>
+  </traceLinks>
+</trace:Trace>

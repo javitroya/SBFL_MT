@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:TimeSwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:SubCall" ref="kurtajrucm"/>
+  <elements xsi:type="CPL:SubCall" ref="vqkikryfbz"/>
+  <elements xsi:type="CPL:SubCall" ref="bnancsqiry"/>
+  <elements xsi:type="CPL:Reject" status="yvzdoqdllu" reason="zibmorulbw"/>
+</CPL:CPLModel>

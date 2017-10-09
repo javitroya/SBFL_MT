@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="jointPackage_Ecore2Maude" nsURI="http://jointPackage_ecore2Maude/1.0"
+    nsPrefix="jointPackage_Ecore2Maude">
+  <eClassifiers xsi:type="ecore:EClass" name="JointMM">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceRoot" lowerBound="1"
+        eType="#//SrcEStringToStringMapEntry" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetRoot" lowerBound="1"
+        eType="#//TrgEqualCond" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEStringToStringMapEntry">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEAttribute" eSuperTypes="#//SrcEStructuralFeature">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="ConsistentTransient"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAttributeType" lowerBound="1"
+        eType="#//SrcEDataType" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEClass" eSuperTypes="#//SrcEClassifier">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="InterfaceIsAbstract AtMostOneID UniqueFeatureNames UniqueOperationSignatures NoCircularSuperTypes WellFormedMapEntryClass ConsistentSuperTypes"/>
+    </eAnnotations>
+    <eOperations name="isSuperTypeOf" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean">
+      <eParameters name="someClass" eType="#//SrcEClass"/>
+    </eOperations>
+    <eOperations name="getFeatureCount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eOperations name="getEStructuralFeature" eType="#//SrcEStructuralFeature">
+      <eParameters name="featureID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eOperations>
+    <eOperations name="getFeatureID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+      <eParameters name="feature" eType="#//SrcEStructuralFeature"/>
+    </eOperations>
+    <eOperations name="getEStructuralFeature" eType="#//SrcEStructuralFeature">
+      <eParameters name="featureName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="abstract" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="interface" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eSuperTypes" upperBound="-1"
+        eType="#//SrcEClass">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="suppressedIsSetVisibility" value="true"/>
+        <details key="suppressedUnsetVisibility" value="true"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eOperations" upperBound="-1"
+        eType="#//SrcEOperation" containment="true" eOpposite="#//SrcEOperation/eContainingClass"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAllAttributes" upperBound="-1"
+        eType="#//SrcEAttribute" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAllReferences" upperBound="-1"
+        eType="#//SrcEReference" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eReferences" upperBound="-1"
+        eType="#//SrcEReference" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAttributes" upperBound="-1"
+        eType="#//SrcEAttribute" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAllContainments" upperBound="-1"
+        eType="#//SrcEReference" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAllOperations" upperBound="-1"
+        eType="#//SrcEOperation" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAllStructuralFeatures"
+        upperBound="-1" eType="#//SrcEStructuralFeature" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eAllSuperTypes" upperBound="-1"
+        eType="#//SrcEClass" changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eIDAttribute" eType="#//SrcEAttribute"
+        changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eStructuralFeatures" upperBound="-1"
+        eType="#//SrcEStructuralFeature" containment="true" eOpposite="#//SrcEStructuralFeature/eContainingClass"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEClassifier" abstract="true" eSuperTypes="#//SrcENamedElement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="WellFormedInstanceTypeName UniqueTypeParameterNames"/>
+    </eAnnotations>
+    <eOperations name="getClassifierID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceClassName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        unsettable="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="suppressedIsSetVisibility" value="true"/>
+        <details key="suppressedUnsetVisibility" value="true"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instanceTypeName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        volatile="true" unsettable="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="suppressedIsSetVisibility" value="true"/>
+        <details key="suppressedUnsetVisibility" value="true"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ePackage" eType="#//SrcEPackage"
+        changeable="false" transient="true" eOpposite="#//SrcEPackage/eClassifiers"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEDataType" eSuperTypes="#//SrcEClassifier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="serializable" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        volatile="true" defaultValueLiteral="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEEnum" eSuperTypes="#//SrcEDataType">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="UniqueEnumeratorNames UniqueEnumeratorLiterals"/>
+    </eAnnotations>
+    <eOperations name="getEEnumLiteral" eType="#//SrcEEnumLiteral">
+      <eParameters name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eOperations name="getEEnumLiteral" eType="#//SrcEEnumLiteral">
+      <eParameters name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eOperations>
+    <eOperations name="getEEnumLiteralByLiteral" eType="#//SrcEEnumLiteral">
+      <eParameters name="literal" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eLiterals" upperBound="-1"
+        eType="#//SrcEEnumLiteral" containment="true" resolveProxies="false" eOpposite="#//SrcEEnumLiteral/eEnum"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEEnumLiteral" eSuperTypes="#//SrcENamedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="literal" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eEnum" eType="#//SrcEEnum"
+        changeable="false" transient="true" resolveProxies="false" eOpposite="#//SrcEEnum/eLiterals"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcENamedElement" abstract="true">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="WellFormedName"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEOperation" eSuperTypes="#//SrcETypedElement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="UniqueParameterNames UniqueTypeParameterNames NoRepeatingVoid"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eContainingClass" eType="#//SrcEClass"
+        changeable="false" transient="true" resolveProxies="false" eOpposite="#//SrcEClass/eOperations"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eParameters" upperBound="-1"
+        eType="#//SrcEParameter" containment="true" eOpposite="#//SrcEParameter/eOperation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eExceptions" upperBound="-1"
+        eType="#//SrcEClassifier" unsettable="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="suppressedIsSetVisibility" value="true"/>
+        <details key="suppressedUnsetVisibility" value="true"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEPackage" eSuperTypes="#//SrcENamedElement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="WellFormedNsURI WellFormedNsPrefix UniqueSubpackageNames UniqueClassifierNames UniqueNsURIs"/>
+    </eAnnotations>
+    <eOperations name="getEClassifier" eType="#//SrcEClassifier">
+      <eParameters name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nsURI" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nsPrefix" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eClassifiers" upperBound="-1"
+        eType="#//SrcEClassifier" containment="true" eOpposite="#//SrcEClassifier/ePackage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eSubpackages" upperBound="-1"
+        eType="#//SrcEPackage" containment="true" eOpposite="#//SrcEPackage/eSuperPackage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eSuperPackage" eType="#//SrcEPackage"
+        changeable="false" transient="true" eOpposite="#//SrcEPackage/eSubpackages"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEParameter" eSuperTypes="#//SrcETypedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eOperation" eType="#//SrcEOperation"
+        changeable="false" transient="true" resolveProxies="false" eOpposite="#//SrcEOperation/eParameters"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEReference" eSuperTypes="#//SrcEStructuralFeature">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="ConsistentOpposite SingleContainer ConsistentKeys"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="containment" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="container" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        changeable="false" volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="resolveProxies" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eOpposite" eType="#//SrcEReference"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eReferenceType" lowerBound="1"
+        eType="#//SrcEClass" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eKeys" upperBound="-1"
+        eType="#//SrcEAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcEStructuralFeature" abstract="true"
+      eSuperTypes="#//SrcETypedElement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="ValidDefaultValueLiteral"/>
+    </eAnnotations>
+    <eOperations name="getFeatureID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeable" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="volatile" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="transient" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultValueLiteral" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unsettable" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="derived" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eContainingClass" eType="#//SrcEClass"
+        changeable="false" transient="true" resolveProxies="false" eOpposite="#//SrcEClass/eStructuralFeatures"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SrcETypedElement" abstract="true" eSuperTypes="#//SrcENamedElement">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="ValidLowerBound ValidUpperBound ConsistentBounds ValidType"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ordered" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unique" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lowerBound" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="upperBound" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="many" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        changeable="false" volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="required" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        changeable="false" volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eType" eType="#//SrcEClassifier"
+        volatile="true" unsettable="true">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="suppressedIsSetVisibility" value="true"/>
+        <details key="suppressedUnsetVisibility" value="true"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgMaudeSpec">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="els" upperBound="-1" eType="#//TrgMaudeTopEl"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="printableEls" upperBound="-1"
+        eType="#//TrgMaudeTopEl"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgMembership" eSuperTypes="#//TrgStatement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="term" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sort" ordered="false" lowerBound="1"
+        eType="#//TrgSort"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgEquation" eSuperTypes="#//TrgStatement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lhs" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgRule" eSuperTypes="#//TrgStatement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lhs" ordered="false" eType="#//TrgTerm"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" ordered="false" eType="#//TrgTerm"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgMembershipCond" eSuperTypes="#//TrgEquationalCond">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" ordered="false" lowerBound="1"
+        eType="#//TrgSort"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgBooleanCond" eSuperTypes="#//TrgEquationalCond"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgMatchingCond" eSuperTypes="#//TrgEquationalCond">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgEqualCond" eSuperTypes="#//TrgEquationalCond">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgMaudeTopEl" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgModExpression" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgInstModExp" eSuperTypes="#//TrgModExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modExp" ordered="false"
+        lowerBound="1" eType="#//TrgModExpression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="views" lowerBound="1" upperBound="-1"
+        eType="#//TrgView"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgRenModExp" eSuperTypes="#//TrgModExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modExp" ordered="false"
+        lowerBound="1" eType="#//TrgModExpression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="renamings" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//TrgRenMapping" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgCompModExp" eSuperTypes="#//TrgModExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modExps" ordered="false"
+        lowerBound="2" upperBound="-1" eType="#//TrgModExpression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgModuleIdModExp" eSuperTypes="#//TrgModExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="module" ordered="false"
+        lowerBound="1" eType="#//TrgModule"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgTheoryIdModExp" eSuperTypes="#//TrgModExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="theory" ordered="false"
+        lowerBound="1" eType="#//TrgTheory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgParameter" eSuperTypes="#//TrgModExpression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modExp" ordered="false"
+        lowerBound="1" eType="#//TrgModExpression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgTheory" abstract="true" eSuperTypes="#//TrgMaudeTopEl">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="els" ordered="false" upperBound="-1"
+        eType="#//TrgModElement" containment="true" eOpposite="#//TrgModElement/theory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgFTheory" eSuperTypes="#//TrgTheory"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgSTheory" eSuperTypes="#//TrgTheory"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgModule" abstract="true" eSuperTypes="#//TrgMaudeTopEl">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="els" ordered="false" upperBound="-1"
+        eType="#//TrgModElement" containment="true" eOpposite="#//TrgModElement/module"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="params" upperBound="-1"
+        eType="#//TrgParameter" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgFModule" eSuperTypes="#//TrgModule"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgSModule" eSuperTypes="#//TrgModule"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgModElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="module" ordered="false"
+        eType="#//TrgModule" eOpposite="#//TrgModule/els"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="theory" ordered="false"
+        eType="#//TrgTheory" eOpposite="#//TrgTheory/els"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgModImportation" eSuperTypes="#//TrgModElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imports" ordered="false"
+        lowerBound="1" eType="#//TrgModExpression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgType" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgSort" eSuperTypes="#//TrgType #//TrgModElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subsortRels" ordered="false"
+        upperBound="-1" eType="#//TrgSubsortRel" eOpposite="#//TrgSubsortRel/supersorts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="supersortRels" ordered="false"
+        upperBound="-1" eType="#//TrgSubsortRel" eOpposite="#//TrgSubsortRel/subsorts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="kind" ordered="false" lowerBound="1"
+        eType="#//TrgKind" eOpposite="#//TrgKind/sorts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgKind" eSuperTypes="#//TrgType">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sorts" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//TrgSort" eOpposite="#//TrgSort/kind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgSubsortRel" eSuperTypes="#//TrgModElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subsorts" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//TrgSort" eOpposite="#//TrgSort/supersortRels"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="supersorts" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//TrgSort" eOpposite="#//TrgSort/subsortRels"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgOperation" eSuperTypes="#//TrgModElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="coarity" ordered="false"
+        lowerBound="1" eType="#//TrgType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arity" upperBound="-1"
+        eType="#//TrgType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="atts" ordered="false" unique="false"
+        upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgStatement" abstract="true" eSuperTypes="#//TrgModElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" ordered="false"
+        unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="atts" ordered="false" unique="false"
+        upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conds" upperBound="-1"
+        eType="#//TrgCondition" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgCondition" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lhs" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgEquationalCond" abstract="true" eSuperTypes="#//TrgCondition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgRewriteCond" eSuperTypes="#//TrgCondition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgTerm" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" lowerBound="1"
+        eType="#//TrgType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgConstant" eSuperTypes="#//TrgTerm">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="op" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgRecTerm" eSuperTypes="#//TrgTerm">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="op" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="args" lowerBound="1" upperBound="-1"
+        eType="#//TrgTerm" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgVariable" eSuperTypes="#//TrgTerm">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgView" eSuperTypes="#//TrgMaudeTopEl">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false" lowerBound="1"
+        eType="#//TrgModExpression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="to" ordered="false" lowerBound="1"
+        eType="#//TrgModExpression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="els" ordered="false" upperBound="-1"
+        eType="#//TrgViewMapping" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgViewMapping" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgRenMapping" abstract="true" eSuperTypes="#//TrgViewMapping"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgTermMapping" eSuperTypes="#//TrgViewMapping">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="to" ordered="false" lowerBound="1"
+        eType="#//TrgTerm" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgSortMapping" eSuperTypes="#//TrgRenMapping">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false" lowerBound="1"
+        eType="#//TrgSort"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="to" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgOpTypedMapping" eSuperTypes="#//TrgRenMapping">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false" lowerBound="1"
+        eType="#//TrgOperation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="to" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="atts" ordered="false" unique="false"
+        upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgOpMapping" eSuperTypes="#//TrgRenMapping">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false" lowerBound="1"
+        eType="#//TrgOperation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="to" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrgLabelMapping" eSuperTypes="#//TrgRenMapping">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="from" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="to" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

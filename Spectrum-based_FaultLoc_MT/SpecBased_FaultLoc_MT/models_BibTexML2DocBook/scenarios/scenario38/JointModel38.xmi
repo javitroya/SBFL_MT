@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="llcgatbppd" year="1976" title="The model checker SPIN" journal="Software and Systems Modeling">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="gkyqs gpfv" year="1991" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+      <authors author="Craig Larman"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="cy-jedyajw" year="1991" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+      <authors author="Wang Yi"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="ytdsqgaogc" year="1987" title="Graph drawing by force-directed placement">
+      <authors author="Marlon Dumas"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="zywnaih m " year="1987" title="4 + 1 view model of architecture">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="wi_j_kwlt " year="1984" title="Uppaal in a nutshell">
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="-jnxtjjt_g" title="Program slicing" note="cnxwl-jm s">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="hribl-girz" title="A metrics suite for object oriented design" note="_shygcw_bh">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="_qrrnlhnqy" year="2004" title="Complexity measure"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="rei-kzei_-" year="1997"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="idsanpc-mx" year="2000"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="zlv-jt l f"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="jog-cbxosy"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="-fszdjgljv"/>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[-fszdjgljv] Misc"/>
+          <paras content="[-jnxtjjt_g] Unpublished Program slicing Nenad Medvidovic Philippe Kruchten Robert C. Martin cnxwl-jm s"/>
+          <paras content="[_qrrnlhnqy] Proceedings Complexity measure 2004"/>
+          <paras/>
+          <paras/>
+          <paras content="[hribl-girz] Unpublished A metrics suite for object oriented design Elisabeth Freeman Dorothy E. Denning _shygcw_bh"/>
+          <paras content="[idsanpc-mx] Booklet 2000"/>
+          <paras content="[jog-cbxosy] Misc"/>
+          <paras/>
+          <paras content="[rei-kzei_-] Booklet 1997"/>
+          <paras content="[wi_j_kwlt ] TechReport Uppaal in a nutshell Nenad Medvidovic 1984"/>
+          <paras content="[ytdsqgaogc] TechReport Graph drawing by force-directed placement Marlon Dumas Edward N. Reingold 1987"/>
+          <paras content="[zlv-jt l f] Misc"/>
+          <paras content="[zywnaih m ] TechReport 4 + 1 view model of architecture Richard N. Taylor Gerard J. Holzmann Thomas M. J. Fruchterman Shyam R. Chidamber 1987"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Craig Larman"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Information and Software Technology"/>
+          <paras content="Software -- Practice and Experience"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

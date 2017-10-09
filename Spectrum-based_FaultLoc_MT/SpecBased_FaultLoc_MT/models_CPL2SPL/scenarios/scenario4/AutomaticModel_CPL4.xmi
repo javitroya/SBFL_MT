@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:AddressSwitch" field="awpydxufeo" subField="scwivgigfz"/>
+  <elements xsi:type="CPL:AddressSwitch" field="pkjqjqpdnu" subField="ilfiseulaq"/>
+  <elements xsi:type="CPL:StringSwitch" field="nmvguoqrly"/>
+  <elements xsi:type="CPL:Proxy" timeout="mspkjagqdt" recurse="cnbxbleily" ordering="mtkmnncxcu"/>
+  <elements xsi:type="CPL:Proxy" recurse="owxrwutdbi" ordering="plpadvbrai"/>
+  <elements xsi:type="CPL:Proxy" timeout="msgtryhhlz" recurse="bspvcgqjbj" ordering="xxbxuoduwz"/>
+</CPL:CPLModel>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="nt_yhpcbsn" year="1997" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="hvio-zaszn" year="1984" title="Graph drawing by force-directed placement" journal="Information and Software Technology">
+    <authors author="Craig Larman"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="o  -k-m_fe" year="1995" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Robert C. Martin"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mukhbsrbnt" year="1984" title="The model checker SPIN" journal="Software -- Practice and Experience">
+    <authors author="Paul Pettersson"/>
+    <authors author="Craig Larman"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="rpggdffry-" year="1984" title="A classification and coparison framework for software architecture description languages" journal="Software -- Practice and Experience">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="guqtvnry_s" year="1984" title="Uppaal in a nutshell" journal="Information and Software Technology">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="fvexhlyxin" year="1984" title="Complexity measure">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="psk_ qg sk" year="2000" title="An intrusion-detection model">
+    <authors author="Wang Yi"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="zsuubusmnj" year="1997" title="4 + 1 view model of architecture">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="soxzcvqws_" year="2000" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:InProceedings" id="ekiuzou_sc" year="1984" title="Complexity measure" booktitle="dihyyvikto">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="cpjetbu-uc" year="1976" title="Graph drawing by force-directed placement" booktitle="-cuugxw gj">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="rrhmcwnjha" year="1997" title="QoS-aware middleware for Web services composition" booktitle="lnmmmq-zhn">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="kwvozznbji" year="1984"/>
+  <entries xsi:type="BibTeX:InBook" id="hlcgiqtjsl" year="1995" title="4 + 1 view model of architecture" publisher="_gbaeunkvc" chapter="48">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="jncriomqtg" year="1991" title="4 + 1 view model of architecture" publisher="ukadhlmj-_" chapter="17">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Wang Yi"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="jvxp_cm cr"/>
+  <entries xsi:type="BibTeX:Misc" id="vkrwxmfln_"/>
+  <entries xsi:type="BibTeX:Misc" id="dycvldiacm"/>
+</BibTeX:BibTeXFile>

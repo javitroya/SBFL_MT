@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="tzeliovlkh" year="1994" title="Graph drawing by force-directed placement" journal="Software -- Practice and Experience">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Wang Yi"/>
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="k_obzbagud" year="1984" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="mzwkemwpol" year="1987" title="Uppaal in a nutshell" journal="Information and Software Technology">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="i  pig-ndg" year="1984" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+      <authors author="Craig Larman"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="qhrhiq_lqb" year="1997" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="oy-mindcio" title="Complexity measure" note="ymcdwxzh z">
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="cictfjicax" year="1991" title="An intrusion-detection model"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="ihslmgfleu" year="1987" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="gjfxkavtmy" year="1987" title="Graph drawing by force-directed placement" publisher="ur_srxzaf " booktitle="ekueaf kvr">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="yjfsqhdssb" year="1997" title="Graph drawing by force-directed placement" publisher="cqirljir e" booktitle="plldyrwaci">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Chris F. Kemerer"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="ldojiflxbf" year="1987" title="QoS-aware middleware for Web services composition" publisher="tudkhygaag" booktitle="k_teekavy_">
+      <authors author="Erich Gamma"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="vsqenpshrr" year="1987" title="A metrics suite for object oriented design" school="bhkn-jbrgo">
+      <authors author="Bruce Schneier"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[cictfjicax] Proceedings An intrusion-detection model 1991"/>
+          <paras content="[gjfxkavtmy] InCollection Graph drawing by force-directed placement Philippe Kruchten Robert C. Martin Paul Pettersson Philippe Kruchten 1987 ekueaf kvr ur_srxzaf "/>
+          <paras content="[i  pig-ndg] Article 4 + 1 view model of architecture Craig Larman Shyam R. Chidamber 1984 Software -- Practice and Experience"/>
+          <paras content="[ihslmgfleu] Proceedings 4 + 1 view model of architecture 1987"/>
+          <paras content="[k_obzbagud] Article QoS-aware middleware for Web services composition Philippe Kruchten Edward N. Reingold 1984 Software -- Practice and Experience"/>
+          <paras content="[ldojiflxbf] InCollection QoS-aware middleware for Web services composition Erich Gamma Steve McConnell Thomas M. J. Fruchterman 1987 k_teekavy_ tudkhygaag"/>
+          <paras/>
+          <paras content="[oy-mindcio] Unpublished Complexity measure Philippe Kruchten ymcdwxzh z"/>
+          <paras content="[qhrhiq_lqb] Article QoS-aware middleware for Web services composition Bruce Schneier 1997 IEEE Transactions on Software Engineering"/>
+          <paras/>
+          <paras content="[vsqenpshrr] PhDThesis A metrics suite for object oriented design Bruce Schneier Elisabeth Freeman 1987 bhkn-jbrgo"/>
+          <paras content="[yjfsqhdssb] InCollection Graph drawing by force-directed placement Kim G. Larsen Elisabeth Freeman Chris F. Kemerer 1997 plldyrwaci cqirljir e"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Information and Software Technology"/>
+          <paras content="Software -- Practice and Experience"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

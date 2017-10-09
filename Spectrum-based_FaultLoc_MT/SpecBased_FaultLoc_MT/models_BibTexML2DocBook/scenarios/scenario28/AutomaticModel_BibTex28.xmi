@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="siuwpaclah" year="1997" title="A classification and coparison framework for software architecture description languages" journal="IEEE Transactions on Software Engineering">
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mkgmotnklc" year="1984" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+    <authors author="Erich Gamma"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gblgjbcqbo" year="1994" title="The model checker SPIN" journal="IEEE Transactions on Software Engineering">
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="uuoy_ppnzf" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Manual" id="bgbmvphwqu" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Proceedings" id="-lvun_wliq" year="2004" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="s_wkno doa" year="1997" title="Complexity measure" school="tyanzlwalp">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Craig Larman"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="izkd-wpuxz" year="1997" title="Complexity measure" school="w_orydodu ">
+    <authors author="Robert C. Martin"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="uiuyhppbbk" year="1995" title="Complexity measure" school="dugfqt-hkb">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="wfnun fiyx" year="1991" title="Program slicing" school="hlbaco-bbo">
+    <authors author="Paul Pettersson"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="wz_ferwojm" year="1976" title="Complexity measure" school="uc-kfwkclu">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ER:ERModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ER="http://er" name="citged_brt">
+  <entities name="new name for the class">
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="String"/>
+  </entities>
+  <entities name="new name for the class">
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="NoType"/>
+  </entities>
+</ER:ERModel>

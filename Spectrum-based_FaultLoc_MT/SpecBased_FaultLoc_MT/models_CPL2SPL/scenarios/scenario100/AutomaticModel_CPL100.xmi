@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent contents="//@elements.1"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent contents="//@elements.5"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="vuqbwdseew" clear="abnsrojqhx"/>
+  <elements xsi:type="CPL:Location" url="fipfwqmwdy" priority="jptmbspxqn" clear="hsxlzbzgqb"/>
+  <elements xsi:type="CPL:SubCall" ref="irilsvadeq"/>
+  <elements xsi:type="CPL:SubCall" ref="hackbpgrkr"/>
+  <elements xsi:type="CPL:Redirect" permanent="jtegsqegsp"/>
+  <elements xsi:type="CPL:Redirect" permanent="bjjzcoujaa"/>
+</CPL:CPLModel>

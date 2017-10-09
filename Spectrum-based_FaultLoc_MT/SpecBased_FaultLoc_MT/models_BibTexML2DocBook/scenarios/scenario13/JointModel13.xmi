@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="qbahroszuw" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="ibqtxyqxru" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="qmbuqvbuk-" year="1976" title="Complexity measure"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="ehsing_r-_" year="2000" title="Graph drawing by force-directed placement"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="trcncn-d-s" year="1987" title="Program slicing"/>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ehsing_r-_] Proceedings Graph drawing by force-directed placement 2000"/>
+          <paras content="[ibqtxyqxru] Manual A classification and coparison framework for software architecture description languages"/>
+          <paras content="[qbahroszuw] Manual 4 + 1 view model of architecture"/>
+          <paras content="[qmbuqvbuk-] Proceedings Complexity measure 1976"/>
+          <paras content="[trcncn-d-s] Proceedings Program slicing 1987"/>
+        </sections_1>
+        <sections_1 title="Authors List"/>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

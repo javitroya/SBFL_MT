@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <ecore:EPackage name="jointPackage_CPL2SPL" nsURI="http://jointPackage_CPL2SPL/1.0"
+      nsPrefix="jointPackage_CPL2SPL">
+    <eClassifiers xsi:type="ecore:EClass" name="JointMM">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sourceRoot" lowerBound="1"
+          eType="#/0/SrcReject" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetRoot" lowerBound="1"
+          eType="#/0/TrgServerErrorResponse" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcCPLModel">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+          eType="#/0/SrcElement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcCPL" eSuperTypes="#/0/SrcElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="subActions" upperBound="-1"
+          eType="#/0/SrcSubAction" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="outgoing" ordered="false"
+          eType="#/0/SrcOutgoing" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="incoming" ordered="false"
+          eType="#/0/SrcIncoming" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcAddressSwitch" eSuperTypes="#/0/SrcSwitch">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="field" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="subField" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="addresses" upperBound="-1"
+          eType="#/0/SrcSwitchedAddress" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcStringSwitch" eSuperTypes="#/0/SrcSwitch">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="field" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="strings" upperBound="-1"
+          eType="#/0/SrcSwitchedString" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcLanguageSwitch" eSuperTypes="#/0/SrcSwitch">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="languages" upperBound="-1"
+          eType="#/0/SrcSwitchedLanguage" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcTimeSwitch" eSuperTypes="#/0/SrcSwitch">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="tzid" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="tzurl" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="times" upperBound="-1"
+          eType="#/0/SrcSwitchedTime" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcPrioritySwitch" eSuperTypes="#/0/SrcSwitch">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="priorities" upperBound="-1"
+          eType="#/0/SrcSwitchedPriority" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcProxy" eSuperTypes="#/0/SrcSignallingAction">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="timeout" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="recurse" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="ordering" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="busy" ordered="false"
+          eType="#/0/SrcBusy" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="noAnswer" ordered="false"
+          eType="#/0/SrcNoAnswer" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="redirection" ordered="false"
+          eType="#/0/SrcRedirection" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="failure" ordered="false"
+          eType="#/0/SrcFailure" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="default" ordered="false"
+          eType="#/0/SrcDefault" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcRedirect" eSuperTypes="#/0/SrcSignallingAction">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="permanent" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcReject" eSuperTypes="#/0/SrcSignallingAction">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="reason" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcElement" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcNodeContainer" abstract="true"
+        eSuperTypes="#/0/SrcElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contents" ordered="false"
+          eType="#/0/SrcNode"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSubAction" eSuperTypes="#/0/SrcNodeContainer">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" ordered="false" unique="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcOutgoing" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcIncoming" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcNotPresent" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcOtherwise" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSwitchedAddress" eSuperTypes="#/0/SrcNodeContainer">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="is" ordered="false" unique="false"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="contains" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="subDomainOf" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSwitchedString" eSuperTypes="#/0/SrcNodeContainer">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="is" ordered="false" unique="false"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="contains" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSwitchedLanguage" eSuperTypes="#/0/SrcNodeContainer">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="matches" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSwitchedTime" eSuperTypes="#/0/SrcNodeContainer">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="dtstart" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="dtend" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="freq" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="until" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="count" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="interval" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="bySecond" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="byMinute" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="byHour" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="byDay" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="byMonthDay" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="byYearDay" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="byWeekNo" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="byMonth" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="wkst" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="bySetPos" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSwitchedPriority" eSuperTypes="#/0/SrcNodeContainer">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="less" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="greater" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="equal" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcBusy" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcNoAnswer" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcRedirection" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcFailure" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcDefault" eSuperTypes="#/0/SrcNodeContainer"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcNode" abstract="true" eSuperTypes="#/0/SrcElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSwitch" abstract="true" eSuperTypes="#/0/SrcNode">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="notPresent" ordered="false"
+          eType="#/0/SrcNotPresent" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="otherwise" ordered="false"
+          eType="#/0/SrcOtherwise" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcLocation" eSuperTypes="#/0/SrcNode #/0/SrcNodeContainer">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="url" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="priority" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="clear" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSubCall" eSuperTypes="#/0/SrcNode">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="ref" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcAction" abstract="true" eSuperTypes="#/0/SrcNode"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcSignallingAction" abstract="true"
+        eSuperTypes="#/0/SrcAction"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgProgram" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="service" ordered="false"
+          lowerBound="1" eType="#/0/TrgService" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgStructureProperty" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          lowerBound="1" eType="#/0/TrgTypeExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgClientErrorResponse" eSuperTypes="#/0/TrgErrorResponse">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="errorKind" ordered="false"
+          unique="false" eType="#/0/ClientErrorKind"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgGlobalErrorResponse" eSuperTypes="#/0/TrgErrorResponse">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="errorKind" ordered="false"
+          unique="false" eType="#/0/GlobalErrorKind"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgRedirectionErrorResponse" eSuperTypes="#/0/TrgErrorResponse">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="errorKind" ordered="false"
+          unique="false" eType="#/0/RedirectionErrorKind"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgServerErrorResponse" eSuperTypes="#/0/TrgErrorResponse">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="errorKind" ordered="false"
+          unique="false" eType="#/0/ServerErrorKind"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgLocatedElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="commentsBefore" unique="false"
+          upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="commentsAfter" unique="false"
+          upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgService" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="declarations" upperBound="-1"
+          eType="#/0/TrgDeclaration" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sessions" upperBound="-1"
+          eType="#/0/TrgSession" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSession" abstract="true" eSuperTypes="#/0/TrgLocatedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgRegistration" eSuperTypes="#/0/TrgSession">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="declarations" upperBound="-1"
+          eType="#/0/TrgDeclaration" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sessions" upperBound="-1"
+          eType="#/0/TrgSession" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgDialog" eSuperTypes="#/0/TrgSession">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="declarations" upperBound="-1"
+          eType="#/0/TrgDeclaration" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="methods" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgMethod" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgEvent" eSuperTypes="#/0/TrgSession">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="eventId" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="declarations" upperBound="-1"
+          eType="#/0/TrgDeclaration" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="methods" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgMethod" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgMethod" eSuperTypes="#/0/TrgSession">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          lowerBound="1" eType="#/0/TrgTypeExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="direction" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/Direction"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="methodName" ordered="false"
+          lowerBound="1" eType="#/0/TrgMethodName" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" upperBound="-1"
+          eType="#/0/TrgArgument" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgStatement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="branches" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgBranch" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgArgument" eSuperTypes="#/0/TrgVariableDeclaration"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgMethodName" abstract="true" eSuperTypes="#/0/TrgLocatedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSIPMethodName" eSuperTypes="#/0/TrgMethodName">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/SIPMethod"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgControlMethodName" eSuperTypes="#/0/TrgMethodName">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/ControlMethod"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgBranch" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgStatement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgDefaultBranch" eSuperTypes="#/0/TrgBranch"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgNamedBranch" eSuperTypes="#/0/TrgBranch">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" unique="false"
+          lowerBound="1" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgTypeExpression" abstract="true"
+        eSuperTypes="#/0/TrgLocatedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSimpleType" eSuperTypes="#/0/TrgTypeExpression">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/PrimitiveType"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSequenceType" eSuperTypes="#/0/TrgTypeExpression">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="modifier" ordered="false"
+          unique="false" eType="#/0/Modifier"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/PrimitiveType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" ordered="false"
+          unique="false" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgDefinedType" eSuperTypes="#/0/TrgTypeExpression">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeName" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgDeclaration" abstract="true" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgVariableDeclaration" eSuperTypes="#/0/TrgDeclaration">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false"
+          lowerBound="1" eType="#/0/TrgTypeExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="initExp" ordered="false"
+          eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgFunctionDeclaration" abstract="true"
+        eSuperTypes="#/0/TrgDeclaration">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="returnType" ordered="false"
+          lowerBound="1" eType="#/0/TrgTypeExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" upperBound="-1"
+          eType="#/0/TrgArgument" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgRemoteFunctionDeclaration" eSuperTypes="#/0/TrgFunctionDeclaration">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="functionLocation" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/FunctionLocation"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgLocalFunctionDeclaration" eSuperTypes="#/0/TrgFunctionDeclaration">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgStatement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgStructureDeclaration" eSuperTypes="#/0/TrgDeclaration">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="properties" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgArgument" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgFunctionCall" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="function" ordered="false"
+          lowerBound="1" eType="#/0/TrgFunctionDeclaration"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+          eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgStatement" abstract="true" eSuperTypes="#/0/TrgLocatedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgCompoundStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" ordered="false"
+          lowerBound="1" upperBound="-1" eType="#/0/TrgStatement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSetStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false"
+          lowerBound="1" eType="#/0/TrgPlace" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="setValue" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgDeclarationStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="declaration" ordered="false"
+          lowerBound="1" eType="#/0/TrgDeclaration" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgReturnStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="returnedValue" ordered="false"
+          eType="#/0/TrgExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="branch" ordered="false"
+          eType="#/0/TrgNamedBranch"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgIfStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="condition" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="thenStatements" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgStatement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elseStatements" upperBound="-1"
+          eType="#/0/TrgStatement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgWhenStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="idExp" ordered="false"
+          lowerBound="1" eType="#/0/TrgVariable" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="whenHeaders" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgWhenHeader" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgStatement" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elseStatements" upperBound="-1"
+          eType="#/0/TrgStatement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgForeachStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="iteratorName" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sequenceExp" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgStatement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSelectStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="matchedExp" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="selectCases" upperBound="-1"
+          eType="#/0/TrgSelectCase" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="selectDefault" ordered="false"
+          eType="#/0/TrgSelectDefault" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgFunctionCallStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="functionCall" ordered="false"
+          lowerBound="1" eType="#/0/TrgFunctionCall" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgContinueStat" eSuperTypes="#/0/TrgStatement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgBreakStat" eSuperTypes="#/0/TrgStatement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPushStat" eSuperTypes="#/0/TrgStatement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false"
+          lowerBound="1" eType="#/0/TrgPlace" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="pushedValue" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgWhenHeader" eSuperTypes="#/0/TrgVariableDeclaration">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="headerId" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+          eType="#/0/TrgConstant" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSelectMember" abstract="true" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" upperBound="-1"
+          eType="#/0/TrgStatement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSelectDefault" eSuperTypes="#/0/TrgSelectMember"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSelectCase" eSuperTypes="#/0/TrgSelectMember">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="values" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgConstant" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgExpression" abstract="true" eSuperTypes="#/0/TrgLocatedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgConstantExp" eSuperTypes="#/0/TrgExpression">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="value" ordered="false"
+          lowerBound="1" eType="#/0/TrgConstant" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgOperatorExp" eSuperTypes="#/0/TrgExpression">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="opName" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="leftExp" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="rightExp" ordered="false"
+          eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgForwardExp" eSuperTypes="#/0/TrgExpression">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isParallel" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="exp" ordered="false"
+          eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgWithExp" eSuperTypes="#/0/TrgExpression">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="exp" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="msgFields" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgMessageField" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgBlockExp" eSuperTypes="#/0/TrgExpression">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="exp" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgReasonExp" eSuperTypes="#/0/TrgExpression"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgBODYExp" eSuperTypes="#/0/TrgExpression"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgRequestURIExp" eSuperTypes="#/0/TrgExpression"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPopExp" eSuperTypes="#/0/TrgExpression">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+          lowerBound="1" eType="#/0/TrgPlace" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgFunctionCallExp" eSuperTypes="#/0/TrgExpression">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="functionCall" ordered="false"
+          lowerBound="1" eType="#/0/TrgFunctionCall" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPlace" abstract="true" eSuperTypes="#/0/TrgExpression"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSIPHeaderPlace" eSuperTypes="#/0/TrgPlace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="header" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/SIPHeader"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgVariablePlace" abstract="true"
+        eSuperTypes="#/0/TrgPlace"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPropertyCallPlace" eSuperTypes="#/0/TrgVariablePlace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="propName" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+          lowerBound="1" eType="#/0/TrgVariablePlace" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgVariable" eSuperTypes="#/0/TrgVariablePlace">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+          lowerBound="1" eType="#/0/TrgDeclaration"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgMessageField" abstract="true" eSuperTypes="#/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="exp" ordered="false"
+          lowerBound="1" eType="#/0/TrgExpression" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgReasonMessageField" eSuperTypes="#/0/TrgMessageField"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgHeadedMessageField" eSuperTypes="#/0/TrgMessageField">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="headerId" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgConstant" abstract="true" eSuperTypes="#/0/TrgLocatedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgBooleanConstant" eSuperTypes="#/0/TrgConstant">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgIntegerConstant" eSuperTypes="#/0/TrgConstant">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgStringConstant" eSuperTypes="#/0/TrgConstant">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgURIConstant" eSuperTypes="#/0/TrgConstant">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="uri" ordered="false"
+          unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSequenceConstant" eSuperTypes="#/0/TrgConstant">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="values" upperBound="-1"
+          eType="#/0/TrgConstant" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgResponseConstant" eSuperTypes="#/0/TrgConstant">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="response" ordered="false"
+          lowerBound="1" eType="#/0/TrgResponse" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgResponse" abstract="true" eSuperTypes="#/0/TrgLocatedElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSuccessResponse" eSuperTypes="#/0/TrgResponse">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="successKind" ordered="false"
+          unique="false" lowerBound="1" eType="#/0/SuccessKind"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgErrorResponse" eSuperTypes="#/0/TrgResponse"/>
+    <eClassifiers xsi:type="ecore:EEnum" name="Direction">
+      <eLiterals name="inout" literal="inout"/>
+      <eLiterals name="in" literal="in"/>
+      <eLiterals name="out" literal="out"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="SIPMethod">
+      <eLiterals name="ACK" literal="ACK"/>
+      <eLiterals name="BYE" literal="BYE"/>
+      <eLiterals name="CANCEL" literal="CANCEL"/>
+      <eLiterals name="INVITE" literal="INVITE"/>
+      <eLiterals name="NOTIFY" literal="NOTIFY"/>
+      <eLiterals name="OPTIONS" literal="OPTIONS"/>
+      <eLiterals name="REACK" literal="REACK"/>
+      <eLiterals name="REGISTER" literal="REGISTER"/>
+      <eLiterals name="REINVITE" literal="REINVITE"/>
+      <eLiterals name="REREGISTER" literal="REREGISTER"/>
+      <eLiterals name="RESUBSCRIBE" literal="RESUBSCRIBE"/>
+      <eLiterals name="SUBSCRIBE" literal="SUBSCRIBE"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ControlMethod">
+      <eLiterals name="deploy" literal="deploy"/>
+      <eLiterals name="undeploy" literal="undeploy"/>
+      <eLiterals name="uninvite" literal="uninvite"/>
+      <eLiterals name="unregister" literal="unregister"/>
+      <eLiterals name="unsubscribe" literal="unsubscribe"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="PrimitiveType">
+      <eLiterals name="void" literal="void"/>
+      <eLiterals name="bool" literal="bool"/>
+      <eLiterals name="int" literal="int"/>
+      <eLiterals name="request" literal="request"/>
+      <eLiterals name="response" literal="response"/>
+      <eLiterals name="string" literal="string"/>
+      <eLiterals name="time" literal="time"/>
+      <eLiterals name="uri" literal="uri"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="Modifier">
+      <eLiterals name="LIFO" literal="LIFO"/>
+      <eLiterals name="FIFO" literal="FIFO"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="FunctionLocation">
+      <eLiterals name="remote" literal="remote"/>
+      <eLiterals name="local" literal="local"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="SIPHeader">
+      <eLiterals name="CALL_ID" literal="CALL_ID"/>
+      <eLiterals name="CONTACT" literal="CONTACT"/>
+      <eLiterals name="CSEQ" literal="CSEQ"/>
+      <eLiterals name="EVENT" literal="EVENT"/>
+      <eLiterals name="FROM" literal="FROM"/>
+      <eLiterals name="MAX_FORWARDS" literal="MAX_FORWARDS"/>
+      <eLiterals name="SUBSCRIPTION_STATE" literal="SUBSCRIPTION_STATE"/>
+      <eLiterals name="TO" literal="TO"/>
+      <eLiterals name="VIA" literal="VIA"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="SuccessKind">
+      <eLiterals name="OK" literal="OK"/>
+      <eLiterals name="ACCEPTED" literal="ACCEPTED"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ClientErrorKind">
+      <eLiterals name="ADDRESS_INCOMPLETE" literal="ADDRESS_INCOMPLETE"/>
+      <eLiterals name="AMBIGUOUS" literal="AMBIGUOUS"/>
+      <eLiterals name="BAD_EXTENSION" literal="BAD_EXTENSION"/>
+      <eLiterals name="BAD_REQUEST" literal="BAD_REQUEST"/>
+      <eLiterals name="BUSY_HERE" literal="BUSY_HERE"/>
+      <eLiterals name="CALL_OR_TRANSACTION_DOES_NOT_EXIST" literal="CALL_OR_TRANSACTION_DOES_NOT_EXIST"/>
+      <eLiterals name="EXTENSION_REQUIRED" literal="EXTENSION_REQUIRED"/>
+      <eLiterals name="FORBIDDEN" literal="FORBIDDEN"/>
+      <eLiterals name="GONE" literal="GONE"/>
+      <eLiterals name="INTERVAL_TOO_BRIEF" literal="INTERVAL_TOO_BRIEF"/>
+      <eLiterals name="LOOP_DETECTED" literal="LOOP_DETECTED"/>
+      <eLiterals name="METHOD_NOT_ALLOWED" literal="METHOD_NOT_ALLOWED"/>
+      <eLiterals name="NOT_ACCEPTABLE_HERE" literal="NOT_ACCEPTABLE_HERE"/>
+      <eLiterals name="NOT_ACCEPTABLE" literal="NOT_ACCEPTABLE"/>
+      <eLiterals name="NOT_FOUND" literal="NOT_FOUND"/>
+      <eLiterals name="PAYMENT_REQUIRED" literal="PAYMENT_REQUIRED"/>
+      <eLiterals name="PROXY_AUTHENTICATION_REQUIRED" literal="PROXY_AUTHENTICATION_REQUIRED"/>
+      <eLiterals name="REQUESTURI_TOO_LONG" literal="REQUESTURI_TOO_LONG"/>
+      <eLiterals name="REQUEST_ENTITY_TOO_LARGE" literal="REQUEST_ENTITY_TOO_LARGE"/>
+      <eLiterals name="REQUEST_PENDING" literal="REQUEST_PENDING"/>
+      <eLiterals name="REQUEST_TERMINATED" literal="REQUEST_TERMINATED"/>
+      <eLiterals name="REQUEST_TIMEOUT" literal="REQUEST_TIMEOUT"/>
+      <eLiterals name="TEMPORARILY_UNAVAILABLE" literal="TEMPORARILY_UNAVAILABLE"/>
+      <eLiterals name="TOO_MANY_HOPS" literal="TOO_MANY_HOPS"/>
+      <eLiterals name="UNAUTHORIZED" literal="UNAUTHORIZED"/>
+      <eLiterals name="UNDECIPHERABLE" literal="UNDECIPHERABLE"/>
+      <eLiterals name="UNSUPPORTED_MEDIA_TYPE" literal="UNSUPPORTED_MEDIA_TYPE"/>
+      <eLiterals name="UNSUPPORTED_URI_SCHEME" literal="UNSUPPORTED_URI_SCHEME"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="GlobalErrorKind">
+      <eLiterals name="BUSY_EVERYWHERE" literal="BUSY_EVERYWHERE"/>
+      <eLiterals name="DECLINE" literal="DECLINE"/>
+      <eLiterals name="DOES_NOT_EXIST_ANYWHERE" literal="DOES_NOT_EXIST_ANYWHERE"/>
+      <eLiterals name="NOT_ACCEPTABLE" literal="NOT_ACCEPTABLE"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="RedirectionErrorKind">
+      <eLiterals name="ALTERNATIVE_SERVICE" literal="ALTERNATIVE_SERVICE"/>
+      <eLiterals name="MOVED_PERMANENTLY" literal="MOVED_PERMANENTLY"/>
+      <eLiterals name="MOVED_TEMPORARILY" literal="MOVED_TEMPORARILY"/>
+      <eLiterals name="MULTIPLE_CHOICES" literal="MULTIPLE_CHOICES"/>
+      <eLiterals name="USE_PROXY" literal="USE_PROXY"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ServerErrorKind">
+      <eLiterals name="BAD_GATEWAY" literal="BAD_GATEWAY"/>
+      <eLiterals name="MESSAGE_TOO_LARGE" literal="MESSAGE_TOO_LARGE"/>
+      <eLiterals name="NOT_IMPLEMENTED" literal="NOT_IMPLEMENTED"/>
+      <eLiterals name="SERVER_INTERNAL_ERROR" literal="SERVER_INTERNAL_ERROR"/>
+      <eLiterals name="SERVER_TIMEOUT" literal="SERVER_TIMEOUT"/>
+      <eLiterals name="SERVICE_UNAVAILABLE" literal="SERVICE_UNAVAILABLE"/>
+      <eLiterals name="VERSION_NOT_SUPPORTED" literal="VERSION_NOT_SUPPORTED"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ecore:EEnum name="Direction">
+    <eLiterals name="inout" literal="inout"/>
+    <eLiterals name="in" literal="in"/>
+    <eLiterals name="out" literal="out"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="SIPMethod">
+    <eLiterals name="ACK" literal="ACK"/>
+    <eLiterals name="BYE" literal="BYE"/>
+    <eLiterals name="CANCEL" literal="CANCEL"/>
+    <eLiterals name="INVITE" literal="INVITE"/>
+    <eLiterals name="NOTIFY" literal="NOTIFY"/>
+    <eLiterals name="OPTIONS" literal="OPTIONS"/>
+    <eLiterals name="REACK" literal="REACK"/>
+    <eLiterals name="REGISTER" literal="REGISTER"/>
+    <eLiterals name="REINVITE" literal="REINVITE"/>
+    <eLiterals name="REREGISTER" literal="REREGISTER"/>
+    <eLiterals name="RESUBSCRIBE" literal="RESUBSCRIBE"/>
+    <eLiterals name="SUBSCRIBE" literal="SUBSCRIBE"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="ControlMethod">
+    <eLiterals name="deploy" literal="deploy"/>
+    <eLiterals name="undeploy" literal="undeploy"/>
+    <eLiterals name="uninvite" literal="uninvite"/>
+    <eLiterals name="unregister" literal="unregister"/>
+    <eLiterals name="unsubscribe" literal="unsubscribe"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="PrimitiveType">
+    <eLiterals name="void" literal="void"/>
+    <eLiterals name="bool" literal="bool"/>
+    <eLiterals name="int" literal="int"/>
+    <eLiterals name="request" literal="request"/>
+    <eLiterals name="response" literal="response"/>
+    <eLiterals name="string" literal="string"/>
+    <eLiterals name="time" literal="time"/>
+    <eLiterals name="uri" literal="uri"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="Modifier">
+    <eLiterals name="LIFO" literal="LIFO"/>
+    <eLiterals name="FIFO" literal="FIFO"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="FunctionLocation">
+    <eLiterals name="remote" literal="remote"/>
+    <eLiterals name="local" literal="local"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="SIPHeader">
+    <eLiterals name="CALL_ID" literal="CALL_ID"/>
+    <eLiterals name="CONTACT" literal="CONTACT"/>
+    <eLiterals name="CSEQ" literal="CSEQ"/>
+    <eLiterals name="EVENT" literal="EVENT"/>
+    <eLiterals name="FROM" literal="FROM"/>
+    <eLiterals name="MAX_FORWARDS" literal="MAX_FORWARDS"/>
+    <eLiterals name="SUBSCRIPTION_STATE" literal="SUBSCRIPTION_STATE"/>
+    <eLiterals name="TO" literal="TO"/>
+    <eLiterals name="VIA" literal="VIA"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="SuccessKind">
+    <eLiterals name="OK" literal="OK"/>
+    <eLiterals name="ACCEPTED" literal="ACCEPTED"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="ClientErrorKind">
+    <eLiterals name="ADDRESS_INCOMPLETE" literal="ADDRESS_INCOMPLETE"/>
+    <eLiterals name="AMBIGUOUS" literal="AMBIGUOUS"/>
+    <eLiterals name="BAD_EXTENSION" literal="BAD_EXTENSION"/>
+    <eLiterals name="BAD_REQUEST" literal="BAD_REQUEST"/>
+    <eLiterals name="BUSY_HERE" literal="BUSY_HERE"/>
+    <eLiterals name="CALL_OR_TRANSACTION_DOES_NOT_EXIST" literal="CALL_OR_TRANSACTION_DOES_NOT_EXIST"/>
+    <eLiterals name="EXTENSION_REQUIRED" literal="EXTENSION_REQUIRED"/>
+    <eLiterals name="FORBIDDEN" literal="FORBIDDEN"/>
+    <eLiterals name="GONE" literal="GONE"/>
+    <eLiterals name="INTERVAL_TOO_BRIEF" literal="INTERVAL_TOO_BRIEF"/>
+    <eLiterals name="LOOP_DETECTED" literal="LOOP_DETECTED"/>
+    <eLiterals name="METHOD_NOT_ALLOWED" literal="METHOD_NOT_ALLOWED"/>
+    <eLiterals name="NOT_ACCEPTABLE_HERE" literal="NOT_ACCEPTABLE_HERE"/>
+    <eLiterals name="NOT_ACCEPTABLE" literal="NOT_ACCEPTABLE"/>
+    <eLiterals name="NOT_FOUND" literal="NOT_FOUND"/>
+    <eLiterals name="PAYMENT_REQUIRED" literal="PAYMENT_REQUIRED"/>
+    <eLiterals name="PROXY_AUTHENTICATION_REQUIRED" literal="PROXY_AUTHENTICATION_REQUIRED"/>
+    <eLiterals name="REQUESTURI_TOO_LONG" literal="REQUESTURI_TOO_LONG"/>
+    <eLiterals name="REQUEST_ENTITY_TOO_LARGE" literal="REQUEST_ENTITY_TOO_LARGE"/>
+    <eLiterals name="REQUEST_PENDING" literal="REQUEST_PENDING"/>
+    <eLiterals name="REQUEST_TERMINATED" literal="REQUEST_TERMINATED"/>
+    <eLiterals name="REQUEST_TIMEOUT" literal="REQUEST_TIMEOUT"/>
+    <eLiterals name="TEMPORARILY_UNAVAILABLE" literal="TEMPORARILY_UNAVAILABLE"/>
+    <eLiterals name="TOO_MANY_HOPS" literal="TOO_MANY_HOPS"/>
+    <eLiterals name="UNAUTHORIZED" literal="UNAUTHORIZED"/>
+    <eLiterals name="UNDECIPHERABLE" literal="UNDECIPHERABLE"/>
+    <eLiterals name="UNSUPPORTED_MEDIA_TYPE" literal="UNSUPPORTED_MEDIA_TYPE"/>
+    <eLiterals name="UNSUPPORTED_URI_SCHEME" literal="UNSUPPORTED_URI_SCHEME"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="GlobalErrorKind">
+    <eLiterals name="BUSY_EVERYWHERE" literal="BUSY_EVERYWHERE"/>
+    <eLiterals name="DECLINE" literal="DECLINE"/>
+    <eLiterals name="DOES_NOT_EXIST_ANYWHERE" literal="DOES_NOT_EXIST_ANYWHERE"/>
+    <eLiterals name="NOT_ACCEPTABLE" literal="NOT_ACCEPTABLE"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="RedirectionErrorKind">
+    <eLiterals name="ALTERNATIVE_SERVICE" literal="ALTERNATIVE_SERVICE"/>
+    <eLiterals name="MOVED_PERMANENTLY" literal="MOVED_PERMANENTLY"/>
+    <eLiterals name="MOVED_TEMPORARILY" literal="MOVED_TEMPORARILY"/>
+    <eLiterals name="MULTIPLE_CHOICES" literal="MULTIPLE_CHOICES"/>
+    <eLiterals name="USE_PROXY" literal="USE_PROXY"/>
+  </ecore:EEnum>
+  <ecore:EEnum name="ServerErrorKind">
+    <eLiterals name="BAD_GATEWAY" literal="BAD_GATEWAY"/>
+    <eLiterals name="MESSAGE_TOO_LARGE" literal="MESSAGE_TOO_LARGE"/>
+    <eLiterals name="NOT_IMPLEMENTED" literal="NOT_IMPLEMENTED"/>
+    <eLiterals name="SERVER_INTERNAL_ERROR" literal="SERVER_INTERNAL_ERROR"/>
+    <eLiterals name="SERVER_TIMEOUT" literal="SERVER_TIMEOUT"/>
+    <eLiterals name="SERVICE_UNAVAILABLE" literal="SERVICE_UNAVAILABLE"/>
+    <eLiterals name="VERSION_NOT_SUPPORTED" literal="VERSION_NOT_SUPPORTED"/>
+  </ecore:EEnum>
+  <ecore:EGenericType eClassifier="#/0/SrcElement"/>
+  <ecore:EGenericType eClassifier="#/0/SrcElement"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcElement"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNode"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSwitch"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSwitch"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSwitch"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSwitch"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSwitch"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNode"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNodeContainer"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNode"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNode"/>
+  <ecore:EGenericType eClassifier="#/0/SrcAction"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSignallingAction"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSignallingAction"/>
+  <ecore:EGenericType eClassifier="#/0/SrcSignallingAction"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSession"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSession"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSession"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSession"/>
+  <ecore:EGenericType eClassifier="#/0/TrgVariableDeclaration"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgMethodName"/>
+  <ecore:EGenericType eClassifier="#/0/TrgMethodName"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgBranch"/>
+  <ecore:EGenericType eClassifier="#/0/TrgBranch"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgTypeExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgTypeExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgTypeExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgDeclaration"/>
+  <ecore:EGenericType eClassifier="#/0/TrgDeclaration"/>
+  <ecore:EGenericType eClassifier="#/0/TrgFunctionDeclaration"/>
+  <ecore:EGenericType eClassifier="#/0/TrgFunctionDeclaration"/>
+  <ecore:EGenericType eClassifier="#/0/TrgDeclaration"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgStatement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgVariableDeclaration"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSelectMember"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSelectMember"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgExpression"/>
+  <ecore:EGenericType eClassifier="#/0/TrgPlace"/>
+  <ecore:EGenericType eClassifier="#/0/TrgPlace"/>
+  <ecore:EGenericType eClassifier="#/0/TrgVariablePlace"/>
+  <ecore:EGenericType eClassifier="#/0/TrgVariablePlace"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgMessageField"/>
+  <ecore:EGenericType eClassifier="#/0/TrgMessageField"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgConstant"/>
+  <ecore:EGenericType eClassifier="#/0/TrgConstant"/>
+  <ecore:EGenericType eClassifier="#/0/TrgConstant"/>
+  <ecore:EGenericType eClassifier="#/0/TrgConstant"/>
+  <ecore:EGenericType eClassifier="#/0/TrgConstant"/>
+  <ecore:EGenericType eClassifier="#/0/TrgConstant"/>
+  <ecore:EGenericType eClassifier="#/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgResponse"/>
+  <ecore:EGenericType eClassifier="#/0/TrgResponse"/>
+  <ecore:EGenericType eClassifier="#/0/TrgErrorResponse"/>
+  <ecore:EGenericType eClassifier="#/0/TrgErrorResponse"/>
+  <ecore:EGenericType eClassifier="#/0/TrgErrorResponse"/>
+  <ecore:EGenericType eClassifier="#/0/TrgErrorResponse"/>
+</xmi:XMI>

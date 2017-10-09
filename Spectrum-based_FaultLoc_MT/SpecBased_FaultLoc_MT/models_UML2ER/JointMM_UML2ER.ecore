@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <ecore:EPackage name="jointPackage_UML2ER" nsURI="http://jointPackage_uml2er/1.0"
+      nsPrefix="jointPackage_UML2ER">
+    <eClassifiers xsi:type="ecore:EClass" name="JointMM">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sourceRoot" lowerBound="1"
+          eType="#/0/SrcPackage" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetRoot" lowerBound="1"
+          eType="#/0/TrgStrongReference" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcPackage" eSuperTypes="#/0/SrcNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedElements" upperBound="-1"
+          eType="#/0/SrcClass" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcClass" eSuperTypes="#/0/SrcNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="ownedProperty" upperBound="-1"
+          eType="#/0/SrcProperty" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="superClasses" upperBound="-1"
+          eType="#/0/SrcClass"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcProperty" eSuperTypes="#/0/SrcNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="primitiveType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="complexType" eType="#/0/SrcClass"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isContainment" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcNamedElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgERModel" eSuperTypes="#/0/TrgElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="entities" upperBound="-1"
+          eType="#/0/TrgEntityType" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgWeakReference" eSuperTypes="#/0/TrgReference"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgStrongReference" eSuperTypes="#/0/TrgReference"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgEntityType" eSuperTypes="#/0/TrgElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="features" upperBound="-1"
+          eType="#/0/TrgFeature" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgFeature" abstract="true" eSuperTypes="#/0/TrgElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgAttribute" eSuperTypes="#/0/TrgFeature">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgReference" abstract="true" eSuperTypes="#/0/TrgFeature">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1"
+          eType="#/0/TrgEntityType"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ecore:EGenericType eClassifier="#/0/SrcNamedElement"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNamedElement"/>
+  <ecore:EGenericType eClassifier="#/0/SrcNamedElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgFeature"/>
+  <ecore:EGenericType eClassifier="#/0/TrgReference"/>
+  <ecore:EGenericType eClassifier="#/0/TrgReference"/>
+  <ecore:EGenericType eClassifier="#/0/TrgFeature"/>
+</xmi:XMI>

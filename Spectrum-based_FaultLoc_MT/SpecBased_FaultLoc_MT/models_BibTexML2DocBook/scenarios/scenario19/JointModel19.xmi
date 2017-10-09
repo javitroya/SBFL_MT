@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="idulnxbydd" title="Complexity measure" note="jxdjebjrxy">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Wang Yi"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="wdx_ugqp_n" title="The model checker SPIN" note="pbragrdct_">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="loayvplwvp" title="The model checker SPIN" note="dbu-p jd i">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="curcfumgwn" year="2004" title="Uppaal in a nutshell"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="qmo pfn_zg" year="2000" title="4 + 1 view model of architecture" publisher="luinidzf_z" chapter="60">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="rll-ihpmuj" year="2000" title="Program slicing" publisher="sd_xxglgy " chapter="24">
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="df a_ rkus" year="1987" title="An intrusion-detection model" publisher="nlohqteurn" chapter="8">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Donald E. Knuth"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="ghihon-crk" year="1994" title="An intrusion-detection model" school="mgrarfopfa">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[curcfumgwn] Proceedings Uppaal in a nutshell 2004"/>
+          <paras content="[df a_ rkus] InBook An intrusion-detection model Liangzhao Zeng Steve McConnell Donald E. Knuth Steve McConnell 1987 nlohqteurn 8"/>
+          <paras content="[ghihon-crk] MasterThesis An intrusion-detection model Chris F. Kemerer Steve McConnell Gerard J. Holzmann 1994 mgrarfopfa"/>
+          <paras content="[idulnxbydd] Unpublished Complexity measure Donald E. Knuth Steve McConnell Shyam R. Chidamber Wang Yi jxdjebjrxy"/>
+          <paras content="[loayvplwvp] Unpublished The model checker SPIN Richard N. Taylor Shyam R. Chidamber dbu-p jd i"/>
+          <paras content="[qmo pfn_zg] InBook 4 + 1 view model of architecture Edward N. Reingold Robert C. Martin Nenad Medvidovic 2000 luinidzf_z 60"/>
+          <paras content="[rll-ihpmuj] InBook Program slicing Shyam R. Chidamber 2000 sd_xxglgy  24"/>
+          <paras content="[wdx_ugqp_n] Unpublished The model checker SPIN Liangzhao Zeng Dorothy E. Denning Liangzhao Zeng Martin Fowler pbragrdct_"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

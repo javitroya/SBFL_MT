@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/0/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/2/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/2/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.0/@incoming"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/0/@service/@sessions.0/@methods.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/0/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/0/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.1/@incoming"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1/@service/@sessions.0/@methods.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/3/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/5/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.6"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1/@service/@sessions.0/@methods.0/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/1/@service/@sessions.0/@methods.0/@statements.0/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.7"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/6"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/6/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="SwitchedAddress2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.3/@addresses.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/3/@selectCases.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/3/@selectCases.0/@values.0"/>
+  </traceLinks>
+  <traceLinks ruleName="SwitchedAddress2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.4/@addresses.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4/@selectCases.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4/@selectCases.0/@values.0"/>
+  </traceLinks>
+  <traceLinks ruleName="SwitchedAddress2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.4/@addresses.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4/@selectCases.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4/@selectCases.1/@values.0"/>
+  </traceLinks>
+  <traceLinks ruleName="SwitchedAddress2SelectCase">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.4/@addresses.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4/@selectCases.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/4/@selectCases.2/@values.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario67/AutomaticModel_CPL67.xmi#//@elements.5/@otherwise"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario67/SPL_out67.xmi#/7"/>
+  </traceLinks>
+</trace:Trace>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="MetamodelEqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.2/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.2/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.2/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElConstant">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario62/AutomaticModel_ecore62.xmi#/"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.3/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="MetamodelEqPackages">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.3"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.3/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.3/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Initialize">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.0/@imports"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.1"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.2"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.3"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.4"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.5"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.6"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.7"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.8"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.9"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.10"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.11"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.12"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.13"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.14"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.15"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.16"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.17"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/0/@els.0/@els.18"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.1"/>
+  </traceLinks>
+  <traceLinks ruleName="EqName">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.5"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.5/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.5/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.5/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqMetamodel">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.6"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.6/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.6/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.6/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqSupPackage">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.7"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.7/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.7/@lhs/@args.0"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.7/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.8/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqSubPackages">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.8"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.8/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.8/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="EmptyList">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.9/@rhs"/>
+  </traceLinks>
+  <traceLinks ruleName="PackEqClasses">
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.9"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.9/@lhs"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.9/@lhs/@args.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Package2Operation">
+    <sourceElements href="models_Ecore2Maude/scenarios/scenario62/AutomaticModel_ecore62.xmi#/"/>
+    <targetElements href="models_Ecore2Maude/scenarios/scenario62/Maude_out62.xmi#/1/@els.4"/>
+  </traceLinks>
+</trace:Trace>

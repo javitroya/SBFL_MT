@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[_nrp _x xe] Unpublished Graph drawing by force-directed placement Liangzhao Zeng Erich Gamma Robert C. Martin toffvgyybk"/>
+        <paras content="[ajhlqyvmkt] Unpublished Complexity measure Paul Pettersson Donald E. Knuth Marlon Dumas Elisabeth Freeman f_vfggvtal"/>
+        <paras content="[cobsizqaun] Unpublished 4 + 1 view model of architecture Craig Larman Wang Yi Dorothy E. Denning Erich Gamma dnqoccmanj"/>
+        <paras/>
+        <paras content="[lcxigjqpxj] Misc"/>
+        <paras content="[m -rgnnopw] PhDThesis QoS-aware middleware for Web services composition Shyam R. Chidamber Wang Yi Chris F. Kemerer 2004 qazaj- rxs"/>
+        <paras content="[mxwiqz dzk] Misc"/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Journal of Systems and Software"/>
+        <paras content="Software -- Practice and Experience"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

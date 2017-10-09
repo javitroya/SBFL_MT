@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario53/AutomaticModel_CPL53.xmi#//@elements.0/@notPresent"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario53/AutomaticModel_CPL53.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/1/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/1/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario53/AutomaticModel_CPL53.xmi#//@elements.5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/2/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/2/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario53/AutomaticModel_CPL53.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario53/SPL_out53.xmi#/3/@declaration"/>
+  </traceLinks>
+</trace:Trace>

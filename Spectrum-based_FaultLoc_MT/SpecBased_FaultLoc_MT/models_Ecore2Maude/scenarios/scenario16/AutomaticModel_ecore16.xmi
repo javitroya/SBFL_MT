@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="lmtasmzvhb" nsURI="qqgsbotfdu" nsPrefix="simynihpdl">
+  <eClassifiers xsi:type="ecore:EClass" name="jowvrszczy" instanceTypeName="yaxpbltilv">
+    <eOperations name="lilnhafudd" ordered="false" lowerBound="44"/>
+    <eOperations name="jwugsrymjb" upperBound="96" eType="//@eClassifiers.3">
+      <eParameters name="twpetwjigw" unique="false" upperBound="96"/>
+    </eOperations>
+    <eOperations name="zyiptlrqwy" ordered="false" lowerBound="21" eExceptions="//@eClassifiers.6 //@eClassifiers.2 //@eClassifiers.7 //@eClassifiers.0 //@eClassifiers.5 //@eClassifiers.3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="hchtjxokbw" abstract="true">
+    <eOperations name="svgoeommwu" upperBound="4" eExceptions="//@eClassifiers.0 //@eClassifiers.6 //@eClassifiers.2 //@eClassifiers.4 //@eClassifiers.1 //@eClassifiers.7 //@eClassifiers.3 //@eClassifiers.5">
+      <eParameters name="otcslsacyu" unique="false" upperBound="94"/>
+      <eParameters name="uodygxhclh" upperBound="39"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="looyohmzec" lowerBound="66" upperBound="6" eType="//@eClassifiers.6" defaultValueLiteral="zqhnwobjai" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mlhcxggnul" ordered="false" lowerBound="87" eReferenceType="//@eClassifiers.1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="lxupoogmyi" instanceTypeName="lpqkmiclcc" interface="true">
+    <eOperations name="twiikgmxok" ordered="false" eExceptions="//@eClassifiers.7 //@eClassifiers.4 //@eClassifiers.3"/>
+    <eOperations name="uekhsczwho" unique="false" eExceptions="//@eClassifiers.3 //@eClassifiers.5 //@eClassifiers.1 //@eClassifiers.6 //@eClassifiers.2 //@eClassifiers.0">
+      <eParameters name="gytkznwzux" eType="//@eClassifiers.1"/>
+      <eParameters name="vascinfuhv" unique="false" upperBound="17" eType="//@eClassifiers.0"/>
+      <eParameters name="vbpgasrrbe" ordered="false" upperBound="37"/>
+    </eOperations>
+    <eOperations name="yuplwooylo">
+      <eParameters name="roqutcdjqq" lowerBound="24" eType="//@eClassifiers.4"/>
+      <eParameters name="vxnevnwwog" ordered="false" unique="false" lowerBound="82"/>
+      <eParameters name="uklysrjvsw" lowerBound="3" upperBound="45"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="udktiorxap" upperBound="16" unsettable="true" resolveProxies="false" eReferenceType="//@eClassifiers.1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="qafjgixgfo" instanceClassName="sginrpcdnv" instanceTypeName="atuggefnpe"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="veyacxazmv" instanceClassName="alklqmkosb" instanceTypeName="octjkdkdao"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="alwnrmjdry" serializable="false"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="cnsfnhfxxc" instanceClassName="kzcxyndlcf"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="opnwjmngyj" instanceTypeName="mugrnjginw"/>
+</ecore:EPackage>

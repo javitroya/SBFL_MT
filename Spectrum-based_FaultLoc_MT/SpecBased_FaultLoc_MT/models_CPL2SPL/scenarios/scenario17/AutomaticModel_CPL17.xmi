@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL">
+    <incoming/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages matches="xhjmzaywbw"/>
+    <languages matches="znypjdqfqy"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch"/>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages matches="kmdjjfzjqd"/>
+    <languages matches="chaknhtxlk"/>
+  </elements>
+  <elements xsi:type="CPL:SubCall" ref="zrzooawiad"/>
+  <elements xsi:type="CPL:SubCall" ref="rglrjorqli"/>
+  <elements xsi:type="CPL:SubCall" ref="gylhjxyyjk"/>
+  <elements xsi:type="CPL:Proxy" timeout="zneimlldgy" recurse="gifyikrxym" ordering="ogpvzuqqte"/>
+  <elements xsi:type="CPL:Reject" status="fmegrzleyf"/>
+  <elements xsi:type="CPL:Reject" status="ondlpbtilc" reason="gfvmehekhc"/>
+  <elements xsi:type="CPL:Reject" status="lhusfroqkw" reason="pqpnstpozo"/>
+</CPL:CPLModel>

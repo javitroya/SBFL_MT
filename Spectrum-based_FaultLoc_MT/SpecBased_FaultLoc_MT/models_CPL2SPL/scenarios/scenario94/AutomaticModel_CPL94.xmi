@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:StringSwitch" field="gmvupkxnsl">
+    <notPresent/>
+    <strings is="buogezhmou" contains="eslcozvqtz"/>
+    <strings contents="//@elements.7" is="clllhezcrr" contains="eovxmksuza"/>
+    <strings contains="qdvegnwgyf"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="einbttveke">
+    <notPresent/>
+    <strings/>
+    <strings is="dxspsveoqz"/>
+    <strings contains="ofwjhfxzlt"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent contents="//@elements.1"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="dcsklujeup" tzurl="stfvhspjdu">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" recurse="irtrldiotn" ordering="xyaxitnxgk">
+    <noAnswer/>
+  </elements>
+  <elements xsi:type="CPL:Redirect" permanent="drbufmmobd"/>
+  <elements xsi:type="CPL:Reject" status="wbrdjkndnn" reason="uzcicjrchk"/>
+  <elements xsi:type="CPL:Reject" status="weqejwgobr"/>
+</CPL:CPLModel>

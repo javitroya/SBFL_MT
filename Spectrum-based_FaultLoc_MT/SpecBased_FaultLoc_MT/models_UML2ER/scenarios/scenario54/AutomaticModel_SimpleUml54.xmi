@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="yosarebtld">
+  <ownedElements name="Country">
+    <ownedProperty name="_huv-ddzvz"/>
+    <ownedProperty name="l_dpuviva " primitiveType="Integer"/>
+  </ownedElements>
+</SimpleUml:Package>

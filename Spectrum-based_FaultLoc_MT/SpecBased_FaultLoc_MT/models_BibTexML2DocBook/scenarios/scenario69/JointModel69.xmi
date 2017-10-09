@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="--xreaddmg" title="Complexity measure" note="rlcsjxarvm">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Paul Pettersson"/>
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="sg_bpxfpxq" title="Uppaal in a nutshell" note="aewnoy_lxl">
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="r-paij fak" year="1997" title="Program slicing"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="muwpxg-nfu" year="1976" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="qqp-fvfn-z" year="1976" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="bfcomgs ye" year="2004"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="tlbvw_lcy-" year="2000"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="r_blowooae" year="1991" title="A metrics suite for object oriented design" publisher="kylfabh zq">
+      <authors author="Wang Yi"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Donald E. Knuth"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[--xreaddmg] Unpublished Complexity measure Chris F. Kemerer Paul Pettersson Dorothy E. Denning rlcsjxarvm"/>
+          <paras content="[bfcomgs ye] Booklet 2004"/>
+          <paras content="[muwpxg-nfu] Proceedings A classification and coparison framework for software architecture description languages 1976"/>
+          <paras content="[qqp-fvfn-z] Proceedings A classification and coparison framework for software architecture description languages 1976"/>
+          <paras content="[r-paij fak] Proceedings Program slicing 1997"/>
+          <paras content="[r_blowooae] Book A metrics suite for object oriented design Wang Yi Steve McConnell Robert C. Martin Donald E. Knuth 1991 kylfabh zq"/>
+          <paras content="[sg_bpxfpxq] Unpublished Uppaal in a nutshell Gerard J. Holzmann aewnoy_lxl"/>
+          <paras content="[tlbvw_lcy-] Booklet 2000"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

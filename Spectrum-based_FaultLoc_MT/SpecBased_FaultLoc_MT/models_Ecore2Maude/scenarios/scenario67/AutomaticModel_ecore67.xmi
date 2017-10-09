@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="zdetnodjae" nsURI="eaetoxjumu" nsPrefix="tetfhraoce">
+  <eClassifiers xsi:type="ecore:EClass" name="ijcobhbeai" instanceClassName="ksvehaizne" instanceTypeName="ivrbwizluo">
+    <eOperations name="ntttdsvwke" unique="false" lowerBound="71" eExceptions="//@eClassifiers.0 //@eClassifiers.3 //@eClassifiers.2 //@eClassifiers.4">
+      <eParameters name="atpuopdmgz" lowerBound="96"/>
+      <eParameters name="ktnumpwkuf" lowerBound="25" eType="//@eClassifiers.2"/>
+      <eParameters name="sstczaztnh" ordered="false" lowerBound="64" upperBound="11" eType="//@eClassifiers.1"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eervgyaaxk" upperBound="62"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mfihypoaho" unique="false" changeable="false" transient="true" defaultValueLiteral="nrtoeplnkx" containment="true" eOpposite="//@eClassifiers.0/@eStructuralFeatures.1"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tulvgrvapz" unique="false" derived="true" resolveProxies="false" eOpposite="//@eClassifiers.0/@eStructuralFeatures.2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="vwnyppuopc"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="vdzkepsjbe" instanceClassName="hutawqpbyq" instanceTypeName="lscnfaqjbd"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="opligveexf" instanceClassName="fziimvdcnq"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="csglkjmafb" instanceClassName="hwnjgvbqgd"/>
+</ecore:EPackage>

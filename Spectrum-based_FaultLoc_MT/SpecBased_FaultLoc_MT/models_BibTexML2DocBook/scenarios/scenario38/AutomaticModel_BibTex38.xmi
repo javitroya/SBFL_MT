@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="llcgatbppd" year="1976" title="The model checker SPIN" journal="Software and Systems Modeling">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gkyqs gpfv" year="1991" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+    <authors author="Craig Larman"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="cy-jedyajw" year="1991" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+    <authors author="Wang Yi"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ytdsqgaogc" year="1987" title="Graph drawing by force-directed placement">
+    <authors author="Marlon Dumas"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="zywnaih m " year="1987" title="4 + 1 view model of architecture">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="wi_j_kwlt " year="1984" title="Uppaal in a nutshell">
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="-jnxtjjt_g" title="Program slicing" note="cnxwl-jm s">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="hribl-girz" title="A metrics suite for object oriented design" note="_shygcw_bh">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="_qrrnlhnqy" year="2004" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Booklet" id="rei-kzei_-" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="idsanpc-mx" year="2000"/>
+  <entries xsi:type="BibTeX:Misc" id="zlv-jt l f"/>
+  <entries xsi:type="BibTeX:Misc" id="jog-cbxosy"/>
+  <entries xsi:type="BibTeX:Misc" id="-fszdjgljv"/>
+</BibTeX:BibTeXFile>

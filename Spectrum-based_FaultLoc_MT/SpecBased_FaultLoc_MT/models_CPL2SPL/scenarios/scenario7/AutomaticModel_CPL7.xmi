@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities greater="knxvlzidnp"/>
+    <priorities greater="mbdmtjqjjw" equal="cmlzqngzoj"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities less="kwtfihrfhj" greater="tajtpeeryq" equal="pcfesvebuq"/>
+    <priorities greater="bjxudcwfhr"/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="byvitnrlqe" clear="ddwhawjcmg"/>
+  <elements xsi:type="CPL:Location" url="okjggutmya" clear="oeuicjcyos"/>
+  <elements xsi:type="CPL:Location" url="nbfwjeprfu" clear="bcuajufabz"/>
+</CPL:CPLModel>

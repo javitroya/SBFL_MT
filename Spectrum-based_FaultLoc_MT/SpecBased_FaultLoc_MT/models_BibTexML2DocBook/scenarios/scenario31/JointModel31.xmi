@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="j jimhumfj" year="1991" title="A metrics suite for object oriented design" journal="Journal of Systems and Software">
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="jxz_bc_e-e" year="2004" title="4 + 1 view model of architecture" publisher="k s_svfhzc" booktitle="kjsnrauvsr">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="kegoixlms-" year="1984" title="Graph drawing by force-directed placement" publisher="eubjgumluu" chapter="95">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="_ up nrcil" year="1984" title="Complexity measure" publisher="fxwuoyysmz" chapter="78">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Bruce Schneier"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="qmkoouevju" year="1991" title="Program slicing" publisher="tlamwpoecq" chapter="23">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="ax_brcxlao" year="1994" title="A classification and coparison framework for software architecture description languages" school="u-ceuuoi u">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="t-ppmkwbfj" year="1991" title="An intrusion-detection model" school="xxipfitd_c">
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="iglxf_y--k" year="1991" title="Complexity measure" school="hbgpyxgf-h">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="n fvffmdpl" year="1997" title="4 + 1 view model of architecture" school="uozns ozv ">
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="dqkzv_vsmq" year="1987" title="Graph drawing by force-directed placement" school="ojy-jq_-jz">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[_ up nrcil] InBook Complexity measure Richard N. Taylor Nenad Medvidovic Bruce Schneier Paul Pettersson 1984 fxwuoyysmz 78"/>
+          <paras content="[ax_brcxlao] PhDThesis A classification and coparison framework for software architecture description languages Shyam R. Chidamber Kim G. Larsen 1994 u-ceuuoi u"/>
+          <paras content="[dqkzv_vsmq] MasterThesis Graph drawing by force-directed placement Thomas M. J. Fruchterman Dorothy E. Denning Elisabeth Freeman 1987 ojy-jq_-jz"/>
+          <paras content="[iglxf_y--k] PhDThesis Complexity measure Kim G. Larsen Paul Pettersson 1991 hbgpyxgf-h"/>
+          <paras/>
+          <paras content="[jxz_bc_e-e] InCollection 4 + 1 view model of architecture Liangzhao Zeng Martin Fowler Marlon Dumas 2004 kjsnrauvsr k s_svfhzc"/>
+          <paras content="[kegoixlms-] InBook Graph drawing by force-directed placement Richard N. Taylor Robert C. Martin 1984 eubjgumluu 95"/>
+          <paras content="[n fvffmdpl] MasterThesis 4 + 1 view model of architecture Elisabeth Freeman 1997 uozns ozv "/>
+          <paras content="[qmkoouevju] InBook Program slicing Nenad Medvidovic Philippe Kruchten Paul Pettersson 1991 tlamwpoecq 23"/>
+          <paras content="[t-ppmkwbfj] PhDThesis An intrusion-detection model Gerard J. Holzmann Marlon Dumas 1991 xxipfitd_c"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Journal of Systems and Software"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

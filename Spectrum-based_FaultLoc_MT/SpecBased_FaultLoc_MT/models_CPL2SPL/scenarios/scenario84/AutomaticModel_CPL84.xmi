@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <incoming contents="//@elements.16"/>
+  </elements>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages contents="//@elements.12" matches="yeihexybly"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages contents="//@elements.7" matches="shscilslmn"/>
+    <languages matches="drfnljytss"/>
+    <languages matches="abolqzwcke"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages matches="cskcrwguep"/>
+    <languages matches="wuzhxjzcru"/>
+    <languages matches="pkyppcopgw"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+    <priorities less="elobhepalx" greater="uzgtbizepg"/>
+    <priorities less="klwgyqphum" greater="cscltnvsqk"/>
+    <priorities less="howiunzcxu" greater="evajlertpo" equal="fhltommdot"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:Location" url="umzjlecega" clear="qfgmxadfyz"/>
+  <elements xsi:type="CPL:Location" url="gbognwbjkk" clear="sxuwpsswxq"/>
+  <elements xsi:type="CPL:SubCall" ref="ojbyyisevm"/>
+  <elements xsi:type="CPL:SubCall" ref="lxgsxitlta"/>
+  <elements xsi:type="CPL:SubCall" ref="oduvxvrlxq"/>
+  <elements xsi:type="CPL:Redirect" permanent="nbbxdczfgg"/>
+  <elements xsi:type="CPL:Redirect" permanent="atlfzjhjrr"/>
+  <elements xsi:type="CPL:Redirect" permanent="abedtwyzyj"/>
+</CPL:CPLModel>

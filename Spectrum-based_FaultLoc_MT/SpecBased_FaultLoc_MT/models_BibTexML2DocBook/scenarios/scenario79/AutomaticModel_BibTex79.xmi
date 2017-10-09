@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="pfcocbogrl" year="1976" title="An intrusion-detection model" journal="Software and Systems Modeling">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="hwmihewkkr" year="1997" title="The model checker SPIN" journal="Software and Systems Modeling">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="do-dusuoxf" year="2000" title="Program slicing" journal="Software -- Practice and Experience">
+    <authors author="Steve McConnell"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="a rwgr_fps" year="1997" title="A metrics suite for object oriented design" journal="Journal of Systems and Software">
+    <authors author="Steve McConnell"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="mhmyazuvld" year="1987"/>
+  <entries xsi:type="BibTeX:Misc" id="twj rkivs_"/>
+  <entries xsi:type="BibTeX:Misc" id="zrzfdxjbio"/>
+</BibTeX:BibTeXFile>

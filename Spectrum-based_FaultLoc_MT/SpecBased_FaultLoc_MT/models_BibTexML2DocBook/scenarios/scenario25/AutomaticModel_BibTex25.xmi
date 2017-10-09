@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="owplpjfujr" year="1994" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+    <authors author="Bruce Schneier"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mte-wemsig" year="2004" title="Complexity measure" journal="Information and Software Technology">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="d--h_esrjk" year="1976" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="v-xorbys -" year="1995" title="Uppaal in a nutshell" journal="IEEE Transactions on Software Engineering">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="znwqtorlil" year="1995" title="A metrics suite for object oriented design" booktitle="cwnryujyn ">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Craig Larman"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="ajof-yzysp" year="1994" title="Program slicing" booktitle="f-er-slx m">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="toplko bnh" year="1976" title="QoS-aware middleware for Web services composition" booktitle="  tnhsnxug">
+    <authors author="Erich Gamma"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="rlcfmur pp" year="2004"/>
+  <entries xsi:type="BibTeX:Booklet" id="i hsqcckpd" year="2004"/>
+  <entries xsi:type="BibTeX:Booklet" id="olbgzcitmh" year="1987"/>
+  <entries xsi:type="BibTeX:Book" id="oeho-ouzor" year="1976" title="4 + 1 view model of architecture" publisher="tmffinjrdb">
+    <authors author="Erich Gamma"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="obpasl_mjs" year="1991" title="Graph drawing by force-directed placement" publisher="ilcni _z f">
+    <authors author="Robert C. Martin"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="wi_ sovayo" year="1987" title="QoS-aware middleware for Web services composition" publisher="b_pybxbnza">
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+</BibTeX:BibTeXFile>

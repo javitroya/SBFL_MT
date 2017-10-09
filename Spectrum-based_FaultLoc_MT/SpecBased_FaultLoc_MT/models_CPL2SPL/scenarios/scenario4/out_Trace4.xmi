@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Proxy2Return">
+    <sourceElements href="AutomaticModel_CPL4.xmi#//@elements.3"/>
+    <targetElements href="out_SPL4.xmi#/0"/>
+    <targetElements href="out_SPL4.xmi#/0/@returnedValue"/>
+    <targetElements href="out_SPL4.xmi#/0/@returnedValue/@exp"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Return">
+    <sourceElements href="AutomaticModel_CPL4.xmi#//@elements.4"/>
+    <targetElements href="out_SPL4.xmi#/1"/>
+    <targetElements href="out_SPL4.xmi#/1/@returnedValue"/>
+    <targetElements href="out_SPL4.xmi#/1/@returnedValue/@exp"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Return">
+    <sourceElements href="AutomaticModel_CPL4.xmi#//@elements.5"/>
+    <targetElements href="out_SPL4.xmi#/2"/>
+    <targetElements href="out_SPL4.xmi#/2/@returnedValue"/>
+    <targetElements href="out_SPL4.xmi#/2/@returnedValue/@exp"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="AutomaticModel_CPL4.xmi#//@elements.0"/>
+    <targetElements href="out_SPL4.xmi#/3"/>
+    <targetElements href="out_SPL4.xmi#/3/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="AutomaticModel_CPL4.xmi#//@elements.1"/>
+    <targetElements href="out_SPL4.xmi#/4"/>
+    <targetElements href="out_SPL4.xmi#/4/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="AutomaticModel_CPL4.xmi#//@elements.2"/>
+    <targetElements href="out_SPL4.xmi#/5"/>
+    <targetElements href="out_SPL4.xmi#/5/@declaration"/>
+  </traceLinks>
+</trace:Trace>

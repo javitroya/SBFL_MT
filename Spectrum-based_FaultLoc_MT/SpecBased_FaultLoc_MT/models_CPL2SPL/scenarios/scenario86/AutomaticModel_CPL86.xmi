@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:TimeSwitch" tzid="xejxronhho" tzurl="xfuyumgbkt"/>
+  <elements xsi:type="CPL:TimeSwitch"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="lcbchebdbi" tzurl="vmpdabobme"/>
+  <elements xsi:type="CPL:Location" url="dfmqrwvfmh" clear="zgywifhrnj"/>
+  <elements xsi:type="CPL:Location" url="hxxuiehluh" priority="itukocepau" clear="dupczsxpzj"/>
+  <elements xsi:type="CPL:Location" url="omudrepdju" clear="gzfgpayzzk"/>
+  <elements xsi:type="CPL:SubCall" ref="ltzffjdxdb"/>
+  <elements xsi:type="CPL:SubCall" ref="lgqhijadmn"/>
+  <elements xsi:type="CPL:SubCall" ref="kqikivvkqv"/>
+  <elements xsi:type="CPL:Reject" status="fvdjixlsli" reason="tidnpexnxp"/>
+  <elements xsi:type="CPL:Reject" status="jkvdkbccmr" reason="kmgqvucfgx"/>
+  <elements xsi:type="CPL:Reject" status="dnpamcecqs"/>
+</CPL:CPLModel>

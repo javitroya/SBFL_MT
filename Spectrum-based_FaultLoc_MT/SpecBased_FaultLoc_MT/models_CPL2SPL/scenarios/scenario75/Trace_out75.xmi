@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario75/AutomaticModel_CPL75.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/0/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario75/AutomaticModel_CPL75.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/1/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/1/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario75/AutomaticModel_CPL75.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue/@msgFields.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/2/@returnedValue/@msgFields.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/3"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario75/AutomaticModel_CPL75.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue/@msgFields.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/4/@returnedValue/@msgFields.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/5"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario75/AutomaticModel_CPL75.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue/@msgFields.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/6/@returnedValue/@msgFields.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario75/SPL_out75.xmi#/7"/>
+  </traceLinks>
+</trace:Trace>

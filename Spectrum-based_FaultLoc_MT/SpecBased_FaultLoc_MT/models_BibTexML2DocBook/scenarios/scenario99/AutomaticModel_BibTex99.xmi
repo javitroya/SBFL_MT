@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="cofhiomq f" year="2000" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="x--isfucpt" year="1995" title="Complexity measure" journal="IEEE Transactions on Software Engineering">
+    <authors author="Robert C. Martin"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="lxgfbicrop" year="1997" title="Program slicing" journal="Software -- Practice and Experience">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ks huvpbbj" year="1976" title="Uppaal in a nutshell" journal="IEEE Transactions on Software Engineering">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id=" vflibygat" year="1997" title="QoS-aware middleware for Web services composition" journal="Software and Systems Modeling">
+    <authors author="Steve McConnell"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ydtr_fjls " year="1991" title="Program slicing">
+    <authors author="Bruce Schneier"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="kyou-vznic" year="1995" title="Program slicing">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="dkisf---yp" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Manual" id="cnegke wwn" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Manual" id="_obrhcle n" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Book" id="wrz nqswpr" year="1995" title="Complexity measure" publisher="rnprfoybyz">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="xvwdcixmih" year="1987" title="QoS-aware middleware for Web services composition" publisher="mb-_xfiizu">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="etvfplpkbz" year="1995" title="Uppaal in a nutshell" publisher="qfhvnuumee" chapter="65">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="pezgbqnpyf" year="1991" title="Program slicing" publisher="qe_jvmhyjt" chapter="63">
+    <authors author="Robert C. Martin"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="xobraumffy" year="1995" title="An intrusion-detection model" school="hboibgpyqw">
+    <authors author="Wang Yi"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="fr d  eu v" year="2000" title="A classification and coparison framework for software architecture description languages" school="jxxhzbbj-e">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="mi-tdg_zz " year="1995" title="A metrics suite for object oriented design" school="ttyueulnoh">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+</BibTeX:BibTeXFile>

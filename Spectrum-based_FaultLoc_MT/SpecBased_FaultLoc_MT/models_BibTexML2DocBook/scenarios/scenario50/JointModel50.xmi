@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="xjblorsodi" year="1997" title="Program slicing" journal="Software and Systems Modeling">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Craig Larman"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="iwtytzagbe" year="2004" title="Complexity measure"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="nkd zfoknk" year="1994" title="QoS-aware middleware for Web services composition" school="ql z_o_hdm">
+      <authors author="Robert C. Martin"/>
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="fbwgnklpnm" year="1987" title="A metrics suite for object oriented design" school="ctjxqkhj c">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="sclpnwbii-" year="1984" title="A metrics suite for object oriented design" school="z-mfrnvnt ">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[fbwgnklpnm] PhDThesis A metrics suite for object oriented design Donald E. Knuth Edward N. Reingold 1987 ctjxqkhj c"/>
+          <paras content="[iwtytzagbe] Proceedings Complexity measure 2004"/>
+          <paras content="[nkd zfoknk] PhDThesis QoS-aware middleware for Web services composition Robert C. Martin Erich Gamma 1994 ql z_o_hdm"/>
+          <paras content="[sclpnwbii-] MasterThesis A metrics suite for object oriented design Philippe Kruchten Marlon Dumas 1984 z-mfrnvnt "/>
+          <paras/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

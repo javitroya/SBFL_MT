@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:AddressSwitch" field="zzizbzckmc" subField="pimyixhtam">
+    <addresses contents="//@elements.8"/>
+    <addresses contents="//@elements.3" subDomainOf="otstevnjcu"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="nexemlrgae" subField="qebuogeuhe"/>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities contents="//@elements.11" less="fspbzutyuf" equal="nxldlyfjmb"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities contents="//@elements.5" equal="jveqbvqbux"/>
+    <priorities greater="doxyrrisyr" equal="eemltofqhe"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <otherwise contents="//@elements.11"/>
+    <priorities less="edrtqzsfru"/>
+    <priorities less="jkgbxoacke"/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="dvkfpimbtp" clear="nbfzydrwjj"/>
+  <elements xsi:type="CPL:Location" url="swwkfsuhbi" priority="gqulbuhqlb" clear="kthwdckfrd"/>
+  <elements xsi:type="CPL:Location" url="xibplmcdvg" clear="opjcryfbwu"/>
+  <elements xsi:type="CPL:Redirect" permanent="krppifhdjs"/>
+  <elements xsi:type="CPL:Reject" status="skadqmcnve" reason="wcbitjbkzb"/>
+  <elements xsi:type="CPL:Reject" status="zjtlgdqjsq"/>
+  <elements xsi:type="CPL:Reject" status="ppfvwaqxdc" reason="jzrdbdvyrr"/>
+</CPL:CPLModel>

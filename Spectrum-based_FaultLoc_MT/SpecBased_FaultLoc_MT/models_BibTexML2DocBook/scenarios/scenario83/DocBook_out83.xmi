@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[bashlcmspf] InProceedings Complexity measure Nenad Medvidovic Chris F. Kemerer Gerard J. Holzmann Richard N. Taylor 1984 ws_rt_cezf"/>
+        <paras content="[cmt_h-yboy] Article Graph drawing by force-directed placement Donald E. Knuth Erich Gamma 2000 Software -- Practice and Experience"/>
+        <paras content="[cwyxvyzibo] PhDThesis QoS-aware middleware for Web services composition Gerard J. Holzmann Chris F. Kemerer Robert C. Martin 1976  syunmwuqg"/>
+        <paras content="[hqtcm-z__a] MasterThesis A metrics suite for object oriented design Bruce Schneier Gerard J. Holzmann Paul Pettersson 1984 lq rnqnqjj"/>
+        <paras content="[ivcihztoxi] TechReport QoS-aware middleware for Web services composition Wang Yi Liangzhao Zeng Bruce Schneier Craig Larman 1987"/>
+        <paras/>
+        <paras content="[oroitrfjq ] InCollection 4 + 1 view model of architecture Gerard J. Holzmann Erich Gamma Robert C. Martin Gerard J. Holzmann 2000 jojznmlkmy ooxx rss_d"/>
+        <paras content="[p iwubdatl] InCollection The model checker SPIN Nenad Medvidovic Nenad Medvidovic Richard N. Taylor Liangzhao Zeng 1995 guxqr qe_t lfcmvlosud"/>
+        <paras content="[qfdrrffyze] Article Graph drawing by force-directed placement Martin Fowler Martin Fowler 2000 IEEE Transactions on Software Engineering"/>
+        <paras/>
+        <paras content="[sh_e-s-mki] Book A classification and coparison framework for software architecture description languages Martin Fowler Gerard J. Holzmann Donald E. Knuth 1994 yjnwgibtav"/>
+        <paras content="[sqss_dphyn] Manual Uppaal in a nutshell"/>
+        <paras content="[srrm-vgxrx] Booklet 2000"/>
+        <paras content="[teoqqi_lfr] Article QoS-aware middleware for Web services composition Kim G. Larsen Paul Pettersson Craig Larman 1976 Software and Systems Modeling"/>
+        <paras content="[uwmjapkzyu] MasterThesis Program slicing Bruce Schneier Thomas M. J. Fruchterman 1991 pdaiowfziu"/>
+        <paras content="[xzty rxroj] InCollection A metrics suite for object oriented design Steve McConnell 2000 zvsgykbzeh zcilaxjowh"/>
+        <paras content="[ych vsclrr] InProceedings A metrics suite for object oriented design Gerard J. Holzmann Shyam R. Chidamber Bruce Schneier 1987 ojbodaiqip"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Journal of Systems and Software"/>
+        <paras content="Software -- Practice and Experience"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

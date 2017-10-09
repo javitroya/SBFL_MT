@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="crcti-urqm" year="2000" title="An intrusion-detection model" journal="Journal of Systems and Software">
+      <authors author="Paul Pettersson"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="k_gcgwhq l" year="1997" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ucnss-ekql" year="1987" title="The model checker SPIN" journal="Software and Systems Modeling">
+      <authors author="Erich Gamma"/>
+      <authors author="Richard N. Taylor"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="j aqmqtkqy" year="1997" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="--r-p_azmb" year="1995" title="Uppaal in a nutshell" journal="IEEE Transactions on Software Engineering">
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="ar_foqdtpw" year="1997" title="QoS-aware middleware for Web services composition">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="vhvndmhctq" title="Graph drawing by force-directed placement" note=" vgdvlfhuy">
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="dxj- zx-tg" title="4 + 1 view model of architecture" note=" zz_gqgdbv">
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Richard N. Taylor"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="egu_rkcays" title="Program slicing" note="jzljqnzrtu">
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="zmeel_fr_a" title="An intrusion-detection model"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="uedc-oksbr" title="An intrusion-detection model"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="vwyfx-ult_" title="Uppaal in a nutshell"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="--cjzxdqct" year="1984"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="lgzpbzlqhp" year="1987"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="hxkbxtd zu" year="1994"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="pi_mliwapo" year="2004" title="The model checker SPIN" publisher="stzyenqbk-">
+      <authors author="Wang Yi"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="mszrkwnwwc" year="1984" title="4 + 1 view model of architecture" publisher="qqv_znrzar">
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="hbomu yghs" year="1994" title="Program slicing" publisher="-qjtfbrbfb" chapter="99">
+      <authors author="Bruce Schneier"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[--cjzxdqct] Booklet 1984"/>
+          <paras content="[--r-p_azmb] Article Uppaal in a nutshell Elisabeth Freeman 1995 IEEE Transactions on Software Engineering"/>
+          <paras content="[ar_foqdtpw] TechReport QoS-aware middleware for Web services composition Shyam R. Chidamber Philippe Kruchten 1997"/>
+          <paras/>
+          <paras content="[dxj- zx-tg] Unpublished 4 + 1 view model of architecture Gerard J. Holzmann Kim G. Larsen Richard N. Taylor  zz_gqgdbv"/>
+          <paras content="[egu_rkcays] Unpublished Program slicing Elisabeth Freeman jzljqnzrtu"/>
+          <paras content="[hbomu yghs] InBook Program slicing Bruce Schneier 1994 -qjtfbrbfb 99"/>
+          <paras content="[hxkbxtd zu] Booklet 1994"/>
+          <paras content="[j aqmqtkqy] Article Uppaal in a nutshell Dorothy E. Denning Marlon Dumas 1997 Journal of Systems and Software"/>
+          <paras/>
+          <paras content="[lgzpbzlqhp] Booklet 1987"/>
+          <paras content="[mszrkwnwwc] Book 4 + 1 view model of architecture Elisabeth Freeman 1984 qqv_znrzar"/>
+          <paras content="[pi_mliwapo] Book The model checker SPIN Wang Yi 2004 stzyenqbk-"/>
+          <paras content="[ucnss-ekql] Article The model checker SPIN Erich Gamma Richard N. Taylor 1987 Software and Systems Modeling"/>
+          <paras content="[uedc-oksbr] Manual An intrusion-detection model"/>
+          <paras content="[vhvndmhctq] Unpublished Graph drawing by force-directed placement Liangzhao Zeng  vgdvlfhuy"/>
+          <paras content="[vwyfx-ult_] Manual Uppaal in a nutshell"/>
+          <paras content="[zmeel_fr_a] Manual An intrusion-detection model"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

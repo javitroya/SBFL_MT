@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="lalcweywst">
+  <eClassifiers xsi:type="ecore:EClass" name="ozeqwsqdvc" instanceTypeName="fkhjlidsdd" interface="true">
+    <eOperations name="bupfqqxrqb" lowerBound="7" upperBound="94" eExceptions="//@eClassifiers.0 //@eClassifiers.2 //@eClassifiers.3 //@eClassifiers.1"/>
+    <eOperations name="hpemlbswbu" lowerBound="70"/>
+    <eOperations name="dnsfyyzbbn" lowerBound="45" eExceptions="//@eClassifiers.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ifxaxyccwy" ordered="false" lowerBound="52" transient="true" unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hpgxzfwmih" upperBound="14" volatile="true" unsettable="true" iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="wpafxueqhy" lowerBound="67" upperBound="16" changeable="false" transient="true" unsettable="true" resolveProxies="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mbthhzmswl" ordered="false" unique="false" upperBound="95" eType="//@eClassifiers.3" volatile="true" resolveProxies="false"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="mihoaaybdo" instanceClassName="zfvllayqjm" eSuperTypes="//@eClassifiers.0">
+    <eOperations name="mbxkveshkw" lowerBound="20"/>
+    <eOperations name="hgkfobmurj" lowerBound="9" upperBound="62" eExceptions="//@eClassifiers.2 //@eClassifiers.1 //@eClassifiers.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qomfqlcqkm" ordered="false" changeable="false" defaultValueLiteral="tzchsqofvk" eAttributeType="//@eClassifiers.3"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kigdiwdhrb" lowerBound="74" upperBound="57" volatile="true" derived="true" eAttributeType="//@eClassifiers.2"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="biwkcwrble" ordered="false" lowerBound="69" changeable="false" volatile="true" defaultValueLiteral="rrudcikuws" eOpposite="//@eClassifiers.1/@eStructuralFeatures.2" eReferenceType="//@eClassifiers.0" eKeys="//@eClassifiers.0/@eStructuralFeatures.1 //@eClassifiers.0/@eStructuralFeatures.0"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="mflptelooq" instanceTypeName="uaeyzxgwje" serializable="false"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="jybvdqjrfs" instanceClassName="scdpmhhzhw" instanceTypeName="cazlmzagkh"/>
+</ecore:EPackage>

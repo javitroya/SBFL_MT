@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:TechReport" id="pu_o nxkat" year="1987" title="4 + 1 view model of architecture">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Wang Yi"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="iptplg_tps" year="1994" title="QoS-aware middleware for Web services composition">
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="ldrpc -wq_" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:InProceedings" id="rm-eqepjiu" year="1997" title="Uppaal in a nutshell" booktitle="g-mjhpnld ">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="ktlyxvuypf" year="1984" title="QoS-aware middleware for Web services composition" booktitle="mtpcx jnwb">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="lmxxp-crr_" year="1995" title="Graph drawing by force-directed placement" booktitle="rocmmhkcqh">
+    <authors author="Marlon Dumas"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="myzqmvv_mc" year="1984"/>
+  <entries xsi:type="BibTeX:Booklet" id="uigbcqgxqr" year="1997"/>
+  <entries xsi:type="BibTeX:InCollection" id="l-_qnuojzw" year="2000" title="A metrics suite for object oriented design" publisher="dbdrwif tn" booktitle="p-bwbmpda ">
+    <authors author="Bruce Schneier"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="br_l_yekgv" year="1987" title="QoS-aware middleware for Web services composition" publisher=" lvhyhk jz" booktitle="aiwxjoyelm">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="cxgdb-za--" year="1995" title="A classification and coparison framework for software architecture description languages" publisher="jpqfc-af_r" booktitle="k-nn_vsfpb">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="uytvbeskcw" year="1984" title="Graph drawing by force-directed placement" publisher="c_l-p_yvpl" chapter="47">
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="skov ktqtr" year="1995" title="Graph drawing by force-directed placement" publisher="bzhgcuae-r" chapter="3">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="dyxeqnleic" year="1994" title="A metrics suite for object oriented design" publisher="vl_pold- b" chapter="26">
+    <authors author="Martin Fowler"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Wang Yi"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="dj evwshmp"/>
+  <entries xsi:type="BibTeX:Misc" id="oxdq o iia"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="uzjzymnmka" year="1984" title="A metrics suite for object oriented design" school="khct ntuda">
+    <authors author="Robert C. Martin"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="kefejlqbmz" year="1987" title="A classification and coparison framework for software architecture description languages" school="-jcozjpl t">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="g _ fzcure" year="1991" title="Complexity measure" school="gcy fcxgle">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Craig Larman"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+</BibTeX:BibTeXFile>

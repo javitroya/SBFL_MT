@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="bas_gsk -f" year="1991" title="A metrics suite for object oriented design" journal="Software and Systems Modeling">
+    <authors author="Paul Pettersson"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="_-ginefgmm" year="1984" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="rhobfp qkv" year="1987" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Marlon Dumas"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ukyvvbeger" year="1984" title="Complexity measure" journal="Software -- Practice and Experience">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="uth_osbxrt" year="1997" title="Complexity measure" journal="Software -- Practice and Experience">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="wxdpcxa-wj" year="1984" title="A classification and coparison framework for software architecture description languages" journal="Journal of Systems and Software">
+    <authors author="Bruce Schneier"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="vrearpofri" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Manual" id="hkucbnhnm-" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Manual" id="-qggprqf_d" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Proceedings" id="viyvbzvsak" year="2000" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Proceedings" id="jtheoki bd" year="1994" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Proceedings" id="bbxovdw jb" year="1987" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Booklet" id="i-_xg_neb-" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="smqlkkifzn" year="1995"/>
+  <entries xsi:type="BibTeX:Misc" id="wwdzwpc_in"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="sqvdpwq_ve" year="1987" title="A metrics suite for object oriented design" school="qwypvkrpex">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="th_vyg xyu" year="1997" title="A metrics suite for object oriented design" school="hgugoyfjap">
+    <authors author="Wang Yi"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+</BibTeX:BibTeXFile>

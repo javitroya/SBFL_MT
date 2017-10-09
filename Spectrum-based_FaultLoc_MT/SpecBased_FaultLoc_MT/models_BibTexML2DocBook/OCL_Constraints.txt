@@ -1,0 +1,95 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+--The following 16 OCL constraints are taken from the TSE 2015 paper
+
+--OCL1. It checks that the main Article is properly created and named (Rule Main)
+TrgBook.allInstances()->forAll(b | b.articles->exists(a | a.title = 'BibTeXML to DocBook'))
+
+--OCL2. It checks that all the sections for the main Article are properly created and named (Rule Main)
+TrgArticle.allInstances()->forAll(a | a.sections_1->size() >= 4 and a.sections_1->at(1).title = 'References List' and a.sections_1->at(2).title = 'Authors List' and a.sections_1->at(3).title = 'Titles List' and a.sections_1->at(4).title = 'Journals List')
+
+--OCL3. It checks that all Articles have a paragraph for the author information
+SrcAuthor.allInstances()->forAll(au|TrgArticle.allInstances()->exists(a|a.sections_1->at(2).paras->exists(p|p.content=au.author )))
+
+--OCL4. It checks that for each of the authors that appear in all the different publications, there is a paragraph with the name of the author within a section named 'Authors List'
+SrcAuthor.allInstances()->forAll(a | TrgPara.allInstances()->exists(p | p.content = a.author and p.section.title = 'Authors List'))
+
+--OCL5. It checks that a Booklet is properly converted into a paragraph with the right content ('[' + id of the Booklet + ']' + 'Booklet' + its year) and within the right section ('References List').  
+SrcBooklet.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['.concat(b.id).concat('] Booklet ').concat(b.year) and p.section.title = 'References List'))
+
+--OCL6. It checks that an Unpublished publication (UP) authored and titled entry is properly converted into a paragraph with the right content ('[' + id of the UP + ']' + 'Unpublished' + its title + its authors + its note) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcUnpublished.allInstances()->forAll(b|TrgPara.allInstances()->exists(p|p.content='[' + b.id + '] Unpublished ' + b.title + ' ' + b.authors->iterate(e;str:String=''|str+e.author+' ') + b.note  and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL7. It checks that a MasterThesis is properly converted into a paragraph with the right content ('[' + id of the MasterThesis + ']' + 'MaterThesis' + its title + its authors + its note + its year + its school) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List') 
+--SrcMasterThesis.allInstances()->forAll(b |TrgPara.allInstances()->exists(p | p.content = '[' + b.id +'] MasterThesis ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.school and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL8. It checks that a PhDThesis is properly converted into a paragraph with the right content ('[' + id of the PhDThesis + ']' + 'PhDThesis' + its title + its authors + its note + its year + its school) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcPhDThesis.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '[' + b.id + '] PhDThesis ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.school and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL9. It checks that a Book (but not its children) is properly converted into a paragraph with the right content ('[' + id of the Book + ']' + 'Book' + its title + its authors + its note + its year + its publisher) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcBook.allInstances()->select(b|b.oclIsTypeOf(SrcBook))->forAll(b | TrgPara.allInstances()->exists(p | p.content ='['+b.id+'] Book ' + b.title + ' ' + b.authors->iterate(e; str : String =  '' | str + e.author + ' ') + b.year + ' ' + b.publisher and p.section.title = 'References List') and	TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL10. It checks that an InBook is properly converted into a paragraph with the right content ('[' + id of the InBook + ']' + 'InBook' + its title + its authors + its note + its year + its publisher + its chapter) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcInBook.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '[' + b.id + '] InBook ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.publisher + ' ' + b.chapter.toString() and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL11. It checks that a TechReport is properly converted into a paragraph with the right content ('[' + id of the TechReport + ']' + 'TechReport' + its title + its authors + its year) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcTechReport.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] TechReport ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year and p.section.title = 'References List') and	TrgPara.allInstances()->exists(p | p.content = b.title and	p.section.title = 'Titles List'))
+
+--OCL12. It checks that a Manual is properly converted into a paragraph with the right content ('[' + id of the Manual + ']' + 'Manual' + its title) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcManual.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['.concat(b.id).concat('] Manual ').concat(b.title) and p.section.title = 'References List')	and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL13. It checks that a Proceedings (but not its children) is properly converted into a paragraph with the right content ('[' + id of the Proceedings + ']' + 'Proceedings' + its title + its year) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcProceedings.allInstances()->select(p|p.oclIsTypeOf(SrcProceedings))->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] Proceedings ' + b.title + ' ' + b.year and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL14. It checks that an InProceedings is properly converted into a paragraph with the right content ('[' + id of the InProceedings + ']' + 'InProceedings' + its title + its authors + its year + its booktitle) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcInProceedings.allInstances()->forAll(b |	TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] InProceedings ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author+ ' ') + b.year + ' ' + b.booktitle) and	TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL15. It checks that an InCollection is properly converted into a paragraph with the right content ('[' + id of the InCollection + ']' + 'InCollection' + its title + its authors + its year + its booktitle + its publisher) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List')
+SrcInCollection.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] InCollection ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.booktitle + ' ' + b.publisher) and	TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+
+--OCL16. It checks that an Article is properly converted into a paragraph with the right content ('[' + id of the Article + ']' + 'Article' + its title + its authors + its year + its journal) and within the right section ('References List'). And also that its title is included in another paragraph within the right section ('Titles List') and also that its journal is included in another paragraph within the right section ('Journals List')
+SrcArticle.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] Article ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.journal) and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List') and TrgPara.allInstances()->exists(p | p.content = b.journal and p.section.title = 'Journals List'))
+
+-- End of the 16 OCL constraints from the TSE 2015 paper
+
+--OCL17. It checks that the number of DocBooks and Books created must be the same as the number of BibTexFiles
+SrcBibTeXFile.allInstances()->size() = TrgDocBook.allInstances()->size() and SrcBibTeXFile.allInstances()->size() = TrgBook.allInstances()->size()
+
+--OCL18. It checks that for each of the titles that appear in all the different publications, there is a paragraph with the title as content within a section named 'Titles List'
+SrcTitledEntry.allInstances() -> forAll(te | TrgPara.allInstances()->exists(p | p.content = te.title and p.section.title = 'Titles List'))
+
+--OCL19. It checks that for each of the articles, there is a paragraph with the name of the journal of the article within a section named 'Journals List'
+SrcArticle.allInstances()->forAll(a | TrgPara.allInstances()->exists(p | p.content = a.journal and p.section.title = 'Journals List'))
+
+--OCL20. It checks that the titles of all the publications appear in the content of a paragraph of a section
+SrcTitledEntry.allInstances()->forAll(te | TrgSect1.allInstances() -> exists(s | s.paras -> exists(p | p.content = te.title)))
+
+--OCL21. It checks that there are no two paragraphs within the 'Authors List' section with the same content
+not TrgSect1.allInstances() -> asSequence() -> select(s | s.title = 'Authors List') -> first().paras -> exists(p1,p2 | p1<>p2 and p1.content=p2.content)
+
+--OCL22. It checks that there are no two paragraphs within the 'Titles List' section with the same content
+not TrgSect1.allInstances() -> asSequence() -> select(s | s.title = 'Titles List') -> first().paras -> exists(p1,p2 | p1<>p2 and p1.content=p2.content)
+
+--OCL23. It checks that there are no two paragraphs within the 'Journals List' section with the same content
+not TrgSect1.allInstances() -> asSequence() -> select(s | s.title = 'Journals List') -> first().paras -> exists(p1,p2 | p1<>p2 and p1.content=p2.content)
+
+--OCL24. There is a paragraph within the section 'References List' for every Bibtex entry, so the number of instances must be the same
+SrcBibTeXEntry.allInstances()->size() = TrgSect1.allInstances()->select(s | s.title = 'References List') -> asSequence() -> first().paras -> size()
+
+--OCL25. The number of distinct titles must be the same as the number of paragraphs within the 'Titles List' section
+SrcTitledEntry.allInstances()->iterate(e; te : Sequence(SrcTitledEntry) = Sequence {} |	if te->collect(ee | ee.title)->includes(e.title) then	te else	te->including(e) endif) -> size() = TrgSect1.allInstances()->select(s | s.title = 'Titles List') -> asSequence() -> first().paras -> size()
+
+--OCL26. The number of distinct author names must be the same as the number of paragraphs within the 'Authors List' section
+SrcAuthor.allInstances()->iterate(e; a : Sequence(SrcAuthor) = Sequence {} | if a->collect(ee | ee.author)->includes(e.author) then	a else a->including(e) endif ) -> size() = TrgSect1.allInstances()->select(s | s.title = 'Authors List') -> asSequence() -> first().paras -> size()
+
+--OCL27. The number of distinct journals names must be the same as the number of paragraphs within the 'Journals List' section
+SrcArticle.allInstances()->iterate(e; a : Sequence(SrcArticle) = Sequence {} | if a->collect(ee | ee.journal)->includes(e.journal) then	a else a->including(e) endif ) -> size() = TrgSect1.allInstances()->select(s | s.title = 'Journals List') -> asSequence() -> first().paras -> size()

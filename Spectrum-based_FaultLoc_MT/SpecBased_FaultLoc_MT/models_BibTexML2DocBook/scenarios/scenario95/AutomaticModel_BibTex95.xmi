@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="spsuvkmist" year="1997" title="Graph drawing by force-directed placement" journal="IEEE Transactions on Software Engineering">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="  k ee_ q_" year="1991" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+    <authors author="Martin Fowler"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ypulprvmhe" year="2000" title="4 + 1 view model of architecture" journal="Information and Software Technology">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Craig Larman"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="emvaxtnzeo" year="1994" title="A metrics suite for object oriented design" journal="Software and Systems Modeling">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="-ixwahpucb" year="2004" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Marlon Dumas"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gipzsmwymu" year="1991" title="A metrics suite for object oriented design" journal="Information and Software Technology">
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="jojgtpym--" year="1991" title="QoS-aware middleware for Web services composition">
+    <authors author="Steve McConnell"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="ramcgrfxfa" year="1987" title="Complexity measure">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="egudvqapkn" year="1987" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:InProceedings" id="ywvfeq_zqx" year="1976" title="Complexity measure" booktitle="zsrsnsxxll">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="qfgbmxmab_" year="1987" title="A classification and coparison framework for software architecture description languages" booktitle="bbyy-wrzz-">
+    <authors author="Martin Fowler"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="n_khk-cohm" year="2000" title="A metrics suite for object oriented design" booktitle="nsoevdofxi">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Wang Yi"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="fvnqtosxjc"/>
+  <entries xsi:type="BibTeX:Misc" id="pvull_r-ao"/>
+  <entries xsi:type="BibTeX:Misc" id="zxxhgkposh"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="pkwmnotpfj" year="2000" title="A classification and coparison framework for software architecture description languages" school="sshavwdr__">
+    <authors author="Robert C. Martin"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="quru-dlsgs" year="1976" title="The model checker SPIN" school="jdakumadtr">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id=" ncl-uejh " year="1994" title="Program slicing" school="ghglshao-w">
+    <authors author="Steve McConnell"/>
+  </entries>
+</BibTeX:BibTeXFile>

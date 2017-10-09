@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:AddressSwitch" field="drwefcznoo" subField="lqkyfgoqvh">
+    <otherwise/>
+    <addresses is="opqiuolbtj" contains="olykuokapl" subDomainOf="zmjtgoaqfj"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="zlzfhfpenz">
+    <otherwise/>
+    <addresses/>
+    <addresses contains="metgicitxs" subDomainOf="lvworxwuwi"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="kdgzubknny">
+    <notPresent/>
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:SubCall" ref="pobbqwazgi"/>
+  <elements xsi:type="CPL:Redirect" permanent="etutrblftc"/>
+  <elements xsi:type="CPL:Redirect" permanent="kmgwtbcrlu"/>
+  <elements xsi:type="CPL:Redirect" permanent="umsjblfioc"/>
+</CPL:CPLModel>

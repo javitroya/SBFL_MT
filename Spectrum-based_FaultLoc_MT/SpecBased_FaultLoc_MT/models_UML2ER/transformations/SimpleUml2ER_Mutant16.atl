@@ -1,0 +1,182 @@
+module UML2ER_Mutant16;
+create OUT : ER, TM : TMM from IN : SimpleUML;
+
+helper def : trace : TMM!Trace = OclUndefined;
+
+entrypoint rule createTrace()
+{
+	to
+		tr : TMM!Trace( )
+	
+	do {
+		thisModule.trace <- tr;
+	}	
+}
+--R1
+abstract rule NamedElement{ 
+ from s : SimpleUML!NamedElement
+ to   t : ER!Element(
+ 	name <- s.name
+	)
+}
+--R2
+rule Package extends NamedElement{
+  from s: SimpleUML!Package
+  to t: ER!ERModel(
+        entities <- s.ownedElements 
+	),
+	-- trace information
+	tl : TMM!TraceLink(
+		ruleName <- 'Package',
+		targetElements <- Sequence{t}
+	),
+	tl2 : TMM!TraceLink(
+		ruleName <- 'NamedElement',
+		targetElements <- Sequence{t}
+	)
+  do {
+	-- trace information
+	tl.sourceElements <- Sequence{s};
+	tl2.sourceElements <- Sequence{s};
+	thisModule.trace.traceLinks <- tl;
+	thisModule.trace.traceLinks <- tl2;
+  }
+}
+--R3
+rule Class extends NamedElement{
+  from s: SimpleUML!Class
+  to t: ER!EntityType (
+     features <- s.ownedProperty 
+	 ),
+	-- trace information
+	tl : TMM!TraceLink(
+		ruleName <- 'Class',
+		targetElements <- Sequence{t}
+	),
+	tl2 : TMM!TraceLink(
+		ruleName <- 'NamedElement',
+		targetElements <- Sequence{t}
+	)
+  do {
+	-- trace information
+	tl.sourceElements <- Sequence{s};
+	tl2.sourceElements <- Sequence{s};
+	thisModule.trace.traceLinks <- tl;
+	thisModule.trace.traceLinks <- tl2;
+  }
+}
+--R4
+abstract rule Property extends NamedElement{
+  from s: SimpleUML!Property
+  to t: ER!Feature ()
+}
+--R5
+rule Attributes extends Property{
+  from s: SimpleUML!Property (s.complexType.oclIsUndefined())
+  to t: ER!Attribute (
+     type <- if s.primitiveType.oclIsUndefined() then 'NoType' else s.primitiveType endif	
+  ),
+	-- trace information
+	tl : TMM!TraceLink(
+		ruleName <- 'Attributes',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl2 : TMM!TraceLink(
+		ruleName <- 'Property',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl3 : TMM!TraceLink(
+		ruleName <- 'NamedElement',
+		targetElements <- Sequence{t}
+	)
+  do {
+	-- trace information
+	tl.sourceElements <- Sequence{s};
+	tl2.sourceElements <- Sequence{s};
+	tl3.sourceElements <- Sequence{s};
+	thisModule.trace.traceLinks <- tl;
+	thisModule.trace.traceLinks <- tl2;
+	thisModule.trace.traceLinks <- tl3;
+  }
+}
+--R6
+abstract rule References extends Property{
+  from s: SimpleUML!Property (not s.complexType.oclIsUndefined())
+  to t: ER!Reference (
+     type <- s.complexType 
+  )
+}
+--R7
+rule WeakReferences extends References{
+  from s: SimpleUML!Property (s.isContainment) --(not s.isContainment)        -- Mutation: binding condition change
+  to t: ER!WeakReference(),
+	-- trace information
+	tl : TMM!TraceLink(
+		ruleName <- 'WeakReferences',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl2 : TMM!TraceLink(
+		ruleName <- 'References',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl3 : TMM!TraceLink(
+		ruleName <- 'Property',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl4 : TMM!TraceLink(
+		ruleName <- 'NamedElement',
+		targetElements <- Sequence{t}
+	)
+  do {
+	-- trace information
+	tl.sourceElements <- Sequence{s};
+	tl2.sourceElements <- Sequence{s};
+	tl3.sourceElements <- Sequence{s};
+	tl4.sourceElements <- Sequence{s};
+	thisModule.trace.traceLinks <- tl;
+	thisModule.trace.traceLinks <- tl2;
+	thisModule.trace.traceLinks <- tl3;
+	thisModule.trace.traceLinks <- tl4;
+  }
+}
+--R8
+rule StrongReferences extends References{
+  from s: SimpleUML!Property (not s.isContainment) --(s.isContainment)        -- Mutation: binding condition change
+  to t: ER!StrongReference(),
+	-- trace information
+	tl : TMM!TraceLink(
+		ruleName <- 'StrongReferences',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl2 : TMM!TraceLink(
+		ruleName <- 'References',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl3 : TMM!TraceLink(
+		ruleName <- 'Property',
+		targetElements <- Sequence{t}
+	),
+	-- trace information
+	tl4 : TMM!TraceLink(
+		ruleName <- 'NamedElement',
+		targetElements <- Sequence{t}
+	)
+  do {
+	-- trace information
+	tl.sourceElements <- Sequence{s};
+	tl2.sourceElements <- Sequence{s};
+	tl3.sourceElements <- Sequence{s};
+	tl4.sourceElements <- Sequence{s};
+	thisModule.trace.traceLinks <- tl;
+	thisModule.trace.traceLinks <- tl2;
+	thisModule.trace.traceLinks <- tl3;
+	thisModule.trace.traceLinks <- tl4;
+  }
+}

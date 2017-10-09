@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[fbwgnklpnm] PhDThesis A metrics suite for object oriented design Donald E. Knuth Edward N. Reingold 1987 ctjxqkhj c"/>
+        <paras content="[iwtytzagbe] Proceedings Complexity measure 2004"/>
+        <paras content="[nkd zfoknk] PhDThesis QoS-aware middleware for Web services composition Robert C. Martin Erich Gamma 1994 ql z_o_hdm"/>
+        <paras content="[sclpnwbii-] MasterThesis A metrics suite for object oriented design Philippe Kruchten Marlon Dumas 1984 z-mfrnvnt "/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

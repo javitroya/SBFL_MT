@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions id="swnaospgkb"/>
+    <subActions id="iotkulzkdq"/>
+    <subActions contents="//@elements.5" id="jtpzixccli"/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions id="iravsbietz"/>
+    <subActions id="cuyreukjli"/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions id="rptyejazkm"/>
+    <subActions id="ebdatzugbu"/>
+    <subActions id="wvmyeugysj"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:Location" url="xtnlwdejbn" priority="sgzilifwlb" clear="ylwyjbuvvw"/>
+  <elements xsi:type="CPL:SubCall" ref="ysxznyegbv"/>
+  <elements xsi:type="CPL:SubCall" ref="jsazjlbfzw"/>
+  <elements xsi:type="CPL:Redirect" permanent="ibzgiveznj"/>
+  <elements xsi:type="CPL:Redirect" permanent="frjrvjerqg"/>
+  <elements xsi:type="CPL:Reject" status="enusphgfcz"/>
+  <elements xsi:type="CPL:Reject" status="gfiuavgchx"/>
+</CPL:CPLModel>

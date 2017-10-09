@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcCPL"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLanguageSwitch">
+      <notPresent/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="sowdwuiknf" recurse="xmnwjaqkjj" ordering="jizlimjrht">
+      <default contents="/0/@elements.3"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" recurse="gmyqpxvjsv" ordering="auosrubrgy">
+      <noAnswer/>
+      <redirection contents="/0/@elements.3"/>
+    </elements>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgProgram>
+    <service name="unnamed">
+      <sessions xsi:type="jointPackage_CPL2SPL:TrgDialog"/>
+    </service>
+  </jointPackage_CPL2SPL:TrgProgram>
+  <jointPackage_CPL2SPL:TrgCompoundStat>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+      <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="r">
+        <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+        <initExp xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+          <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+      <matchedExp xsi:type="jointPackage_CPL2SPL:TrgVariable" source="/2/@statements.0/@declaration"/>
+      <selectDefault>
+        <commentsBefore>// default</commentsBefore>
+        <statements xsi:type="jointPackage_CPL2SPL:TrgCompoundStat">
+          <statements xsi:type="jointPackage_CPL2SPL:TrgDeclarationStat">
+            <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="r">
+              <type xsi:type="jointPackage_CPL2SPL:TrgSimpleType" type="response"/>
+              <initExp xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+                <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+              </initExp>
+            </declaration>
+          </statements>
+          <statements xsi:type="jointPackage_CPL2SPL:TrgSelectStat">
+            <matchedExp xsi:type="jointPackage_CPL2SPL:TrgVariable" source="/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration"/>
+            <selectCases>
+              <commentsBefore>// noanswer</commentsBefore>
+              <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+                <response xsi:type="jointPackage_CPL2SPL:TrgClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+              </values>
+            </selectCases>
+            <selectCases>
+              <commentsBefore>// redirection</commentsBefore>
+              <values xsi:type="jointPackage_CPL2SPL:TrgResponseConstant">
+                <response xsi:type="jointPackage_CPL2SPL:TrgRedirectionErrorResponse" errorKind="MULTIPLE_CHOICES"/>
+              </values>
+            </selectCases>
+          </statements>
+        </statements>
+      </selectDefault>
+    </statements>
+  </jointPackage_CPL2SPL:TrgCompoundStat>
+  <jointPackage_CPL2SPL:TrgRedirectionErrorResponse errorKind="USE_PROXY"/>
+</xmi:XMI>

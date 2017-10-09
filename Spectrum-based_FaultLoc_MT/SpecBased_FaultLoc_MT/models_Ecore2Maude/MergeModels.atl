@@ -1,0 +1,664 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+module MergeModels;
+create OUT : JointModel from IN1 : Ecore, IN2 : Maude;
+
+--helper def : root : JointModel!JointMM = OclAny;
+--
+--entrypoint rule CreateContainer(){
+--	to
+--		jm : JointModel!JointMM(
+--			--The source and target models are suppose to have only one root element
+--			sourceRoot <- BibTexModel!BibTeXFile.allInstancesFrom('IN1') -> first(),
+--			targetRoot <- DocBookModel!DocBook.allInstancesFrom('IN2')->first()
+--		)
+--	do{
+--		thisModule.root <- jm;
+--	}
+--}
+
+-------------For each class that is not abstract in the source model (from inner to outer)-------------------
+--A filter is necessary when there are non-abstract classes having children, see BibTex2DocBook example
+
+rule EAttribute2SrcEAttribute{
+	from
+		s : Ecore!EAttribute
+	to
+		t : JointModel!SrcEAttribute(
+			--ENamedElement
+			name <- s.name,
+			--ETypedElement
+			ordered <- s.ordered,
+			unique <- s.unique,
+			lowerBound <- s.lowerBound,
+			upperBound <- s.upperBound,
+			--many <- s.many,
+			--required <- s.required,
+			eType <- s.eType,
+			--EStructuralFeature
+			changeable <- s.changeable,
+			volatile <- s.volatile,
+			transient <- s.transient,
+			defaultValueLiteral <- s.defaultValueLiteral,
+			--detaultValue <- s.defaultValue,
+			unsettable <- s.unsettable,
+			derived <- s.derived,
+			--eContainingClass <- s.eContainingClass,
+			--EAttribute
+			iD <- s.iD,
+			eAttributeType <- s.eAttributeType
+		)
+}
+
+rule EEnumLiteral2SrcEEnumLiteral{
+	from
+		s : Ecore!EEnumLiteral
+		--The filter is necessary when there are non-abstract classes having children
+	to
+		t : JointModel!SrcEEnumLiteral(
+			--ENamedElement
+			name <- s.name,
+			--EEnumLiteral
+			value <- s.value,
+			--instance <- s.instance,
+			literal <- s.literal--,
+			--eEnum <- s.eEnum
+		)
+}
+
+rule EParameter2SrcEParameter{
+	from
+		s : Ecore!EParameter
+	to
+		t : JointModel!SrcEParameter(
+			--ENamedElement
+			name <- s.name,
+			--ETypedElement
+			ordered <- s.ordered,
+			unique <- s.unique,
+			lowerBound <- s.lowerBound,
+			upperBound <- s.upperBound,
+			--many <- s.many,
+			--required <- s.required,
+			eType <- s.eType--,
+			--EParameter
+			--eOperation <- s.eOperation
+		)
+}
+
+rule EReference2SrcEReference{
+	from
+		s : Ecore!EReference
+	to
+		t : JointModel!SrcEReference(
+			--ENamedElement
+			name <- s.name,
+			--ETypedElement
+			ordered <- s.ordered,
+			unique <- s.unique,
+			lowerBound <- s.lowerBound,
+			upperBound <- s.upperBound,
+			--many <- s.many,
+			--required <- s.required,
+			eType <- s.eType,
+			--EStructuralFeature
+			changeable <- s.changeable,
+			volatile <- s.volatile,
+			transient <- s.transient,
+			defaultValueLiteral <- s.defaultValueLiteral,
+			--detaultValue <- s.defaultValue,
+			unsettable <- s.unsettable,
+			derived <- s.derived,
+			--eContainingClass <- s.eContainingClass,
+			--EReference
+			containment <- s.containment,
+			--container <- s.container,
+			resolveProxies <- s.resolveProxies,
+			eOpposite <- s.eOpposite,
+			eReferenceType <- s.eReferenceType,
+			eKeys <- s.eKeys
+		)
+}
+
+rule EStringToStringMapEntry2SrcEStringToStringMapEntry{
+	from
+		s : Ecore!EStringToStringMapEntry
+	to
+		t : JointModel!SrcEStringToStringMapEntry(
+			key <- s.key,
+			value <- s.value
+		)
+}
+
+rule EOperation2SrcEOperation{
+	from
+		s : Ecore!EOperation
+	to
+		t : JointModel!SrcEOperation(
+			--ENamedElement
+			name <- s.name,
+			--ETypedElement
+			ordered <- s.ordered,
+			unique <- s.unique,
+			lowerBound <- s.lowerBound,
+			upperBound <- s.upperBound,
+			--many <- s.many,
+			--required <- s.required,
+			eType <- s.eType,
+			--EOperation
+			--eContainingClass <- s.eContainingClass,
+			eParameters <- s.eParameters,
+			eExceptions <- s.eExceptions
+		)
+}
+
+rule EDataType2SrcEDataType{
+	from
+		s : Ecore!EDataType (not s.oclIsTypeOf(Ecore!EEnum))
+		--The filter is necessary when there are non-abstract classes having children
+	to
+		t : JointModel!SrcEDataType(
+			--ENamedElement
+			name <- s.name,
+			--EClassfier
+			instanceClassName <- s.instanceClassName,
+			--instanceClass <- s.instanceClass,
+			--defaultValue <- s.defaultValue,
+			instanceTypeName <- s.instanceTypeName,
+			--ePackage <- s.ePackage,
+			--EDataType
+			serializable <- s.serializable
+		)
+}
+
+rule EEnum2SrcEEnum{
+	from
+		s : Ecore!EEnum
+		--The filter is necessary when there are non-abstract classes having children
+	to
+		t : JointModel!SrcEEnum(
+			--ENamedElement
+			name <- s.name,
+			--EClassfier
+			instanceClassName <- s.instanceClassName,
+			--instanceClass <- s.instanceClass,
+			--defaultValue <- s.defaultValue,
+			instanceTypeName <- s.instanceTypeName,
+			--ePackage <- s.ePackage,
+			--EEnum
+			eLiterals <- s.eLiterals
+		)
+}
+
+rule EClass2SrcEClass{
+	from
+		s : Ecore!EClass
+	to
+		t : JointModel!SrcEClass(
+			--ENamedElement
+			name <- s.name,
+			--EClassfier
+			instanceClassName <- s.instanceClassName,
+			--instanceClass <- s.instanceClass,
+			--defaultValue <- s.defaultValue,
+			instanceTypeName <- s.instanceTypeName,
+			--ePackage <- s.ePackage,
+			--EClass
+			abstract <- s.abstract,
+			interface <- s.interface,
+			eSuperTypes <- s.eSuperTypes,
+			eOperations <- s.eOperations,
+			--eAllAttributes <- s.eAllAttributes,
+			--eAllReferences <- s.eAllReferences,
+			--eReferences <- s.eReferences,
+			--eAttributes <- s.eAttributes,
+			--eAllContainments <- s.eAllContainments,
+			--eAllOperations <- s.eAllOperations,
+			--eAllStructuralFeatures <- s.eAllStructuralFeatures,
+			--eAllSuperTypes <- s.eAllSuperTypes,
+			--eIDAttribute <- s.eIDAttribute,
+			eStructuralFeatures <- s.eStructuralFeatures
+		)
+}
+
+-- This one corresponds to the root element. We write it the last one in order to contain the already created elements
+
+rule EPackage2SrcEPackage{
+	from
+		s : Ecore!EPackage
+	to
+		t : JointModel!SrcEPackage(
+			--ENamedElement
+			name <- s.name,
+			--EPackage
+			nsURI <- s.nsURI,
+			nsPrefix <- s.nsPrefix,
+			eClassifiers <- s.eClassifiers--,
+			--eSubPackages <- s.eSubPackages,
+			--eSuperPackage <- s.eSuperPackage
+		)
+}
+
+-------------For each class that is not abstract in the target model-------------------
+
+rule Constant2TrgConstant{
+	from
+		s : Maude!Constant
+	to
+		t : JointModel!TrgConstant(
+			--Term
+			type <- s.type,
+			--Constant
+			op <- s.op
+		)
+}
+
+
+rule Variable2TrgVariable{
+	from
+		s : Maude!Variable
+	to
+		t : JointModel!TrgVariable(
+			--Term
+			type <- s.type,
+			--Variable
+			name <- s.name
+		)
+}
+
+
+rule RecTerm2TrgRecTerm{
+	from
+		s : Maude!RecTerm
+	to
+		t : JointModel!TrgRecTerm(
+			--Term
+			type <- s.type,
+			--RecTerm
+			op <- s.op,
+			args <- s.args
+		)
+}
+
+rule RewriteCond2TrgRewriteCond{
+	from
+		s : Maude!RewriteCond
+	to
+		t : JointModel!TrgRewriteCond(
+			--Condition
+			lhs <- s.lhs,
+			--RewriteCond
+			rhs <- s.rhs
+		)
+}
+
+rule MembershipCond2TrgMembershipCond{
+	from
+		s : Maude!MembershipCond
+	to
+		t : JointModel!TrgMembershipCond(
+			--Condition
+			lhs <- s.lhs,
+			--MembershipCond
+			rhs <- s.rhs
+		)
+}
+
+rule EqualCond2TrgEqualCond{
+	from
+		s : Maude!EqualCond
+	to
+		t : JointModel!TrgEqualCond(
+			--Condition
+			lhs <- s.lhs,
+			--EqualCond
+			rhs <- s.rhs
+		)
+}
+
+rule MatchingCond2TrgMatchingCond{
+	from
+		s : Maude!MatchingCond
+	to
+		t : JointModel!TrgMatchingCond(
+			--Condition
+			lhs <- s.lhs,
+			--MatchingCond
+			rhs <- s.rhs
+		)
+}
+
+rule BooleanCond2TrgBooleanCond{
+	from
+		s : Maude!BooleanCond
+	to
+		t : JointModel!TrgBooleanCond(
+			--Condition
+			lhs <- s.lhs
+		)
+}
+
+rule Membership2TrgMembership{
+	from
+		s : Maude!Membership
+	to
+		t : JointModel!TrgMembership(
+			--ModElement
+			module <- s.module,
+			theory <- s.theory,
+			--Statement
+			label <- s.label,
+			atts <- s.atts,
+			conds <- s.conds,
+			--Membership
+			term <- s.term,
+			sort <- s.sort
+		)
+}
+
+rule Equation2TrgEquation{
+	from
+		s : Maude!Equation
+	to
+		t : JointModel!TrgEquation(
+			--ModElement
+			module <- s.module,
+			theory <- s.theory,
+			--Statement
+			label <- s.label,
+			atts <- s.atts,
+			conds <- s.conds,
+			--Equation
+			lhs <- s.lhs,
+			rhs <- s.rhs
+		)
+}
+
+rule Rule2TrgRule{
+	from
+		s : Maude!Rule
+	to
+		t : JointModel!TrgRule(
+			--ModElement
+			module <- s.module,
+			theory <- s.theory,
+			--Statement
+			label <- s.label,
+			atts <- s.atts,
+			conds <- s.conds,
+			--Equation
+			lhs <- s.lhs,
+			rhs <- s.rhs
+		)
+}
+
+rule Sort2TrgSort{
+	from
+		s : Maude!Sort
+	to
+		t : JointModel!TrgSort(
+			--ModElement
+			module <- s.module,
+			theory <- s.theory,
+			--Type
+			name <- s.name,
+			--Sort
+			subsortRels <- s.subsortRels,
+			supersortRels <- s.supersortRels,
+			kind <- s.kind
+		)
+}
+
+rule SubsortRel2TrgSubsortRel{
+	from
+		s : Maude!SubsortRel
+	to
+		t : JointModel!TrgSubsortRel(
+			--ModElement
+			module <- s.module,
+			theory <- s.theory,
+			--SubsortRel
+			subsorts <- s.subsorts,
+			supersorts <- s.supersorts
+		)
+}
+
+
+rule Operation2TrgOperation{
+	from
+		s : Maude!Operation
+	to
+		t : JointModel!TrgOperation(
+			--ModElement
+			module <- s.module,
+			theory <- s.theory,
+			--SubsortRel
+			name <- s.name,
+			coarity <- s.coarity,
+			arity <- s.arity,
+			atts <- s.atts
+		)
+}
+
+
+rule Kind2TrgKind{
+	from
+		s : Maude!Kind
+	to
+		t : JointModel!TrgKind(
+			--Type
+			name <- s.name,
+			--Kind
+			sorts <- s.sorts
+		)
+}
+
+rule ModuleIdModExp2TrgModuleIdModExp{
+	from
+		s : Maude!ModuleIdModExp
+	to
+		t : JointModel!TrgModuleIdModExp(
+			module <- s.module
+		)
+}
+
+rule CompModExp2TrgCompModExp{
+	from
+		s : Maude!CompModExp
+	to
+		t : JointModel!TrgCompModExp(
+			modExps <- s.modExps
+		)
+}
+
+rule TheoryIdModExp2TrgTheoryIdModExp{
+	from
+		s : Maude!TheoryIdModExp
+	to
+		t : JointModel!TrgTheoryIdModExp(
+			theory <- s.theory
+		)
+}
+
+rule RenModExp2TrgRenModExp{
+	from
+		s : Maude!RenModExp
+	to
+		t : JointModel!TrgRenModExp(
+			modExp <- s.modExp,
+			renamings <- s.renamings
+		)
+}
+
+rule InstModExp2TrgInstModExp{
+	from
+		s : Maude!InstModExp
+	to
+		t : JointModel!TrgInstModExp(
+			modExp <- s.modExp,
+			views <- s.views
+		)
+}
+
+
+rule LabelMapping2TrgLabelMapping{
+	from
+		s : Maude!LabelMapping
+	to
+		t : JointModel!TrgLabelMapping(
+			--LabelMapping
+			from <- s.from,
+			to <- s.to
+		)
+}
+
+rule OpMapping2TrgOpMapping{
+	from
+		s : Maude!OpMapping
+	to
+		t : JointModel!TrgOpMapping(
+			--OpMapping
+			from <- s.from,
+			to <- s.to
+		)
+}
+
+rule OpTypedMapping2TrgOpTypedMapping{
+	from
+		s : Maude!OpTypedMapping
+	to
+		t : JointModel!TrgOpTypedMapping(
+			--OpTypedMapping
+			from <- s.from,
+			to <- s.to,
+			atts <- s.atts
+		)
+}
+
+rule SortMapping2TrgSortMapping{
+	from
+		s : Maude!SortMapping
+	to
+		t : JointModel!TrgSortMapping(
+			--SortMapping
+			from <- s.from,
+			to <- s.to
+		)
+}
+
+rule TermMapping2TrgTermMapping{
+	from
+		s : Maude!TermMapping
+	to
+		t : JointModel!TrgTermMapping(
+			--TermMapping
+			from <- s.from,
+			to <- s.to
+		)
+}
+
+rule View2TrgView{
+	from
+		s : Maude!View
+	to
+		t : JointModel!TrgView(
+			--MaudeTopEl
+			name <- s.name,
+			--View
+			from <- s.from,
+			to <- s.to,
+			els <- s.els
+		)
+}
+
+
+
+rule ModImportation2TrgModImportation{
+	from
+		s : Maude!ModImportation
+	to
+		t : JointModel!TrgModImportation(
+			--ModElement
+			module <- s.module,
+			theory <- s.theory,
+			--ModImportation
+			imports <- s.imports
+		)
+}
+
+rule Parameter2TrgParameter{
+	from
+		s : Maude!Parameter
+	to
+		t : JointModel!TrgParameter(
+			label <- s.label,
+			modExp <- s.modExp
+		)
+}
+
+rule FTheory2TrgFTheory{
+	from
+		s : Maude!FTheory
+	to
+		t : JointModel!TrgFTheory(
+			--MaudeTopEl
+			name <- s.name,
+			els <- s.els
+		)
+}
+
+rule STheory2TrgSTheory{
+	from
+		s : Maude!STheory
+	to
+		t : JointModel!TrgSTheory(
+			--MaudeTopEl
+			name <- s.name,
+			els <- s.els
+		)
+}
+
+rule SModule2TrgSModule{
+	from
+		s : Maude!SModule
+	to
+		t : JointModel!TrgSModule(
+			--MaudeTopEl
+			name <- s.name,
+			--Module
+			els <- s.els,
+			params <- s.params
+		)
+}
+
+rule FModule2TrgFModule{
+	from
+		s : Maude!FModule
+	to
+		t : JointModel!TrgFModule(
+			--MaudeTopEl
+			name <- s.name,
+			--Module
+			els <- s.els,
+			params <- s.params
+		)
+}
+
+rule MaudeSpec2TrgMaudeSpec{
+	from
+		s : Maude!MaudeSpec
+	to
+		t : JointModel!TrgMaudeSpec(
+			els <- s.els,
+			printableEls <- s.printableEls
+		)
+}

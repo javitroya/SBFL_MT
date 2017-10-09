@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="avhjehwcly">
+  <eClassifiers xsi:type="ecore:EClass" name="qcfiyzhhty" interface="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bxbfitydtk" lowerBound="8" upperBound="82" transient="true" defaultValueLiteral="lcomsicrfy" derived="true" iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="wxqeyglwpi" lowerBound="88" upperBound="69" transient="true" defaultValueLiteral="mhtuwiojwl"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vyugeurddw" lowerBound="89" upperBound="35" volatile="true" transient="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="wywmoovgzm" instanceTypeName="rpcwrluefg" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="yskhqubneb" ordered="false" unique="false" upperBound="75" defaultValueLiteral="hezgubkdxo" derived="true" eAttributeType="//@eClassifiers.3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="aepwhklgme"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="laatqllirf" instanceTypeName="wkrmbpiytp"/>
+</ecore:EPackage>

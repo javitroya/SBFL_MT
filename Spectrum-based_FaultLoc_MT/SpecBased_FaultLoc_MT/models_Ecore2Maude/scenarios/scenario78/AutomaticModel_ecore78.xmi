@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="jffdykzbxk" nsURI="unyhomisrv" nsPrefix="xvydmajwah">
+  <eClassifiers xsi:type="ecore:EClass" name="ltryfziqeg" instanceClassName="qiboqngvge" instanceTypeName="xdubsqszyk" eSuperTypes="//@eClassifiers.0">
+    <eOperations name="ibifjspunf" ordered="false" upperBound="61"/>
+    <eOperations name="irbwdugeaz" upperBound="17"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pmykbawxgd" ordered="false" upperBound="30" defaultValueLiteral="guswwhrmbi" unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pcqulflxaa" unique="false" lowerBound="29" upperBound="10" transient="true" defaultValueLiteral="rfrgcnojiy"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hxshjrrpkj" lowerBound="1" eType="//@eClassifiers.0" unsettable="true" iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rqcregfhkp" unique="false" lowerBound="49" volatile="true" defaultValueLiteral="peezdwyyzg" eOpposite="//@eClassifiers.0/@eStructuralFeatures.3"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ogdawbjjim" upperBound="80" eType="//@eClassifiers.0" volatile="true" defaultValueLiteral="wiacdancow" eKeys="//@eClassifiers.0/@eStructuralFeatures.0"/>
+  </eClassifiers>
+</ecore:EPackage>

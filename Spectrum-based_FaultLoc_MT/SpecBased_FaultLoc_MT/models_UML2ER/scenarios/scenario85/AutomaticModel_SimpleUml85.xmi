@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="qxxzntr_ay">
+  <ownedElements name="House" superClasses="//@ownedElements.1 //@ownedElements.2 //@ownedElements.0"/>
+  <ownedElements name="Computer"/>
+  <ownedElements name="House" superClasses="//@ownedElements.0 //@ownedElements.2 //@ownedElements.1"/>
+</SimpleUml:Package>

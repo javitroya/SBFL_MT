@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="citged_brt">
+    <ownedElements name="House" superClasses="/0/@ownedElements.1">
+      <ownedProperty name=" zvovqgfwi" primitiveType="String"/>
+    </ownedElements>
+    <ownedElements name="Computer">
+      <ownedProperty name="mapvwio-ep" isContainment="true"/>
+    </ownedElements>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="citged_brt">
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="String"/>
+    </entities>
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+    </entities>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[_kdg-zbnqk] Book Complexity measure Steve McConnell 2004 icumfqfqnh"/>
+        <paras/>
+        <paras content="[gwzrizxfym] Book The model checker SPIN Nenad Medvidovic Paul Pettersson Erich Gamma 1987 xv_axk kyj"/>
+        <paras content="[walfhvdoic] Book Complexity measure Wang Yi Wang Yi 1997 busrmbmkxs"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="Complexity measure"/>
+        <paras content="The model checker SPIN"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Software -- Practice and Experience"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

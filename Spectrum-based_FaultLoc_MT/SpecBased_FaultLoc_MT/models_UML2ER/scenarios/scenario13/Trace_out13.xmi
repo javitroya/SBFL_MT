@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Package">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#/"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#/"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#/"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#/"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Attributes">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Attributes">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.2"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.2"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.2"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario13/AutomaticModel_SimpleUML13.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="models_UML2ER/scenarios/scenario13/ER_out13.xmi#//@entities.1/@features.1"/>
+  </traceLinks>
+</trace:Trace>

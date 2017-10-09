@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[-bwcpiepbp] Book A metrics suite for object oriented design Edward N. Reingold 1994 -sqgefrjhz"/>
+        <paras content="[afk kgu_as] Unpublished A metrics suite for object oriented design Bruce Schneier Liangzhao Zeng unsgfe_pln"/>
+        <paras content="[asqievyulf] Proceedings The model checker SPIN 1997"/>
+        <paras content="[bkfiycn h ] InCollection The model checker SPIN Elisabeth Freeman Edward N. Reingold 1997 vc alhrvzk -j czaqeyb"/>
+        <paras content="[k-navqvqih] Book A metrics suite for object oriented design Philippe Kruchten Erich Gamma Kim G. Larsen 1991 uhgbpsjuav"/>
+        <paras content="[nbyadnxkzt] Unpublished An intrusion-detection model Gerard J. Holzmann _rtjcnqer "/>
+        <paras content="[ps- hjygib] Manual Program slicing"/>
+        <paras content="[qswlrf icu] Unpublished The model checker SPIN Liangzhao Zeng Nenad Medvidovic hnmhzomqs-"/>
+        <paras content="[t__wq- cqy] Book QoS-aware middleware for Web services composition Martin Fowler Erich Gamma Erich Gamma Dorothy E. Denning 1995 yesrgjrcsa"/>
+        <paras/>
+        <paras content="[tosgayimej] Manual Graph drawing by force-directed placement"/>
+        <paras content="[ykmdy_xj_d] InCollection An intrusion-detection model Robert C. Martin Elisabeth Freeman Steve McConnell Kim G. Larsen 1991 lrffukxxyg unqjusq vw"/>
+        <paras content="[z--rptibmm] InCollection Complexity measure Chris F. Kemerer 1991 ifyam-fjmm m e-- ysdz"/>
+        <paras content="[zc-yabiihz] Proceedings A classification and coparison framework for software architecture description languages 1995"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Steve McConnell"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

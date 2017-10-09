@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="pzgt pdk_i" year="1976" title="A classification and coparison framework for software architecture description languages" journal="Software -- Practice and Experience">
+    <authors author="Robert C. Martin"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Wang Yi"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="tbzjcczysp" year="1997" title="A classification and coparison framework for software architecture description languages" journal="Software and Systems Modeling">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="ehuwk_shaf" title="Graph drawing by force-directed placement" note="pieciiajqz">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="dpthu_rolt" title="A classification and coparison framework for software architecture description languages" note="gvilof_jlx">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="ifg_ pjaeh" title="Program slicing" note="nuhzoibpfy">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="-mzpoktczq" year="2000" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Proceedings" id="wonqq_ff_y" year="1997" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Booklet" id="jxalf-azrg" year="1987"/>
+  <entries xsi:type="BibTeX:Misc" id="o xtcuvqzt"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="f bzpjitdj" year="1997" title="The model checker SPIN" school="dkhoalaqct">
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="qenbrc-dro" year="1997" title="A classification and coparison framework for software architecture description languages" school="gjdgchzeiz">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="d-yigjoman" year="2004" title="Uppaal in a nutshell" school="ziikdb-rks">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+</BibTeX:BibTeXFile>

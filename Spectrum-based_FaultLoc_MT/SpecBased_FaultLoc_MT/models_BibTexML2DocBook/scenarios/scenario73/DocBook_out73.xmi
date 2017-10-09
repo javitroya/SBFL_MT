@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[clzbnssr-s] MasterThesis Uppaal in a nutshell Donald E. Knuth Gerard J. Holzmann Wang Yi Nenad Medvidovic 1987 cuwrpx-kqv"/>
+        <paras content="[gvimxu gzb] Book Complexity measure Gerard J. Holzmann 1994 hqhcqanqsd"/>
+        <paras content="[hrhjnpk_d ] TechReport Graph drawing by force-directed placement Nenad Medvidovic Elisabeth Freeman Martin Fowler 1994"/>
+        <paras content="[kaymrhsprm] InCollection An intrusion-detection model Kim G. Larsen 1987 vdvrelpziz ldpzwglv-u"/>
+        <paras content="[mda-pq-blt] InCollection The model checker SPIN Gerard J. Holzmann Bruce Schneier 1997 ol_hphgemb nkpmuco_dh"/>
+        <paras content="[nhnsmezeim] MasterThesis Program slicing Liangzhao Zeng Paul Pettersson Chris F. Kemerer 1997  cowxew_pc"/>
+        <paras content="[o-xsbshmke] InBook A metrics suite for object oriented design Edward N. Reingold Robert C. Martin Donald E. Knuth 1995 zxlyilabxt 37"/>
+        <paras/>
+        <paras content="[pxyghymm-t] Misc"/>
+        <paras content="[tstm--zyze] MasterThesis Graph drawing by force-directed placement Wang Yi Dorothy E. Denning 1976 irtyxsnmwj"/>
+        <paras content="[uxegqcct-e] InProceedings Complexity measure Shyam R. Chidamber Martin Fowler Edward N. Reingold 1987 q-lpu-seko"/>
+        <paras content="[x__vpoukaj] InCollection The model checker SPIN Steve McConnell Dorothy E. Denning 1976 ggclchvmdv wyujkqnxcv"/>
+        <paras content="[yfjfpvuufy] TechReport Complexity measure Elisabeth Freeman 1997"/>
+        <paras content="[ygguymrsyk] Book Program slicing Erich Gamma 1997 erd-tlvgo-"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

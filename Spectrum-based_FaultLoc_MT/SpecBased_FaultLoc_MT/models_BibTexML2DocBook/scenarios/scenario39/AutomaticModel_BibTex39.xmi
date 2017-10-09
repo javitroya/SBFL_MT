@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="wu vvkvdbj" year="2004" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Erich Gamma"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="addtwj dyx" year="1997" title="A metrics suite for object oriented design">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="hgpvt b gq" year="1987" title="A metrics suite for object oriented design">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="eysqenwxfq" year="1991" title="Uppaal in a nutshell">
+    <authors author="Bruce Schneier"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="em_nvwrirn" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Manual" id="lekk_syohm" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:InProceedings" id="_jilqyynma" year="1997" title="The model checker SPIN" booktitle="jnybfwsxgv">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="vqx-le-els" year="1997" title="QoS-aware middleware for Web services composition" booktitle="rqth-iri-k">
+    <authors author="Steve McConnell"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="douzrurft_" year="1976"/>
+  <entries xsi:type="BibTeX:Booklet" id="nvdtmxoo-w" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="iwscrejjgs" year="1984"/>
+  <entries xsi:type="BibTeX:Misc" id="yrgwisnvgc"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="nhg_ f rql" year="2004" title="Graph drawing by force-directed placement" school="odhxbhkgfg">
+    <authors author="Wang Yi"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+</BibTeX:BibTeXFile>

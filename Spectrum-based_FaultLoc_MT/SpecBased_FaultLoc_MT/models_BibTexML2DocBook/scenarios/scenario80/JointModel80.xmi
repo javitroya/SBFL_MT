@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="kkq-pf__v-" year="1991" title="The model checker SPIN" journal="Software and Systems Modeling">
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="bbmfxuur m" year="1987" title="A metrics suite for object oriented design" booktitle="jgd-yebgov">
+      <authors author="Erich Gamma"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="ujjy-iewt_" year="2000" title="Complexity measure" booktitle="pzq--ddmlo">
+      <authors author="Craig Larman"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="vig-b_ndjv" year="1987" title="A metrics suite for object oriented design" publisher="_h- xilqai">
+      <authors author="Wang Yi"/>
+      <authors author="Wang Yi"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="bonnk-ggwa" year="1994" title="The model checker SPIN" publisher="hpdeakqwyc" chapter="81">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="xpgw_ xbaz"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="fvqqjs_sri"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="hg qhonx_d"/>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[bbmfxuur m] InProceedings A metrics suite for object oriented design Erich Gamma Thomas M. J. Fruchterman Nenad Medvidovic Gerard J. Holzmann 1987 jgd-yebgov"/>
+          <paras content="[bonnk-ggwa] InBook The model checker SPIN Elisabeth Freeman Nenad Medvidovic Liangzhao Zeng Dorothy E. Denning 1994 hpdeakqwyc 81"/>
+          <paras content="[fvqqjs_sri] Misc"/>
+          <paras content="[hg qhonx_d] Misc"/>
+          <paras/>
+          <paras content="[ujjy-iewt_] InProceedings Complexity measure Craig Larman Nenad Medvidovic Donald E. Knuth 2000 pzq--ddmlo"/>
+          <paras content="[vig-b_ndjv] Book A metrics suite for object oriented design Wang Yi Wang Yi Marlon Dumas 1987 _h- xilqai"/>
+          <paras content="[xpgw_ xbaz] Misc"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="The model checker SPIN"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

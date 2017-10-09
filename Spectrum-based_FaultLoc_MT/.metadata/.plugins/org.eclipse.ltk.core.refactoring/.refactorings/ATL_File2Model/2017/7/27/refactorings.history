@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Ecore2Maude.atl&apos; to &apos;transformations_no_trace&apos;&#x0D;&#x0A;- Original project: &apos;ATL_File2Model&apos;&#x0D;&#x0A;- Destination element: &apos;transformations_no_trace&apos;&#x0D;&#x0A;- Original element: &apos;Ecore2Maude.atl&apos;" description="Copy file" element1="PetriNet2PNML/Ecore2Maude.atl" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1499420896327" target="/SpecBased_FaultLoc_MT/models_Ecore2Maude/transformations/transformations_no_trace" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+;;;;;;;;;;;Ncf: Number of failed test cases that cover the rule
+;;;;;;;;;;;Ncs: Number of successful test cases that cover the rule
+;;;;;;;;;;;Ncs: Number of successful test cases that cover the rule
+;;;;;;;;;;;Nus: number of successful test cases that do not cover the rule
+;;;;;;;;;;;Nc: total number of test cases that cover the rule
+;;;;;;;;;;;Nu:total number of test cases that do not cover the rule
+;;;;;;;;;;;Ns: total number of successful test cases
+;;;;;;;;;;;Nf: total number of failed test cases
+
+OCL5;SrcAuthor.allInstances()->forAll(a | TrgPara.allInstances()->exists(p | p.content = a.author and p.section.title = 'Authors List'))
+
+Rules;TC1;TC2;TC3;TC4;TC5;TC6;TC7;TC8;TC9;TC10;Ncf;Nuf;Ncs;Nus;Nc;Nu;Ns;Nf;Russel Rao;Cohen;Kulcynski2;Tarantula;Ochiai; Confidence;
+Article_Title_NoJournal;X;X;;;X;;X;X;X;;6.0;4.0;0.0;0.0;6.0;4.0;0.0;10.0;0.6;0.0;0.8;1.0;0.7745966692414834;0.6;
+TitledEntry_Title_NoArticle;X;X;X;X;X;X;X;X;X;X;10.0;0.0;0.0;0.0;10.0;0.0;0.0;10.0;1.0;0.0;1.0;1.0;1.0;1.0;
+Article_NoTitle_Journal;X;;;;;;X;;;;2.0;8.0;0.0;0.0;2.0;8.0;0.0;10.0;0.2;0.0;0.6;1.0;0.4472135954999579;0.2;
+Article_Title_Journal;X;X;X;X;X;X;X;X;X;X;10.0;0.0;0.0;0.0;10.0;0.0;0.0;10.0;1.0;0.0;1.0;1.0;1.0;1.0;
+Author;X;X;X;X;X;X;X;X;X;X;10.0;0.0;0.0;0.0;10.0;0.0;0.0;10.0;1.0;0.0;1.0;1.0;1.0;1.0;
+Article_NoTitle_NoJournal;;X;;;;;X;;X;;3.0;7.0;0.0;0.0;3.0;7.0;0.0;10.0;0.3;0.0;0.65;1.0;0.5477225575051661;0.3;
+UntitledEntry;X;X;X;X;X;;X;;X;X;8.0;2.0;0.0;0.0;8.0;2.0;0.0;10.0;0.8;0.0;0.9;1.0;0.8944271909999159;0.8;
+Main;X;X;X;X;X;X;X;X;X;X;10.0;0.0;0.0;0.0;10.0;0.0;0.0;10.0;1.0;0.0;1.0;1.0;1.0;1.0;
+TitledEntry_NoTitle_NoArticle;X;X;;X;X;X;X;X;X;X;9.0;1.0;0.0;0.0;9.0;1.0;0.0;10.0;0.9;0.0;0.95;1.0;0.9486832980505138;0.9;
+;Fail;Fail;Fail;Fail;Fail;Fail;Fail;Fail;Fail;Fail;

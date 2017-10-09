@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM -->
+      <package
+            uri="http://jointPackage/1.0"
+            class="jointPackage.JointPackagePackage"
+            genModel="models_BibTexML2DocBook/JointMM.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Class -->
+      <package
+            uri="http://class/1.0"
+            class="class_.ClassPackage"
+            genModel="models_Class2Relational/Class.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Trace -->
+      <package
+            uri="http://trace/1.0"
+            class="trace.TracePackage"
+            genModel="models_Class2Relational/Trace.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM_BibTeX2DocBook -->
+      <package
+            uri="http://jointPackage_bibtex2docbook/1.0"
+            class="jointPackage_BibTeX2DocBook.JointPackage_BibTeX2DocBookPackage"
+            genModel="models_BibTexML2DocBook/JointMM_BibTeX2DocBook.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM_UML2ER -->
+      <package
+            uri="http://jointPackage_uml2er/1.0"
+            class="jointPackage_UML2ER.JointPackage_UML2ERPackage"
+            genModel="models_UML2ER/JointMM_UML2ER.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM_Ecore2Maude -->
+      <package
+            uri="http://jointPackage_ecore2Maude/1.0"
+            class="jointPackage_Ecore2Maude.JointPackage_Ecore2MaudePackage"
+            genModel="models_Ecore2Maude/JointMM_Ecore2Maude.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated ecore -->
+      <package
+            uri="http://ecore"
+            class="ecore.EcorePackage"
+            genModel="models_Ecore2Maude/ecore.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM_CPL2SPL -->
+      <package
+            uri="http://jointPackage_CPL2SPL/1.0"
+            class="jointPackage_CPL2SPL.JointPackage_CPL2SPLPackage"
+            genModel="models_CPL2SPL/JointMM_CPL2SPL.genmodel"/>
+   </extension>
+
+</plugin>

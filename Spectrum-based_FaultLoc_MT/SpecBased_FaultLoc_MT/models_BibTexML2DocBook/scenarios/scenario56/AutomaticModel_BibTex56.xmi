@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="ygkqsqmbce" year="1984" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Craig Larman"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="cisk_isd-n" year="1987" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="uebgay-axs" year="2000" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="q zb qx--t" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Booklet" id="opnypttnqs" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="kucoxgyt t" year="1995"/>
+</BibTeX:BibTeXFile>

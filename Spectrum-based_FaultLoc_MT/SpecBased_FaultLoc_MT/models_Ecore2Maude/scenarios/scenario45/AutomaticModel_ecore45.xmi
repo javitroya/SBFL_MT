@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="wprfykfzid">
+  <eClassifiers xsi:type="ecore:EClass" name="fwuertqngo" instanceClassName="fooborzlij" instanceTypeName="iokjvvlgcb">
+    <eOperations name="cmtgxbmlon" upperBound="19" eExceptions="//@eClassifiers.1 //@eClassifiers.5 //@eClassifiers.3 //@eClassifiers.2"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sgfwxpfmgg" upperBound="81" eType="//@eClassifiers.4" transient="true" defaultValueLiteral="svxsfmqihi"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="hdeyzhkvbr" instanceTypeName="snplqqcsfs" abstract="true">
+    <eOperations name="ksdwqrqavt" lowerBound="1" upperBound="43"/>
+    <eOperations name="zkhcmjievk" eExceptions="//@eClassifiers.0 //@eClassifiers.3 //@eClassifiers.5"/>
+    <eOperations name="eezknrjkdb" lowerBound="42" eExceptions="//@eClassifiers.0 //@eClassifiers.2"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="diycojxtpd" lowerBound="65" eType="//@eClassifiers.0" defaultValueLiteral="bmdugfbcqc" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="wlvxzyybij" instanceClassName="gngqrfrgyf" instanceTypeName="ixwomyueii">
+    <eOperations name="upxmcrtrfk" eExceptions="//@eClassifiers.5"/>
+    <eOperations name="oqowxcaqfi" lowerBound="82"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="owcqhsqmuq" transient="true" iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dtzxnyeysx" lowerBound="51" upperBound="81" iD="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="ggwibtybsh" instanceClassName="mwztcmalla"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="hhqrloivmy" instanceTypeName="yqquxqypac"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="hqmlrekwzp" instanceTypeName="dtggmpfcde" serializable="false"/>
+</ecore:EPackage>

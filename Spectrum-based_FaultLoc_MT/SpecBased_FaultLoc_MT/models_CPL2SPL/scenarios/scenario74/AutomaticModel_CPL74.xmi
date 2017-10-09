@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:TimeSwitch" tzid="tcbewbxiuu"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="ltbjfuzthe"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="zebcnwpsnz">
+    <times contents="//@elements.5" dtstart="xkhnkxfiev" dtend="digiextmwi" interval="ygfkammcgx" bySecond="wlzvmutclf" byYearDay="piooocycjw" byWeekNo="acaohscima" wkst="bdlxwsbcyr" bySetPos="tccjfinakn"/>
+    <times dtstart="lrhivdfgmg" duration="isyzdoaxmr" freq="ahbonuxbdp" until="yjewbqhaxv" interval="ohpkuwgmgy" byMinute="ctygnbmtwx" byHour="pwvjelmpni" byDay="hbebqqmtef" byMonthDay="uzkrpshpsy" byYearDay="fkumlqlimk" wkst="arukbfccof" bySetPos="snfgssrobu"/>
+    <times dtstart="ttbbpddjsu" duration="cferlpxgno" until="blaulzhtlm" interval="mzzirfokgh" bySecond="xezmalaccm" byDay="ahhaunuqcy" byWeekNo="adqryvsucb" wkst="bjwyjidqyp" bySetPos="vfywffgetu"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:Redirect" permanent="ztgjwomzai"/>
+  <elements xsi:type="CPL:Redirect" permanent="hyyizzlzck"/>
+  <elements xsi:type="CPL:Redirect" permanent="wpaylcyszd"/>
+</CPL:CPLModel>

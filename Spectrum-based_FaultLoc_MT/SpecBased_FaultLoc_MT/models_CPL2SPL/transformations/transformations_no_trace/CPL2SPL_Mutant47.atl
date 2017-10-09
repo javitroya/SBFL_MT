@@ -1,0 +1,503 @@
+module CPL2SPL_Mutant;
+create OUT : SPL from IN : CPL;
+
+-- We consider nodes are statements, by default.
+helper context CPL!Node def: statement : CPL!Node =
+	self;
+
+-- The "location" node is not a statement.
+helper context CPL!Location def: statement : CPL!Node =
+	if self.contents.oclIsUndefined()
+	then OclUndefined
+	else self.contents.statement
+	endif;
+
+-- @begin Locations computation
+-- By default, locations of an element are locations of its container.
+helper context CPL!Element def: locations : Sequence(CPL!Location) =
+	if self.refImmediateComposite().oclIsTypeOf(CPL!CPLModel) 
+	then Sequence{}
+	else self.refImmediateComposite().locations
+    endif
+;
+
+-- Locations of the CPL root is the empty sequence.
+helper context CPL!CPL def: locations : Sequence(CPL!Location) =
+	Sequence {};
+
+-- @see last paragraph of 6.1 just before 6.1.1 of CPL RFC
+helper context CPL!Location def: locations : Sequence(CPL!Location) =
+	Sequence {self}->union(self.refImmediateComposite().locations);
+
+--helper context CPL!Redirection def: locations : Sequence(CPL!Location) =
+--	Sequence {self}->union(self.refImmediateComposite().locations);
+-- @end Locations computation
+
+--R1
+rule CPL2Program {
+	from
+		s : CPL!CPL
+	to
+--		t : SPL!Program (             -- Mutant: 1 out-pattern element deletion
+--			service <- service        -- 1 binding deletion
+--		),
+		service : SPL!Service (
+			name <- 'unnamed',
+			declarations <- s.subActions,
+			sessions <- dialog
+		),
+		dialog : SPL!Dialog (
+			methods <- Sequence {s.incoming, s.outgoing}
+		)
+}
+
+--R2
+rule SubAction2Function {
+	from
+		s : CPL!SubAction
+	to
+		t : SPL!LocalFunctionDeclaration (
+			name <- s.id + ' mutant',              -- Mutant: binding value change
+			returnType <- rt,
+			statements <- if s.contents.oclIsUndefined() 
+			              then Sequence{} 
+			              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+						  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+									s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+						       then Sequence{}
+			              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+							        then if s.contents.isSimple or not s.contents.isSimple
+									     then s.contents.statement
+										 else Sequence{}
+			              	   			 endif
+									else s.contents.statement
+							   	    endif
+							   endif
+						  endif
+		),
+		rt : SPL!SimpleType (
+			type <- #response
+		)
+}
+ --R3
+rule Incoming2Method {
+	from
+		s : CPL!Incoming
+	to
+		t : SPL!Method (
+			type <- rt,
+			direction <- #"in",
+			methodName <- mn,
+			statements <- if s.contents.oclIsUndefined() 
+              then Sequence{} 
+              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+			  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+						s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+			       then Sequence{}
+              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+				        then if s.contents.isSimple or not s.contents.isSimple
+						     then s.contents.statement
+							 else Sequence{}
+              	   			 endif
+						else s.contents.statement
+				   	    endif
+				   endif
+			  endif
+		),
+		rt : SPL!SimpleType (
+			type <- #response
+		),
+		mn : SPL!SIPMethodName (
+			name <- #INVITE
+		)
+}
+
+ --R4
+rule Outgoing2Method {
+	from
+		s : CPL!Outgoing
+	to
+		t : SPL!Method (
+			type <- rt,
+			direction <- #"out",
+			methodName <- mn,
+			statements <- if s.contents.oclIsUndefined() 
+              then Sequence{} 
+              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+			  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+						s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+			       then Sequence{}
+              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+				        then if s.contents.isSimple or not s.contents.isSimple
+						     then s.contents.statement
+							 else Sequence{}
+              	   			 endif
+						else s.contents.statement
+				   	    endif
+				   endif
+			  endif
+		),
+		rt : SPL!SimpleType (
+			type <- #request
+		),
+		mn : SPL!SIPMethodName (
+			name <- #NOTIFY
+		)
+}
+
+ --R5
+rule Failure2ErrorResponse{
+	from s : CPL!Failure
+	to   t : SPL!ClientErrorResponse(
+			errorKind <- #METHOD_NOT_ALLOWED
+		)
+}
+
+ --R6
+rule NotPresent2ErrorResponse{
+	from s : CPL!NotPresent
+	to   t : SPL!RedirectionErrorResponse(
+			errorKind <- #USE_PROXY
+		 )
+}
+
+helper context CPL!Proxy def: isSimple : Boolean =
+	self.busy.oclIsUndefined() and
+	self.noAnswer.oclIsUndefined() and
+	self.redirection.oclIsUndefined() and
+	self.failure.oclIsUndefined() and
+	self.default.oclIsUndefined();
+
+--R7
+rule Proxy2Return {
+	from
+		s : CPL!Proxy (
+			s.isSimple
+		)
+	to
+		t : SPL!ReturnStat (
+			returnedValue <- fwd
+		),
+		fwd : SPL!ForwardExp (
+			isParallel <- s.ordering = 'parallel',
+			exp <- exp
+		),
+		exp : SPL!ConstantExp (
+			value <- if s.locations->first().oclIsUndefined() then OclUndefined else thisModule.Location2URIConstant(s.locations->first()) endif
+		),
+}
+
+--R8
+-- @begin Complex Proxy
+rule Proxy2Select {
+	from
+		s : CPL!Proxy (
+			not s.isSimple
+		)
+	to
+		t : SPL!CompoundStat (
+			statements <- Sequence {declStat, select}
+		),
+
+		-- response r = [parallel] forward <uri>;
+		declStat : SPL!DeclarationStat (
+			declaration <- decl
+		),
+		decl : SPL!VariableDeclaration (
+			type <- rt,
+			name <- 'r',
+			initExp <- fwd
+		),
+		rt : SPL!SimpleType (
+			type <- #response
+		),
+		fwd : SPL!ForwardExp (
+			isParallel <- s.ordering = 'parallel',
+			exp <- exp
+		),
+		exp : SPL!ConstantExp (
+			value <- if s.locations->first().oclIsUndefined() then OclUndefined else thisModule.Location2URIConstant(s.locations->first()) endif
+		),
+		select : SPL!SelectStat (
+			matchedExp <- v,
+			selectCases <- Sequence {s.busy, s.noAnswer, s.redirection, s.failure},
+			selectDefault <- s.default
+		),
+		v : SPL!Variable (
+			source <- decl
+		)
+}
+
+--R9
+rule Busy2SelectCase {
+	from
+		s : CPL!Busy
+	to
+		t : SPL!SelectCase (
+			commentsBefore <- Sequence {'// busy'},
+			values <- Sequence {v},
+			statements <- if s.contents.oclIsUndefined() 
+              then Sequence{} 
+              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+			  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+						s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+			       then Sequence{}
+              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+				        then if s.contents.isSimple or not s.contents.isSimple
+						     then s.contents.statement
+							 else Sequence{}
+              	   			 endif
+						else s.contents.statement
+				   	    endif
+				   endif
+			  endif
+		),
+		v : SPL!ResponseConstant (
+			response <- r
+		),
+		r : SPL!ClientErrorResponse (
+			errorKind <- #BUSY_HERE
+		)
+}
+
+--R10
+rule NoAnswer2SelectCase {
+	from
+		s : CPL!NoAnswer
+	to
+		t : SPL!SelectCase (
+			commentsBefore <- Sequence {'// noanswer'},
+			values <- Sequence {v},
+			statements <- if s.contents.oclIsUndefined() 
+		              then Sequence{} 
+		              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+					  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+								s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+					       then Sequence{}
+		              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+						        then if s.contents.isSimple or not s.contents.isSimple
+								     then s.contents.statement
+									 else Sequence{}
+		              	   			 endif
+								else s.contents.statement
+						   	    endif
+						   endif
+					  endif
+		),
+		v : SPL!ResponseConstant (
+			response <- r
+		),
+		r : SPL!ClientErrorResponse (
+			errorKind <- #REQUEST_TIMEOUT
+		)
+}
+
+--R11
+rule Redirection2SelectCase {
+	from
+		s : CPL!Redirection
+	to
+		t : SPL!SelectCase (
+			commentsBefore <- Sequence {'// redirection'},
+			values <- Sequence {v},
+			statements <- if s.contents.oclIsUndefined() 
+			              then Sequence{} 
+			              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+						  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+									s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+						       then Sequence{}
+			              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+							        then if s.contents.isSimple or not s.contents.isSimple
+									     then s.contents.statement
+										 else Sequence{}
+			              	   			 endif
+									else s.contents.statement
+							   	    endif
+							   endif
+						  endif
+		),
+		v : SPL!ResponseConstant (
+			response <- r
+		),
+		r : SPL!RedirectionErrorResponse (
+			errorKind <- #MULTIPLE_CHOICES
+		)
+}
+
+--R12
+rule Default2SelectDefault {
+	from
+		s : CPL!Default
+	to
+		t : SPL!SelectDefault (
+			commentsBefore <- Sequence {'// default'},
+			statements <- if s.contents.oclIsUndefined() 
+			              then Sequence{} 
+			              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+						  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+									s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+						       then Sequence{}
+			              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+							        then if s.contents.isSimple or not s.contents.isSimple
+									     then s.contents.statement
+										 else Sequence{}
+			              	   			 endif
+									else s.contents.statement
+							   	    endif
+							   endif
+						  endif
+		)
+}
+-- @end Complex Proxy
+--R13
+rule SubCall2Return {
+	from
+		s : CPL!SubCall
+	to
+		t : SPL!ReturnStat (
+			returnedValue <- callExp
+		),
+		callExp : SPL!FunctionCallExp (
+			functionCall <- call
+		),
+		call : SPL!FunctionCall (
+			function <- CPL!SubAction.allInstancesFrom('IN')->select(e | e.id = s.ref)->first()
+		)
+}
+--R14
+rule Redirect2Return {
+	from
+		s : CPL!Redirect
+	to
+		t : SPL!ReturnStat (
+			returnedValue <- withExp
+		),
+		withExp : SPL!WithExp (
+			exp <- v,
+			msgFields <- Sequence {reason, contact}
+		),
+		v : SPL!ConstantExp (
+			value <- rc
+		),
+		rc : SPL!ResponseConstant (
+			response <- rer
+		),
+		rer : SPL!RedirectionErrorResponse (
+			errorKind <- if s.permanent = 'true' then #MOVED_PERMANENTLY else #MOVED_TEMPORARILY endif
+		),
+
+		reason : SPL!ReasonMessageField (
+			exp <- reasonConstant
+		),
+		reasonConstant : SPL!ConstantExp (
+			value <- reasonString
+		),
+		reasonString : SPL!StringConstant (
+			value <- 'unspecified'
+		),
+
+		contact : SPL!HeadedMessageField (
+			headerId <- '#contact:',
+			exp <- contactConstant
+		),
+		contactConstant : SPL!ConstantExp (
+			value <- if s.locations->first().oclIsUndefined() then OclUndefined else thisModule.Location2URIConstant(s.locations->first()) endif
+		)
+}
+
+--R15
+-- @begin Switches
+rule AddressSwitch2SelectStat {
+	from
+		s : CPL!AddressSwitch
+	to
+		t : SPL!SelectStat (
+			matchedExp <- v,
+			selectCases <- s.addresses->including(s.notPresent),
+			selectDefault <- s.otherwise
+		),
+		v : SPL!SIPHeaderPlace (
+			header <-	if s.field = 'origin' then
+						#FROM
+					else -- s.field = 'destination' or s.field = 'original-destination'
+						#TO
+					endif
+		)
+}
+
+--R16
+rule StringSwitch2SelectStat {
+	from
+		s : CPL!StringSwitch
+	to
+		t : SPL!DeclarationStat (
+			declaration <- d
+		),
+		d : SPL!VariableDeclaration(
+			name <- s.field
+		)
+}
+
+--R17
+rule SwitchedAddress2SelectCase {
+	from
+		s : CPL!SwitchedAddress
+	to
+		t : SPL!SelectCase (
+			values <- Sequence {v},
+			statements <- if s.contents.oclIsUndefined() 
+			              then Sequence{} 
+			              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+						  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+									s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+						       then Sequence{}
+			              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+							        then if s.contents.isSimple or not s.contents.isSimple
+									     then s.contents.statement
+										 else Sequence{}
+			              	   			 endif
+									else s.contents.statement
+							   	    endif
+							   endif
+						  endif
+		),
+		v : SPL!StringConstant (
+			value <- s.is
+		)
+}
+
+--R18
+rule Otherwise2SelectDefault {
+	from
+		s : CPL!Otherwise
+	to
+		t : SPL!SelectDefault (
+			statements <- if s.contents.oclIsUndefined() 
+			              then Sequence{} 
+			              else if s.contents.oclIsTypeOf(CPL!Reject) or s.contents.oclIsTypeOf(CPL!TimeSwitch) or
+						  			s.contents.oclIsTypeOf(CPL!Location) or s.contents.oclIsTypeOf(CPL!LanguageSwitch) or
+									s.contents.oclIsTypeOf(CPL!PrioritySwitch)
+						       then Sequence{}
+			              	   else if s.contents.oclIsTypeOf(CPL!Proxy)
+							        then if s.contents.isSimple or not s.contents.isSimple
+									     then s.contents.statement
+										 else Sequence{}
+			              	   			 endif
+									else s.contents.statement
+							   	    endif
+							   endif
+						  endif
+		)
+}
+-- @end Switches
+
+--R19
+lazy rule Location2URIConstant {
+	from
+		s : CPL!Location
+	to
+		t : SPL!URIConstant (
+			uri <- s.url
+		)
+}
+

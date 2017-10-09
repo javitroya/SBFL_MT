@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario49/AutomaticModel_CPL49.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario49/SPL_out49.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario49/SPL_out49.xmi#/0/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario49/SPL_out49.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario49/AutomaticModel_CPL49.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario49/SPL_out49.xmi#/1/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario49/SPL_out49.xmi#/1/@statements.0/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario49/AutomaticModel_CPL49.xmi#//@elements.2/@otherwise"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario49/SPL_out49.xmi#/1"/>
+  </traceLinks>
+</trace:Trace>

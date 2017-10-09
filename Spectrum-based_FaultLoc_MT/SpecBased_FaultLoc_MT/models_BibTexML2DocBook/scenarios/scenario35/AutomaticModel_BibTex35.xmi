@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:TechReport" id="yglnrh fdo" year="1987" title="Graph drawing by force-directed placement">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="cgmgymnvfu" year="2004" title="Uppaal in a nutshell" publisher="lhmtxydrqa">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="suhhl-prnx" year="1976" title="Uppaal in a nutshell" publisher="hsyxbgsldw">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="wrvthotrzc" year="1997" title="QoS-aware middleware for Web services composition" publisher="eshgg_ciz_">
+    <authors author="Steve McConnell"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="tfgd aqfex" year="2000" title="A classification and coparison framework for software architecture description languages" publisher="y_swao qzl" chapter="21">
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="itfkhoahip"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="ikoscdxlrz" year="1984" title="A classification and coparison framework for software architecture description languages" school="yi ulhmlcu">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+</BibTeX:BibTeXFile>

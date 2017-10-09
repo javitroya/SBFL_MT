@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="uzvymrtver" year="1991" title="The model checker SPIN" journal="Software -- Practice and Experience">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="qalynsqtmz" year="1997" title="QoS-aware middleware for Web services composition" booktitle="ohkqr -ppx">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="ogvje_jpee" year="2004" title="Complexity measure" booktitle="t_qmajybga">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="tqnqmyzzds" year="2004"/>
+  <entries xsi:type="BibTeX:Booklet" id="nwymzy-fkn" year="1994"/>
+  <entries xsi:type="BibTeX:Booklet" id="zd pgbwnd " year="1987"/>
+  <entries xsi:type="BibTeX:InCollection" id="zqpwtut jk" year="1987" title="Complexity measure" publisher="yqfrlckqpk" booktitle="glq--qhg__">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Craig Larman"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="huwuw-gvsp" year="1995" title="A classification and coparison framework for software architecture description languages" publisher="_gyvecxwto" booktitle="twvatgwpyl">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="vrscuvj_wo" year="1994" title="An intrusion-detection model" publisher="dtcv-o--vm" booktitle="tcwxlkd_qi">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="ce_fvmsdfs" year="1984" title="Program slicing" publisher="ctzios-vhv" chapter="43">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Wang Yi"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="tfqsldfp_o" year="1987" title="A classification and coparison framework for software architecture description languages" publisher="wlol_ehv-t" chapter="17">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="okzcetqiii" year="1987" title="Uppaal in a nutshell" publisher="nudhzxbp f" chapter="85">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+</BibTeX:BibTeXFile>

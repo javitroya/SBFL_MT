@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[_jjerfpcys] Misc"/>
+        <paras content="[dliqywh_vx] InBook QoS-aware middleware for Web services composition Dorothy E. Denning 1997 eiqtywywd- 96"/>
+        <paras content="[fnpv_e tnx] MasterThesis Uppaal in a nutshell Robert C. Martin 1997 xvn qhn_ur"/>
+        <paras content="[h_ gicwnfj] Book The model checker SPIN Gerard J. Holzmann Kim G. Larsen Liangzhao Zeng Erich Gamma 1997 xbjuugtkxo"/>
+        <paras/>
+        <paras content="[jad vgt_cm] MasterThesis Complexity measure Marlon Dumas Craig Larman 1997 rfbztqltzj"/>
+        <paras content="[jkaepwdelk] Manual The model checker SPIN"/>
+        <paras content="[jvjwqvguad] PhDThesis A metrics suite for object oriented design Steve McConnell Thomas M. J. Fruchterman Philippe Kruchten Martin Fowler 1997 pul-ddma  "/>
+        <paras/>
+        <paras content="[p-ohytwygq] Manual Uppaal in a nutshell"/>
+        <paras content="[q cshliwoe] PhDThesis QoS-aware middleware for Web services composition Dorothy E. Denning Kim G. Larsen 1995 hzcd-iubfw"/>
+        <paras content="[qpeyqmkfrf] PhDThesis Uppaal in a nutshell Wang Yi Chris F. Kemerer Nenad Medvidovic 1987 sajzaj_izj"/>
+        <paras/>
+        <paras content="[tyhmmkqo_b] MasterThesis An intrusion-detection model Richard N. Taylor Marlon Dumas 2000 ijzb qkckj"/>
+        <paras content="[ukkxqiqepr] InBook A metrics suite for object oriented design Thomas M. J. Fruchterman Richard N. Taylor 2000 lhpapghtvr 46"/>
+        <paras content="[vxcznqpy_m] Book Complexity measure Steve McConnell Martin Fowler Nenad Medvidovic Robert C. Martin 1984 vbuqwenvzw"/>
+        <paras content="[ymkfiklrix] InBook Complexity measure Dorothy E. Denning Chris F. Kemerer 1984 hggdhbsipo 12"/>
+        <paras content="[yryagulozz] Misc"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Software -- Practice and Experience"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Unpublished" id="idulnxbydd" title="Complexity measure" note="jxdjebjrxy">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="wdx_ugqp_n" title="The model checker SPIN" note="pbragrdct_">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="loayvplwvp" title="The model checker SPIN" note="dbu-p jd i">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="curcfumgwn" year="2004" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:InBook" id="qmo pfn_zg" year="2000" title="4 + 1 view model of architecture" publisher="luinidzf_z" chapter="60">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="rll-ihpmuj" year="2000" title="Program slicing" publisher="sd_xxglgy " chapter="24">
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="df a_ rkus" year="1987" title="An intrusion-detection model" publisher="nlohqteurn" chapter="8">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="ghihon-crk" year="1994" title="An intrusion-detection model" school="mgrarfopfa">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+</BibTeX:BibTeXFile>

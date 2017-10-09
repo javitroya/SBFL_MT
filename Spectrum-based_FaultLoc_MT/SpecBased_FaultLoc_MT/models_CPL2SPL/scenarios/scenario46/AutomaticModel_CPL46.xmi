@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:AddressSwitch" field="yburgdmasa" subField="lyjorevzfr">
+    <addresses contents="//@elements.4"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="qjkygozhdt" subField="buerooppow">
+    <addresses/>
+    <addresses is="crtrenbkmu" contains="qdbcdvhmbf" subDomainOf="sxlulrmyjo"/>
+    <addresses is="lieiatktxu" contains="fkcnhehclw"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch"/>
+  <elements xsi:type="CPL:LanguageSwitch"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="tektroaals" tzurl="ivxdtbxhpm">
+    <times dtstart="zsptzwsjpa" duration="qseibbcdsb" until="djmotsufng" count="zvqfnrllhd" interval="uvoksrbsbs" bySecond="dhblyvzbhv" byHour="luzcfwmenv" byDay="gzulvxcapw" byWeekNo="kxygvezgei" byMonth="vvkfvvavpg" wkst="tifglwrzrr" bySetPos="jesbisahrs"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="zxwsvxwrmh"/>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:Location" contents="//@elements.6" url="ljgornhjnj" clear="opbkrhrciu"/>
+  <elements xsi:type="CPL:Location" url="cbydwkgrhe" clear="xurcpmwxyf"/>
+  <elements xsi:type="CPL:SubCall" ref="uydowhnlpa"/>
+  <elements xsi:type="CPL:SubCall" ref="acrdbuikvx"/>
+  <elements xsi:type="CPL:Proxy" timeout="ycqysbnbms" recurse="ljuviokago" ordering="emklcpfibo">
+    <busy contents="//@elements.10"/>
+    <default contents="//@elements.2"/>
+  </elements>
+</CPL:CPLModel>

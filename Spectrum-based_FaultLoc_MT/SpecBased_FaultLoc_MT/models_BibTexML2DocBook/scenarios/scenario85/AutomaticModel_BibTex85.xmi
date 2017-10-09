@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="huvpi yvrs" year="1984" title="The model checker SPIN" journal="Software -- Practice and Experience">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="lnvnpnfxic" year="2000" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+    <authors author="Bruce Schneier"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qwpaxtmvdq" year="1997" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Craig Larman"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="jkaepwdelk" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Manual" id="p-ohytwygq" title="Uppaal in a nutshell"/>
+  <entries xsi:type="BibTeX:Book" id="vxcznqpy_m" year="1984" title="Complexity measure" publisher="vbuqwenvzw">
+    <authors author="Steve McConnell"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="h_ gicwnfj" year="1997" title="The model checker SPIN" publisher="xbjuugtkxo">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="ymkfiklrix" year="1984" title="Complexity measure" publisher="hggdhbsipo" chapter="12">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="dliqywh_vx" year="1997" title="QoS-aware middleware for Web services composition" publisher="eiqtywywd-" chapter="96">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="ukkxqiqepr" year="2000" title="A metrics suite for object oriented design" publisher="lhpapghtvr" chapter="46">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="_jjerfpcys"/>
+  <entries xsi:type="BibTeX:Misc" id="yryagulozz"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="qpeyqmkfrf" year="1987" title="Uppaal in a nutshell" school="sajzaj_izj">
+    <authors author="Wang Yi"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="q cshliwoe" year="1995" title="QoS-aware middleware for Web services composition" school="hzcd-iubfw">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="jvjwqvguad" year="1997" title="A metrics suite for object oriented design" school="pul-ddma  ">
+    <authors author="Steve McConnell"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="jad vgt_cm" year="1997" title="Complexity measure" school="rfbztqltzj">
+    <authors author="Marlon Dumas"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="tyhmmkqo_b" year="2000" title="An intrusion-detection model" school="ijzb qkckj">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="fnpv_e tnx" year="1997" title="Uppaal in a nutshell" school="xvn qhn_ur">
+    <authors author="Robert C. Martin"/>
+  </entries>
+</BibTeX:BibTeXFile>

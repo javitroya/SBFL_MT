@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[br_l_yekgv] InCollection QoS-aware middleware for Web services composition Donald E. Knuth Liangzhao Zeng Bruce Schneier 1987 aiwxjoyelm  lvhyhk jz"/>
+        <paras content="[cxgdb-za--] InCollection A classification and coparison framework for software architecture description languages Nenad Medvidovic Paul Pettersson Bruce Schneier 1995 k-nn_vsfpb jpqfc-af_r"/>
+        <paras content="[dj evwshmp] Misc"/>
+        <paras content="[dyxeqnleic] InBook A metrics suite for object oriented design Martin Fowler Nenad Medvidovic Wang Yi Kim G. Larsen 1994 vl_pold- b 26"/>
+        <paras content="[g _ fzcure] MasterThesis Complexity measure Dorothy E. Denning Craig Larman Martin Fowler 1991 gcy fcxgle"/>
+        <paras content="[iptplg_tps] TechReport QoS-aware middleware for Web services composition Thomas M. J. Fruchterman 1994"/>
+        <paras content="[kefejlqbmz] MasterThesis A classification and coparison framework for software architecture description languages Erich Gamma 1987 -jcozjpl t"/>
+        <paras content="[ktlyxvuypf] InProceedings QoS-aware middleware for Web services composition Chris F. Kemerer Kim G. Larsen Dorothy E. Denning 1984 mtpcx jnwb"/>
+        <paras content="[l-_qnuojzw] InCollection A metrics suite for object oriented design Bruce Schneier Dorothy E. Denning Gerard J. Holzmann 2000 p-bwbmpda  dbdrwif tn"/>
+        <paras content="[ldrpc -wq_] Manual An intrusion-detection model"/>
+        <paras content="[lmxxp-crr_] InProceedings Graph drawing by force-directed placement Marlon Dumas Philippe Kruchten Chris F. Kemerer Erich Gamma 1995 rocmmhkcqh"/>
+        <paras content="[myzqmvv_mc] Booklet 1984"/>
+        <paras content="[oxdq o iia] Misc"/>
+        <paras content="[pu_o nxkat] TechReport 4 + 1 view model of architecture Elisabeth Freeman Wang Yi Paul Pettersson Elisabeth Freeman 1987"/>
+        <paras content="[rm-eqepjiu] InProceedings Uppaal in a nutshell Dorothy E. Denning Bruce Schneier Martin Fowler Nenad Medvidovic 1997 g-mjhpnld "/>
+        <paras content="[skov ktqtr] InBook Graph drawing by force-directed placement Nenad Medvidovic Thomas M. J. Fruchterman 1995 bzhgcuae-r 3"/>
+        <paras content="[uigbcqgxqr] Booklet 1997"/>
+        <paras content="[uytvbeskcw] InBook Graph drawing by force-directed placement Thomas M. J. Fruchterman 1984 c_l-p_yvpl 47"/>
+        <paras content="[uzjzymnmka] MasterThesis A metrics suite for object oriented design Robert C. Martin Paul Pettersson Nenad Medvidovic Craig Larman 1984 khct ntuda"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List"/>
+    </articles>
+  </books>
+</DocBook:DocBook>

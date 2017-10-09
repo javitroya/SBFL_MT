@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="kl-cmyjhpj" year="1976" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="sglkpkmdya" year="1991" title="QoS-aware middleware for Web services composition" journal="Software and Systems Modeling">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="qrwblwughd" year="1997" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Wang Yi"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="-cr-h-ncof" year="1987" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Wang Yi"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="xwpcnte-wb" year="1995" title="The model checker SPIN" journal="Software -- Practice and Experience">
+    <authors author="Steve McConnell"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="eyybq-jwkd" year="2000" title="Uppaal in a nutshell">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="pvwle -f_s" year="1997" title="Program slicing">
+    <authors author="Martin Fowler"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="rotwpyerrk" year="1997" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Proceedings" id="zvgwuwkbzj" year="1987" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Booklet" id="yh_rdsfnga" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="i_cnjuzdkn" year="1991"/>
+  <entries xsi:type="BibTeX:Booklet" id="qzurrmvg d" year="1995"/>
+  <entries xsi:type="BibTeX:InBook" id="du-pi-_rbb" year="1976" title="The model checker SPIN" publisher="y_us zyokx" chapter="54">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="qxsgniey u" year="2004" title="A classification and coparison framework for software architecture description languages" publisher="qq yzmbsyw" chapter="27">
+    <authors author="Wang Yi"/>
+    <authors author="Craig Larman"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="atrcwylnso" year="1976" title="Graph drawing by force-directed placement" publisher="-e-anjpbdm" chapter="66">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="_te_ yxrmk"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="cfzsseaybg" year="2004" title="Program slicing" school="msuxlqo wp">
+    <authors author="Robert C. Martin"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="on-qnb-czb" year="1997" title="The model checker SPIN" school="zucegirhkz">
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="lgpjoxtjxw" year="1991" title="Complexity measure" school="wz gycrryg">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="wkklbigytl" year="1997" title="A classification and coparison framework for software architecture description languages" school="ynquiych c">
+    <authors author="Bruce Schneier"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="emwvpyyywn" year="1994" title="Complexity measure" school="cv bceo-vc">
+    <authors author="Steve McConnell"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="kejztmxq-t" year="1984" title="Uppaal in a nutshell" school="f_objzzmwh">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+</BibTeX:BibTeXFile>

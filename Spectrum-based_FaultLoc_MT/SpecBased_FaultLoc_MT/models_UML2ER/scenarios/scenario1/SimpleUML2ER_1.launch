@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
+<stringAttribute key="ATL File Name" value="/SpecBased_FaultLoc_MT/models_UML2ER/transformations/SimpleUml2ER.atl"/>
+<stringAttribute key="ATL VM" value="EMF-specific VM"/>
+<stringAttribute key="ATL_COMPILER" value="atl2006"/>
+<booleanAttribute key="IS_REFINING" value="false"/>
+<mapAttribute key="Input">
+<mapEntry key="IN" value="SimpleUML"/>
+</mapAttribute>
+<mapAttribute key="Libs"/>
+<mapAttribute key="Model Handler">
+<mapEntry key="ER" value="EMF"/>
+<mapEntry key="SimpleUML" value="EMF"/>
+<mapEntry key="TMM" value="EMF"/>
+</mapAttribute>
+<mapAttribute key="ModelType">
+<mapEntry key="ER" value="METAMODELOUTPUT"/>
+<mapEntry key="IN" value="MODELINPUT"/>
+<mapEntry key="OUT" value="MODELOUTPUT"/>
+<mapEntry key="SimpleUML" value="METAMODELINPUT"/>
+<mapEntry key="TM" value="MODELOUTPUT"/>
+<mapEntry key="TMM" value="METAMODELOUTPUT"/>
+</mapAttribute>
+<mapAttribute key="Options">
+<mapEntry key="OPTION_CLEAR" value="false"/>
+<mapEntry key="OPTION_CONTENT_TYPE" value="false"/>
+<mapEntry key="OPTION_DERIVED" value="true"/>
+<mapEntry key="allowInterModelReferences" value="false"/>
+<mapEntry key="printExecutionTime" value="false"/>
+<mapEntry key="step" value="false"/>
+<mapEntry key="supportUML2Stereotypes" value="false"/>
+</mapAttribute>
+<listAttribute key="OrderedInput">
+<listEntry value="IN"/>
+</listAttribute>
+<listAttribute key="OrderedOutput">
+<listEntry value="OUT"/>
+<listEntry value="TM"/>
+</listAttribute>
+<mapAttribute key="Output">
+<mapEntry key="OUT" value="ER"/>
+<mapEntry key="TM" value="TMM"/>
+</mapAttribute>
+<mapAttribute key="Path">
+<mapEntry key="ER" value="/SpecBased_FaultLoc_MT/models_UML2ER/ER.ecore"/>
+<mapEntry key="IN" value="/SpecBased_FaultLoc_MT/models_UML2ER/scenarios/scenario1/AutomaticModel_SimpleUml1.xmi"/>
+<mapEntry key="OUT" value="/SpecBased_FaultLoc_MT/models_UML2ER/scenarios/scenario1/ER_Output1.xmi"/>
+<mapEntry key="SimpleUML" value="/SpecBased_FaultLoc_MT/models_UML2ER/SimpleUml.ecore"/>
+<mapEntry key="TM" value="/SpecBased_FaultLoc_MT/models_UML2ER/scenarios/scenario1/Trace_Output1.xmi"/>
+<mapEntry key="TMM" value="/SpecBased_FaultLoc_MT/models_UML2ER/Trace.ecore"/>
+</mapAttribute>
+<listAttribute key="Superimpose"/>
+</launchConfiguration>

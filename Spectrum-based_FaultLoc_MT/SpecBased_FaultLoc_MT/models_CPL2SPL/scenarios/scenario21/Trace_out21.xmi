@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario21/AutomaticModel_CPL21.xmi#//@elements.0/@notPresent"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario21/SPL_out21.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario21/AutomaticModel_CPL21.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario21/SPL_out21.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario21/SPL_out21.xmi#/1/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario21/SPL_out21.xmi#/1/@returnedValue/@functionCall"/>
+  </traceLinks>
+</trace:Trace>

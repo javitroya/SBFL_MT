@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[ b_anvhhrm] MasterThesis A classification and coparison framework for software architecture description languages Marlon Dumas 2000 vbftqzqnfl"/>
+        <paras content="[ jezgabkgk] MasterThesis QoS-aware middleware for Web services composition Marlon Dumas 1997 jmfzaopz h"/>
+        <paras content="[_uzwozxfem] InCollection A classification and coparison framework for software architecture description languages Gerard J. Holzmann Thomas M. J. Fruchterman Robert C. Martin 1994 hmuq_u-agx qlftab-kdp"/>
+        <paras content="[a-hp rdbqw] PhDThesis Program slicing Donald E. Knuth Wang Yi 1997 ldubwjn_sp"/>
+        <paras content="[djelygsikv] Booklet 1987"/>
+        <paras content="[ebqgktcl y] InBook Program slicing Marlon Dumas Chris F. Kemerer Wang Yi 1995 b-myexfoko 38"/>
+        <paras content="[g_rekat-vc] Booklet 1984"/>
+        <paras content="[hxtzx xzyz] InBook QoS-aware middleware for Web services composition Paul Pettersson 1997 btmhfduqgv 59"/>
+        <paras content="[mxe kqplza] PhDThesis Uppaal in a nutshell Craig Larman Robert C. Martin Richard N. Taylor Martin Fowler 2000 psyyyxklzv"/>
+        <paras content="[mzptaeuyqg] Misc"/>
+        <paras content="[pyjpyu-isx] InBook A metrics suite for object oriented design Gerard J. Holzmann 1991 dm-qjg  ts 37"/>
+        <paras content="[t-bekiv_uz] PhDThesis Program slicing Bruce Schneier Chris F. Kemerer Erich Gamma Bruce Schneier 2004 quhod mvr-"/>
+        <paras/>
+        <paras content="[tdwettondk] InCollection Graph drawing by force-directed placement Martin Fowler Marlon Dumas 1987 posdqv-psb mmosgvfwjh"/>
+        <paras content="[tnr-kfa jp] MasterThesis QoS-aware middleware for Web services composition Shyam R. Chidamber Shyam R. Chidamber Paul Pettersson Nenad Medvidovic 1994 kkkwqgbvfc"/>
+        <paras content="[xdirj--caa] Misc"/>
+        <paras content="[zd_kkhkph ] Booklet 1997"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

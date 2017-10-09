@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions id="egqgiuldyo"/>
+    <subActions id="dgyzoajlxe"/>
+    <subActions id="nwpqiqkgwk"/>
+    <subActions id="qrlkgtnihe"/>
+    <outgoing contents="//@elements.23"/>
+    <incoming/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions contents="//@elements.31" id="ijblhohizo"/>
+    <subActions contents="//@elements.13" id="tzkrrrtxih"/>
+    <outgoing/>
+    <incoming contents="//@elements.17"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="plrkpskkko">
+    <notPresent/>
+    <otherwise contents="//@elements.16"/>
+    <addresses contents="//@elements.25" is="dsgyzfcpkr" subDomainOf="jdubqilhfo"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="dojcctoswe">
+    <notPresent/>
+    <otherwise/>
+    <addresses/>
+    <addresses contents="//@elements.29" is="upmegfsmcu"/>
+    <addresses is="awjteufncm" contains="chbeethpqe"/>
+    <addresses is="nddzrbnusx" subDomainOf="bryacfytyg"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="rhmuonshsm">
+    <notPresent/>
+    <otherwise/>
+    <strings/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="ltfrjuiudw">
+    <notPresent/>
+    <otherwise/>
+    <strings contains="tmwynrlhud"/>
+    <strings is="gzkwwdxuua"/>
+    <strings is="aeiuvtixzo" contains="nwvxadnoxh"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="ahgyyqzgxm">
+    <notPresent/>
+    <otherwise contents="//@elements.29"/>
+    <strings contents="//@elements.4"/>
+    <strings is="mrkmtxvmqt"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+    <otherwise/>
+    <languages matches="nwjbswknhc"/>
+    <languages matches="tromeuntxs"/>
+    <languages matches="ecdgwcigpi"/>
+    <languages contents="//@elements.29" matches="vlufhopmmi"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+    <otherwise contents="//@elements.28"/>
+    <languages contents="//@elements.27" matches="hqghefbxco"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch">
+    <notPresent/>
+    <otherwise/>
+    <times dtstart="xxekabwqxh" duration="trrqruslku" count="draqwgvenb" interval="wdbbocziol" byHour="otlrkiyeeo" byDay="dunmujfbqc" byYearDay="qqjkparbym" byMonth="rlkvfzfvgd" wkst="ilqtxjkldm" bySetPos="qlbcfhiuio"/>
+    <times contents="//@elements.30" dtstart="awxdqekrwb" dtend="rjusjrnhkf" duration="xuhhvklwdi" until="qnhpkhzyxc" interval="dbqumfzkuf" byMinute="wwmzxqwwpg" byHour="lfckrvloon" byYearDay="gfciownvbu" byWeekNo="gitilwvqqd" byMonth="nmebvtspav" wkst="wmrmemzsnm"/>
+    <times dtstart="zlaxyquhme" duration="dcwwfdvbeu" freq="ubtldptgfm" interval="kozouytboz" bySecond="edcwxbqtmu" byDay="ytaexpyqqk" byMonthDay="hcnlxfvsrj" byWeekNo="rlekoanewx" byMonth="aqkxwnslhp" wkst="ftejvhqazu"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="tmbkxjvclf" tzurl="nbzqmzjflw">
+    <notPresent/>
+    <otherwise/>
+    <times contents="//@elements.5" dtstart="telnzmqvrj" dtend="obajnqofbn" freq="baogxfwwnv" count="chbmbndsas" interval="orifvvmwva" bySecond="skazohosia" byMinute="cfjxylljnw" byDay="gqagkedzwn" byWeekNo="ewptbacukj" wkst="pqbkdxqhzy"/>
+    <times dtstart="edeazvqnxs" dtend="skybamogqk" freq="mtdaltuanj" interval="xkptvzzkvu" byMinute="clkqdahdlf" byDay="sgroxdhyqj" byMonthDay="jruasstuah" byYearDay="levdaczzjk" byWeekNo="pydrjekpcw" wkst="clcrrtufcl" bySetPos="dbeguyyswy"/>
+    <times contents="//@elements.9" dtstart="wtlguzrrwf" duration="dprhqyuppv" count="yqqlvkcoiz" interval="vjkdfrgbml" byMinute="wjbeawfznd" byMonthDay="zkklvhctov" byYearDay="jaoazmqrmr" wkst="oczjzkcncq"/>
+    <times dtstart="qhepbaqnke" count="jyxukpitdh" interval="gpruuztnlr" byMonthDay="pvthtvwipf" byYearDay="pzwxobkhtt" byMonth="pepexrxppg" wkst="vnkpykeive" bySetPos="sargfxvrjg"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="ikcoxiimon">
+    <notPresent/>
+    <otherwise/>
+    <times dtstart="akacrabtrf" duration="eemzqgylzx" freq="pstbhxvymc" count="wyadvfieva" interval="mlxifjmvsv" bySecond="jxgcajhynv" byMinute="yzvpjrqoaj" byDay="tymvakqwue" byMonthDay="lfnktwkotz" byYearDay="bhyjdezvct" wkst="kxhomhwttp"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="bcruugbmmy">
+    <notPresent contents="//@elements.6"/>
+    <otherwise/>
+    <times contents="//@elements.30" dtstart="jzyjbyrurn" dtend="gsdequvuye" freq="iirlskjdmm" interval="hhmygnfgep" bySecond="ifmpfqijkh" byMinute="sscjgtpnsh" byDay="jimoekurtf" byMonthDay="msnuxgnfob" wkst="vvtprsmofr"/>
+    <times dtstart="xnwxyenahl" dtend="uyuczugbyx" duration="wcmrksnkuv" until="crytnnkdav" interval="jvfdvhjnnu" byHour="ykplabatpf" byYearDay="udpdlkdxvk" wkst="mckoudeeua" bySetPos="kevettwmqm"/>
+    <times dtstart="mgbjpqcgrz" dtend="nkbcartwzg" until="mfrovuzqwr" count="toflyxqdvb" interval="dvbnmmkcku" byYearDay="dljzmotoqo" byWeekNo="zbtztlrrzt" byMonth="sctftbnjmx" wkst="aadcocqyjv"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent contents="//@elements.2"/>
+    <otherwise/>
+    <priorities greater="jycpbxnjkn" equal="uxzdovlceu"/>
+    <priorities/>
+    <priorities contents="//@elements.21" greater="todtdfpgfv"/>
+    <priorities less="znfggicojh" equal="ndqhwvmtsl"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+    <otherwise/>
+    <priorities greater="oephkfxjpv" equal="hohrhmtzyt"/>
+    <priorities contents="//@elements.31" less="mcpjveiozj" greater="jkrqukkpeq" equal="vrnupjgzjy"/>
+    <priorities/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent contents="//@elements.13"/>
+    <otherwise/>
+    <priorities less="riiqfnrlgz" greater="ozqcjjlobq" equal="osjgubnlyk"/>
+    <priorities greater="hmlybvzajk" equal="kvbnvjrqxk"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+    <otherwise/>
+    <priorities greater="sgokhtzrut"/>
+    <priorities contents="//@elements.16" less="acgdrxdzoz"/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="ciawvkstxh" clear="pmdciujhnr"/>
+  <elements xsi:type="CPL:Location" url="zgjytmotlh" clear="qbjktbvkqd"/>
+  <elements xsi:type="CPL:Location" url="quegqmnnrv" clear="bamtcjvwnv"/>
+  <elements xsi:type="CPL:SubCall" ref="tsvgpbkjjh"/>
+  <elements xsi:type="CPL:SubCall" ref="sihegbslyg"/>
+  <elements xsi:type="CPL:SubCall" ref="tvxubwnjda"/>
+  <elements xsi:type="CPL:SubCall" ref="siyemryhzh"/>
+  <elements xsi:type="CPL:Proxy" timeout="yvexcgaejc" recurse="jaaygrorip" ordering="guamkzngvb">
+    <busy/>
+    <noAnswer/>
+    <redirection/>
+    <failure/>
+    <default/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" recurse="zrxxlnlykx" ordering="dyjewrlodm">
+    <busy contents="//@elements.10"/>
+    <noAnswer contents="//@elements.30"/>
+    <redirection/>
+    <failure/>
+    <default/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" recurse="setlwiwxbe" ordering="jxmguovveq">
+    <busy/>
+    <noAnswer/>
+    <redirection/>
+    <failure/>
+    <default/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" timeout="xxpihakujh" recurse="pddwynmeuj" ordering="nxaugsxbgt">
+    <busy contents="//@elements.22"/>
+    <noAnswer contents="//@elements.16"/>
+    <redirection/>
+    <failure/>
+    <default/>
+  </elements>
+  <elements xsi:type="CPL:Redirect" permanent="vrmxfmxypy"/>
+  <elements xsi:type="CPL:Reject" status="fdvoalrrya"/>
+  <elements xsi:type="CPL:Reject" status="ubqoljwxhk"/>
+  <elements xsi:type="CPL:Reject" status="rdjbzupbxx" reason="xwucppwvop"/>
+  <elements xsi:type="CPL:Reject" status="omqxhqqxtz"/>
+</CPL:CPLModel>

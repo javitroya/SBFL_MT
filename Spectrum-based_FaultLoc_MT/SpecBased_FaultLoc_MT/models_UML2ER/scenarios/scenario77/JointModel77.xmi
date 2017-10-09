@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="aharkwlprg">
+    <ownedElements name="Product">
+      <ownedProperty name="bemrvsikcs" primitiveType="Double" isContainment="true"/>
+      <ownedProperty name="ilkuogvmob" complexType="/0/@ownedElements.0" isContainment="true"/>
+      <ownedProperty name="pgnnpyo-ya"/>
+    </ownedElements>
+    <ownedElements name="Product">
+      <ownedProperty name="zxsfzfedlb" primitiveType="Integer"/>
+      <ownedProperty name="u_sszctj  " primitiveType="Integer"/>
+      <ownedProperty name="kjgu dhayl"/>
+    </ownedElements>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="aharkwlprg">
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="Double"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+    </entities>
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="Integer"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="Integer"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+    </entities>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

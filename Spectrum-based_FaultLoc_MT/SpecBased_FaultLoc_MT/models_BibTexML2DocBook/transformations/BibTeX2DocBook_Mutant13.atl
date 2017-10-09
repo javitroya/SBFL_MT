@@ -1,0 +1,497 @@
+module BibTeX2DocBook_Mutant13;
+create OUT : DocBook, TM : TMM from IN : BibTeX;
+
+helper def : trace : TMM!Trace = OclUndefined;
+
+-------------------------------------------------------------------------------
+-- RULES ----------------------------------------------------------------------
+-------------------------------------------------------------------------------
+entrypoint rule createTrace()
+{
+	to
+		tr : TMM!Trace( )
+	
+	do {
+		thisModule.trace <- tr;
+	}	
+}
+
+-- R1
+-- Rule 'Main'
+-- This rule generates the structure of the DocBook model from a BibTeXFile element
+rule Main {
+	from
+        bib : BibTeX!BibTeXFile
+	to 
+		doc : DocBook!DocBook (
+			books <- boo
+		),
+		boo : DocBook!Book (
+			articles <- art
+		),
+		art : DocBook!Article (
+			title <- 'BibTeXML to DocBook',
+			sections_1 <- Sequence{se1, se2, se3, se4}
+		),
+		se1 : DocBook!Sect1 (
+			title <- 'References List',
+			paras <- BibTeX!BibTeXEntry.allInstances()->sortedBy(e | e.id)
+		),
+		se2 : DocBook!Sect1 (
+			title <- 'Authors List',
+			paras <- BibTeX!Author.allInstances()->iterate(e; ret : Sequence(BibTeX!Author) = Sequence {} |
+				if ret->collect(e | e.author)->includes(e.author) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.author)
+		),
+		se3 : DocBook!Sect1 (
+			title <- 'Titles List',
+			paras <- BibTeX!TitledEntry.allInstances()->iterate(e; ret : Sequence(BibTeX!TitledEntry) = Sequence {} |
+				if ret->collect(e | e.title)->includes(e.title) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.title)	->collect(e | thisModule.resolveTemp(e, 'title_para'))
+		),
+		se4 : DocBook!Sect1 (
+			title <- 'Journals List',
+			paras <- BibTeX!Article.allInstances()->iterate(e; ret : Sequence(BibTeX!Article) = Sequence {} |
+				if ret->collect(e | e.journal)->includes(e.journal) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.journal)->collect(e | thisModule.resolveTemp(e, 'journal_para'))
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Main',
+			targetElements <- Sequence{doc,boo,art,se1,se2,se3,se4}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{bib};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- R2
+-- Rule 'Author'
+-- This rule generates a section_2 paragraph for each distinct author.
+rule Author {
+	from
+		a : BibTeX!Author (
+			  BibTeX!Author.allInstances()->iterate(e; ret : Sequence(BibTeX!Author) = Sequence {} |
+				--if ret->collect(e | e.author)->includes(e.author) then
+				--	ret								-- Mutation:   filter condition change
+				--else
+					ret->including(e)
+				--endif
+			)->sortedBy(e | e.author)->includes(a))
+	to
+		p1 : DocBook!Para (
+			content <- a.author
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Author',
+			targetElements <- Sequence{p1}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{a};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- R3
+-- Rule 'UntitledEntry'
+-- This rule generates a section_1 paragraph for each untitled entry.
+-- The elements that should trigger this rule are: Misc, Booklet
+rule UntitledEntry {
+	from
+		e : BibTeX!BibTeXEntry (
+			not e.oclIsKindOf(BibTeX!TitledEntry)
+		)
+	to
+		p : DocBook!Para (
+			content <- '[' + e.id + ']'
+				+ ' ' + e.oclType().name
+				+ (if e.oclIsKindOf(BibTeX!TitledEntry) then ' ' + e.title else '' endif)
+				+ (if e.oclIsKindOf(BibTeX!AuthoredEntry) 
+				   then e.authors->iterate(e; str : String = '' | str + ' ' + e.author)
+				   else ''
+				   endif)
+				+ (if e.oclIsKindOf(BibTeX!DatedEntry) then ' ' + e.year else '' endif)
+				+ (if e.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + e.booktitle else '' endif)
+				+ (if e.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  e.school else '' endif)
+				+ (if e.oclIsKindOf(BibTeX!Article) then ' ' + e.journal else '' endif)
+				+ (if e.oclIsKindOf(BibTeX!Unpublished) then ' ' + e.note else '' endif)
+				+ (if e.oclIsKindOf(BibTeX!Book) then ' ' + e.publisher else '' endif)
+				+ (if e.oclIsKindOf(BibTeX!InBook) then ' ' + e.chapter.toString() else '' endif)
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'UntitledEntry',
+			targetElements <- Sequence{p}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+
+
+-- R4
+-- Rule 'TitledEntry_Title_NoArticle'
+-- [titledEntrySet contains a subset of TitledEntry, so that each title
+-- appears only once in the set]
+-- For each "no article" titled entry that belongs to titledEntrySet,
+-- this rule generates:
+--   * a section_1 paragraph;
+--   * a section_3 paragraph.
+-- The elements that should trigger this rule are (but not all of them, since two publications with the same title don't trigger this rule twice):
+-- MasterThesis, PhDThesis, InBook, Book, InCollection, InProceedings, Proceedings, Manual, Unpublished, TechReport
+rule TitledEntry_Title_NoArticle {
+	from
+		e : BibTeX!TitledEntry (
+			BibTeX!TitledEntry.allInstances()->iterate(e; ret : Sequence(BibTeX!TitledEntry) = Sequence {} |
+				if ret->collect(e | e.title)->includes(e.title) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.title)->includes(e) and
+			not e.oclIsKindOf(BibTeX!Article)
+		)
+	to
+		entry_para : DocBook!Para (
+			content <- '[' + e.id + ']'
+			+ ' ' + e.oclType().name
+			+ (if e.oclIsKindOf(BibTeX!TitledEntry) then ' ' + e.title else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!AuthoredEntry) 
+			   then e.authors->iterate(e; str : String = '' | str + ' ' + e.author)
+			   else ''
+			   endif)
+			+ (if e.oclIsKindOf(BibTeX!DatedEntry) then ' ' + e.year else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + e.booktitle else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  e.school else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Article) then ' ' + e.journal else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Unpublished) then ' ' + e.note else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Book) then ' ' + e.publisher else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!InBook) then ' ' + e.chapter.toString() else '' endif)
+		),
+		title_para : DocBook!Para (
+			content <- e.title
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'TitledEntry_Title_NoArticle',
+			targetElements <- Sequence{entry_para, title_para}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- R5
+-- Rule 'TitledEntry_NoTitle_NoArticle'
+-- [titledEntrySet contains a subset of TitledEntry, so that each title
+-- appears only once in the set]
+-- For each "no article" titled entry that does not belong to titledEntrySet,
+-- this rule generates:
+--   * a section_1 paragraph;
+-- It is executed when there are two or more titled publications with the same title.
+-- The elements that should trigger this rule are (but not all of them, since two publications with the same title don't trigger this rule twice):
+-- MasterThesis, PhDThesis, InBook, Book, InCollection, InProceedings, Proceedings, Manual, Unpublished, TechReport
+rule TitledEntry_NoTitle_NoArticle {
+	from
+		e : BibTeX!TitledEntry (
+			not BibTeX!TitledEntry.allInstances()->iterate(e; ret : Sequence(BibTeX!TitledEntry) = Sequence {} |
+				if ret->collect(e | e.title)->includes(e.title) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.title)->includes(e) and
+			not e.oclIsKindOf(BibTeX!Article)
+		)
+	to
+		entry_para : DocBook!Para (
+			content <- '[' + e.id + ']'
+			+ ' ' + e.oclType().name
+			+ (if e.oclIsKindOf(BibTeX!TitledEntry) then ' ' + e.title else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!AuthoredEntry) 
+			   then e.authors->iterate(e; str : String = '' | str + ' ' + e.author)
+			   else ''
+			   endif)
+			+ (if e.oclIsKindOf(BibTeX!DatedEntry) then ' ' + e.year else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + e.booktitle else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  e.school else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Article) then ' ' + e.journal else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Unpublished) then ' ' + e.note else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Book) then ' ' + e.publisher else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!InBook) then ' ' + e.chapter.toString() else '' endif)
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'TitledEntry_NoTitle_NoArticle',
+			targetElements <- Sequence{entry_para}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- R6
+-- Rule 'Article_Title_Journal'
+-- [titledEntrySet contains a subset of TitledEntry, so that each title
+-- appears only once in the set]
+-- [articleSet contains a subset of Article, so that each journal
+-- appears only once in the set]
+-- For each article entry that belongs to articleSet, this rule generates:
+--   * a section_1 paragraph;
+--   * a section_3 paragraph;
+--   * a section_4 paragraph.
+-- The elements that should trigger this rule are: Article
+rule Article_Title_Journal {
+	from
+		e : BibTeX!Article (
+			BibTeX!TitledEntry.allInstances()->iterate(e; ret : Sequence(BibTeX!TitledEntry) = Sequence {} |
+				if ret->collect(e | e.title)->includes(e.title) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.title)->includes(e) and
+			BibTeX!Article.allInstances()->iterate(e; ret : Sequence(BibTeX!Article) = Sequence {} |
+				if ret->collect(e | e.journal)->includes(e.journal) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.journal)->includes(e)
+		)
+	to
+		entry_para : DocBook!Para (
+			content <- '[' + e.id + ']'
+			+ ' ' + e.oclType().name
+			+ (if e.oclIsKindOf(BibTeX!TitledEntry) then ' ' + e.title else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!AuthoredEntry) 
+			   then e.authors->iterate(e; str : String = '' | str + ' ' + e.author)
+			   else ''
+			   endif)
+			+ (if e.oclIsKindOf(BibTeX!DatedEntry) then ' ' + e.year else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + e.booktitle else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  e.school else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Article) then ' ' + e.journal else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Unpublished) then ' ' + e.note else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Book) then ' ' + e.publisher else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!InBook) then ' ' + e.chapter.toString() else '' endif)
+		),
+		title_para : DocBook!Para (
+			content <- e.title
+		),
+		journal_para : DocBook!Para (
+			content <- e.journal
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Article_Title_Journal',
+			targetElements <- Sequence{entry_para, title_para, journal_para}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- R7
+-- Rule 'Article_NoTitle_Journal'
+-- [titledEntrySet contains a subset of TitledEntry, so that each title
+-- appears only once in the set]
+-- [articleSet contains a subset of Article, so that each journal
+-- appears only once in the set]
+-- For each article entry that belongs to articleSet, this rule generates:
+--   * a section_1 paragraph;
+--   * a section_4 paragraph.
+-- It is executed when there are two Articles with the same title
+-- The elements that should trigger this rule are: Article
+rule Article_NoTitle_Journal {
+	from
+		e : BibTeX!Article (
+			not BibTeX!TitledEntry.allInstances()->iterate(e; ret : Sequence(BibTeX!TitledEntry) = Sequence {} |
+				if ret->collect(e | e.title)->includes(e.title) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.title)->includes(e) and
+			BibTeX!Article.allInstances()->iterate(e; ret : Sequence(BibTeX!Article) = Sequence {} |
+				if ret->collect(e | e.journal)->includes(e.journal) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.journal)->includes(e)
+		)
+	to
+		entry_para : DocBook!Para (
+			content <- '[' + e.id + ']'
+			+ ' ' + e.oclType().name
+			+ (if e.oclIsKindOf(BibTeX!TitledEntry) then ' ' + e.title else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!AuthoredEntry) 
+			   then e.authors->iterate(e; str : String = '' | str + ' ' + e.author)
+			   else ''
+			   endif)
+			+ (if e.oclIsKindOf(BibTeX!DatedEntry) then ' ' + e.year else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + e.booktitle else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  e.school else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Article) then ' ' + e.journal else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Unpublished) then ' ' + e.note else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Book) then ' ' + e.publisher else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!InBook) then ' ' + e.chapter.toString() else '' endif)
+		),
+		journal_para : DocBook!Para (
+			content <- e.journal
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Article_NoTitle_Journal',
+			targetElements <- Sequence{entry_para, journal_para}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- R8
+-- Rule 'Article_Title_NoJournal'
+-- [titledEntrySet contains a subset of TitledEntry, so that each title
+-- appears only once in the set]
+-- [articleSet contains a subset of Article, so that each journal
+-- appears only once in the set]
+-- For each article entry that belongs to articleSet, this rule generates:
+--   * a section_1 paragraph;
+--   * a section_3 paragraph.
+-- It is executed when there are two articles within the same journal
+-- The elements that should trigger this rule are: Article
+rule Article_Title_NoJournal {
+	from
+		e : BibTeX!Article (
+			BibTeX!TitledEntry.allInstances()->iterate(e; ret : Sequence(BibTeX!TitledEntry) = Sequence {} |
+				if ret->collect(e | e.title)->includes(e.title) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.title)->includes(e) and
+			not BibTeX!Article.allInstances()->iterate(e; ret : Sequence(BibTeX!Article) = Sequence {} |
+				if ret->collect(e | e.journal)->includes(e.journal) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.journal)->includes(e)
+		)
+	to
+		entry_para : DocBook!Para (
+			content <- '[' + e.id + ']'
+			+ ' ' + e.oclType().name
+			+ (if e.oclIsKindOf(BibTeX!TitledEntry) then ' ' + e.title else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!AuthoredEntry) 
+			   then e.authors->iterate(e; str : String = '' | str + ' ' + e.author)
+			   else ''
+			   endif)
+			+ (if e.oclIsKindOf(BibTeX!DatedEntry) then ' ' + e.year else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + e.booktitle else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  e.school else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Article) then ' ' + e.journal else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Unpublished) then ' ' + e.note else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Book) then ' ' + e.publisher else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!InBook) then ' ' + e.chapter.toString() else '' endif)
+		),
+		title_para : DocBook!Para (
+			content <- e.title
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Article_Title_NoJournal',
+			targetElements <- Sequence{entry_para, title_para}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- R9
+-- Rule 'Article_NoTitle_NoJournal'
+-- [titledEntrySet contains a subset of TitledEntry, so that each title
+-- appears only once in the set]
+-- [articleSet contains a subset of Article, so that each journal
+-- appears only once in the set]
+-- For each article entry that belongs to articleSet, this rule generates:
+--   * a section_1 paragraph;
+-- It is executed when there are two articles with the same title and within the same journal
+-- The elements that should trigger this rule are: Article
+rule Article_NoTitle_NoJournal {
+	from
+		e : BibTeX!Article (
+			not BibTeX!TitledEntry.allInstances()->iterate(e; ret : Sequence(BibTeX!TitledEntry) = Sequence {} |
+				if ret->collect(e | e.title)->includes(e.title) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.title)->includes(e) and
+			not BibTeX!Article.allInstances()->iterate(e; ret : Sequence(BibTeX!Article) = Sequence {} |
+				if ret->collect(e | e.journal)->includes(e.journal) then
+					ret
+				else
+					ret->including(e)
+				endif
+			)->sortedBy(e | e.journal)->includes(e)
+		)
+	to
+		entry_para : DocBook!Para (
+			content <- '[' + e.id + ']'
+			+ ' ' + e.oclType().name
+			+ (if e.oclIsKindOf(BibTeX!TitledEntry) then ' ' + e.title else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!AuthoredEntry) 
+			   then e.authors->iterate(e; str : String = '' | str + ' ' + e.author)
+			   else ''
+			   endif)
+			+ (if e.oclIsKindOf(BibTeX!DatedEntry) then ' ' + e.year else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!BookTitledEntry) then ' ' + e.booktitle else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!ThesisEntry) then ' ' +  e.school else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Article) then ' ' + e.journal else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Unpublished) then ' ' + e.note else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!Book) then ' ' + e.publisher else '' endif)
+			+ (if e.oclIsKindOf(BibTeX!InBook) then ' ' + e.chapter.toString() else '' endif)
+		),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Article_NoTitle_NoJournal',
+			targetElements <- Sequence{entry_para}
+		)
+	do {
+		-- trace information
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}

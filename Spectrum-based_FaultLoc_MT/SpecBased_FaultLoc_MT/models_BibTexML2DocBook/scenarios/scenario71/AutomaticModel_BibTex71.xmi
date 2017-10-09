@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="odghskevbb" year="1991" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gjkdryn-dn" year="1995" title="QoS-aware middleware for Web services composition" journal="Software and Systems Modeling">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="i_anhkhgip" year="1994" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="suekvzzwwy" year="1994" title="A metrics suite for object oriented design">
+    <authors author="Marlon Dumas"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="f-jtaj x-v" year="1994" title="QoS-aware middleware for Web services composition">
+    <authors author="Craig Larman"/>
+    <authors author="Wang Yi"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="ypzbxr_lht" year="1997" title="Complexity measure" publisher="li-jystzbi" booktitle="lml epsnwa">
+    <authors author="Craig Larman"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="zjalbs-jtz" year="1976" title="The model checker SPIN" publisher="g novonwwc" chapter="7">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="ijmijsfpml" year="1976" title="Uppaal in a nutshell" publisher="fdkkelcqrs" chapter="87">
+    <authors author="Wang Yi"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="fveatlyywl" year="1995" title="Program slicing" publisher="com_r hdxt" chapter="33">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="wpyufd tue" year="1984" title="A metrics suite for object oriented design" school="grfzrvnbrd">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="zowrdyhuuj" year="2000" title="A metrics suite for object oriented design" school="bxavi-eusy">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id=" kag-fmtth" year="1991" title="Complexity measure" school="sphbs_fwab">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="lmlp-xxchd" year="2000" title="Program slicing" school="_-ztdhngyb">
+    <authors author="Bruce Schneier"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+</BibTeX:BibTeXFile>

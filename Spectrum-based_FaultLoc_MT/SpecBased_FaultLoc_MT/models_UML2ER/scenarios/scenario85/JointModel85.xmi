@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="qxxzntr_ay">
+    <ownedElements name="House" superClasses="/0/@ownedElements.1 /0/@ownedElements.2 /0/@ownedElements.0"/>
+    <ownedElements name="Computer"/>
+    <ownedElements name="House" superClasses="/0/@ownedElements.0 /0/@ownedElements.2 /0/@ownedElements.1"/>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="qxxzntr_ay">
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

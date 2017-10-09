@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="kanqkjj-yn" year="1997" title="QoS-aware middleware for Web services composition" journal="Software and Systems Modeling">
+    <authors author="Paul Pettersson"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ptegzraztm" year="2000" title="The model checker SPIN" journal="Journal of Systems and Software">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="n_prckmosk" title="An intrusion-detection model" note="c-uvqshx_h">
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="toozzpifzo" year="2004" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:Proceedings" id="jglfdvuqts" year="2004" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Proceedings" id="zigfogjohn" year="1997" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:InProceedings" id="dbxhhfcm d" year="1976" title="Uppaal in a nutshell" booktitle="jsyosnbcso">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="orbu_rcvln" year="1984" title="4 + 1 view model of architecture" booktitle="ac-bodewwl">
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="nkcclxkreb" year="1994" title="Program slicing" booktitle="up-joz_u--">
+    <authors author="Steve McConnell"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="jeucabqli_" year="1997"/>
+  <entries xsi:type="BibTeX:InCollection" id="gglerxxdtu" year="1997" title="QoS-aware middleware for Web services composition" publisher="vhabrualus" booktitle="kfegmnlwpm">
+    <authors author="Erich Gamma"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="mpj-vazg m" year="1995" title="The model checker SPIN" publisher="xzpughorhm" chapter="60">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="yzmpzfsg-i"/>
+  <entries xsi:type="BibTeX:Misc" id="olckxzx em"/>
+  <entries xsi:type="BibTeX:Misc" id="uuonptukuj"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="vbjhnlnex " year="2004" title="Program slicing" school="nqcngnwaqu">
+    <authors author="Erich Gamma"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="hojntmbqqc" year="1994" title="Program slicing" school="m_zm uoazb">
+    <authors author="Paul Pettersson"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id=" hkncq_b l" year="1984" title="A metrics suite for object oriented design" school="g_  m_tb-z">
+    <authors author="Erich Gamma"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+</BibTeX:BibTeXFile>

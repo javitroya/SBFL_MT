@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Main">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#/"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#/"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.3"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.0/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.2"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.0/@authors.1"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.10"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.1/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.1/@authors.2"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.13"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.2/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.12"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.2/@authors.1"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.6"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.3/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.9"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.3/@authors.2"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.5"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.4/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.3"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.5/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.4"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.5/@authors.1"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.7"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.5/@authors.3"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.11"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.7/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.15"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.8/@authors.1"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.14"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.11/@authors.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Author">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.12/@authors.3"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.1/@paras.8"/>
+  </traceLinks>
+  <traceLinks ruleName="UntitledEntry">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.13"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.9"/>
+  </traceLinks>
+  <traceLinks ruleName="UntitledEntry">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.16"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.8"/>
+  </traceLinks>
+  <traceLinks ruleName="UntitledEntry">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.17"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.17"/>
+  </traceLinks>
+  <traceLinks ruleName="UntitledEntry">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.18"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.1"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_Title_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.6"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.3"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.3"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_Title_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.8"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.18"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.0"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_Title_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.12"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.15"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.6"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_NoTitle_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.7"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.13"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_NoTitle_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.9"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.16"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_NoTitle_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.10"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.2"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_NoTitle_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.11"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.0"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_NoTitle_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.14"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.5"/>
+  </traceLinks>
+  <traceLinks ruleName="TitledEntry_NoTitle_NoArticle">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.15"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.7"/>
+  </traceLinks>
+  <traceLinks ruleName="Article_Title_Journal">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.0"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.11"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.5"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.3/@paras.3"/>
+  </traceLinks>
+  <traceLinks ruleName="Article_Title_Journal">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.1"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.6"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.4"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.3/@paras.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Article_Title_Journal">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.2"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.12"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.2"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.3/@paras.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Article_Title_Journal">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.3"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.10"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.7"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.3/@paras.2"/>
+  </traceLinks>
+  <traceLinks ruleName="Article_Title_NoJournal">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.4"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.14"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Article_Title_NoJournal">
+    <sourceElements href="models_BibTexML2DocBook/scenarios/scenario54/AutomaticModel_BibTeX54.xmi#//@entries.5"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.0/@paras.4"/>
+    <targetElements href="models_BibTexML2DocBook/scenarios/scenario54/DocBook_out54.xmi#//@books.0/@articles.0/@sections_1.2/@paras.8"/>
+  </traceLinks>
+</trace:Trace>

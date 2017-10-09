@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario82/AutomaticModel_CPL82.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.0/@declaration"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.0/@declaration/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.0/@declaration/@initExp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Default2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario82/AutomaticModel_CPL82.xmi#//@elements.4/@default"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/0/@statements.1/@selectDefault"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario82/AutomaticModel_CPL82.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/1/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/1/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario82/AutomaticModel_CPL82.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/2/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/2/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario82/AutomaticModel_CPL82.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/3/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/3/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario82/AutomaticModel_CPL82.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario82/SPL_out82.xmi#/4/@matchedExp"/>
+  </traceLinks>
+</trace:Trace>

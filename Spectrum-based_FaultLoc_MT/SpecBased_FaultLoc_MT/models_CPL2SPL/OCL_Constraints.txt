@@ -1,0 +1,120 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+--The following 15 OCL constraints are taken from the TSE 2015 paper
+
+--OCL1. For each CPL, a Program must be created, so the number of instances must be the same (R1)
+SrcCPL.allInstances()->size() = TrgProgram.allInstances()->size()
+
+--OCL2. For each CPL, there exists a service whose name is "unnamed". This constraint covers rule R1
+SrcCPL.allInstances()->size() = TrgService.allInstances()->select(s|s.name='unnamed')->size()
+
+--OCL3. This one relates CPL with Services and also SubActions with LocalFunctionDeclaration. This constraint covers rules R1 and R2
+SrcCPL.allInstances()->forAll(c|TrgService.allInstances()->exists(s|s.name='unnamed' and s.declarations->forAll(d|SrcSubAction.allInstances()->one(sA|d.name=sA.id))))
+
+--OCL4. For each src_Incoming, a trg_Method and a trg_SIPMethodName have to be created. This constraint covers rule R3 
+SrcOutgoing.allInstances()->forAll(o|TrgSIPMethodName.allInstances()->exists(smn|smn.name=SIPMethod::NOTIFY and TrgMethod.allInstances()->one(m|m.direction=Direction::out and m.methodName = smn)))
+
+--OCL5. This is a constraint on the contents of the TrgSelectDefault instances
+SrcDefault.allInstances()->forAll(d|TrgSelectDefault.allInstances()->exists(sd|sd.commentsBefore=Sequence{'// default'} and if (d.contents.oclIsTypeOf(SrcSubCall)) then (sd.statements->first().oclIsTypeOf(TrgReturnStat)) else if (d.contents.oclIsTypeOf(SrcAddressSwitch)) then (sd.statements -> first().oclIsTypeOf(TrgSelectStat)) else if (d.contents.oclIsTypeOf(SrcProxy)) then (sd.statements -> first().oclIsTypeOf(TrgReturnStat) or sd.statements -> first().oclIsTypeOf(TrgCompoundStat)) else true endif endif endif))
+
+--OCL6. From a Busy, a SelectCase is to be created. Besides, the statements of the latter depends on the type of the contents of the former. 
+SrcBusy.allInstances()->forAll(b|TrgSelectCase.allInstances()->exists(sc|if(b.contents.oclIsTypeOf(SrcSubCall))then (TrgReturnStat.allInstances()->exists(rs|sc.statements->includes(rs) and TrgFunctionCallExp.allInstances()->exists(fce|fce=rs.returnedValue and TrgFunctionCall.allInstances()->exists(fc|fc=fce.functionCall))))else true endif))
+
+--OCL7. For a SrcSwitchedAddress, a StringConstant is to be created. The value of the second contains data from the first
+SrcSwitchedAddress.allInstances()->select(sa|not sa.is.oclIsUndefined())->forAll(sa | TrgStringConstant.allInstances()->one(st | st.value=sa.is))
+
+--OCL8. For a AddressSwitch, a SelectStat is to be created. The selectDefault of the latter has to contain the (objects created by the) otherwise of the former (R15, R18)
+SrcAddressSwitch.allInstances()->forAll(as|TrgSelectStat.allInstances()->exists(ss|TrgSIPHeaderPlace.allInstances()->one(shp|shp=ss.matchedExp and if as.field='origin' then shp.header=SIPHeader::FROM else shp.header=SIPHeader::TO endif and if (not as.otherwise.oclIsUndefined()) then TrgSelectDefault.allInstances()->one(sd|sd=ss.selectDefault) else true endif)))
+
+--OCL9. Same number of instances in source and target models.
+SrcSubCall.allInstances()->size() = TrgFunctionCallExp.allInstances()->size() and SrcSubCall.allInstances()->size() = TrgFunctionCall.allInstances()->size()
+ 
+--OCL10. This one relates Redirect with many target elements related. Besides, the value of a ConstantExp has to be the proper URI. R14
+SrcRedirect.allInstances()->forAll(r|TrgHeadedMessageField.allInstances()->exists(hmf|hmf.headerId='#contact:'and TrgConstantExp.allInstances()->exists(ce|ce=hmf.exp and TrgRedirectionErrorResponse.allInstances()->exists(rer|rer.errorKind=if r.permanent='true' then RedirectionErrorKind::MOVED_PERMANENTLY else RedirectionErrorKind::MOVED_TEMPORARILY endif and TrgConstantExp.allInstances()->exists(cep|TrgConstantExp.allInstances()->exists(cep2|TrgReasonMessageField.allInstances()->exists(rmf|rmf.exp=cep2 and TrgWithExp.allInstances()->exists(we|we.exp=cep and we.msgFields->includes(rmf) and we.msgFields->includes(hmf)))))))))
+
+--OCL11. Same number of certain instances in both models.
+SrcSubAction.allInstances()->size() + SrcOutgoing.allInstances()->size() + SrcCPL.allInstances()->size() = TrgLocalFunctionDeclaration.allInstances()->size() + TrgMethod.allInstances()->select(m|m.direction=Direction::out)->size() + TrgProgram.allInstances()->size()
+
+--OCL12. Constraint for the number of certain elements in source and target models.
+SrcBusy.allInstances()->size() + SrcNoAnswer.allInstances()->size() + SrcRedirection.allInstances()->size() + SrcSwitchedAddress.allInstances()->size() =  TrgSelectCase.allInstances()->select(sc|(sc.commentsBefore=Sequence{'// busy'} or sc.commentsBefore=Sequence{'// noanswer'} or sc.commentsBefore=Sequence{'// redirection'})) -> size() + TrgSelectCase.allInstances()->select(sc|sc.values->first().oclIsTypeOf(TrgStringConstant))->size()
+
+--OCL13. Constraint for the number of certain elements in source and target models.
+SrcOtherwise.allInstances()->size() + SrcDefault.allInstances()->size() + SrcAddressSwitch.allInstances()->size() = TrgSelectDefault.allInstances()->size() + TrgSIPHeaderPlace.allInstances()->size()
+
+--OCL14. This constraint in satisfied only by non-simple Proxies. For them, a CompoundStat, which contains a SelectStat, which in turn contains a Variable, is created.
+SrcProxy.allInstances()->select(p|p.busy.oclIsUndefined() and p.noAnswer.oclIsUndefined() and p.redirection.oclIsUndefined() and p.failure.oclIsUndefined() and p.default.oclIsUndefined())->forAll(p|TrgVariable.allInstances()->forAll(v|TrgSelectStat.allInstances()->one(ss|ss.matchedExp=v and TrgCompoundStat.allInstances()->one(cs|cs.statements->includes(ss)))))
+
+--OCL15. Redirect and Redirection create objects of type RedirectionErrorResponse.
+SrcRedirect.allInstances()->size() + SrcRedirection.allInstances()->size() = TrgRedirectionErrorResponse.allInstances() -> select(rer | rer.errorKind=RedirectionErrorKind::MOVED_PERMANENTLY or rer.errorKind=RedirectionErrorKind::MOVED_TEMPORARILY or rer.errorKind=RedirectionErrorKind::MULTIPLE_CHOICES)->size()
+
+--End of the 15 OCL constraints taken from the TSE 2015 paper
+
+
+--OCL16. For each CPL, a Dialog is created. Furthermore, the number of its methods must be equal to the number of incoming and outgoing of the CPL (R1)
+SrcCPL.allInstances()->collect(c | c.outgoing)->flatten()->select(o|o.oclIsTypeOf(SrcOutgoing))->size() + SrcCPL.allInstances()->collect(c | c.incoming)->flatten()->select(o|o.oclIsTypeOf(SrcIncoming))->size() = TrgDialog.allInstances()->collect(d | d.methods)->flatten()->size()
+
+--OCL17. For each CPL, a Dialog is created. Furthermore, if the CPL has an outgoing, then one of the methods of the Dialog must have 'out' as direction. We check this with the number of instances (R1, R4)
+SrcCPL.allInstances()->collect(c | c.outgoing)->flatten()->select(o|o.oclIsTypeOf(SrcOutgoing))->size() = TrgDialog.allInstances()->collect(d | d.methods)->flatten()->select(m | m.direction = Direction::out)->size()
+
+--OCL4. For each CPL, a Dialog is created. Furthermore, if the CPL has an incoming, then one of the methods of the Dialog must have 'in' as direction. We check this with the number of instances.
+--SrcCPL.allInstances()->collect(c | c.incoming)->flatten()->select(o|o.oclIsTypeOf(SrcIncoming))->size() = TrgDialog.allInstances()->collect(d | d.methods)->flatten()->select(m | m.direction = Direction::in)->size()
+
+--OCL18. The Services created from a CPL have as many declarations as subActions has the CPL (R1)
+SrcCPL.allInstances()->collect(c | c.subActions)->flatten()->size() = TrgService.allInstances()->collect(s|s.declarations)->flatten()->size()
+
+--OCL19. For each CPL, a session in a service of a Program is created. We check this with the number of instances (R1)
+SrcCPL.allInstances()->size() = TrgProgram.allInstances()->collect(p|p.service)->flatten()->collect(s|s.sessions)->flatten()->size()
+
+--OCL20. For every SubAction, a LocalFunctionDeclaration is created, where the id of the first is created in the first is copied in the name of the second
+SrcSubAction.allInstances()->forAll(sa | TrgLocalFunctionDeclaration.allInstances()->exists(lfd | lfd.name = sa.id))
+
+--OCL21. For Every SubAction, there exists a LocalFunctionDeclaration whose returnType is a SimpleType of type response
+SrcSubAction.allInstances()->size() = TrgLocalFunctionDeclaration.allInstances()->collect(lfd|TrgSimpleType.allInstances()->select(st|st=lfd.returnType)->asSequence()->first())->flatten()->select(st | st.type = PrimitiveType::response)->size()
+
+--OCL22. There must be less or equal number of statements of the LocalFunctionDeclaration emelents as contents of SubActions
+TrgLocalFunctionDeclaration.allInstances()->collect(lfd|lfd.statements)->flatten()->size() <= SrcSubAction.allInstances()->collect(sa|sa.contents)->flatten()->size()
+
+--OCL23. There must be as many Outgoing as Methods with out direction
+SrcOutgoing.allInstances()->size() = TrgMethod.allInstances()->select(m|m.direction = Direction::out)->size()
+
+--OCL24 There must be as many not simple Proxies with a parallel ordering as parallel ForwardExp
+SrcProxy.allInstances()->select(p|p.busy.oclIsUndefined() and p.noAnswer.oclIsUndefined() and p.redirection.oclIsUndefined() and p.failure.oclIsUndefined() and p.default.oclIsUndefined() and p.ordering = 'parallel')->size() = TrgForwardExp.allInstances()->select(fe|fe.isParallel)->size()
+
+--OCL25. There must be a Variable for every Proxy that is notSimple
+SrcProxy.allInstances()->select(p|not (p.busy.oclIsUndefined() and p.noAnswer.oclIsUndefined() and p.redirection.oclIsUndefined() and p.failure.oclIsUndefined() and p.default.oclIsUndefined()))->size() = TrgVariable.allInstances()->size()
+
+--OCL26. There must be a VariableDeclaration with 'r' as name for every Proxy that is notSimple
+SrcProxy.allInstances()->select(p|not (p.busy.oclIsUndefined() and p.noAnswer.oclIsUndefined() and p.redirection.oclIsUndefined() and p.failure.oclIsUndefined() and p.default.oclIsUndefined()))->size() = TrgVariableDeclaration.allInstances()->select(vd|vd.name='r')->size()
+
+--OCL27. For each Busy there must be a ResponseConstant whose response is #BUSY_HERE
+SrcBusy.allInstances()->size() = TrgResponseConstant.allInstances()->collect(rc | rc.response)->flatten()->select(r | TrgClientErrorResponse.allInstances()->select(cer|cer.errorKind=ClientErrorKind::BUSY_HERE)->includes(r))->size()
+
+--OCL28. There must be the same number of ResponseConstant as the sum of Busy, Redirection, NoAnswer and Redirect
+SrcBusy.allInstances()->size()+SrcNoAnswer.allInstances()->size()+SrcRedirection.allInstances()->size()+SrcRedirect.allInstances()->size() = TrgResponseConstant.allInstances()->size()
+
+--OCL29. For each NoAnswer, there must be a SelectCase with '// noanswer' as one of its commentsBefore
+SrcNoAnswer.allInstances()->size()=TrgSelectCase.allInstances()->select(sc|sc.commentsBefore=Sequence {'// noanswer'})->size()
+
+--OCL30. For each Busy, there must be a SelectCase with '// busy' as one of its commentsBefore
+SrcBusy.allInstances()->size()=TrgSelectCase.allInstances()->select(sc|sc.commentsBefore=Sequence {'// busy'})->size()
+
+--OCL31. For each Redirection, there must be a SelectCase with '// redirection' as one of its commentsBefore
+SrcRedirection.allInstances()->size()=TrgSelectCase.allInstances()->select(sc|sc.commentsBefore=Sequence {'// redirection'})->size()
+
+--OCL32.
+SrcFailure.allInstances()->size()+SrcNotPresent.allInstances()->size()+SrcBusy.allInstances()->size()+SrcNoAnswer.allInstances()->size()+SrcRedirect.allInstances()->size()+SrcRedirection.allInstances()->size()=TrgErrorResponse.allInstances()->size()
+
+--OCL 33. There are as many SelectStat instances as not simple Proxies and AddressSwitch
+SrcProxy.allInstances()->select(p|not (p.busy.oclIsUndefined() and p.noAnswer.oclIsUndefined() and p.redirection.oclIsUndefined() and p.failure.oclIsUndefined() and p.default.oclIsUndefined()))->size() + SrcAddressSwitch.allInstances()->size() = TrgSelectStat.allInstances()->size()
+
+--OCL 34. There should not be ant IfStat created
+TrgIfStat.allInstances()->size()=0

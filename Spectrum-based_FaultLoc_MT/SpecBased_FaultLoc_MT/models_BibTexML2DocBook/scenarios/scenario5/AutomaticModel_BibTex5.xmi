@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="nxmkeojsyh" year="1984" title="Complexity measure" journal="Software -- Practice and Experience">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="widgicbxyx" year="1994" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gpo kh_nbr" year="1997" title="A classification and coparison framework for software architecture description languages" journal="IEEE Transactions on Software Engineering">
+    <authors author="Martin Fowler"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="aascfqqzzs" year="1997" title="The model checker SPIN" journal="Software and Systems Modeling">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="zwmuvnzpj " year="1994" title="4 + 1 view model of architecture" journal="Journal of Systems and Software">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="hcpg mfef " year="1991" title="Graph drawing by force-directed placement">
+    <authors author="Marlon Dumas"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="fskfg_pa_s" year="1987" title="The model checker SPIN">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="daglghdik-" year="1976" title="Graph drawing by force-directed placement">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="-ql-gcozpx" year="1984" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Proceedings" id="jc-zyqmwbb" year="1984" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Proceedings" id="xejuh-nkad" year="1997" title="QoS-aware middleware for Web services composition"/>
+  <entries xsi:type="BibTeX:InProceedings" id="x-uog_gktj" year="1997" title="4 + 1 view model of architecture" booktitle="fsznhat-ug">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id=" l-actzfqd" year="1976" title="Uppaal in a nutshell" booktitle="mjfxawfezu">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="potsszq io" year="2000" title="The model checker SPIN" publisher="unhddgmbon">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="gwppm-xb_q" year="1997" title="4 + 1 view model of architecture" publisher=" pzzfiq_gu">
+    <authors author="Martin Fowler"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="utbpkwwsug" year="1994" title="The model checker SPIN" publisher="uatlz _uxu" chapter="25">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="sapcaxhgrx" year="1987" title="A metrics suite for object oriented design" publisher="hhkauqld_z" chapter="20">
+    <authors author="Marlon Dumas"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="pjidgepo f" year="1997" title="4 + 1 view model of architecture" publisher="djnfjv-vqh" chapter="77">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Craig Larman"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="l nsfkyvqm"/>
+  <entries xsi:type="BibTeX:Misc" id="tovwrk-g-v"/>
+  <entries xsi:type="BibTeX:Misc" id="_rtkczysbe"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="vmt _grvsc" year="1984" title="Complexity measure" school="vtvqqb_e_y">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="nf_fuxbz_n" year="1987" title="A metrics suite for object oriented design" school="hdthwrd- x">
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="kgxbbhqkx " year="1984" title="Program slicing" school="pewhbolzqh">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="nxukfhjqpc" year="1987" title="Program slicing" journal="IEEE Transactions on Software Engineering">
+    <authors author="Robert C. Martin"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gzreetfkvb" year="1995" title="An intrusion-detection model" journal="IEEE Transactions on Software Engineering">
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="zvkwntlu-s" year="1997" title="Program slicing">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="--xf__dyfk" year="1994" title="Complexity measure">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="lahj-ixzul" title="Complexity measure" note="-re viysfl">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="tkhgevhirf" title="The model checker SPIN" note="--hjcdhwfw">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="jujm_o tje" title="Complexity measure" note="xwbfdfem_h">
+    <authors author="Marlon Dumas"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="_eutiyn h-" year="1987" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Proceedings" id="ppkytrpesc" year="2004" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Booklet" id="mxadvkarzv" year="1994"/>
+  <entries xsi:type="BibTeX:InCollection" id="tymndcgdjm" year="1991" title="Program slicing" publisher="qaemjdsvuh" booktitle="wgsyb _pfz">
+    <authors author="Bruce Schneier"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+</BibTeX:BibTeXFile>

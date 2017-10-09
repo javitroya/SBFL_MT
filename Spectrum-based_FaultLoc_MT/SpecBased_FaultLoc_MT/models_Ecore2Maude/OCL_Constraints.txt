@@ -1,0 +1,140 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+--The following 3 OCL constraints are taken from the TSE 2015 paper
+
+--OCL1. The name of the operations must be well-formed
+TrgOperation.allInstances()->forAll(op|SrcEPackage.allInstances()->exists(p|op.name='@'+p.name+'@' or op.name=p.name or SrcEClass.allInstances()->exists(c|op.name=c.name+'@'+p.name or SrcEAttribute.allInstances()->exists(at|op.name=at.name+'@'+c.name+'@'+p.name) or SrcEReference.allInstances()->exists(ref|op.name=ref.name+'@'+c.name+'@'+p.name)) or SrcEEnum.allInstances()->exists(en|op.name=en.name+'@'+p.name or SrcEEnumLiteral.allInstances()->exists(enl|op.name=enl.name+'@'+en.name+'@'+p.name))))
+
+--OCL2. The name of the Sorts created from EClasses must be well-formed
+SrcEClass.allInstances()->forAll(c|TrgSort.allInstances()->exists(s|SrcEPackage.allInstances()->exists(p|s.name=c.name+'@'+p.name)))
+
+--OCL3. The number of instances generated for certain elements is fixed
+TrgMaudeSpec.allInstances()->size()=1 and TrgSModule.allInstances()->size()=2 and TrgModImportation.allInstances()->size()=1 and TrgModuleIdModExp.allInstances()->size()=1 and TrgSort.allInstances()->size()>0
+
+--End of the 3 OCL constraints taken from the TSE 2015 paper
+
+--OCL4. It checks that the name of ALL Operations come from the name of an EPackage or an EClass or an EAttribute or an EReference or an EEnum or an EEnumLiteral, i.e., if it contains such name
+TrgOperation.allInstances()->forAll(op | Sequence{1..op.name.size()}->exists(i | Sequence{i..op.name.size()} -> exists(j | SrcEPackage.allInstances()->exists(p | op.name.substring(i,j)=p.name) or SrcEClass.allInstances()->exists(c | op.name.substring(i,j)=c.name) or SrcEReference.allInstances()->exists(r | op.name.substring(i,j)=r.name) or SrcEAttribute.allInstances()->exists(a | op.name.substring(i,j)=a.name) or SrcEEnum.allInstances()->exists(e | op.name.substring(i,j)=e.name) or SrcEEnumLiteral.allInstances()->exists(e | op.name.substring(i,j)=e.name))))
+
+--OCL5. It checks that for every EClass there exists a Sort that is created from it, according to its name
+SrcEClass.allInstances()->forAll(c | TrgSort.allInstances()->select(s|not s.name.oclIsUndefined())->exists(s | Sequence{1..s.name.size()}->exists(i | Sequence{i..s.name.size()}->exists(j | s.name.substring(i,j) = c.name))))
+
+--OCL6. It checks that exactly one MaudeSpec is created
+TrgMaudeSpec.allInstances()->size()=1
+
+--OCL7. It checks that exactly two SModules are created
+TrgSModule.allInstances()->size()=2
+
+--OCL8. It checks that exactly one ModImportation is created
+TrgModImportation.allInstances()->size()=1
+
+--OCL9. It checks that exactly one ModuleIdModExp is created
+TrgModuleIdModExp.allInstances()->size()=1
+
+--OCL10. It checks that at least one Sort is created
+TrgSort.allInstances()->size()>0
+
+--OCL11. it checks that there is an SModule with name "@ECORE@" and that all corresponding Sorts are also created
+TrgSModule.allInstances()->one(s | s.name = '@ECORE@') and TrgSort.allInstances()->one(s | s.name = '@Package') and TrgSort.allInstances()->one(s | s.name = '@BasicType') and TrgSort.allInstances()->one(s | s.name = '@Classifier') and TrgSort.allInstances()->one(s | s.name = '@DataType') and TrgSort.allInstances()->one(s | s.name = '@Class') and TrgSort.allInstances()->one(s | s.name = '@Metamodel') and TrgSort.allInstances()->one(s | s.name = '@ERROR@') and TrgSort.allInstances()->one(s | s.name = '@Attribute') and TrgSort.allInstances()->one(s | s.name = '@Reference') and TrgSort.allInstances()->one(s | s.name = 'Int') and TrgSort.allInstances()->select(s | s.name = 'Nat')->size()=2 and TrgSort.allInstances()->one(s | s.name = 'Bool') and TrgSort.allInstances()->one(s | s.name = 'String') and TrgSort.allInstances()->one(s | s.name = 'List{OCL-Exp}') and TrgSort.allInstances()->one(s | s.name = '@Enumeration') and TrgSort.allInstances()->one(s | s.name = '@EnumerationInstance') and TrgSort.allInstances()->one(s | s.name = 'MyList') and TrgSort.allInstances()->one(s | s.name = 'OclVoid')
+
+--OCL12. (lines 395, 396) It checks that the correct Operation is created from each EPackage
+SrcEPackage.allInstances()->forAll(p | TrgOperation.allInstances()->one(op | Sequence{1..op.name.size()}->exists(i | Sequence{i..op.name.size()} -> exists(j | op.name.substring(i,j)=p.name and op.coarity.name='@Package'))))
+
+--OCL13. (lines 558, 559, 563, 572). It checks that for each EClass, the proper Sort and SubsortRel are created
+SrcEClass.allInstances()->forAll(c | TrgSort.allInstances()->select(s|not s.name.oclIsUndefined())->one(s | Sequence{1..s.name.size()}->exists(i | Sequence{i..s.name.size()}->exists(j | s.name.substring(i,j)=c.name and TrgSubsortRel.allInstances()->exists(ss | ss.subsorts->includes(s) and s.module=ss.module)))))
+
+--OCL14. (lines 558, 559, 576, 577, 578). It checks that for each EClass, the proper Sort and Operation are created
+SrcEClass.allInstances()->forAll(c | TrgSort.allInstances()->select(s|not s.name.oclIsUndefined())->one(s | Sequence{1..s.name.size()}->exists(i | Sequence{i..s.name.size()}->exists(j | s.name.substring(i,j)=c.name and TrgOperation.allInstances()->one(op | op.name=s.name and op.coarity=s and op.module=s.module)))))
+
+--OCL15. (lines 889, 891). It checks that for each EReference, the proper only one Operation is created
+SrcEReference.allInstances()->forAll(r | TrgOperation.allInstances()->select(op|not op.name.oclIsUndefined())->one(op | Sequence{1..op.name.size()}->exists(i | Sequence{i..op.name.size()}->exists(j | op.name.substring(i,j)=r.name and TrgSort.allInstances()->one(s | s.name='@Reference' and op.coarity=s)))))
+
+--OCL16. (lines 1182, 1184). It checks that for each EAttribute, the only one proper Operation is created
+SrcEAttribute.allInstances()->forAll(a | TrgOperation.allInstances()->select(op|not op.name.oclIsUndefined())->one(op | Sequence{1..op.name.size()}->exists(i | Sequence{i..op.name.size()}->exists(j | op.name.substring(i,j)=a.name and TrgSort.allInstances()->one(s | s.name='@Attribute' and op.coarity=s)))))
+
+--OCL17. (lines 1283, 1284, 1287, 1288, 1289). It checks that for each EEnum, the proper Sort and SubsortRel are created
+SrcEEnum.allInstances()->forAll(e | TrgSort.allInstances()->one(s | Sequence{1..s.name.size()}->exists(i | Sequence{i..s.name.size()}->exists(j | s.name.substring(i,j)=e.name and TrgSubsortRel.allInstances()->one(ss | ss.subsorts->includes(s) and s.module=ss.module and TrgSort.allInstances()->one(so | so.name='@EnumerationInstance' and ss.supersorts->includes(so)))))))
+
+--OCL18. (lines 1295, 1296). It checks that for each EEnum, the only one proper Operation is created
+SrcEEnum.allInstances()->forAll(e | TrgOperation.allInstances()->select(op|not op.name.oclIsUndefined())->one(op | Sequence{1..op.name.size()}->exists(i | Sequence{i..op.name.size()}->exists(j | op.name.substring(i,j)=e.name and TrgSort.allInstances()->one(s | s.name='@Enumeration' and op.coarity=s)))))
+
+--OCL19. (lines 1283, 1480, 1482). It checks that for each EEnumLiteral,the only one proper Operation is created
+SrcEEnumLiteral.allInstances()->forAll(e | TrgOperation.allInstances()->select(op|not op.name.oclIsUndefined())->one(op | Sequence{1..op.name.size()}->exists(i | Sequence{i..op.name.size()}->exists(j | op.name.substring(i,j)=e.name and SrcEEnum.allInstances()->one(en | TrgSort.allInstances()->one(s | Sequence{1..s.name.size()}->exists(k | Sequence{k..s.name.size()}->exists(l | s.name.substring(k,l)=en.name and op.coarity=s ))))))))
+
+--OCL20. (312, 327, 329, 332, 333, 335, 337, 338). It checks that an Equation with the correct RecTerm and Constant are created
+TrgEquation.allInstances()->one(eq | TrgRecTerm.allInstances()->one(rt | eq.lhs=rt and rt.op='name' and TrgConstant.allInstances()->one(c | rt.args->includes(c) and SrcEPackage.allInstances()->one(p | c.op = '@' + p.name + '@'))))
+
+--OCL21. It checks that there is a constant without op 
+TrgConstant.allInstances()->exists(c | c.op='nil')
+
+--OCL22. It checks that the proper Constants are created from the ENamedElements
+SrcENamedElement.allInstances()->select(ne | ne.oclIsTypeOf(SrcEPackage) or ne.oclIsTypeOf(SrcEClass) or ne.oclIsTypeOf(SrcEReference) or ne.oclIsTypeOf(SrcEAttribute) or ne.oclIsTypeOf(SrcEEnum)) -> forAll(ne | TrgConstant.allInstances()->one(c | Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=ne.name and if (ne.oclIsTypeOf(SrcEPackage)) then c.type.name='@Package' else if (ne.oclIsTypeOf(SrcEClass)) then c.type.name='@Class' else if (ne.oclIsTypeOf(SrcEReference)) then c.type.name='@Reference' else if (ne.oclIsTypeOf(SrcEAttribute)) then c.type.name='@Attribute' else if (ne.oclIsTypeOf(SrcEEnum)) then c.type.name='@Enumeration' else c.type.name='' endif endif endif endif endif and TrgRecTerm.allInstances()->exists(rt | rt.op='name' and rt.args->includes(c))))))
+
+--OCL23. It checks that for every EPackage the corresponding RecTerms and Constants are created
+SrcEPackage.allInstances()->forAll(p | TrgRecTerm.allInstances()->one(rt | rt.op = 'metamodel') and TrgRecTerm.allInstances()->one(rt | rt.op = 'superPackage') and TrgRecTerm.allInstances()->one(rt | rt.op = 'subPackages') and TrgRecTerm.allInstances()->select(rt | rt.op = 'metamodel' or rt.op = 'superPackage' or rt.op = 'subPackages')->forAll(rt | TrgConstant.allInstances()->one(c | rt.args->includes(c) and Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=p.name)))))
+
+--OCL24. It checks that for every EStructuralFeature the corresponding RecTerm and Constants are created
+SrcEStructuralFeature.allInstances()->forAll(sf | TrgRecTerm.allInstances()->one(rt | rt.op='type' and TrgConstant.allInstances()->one(c | rt.args->includes(c) and Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=sf.name)))))
+
+--OCL25. It checks that for every EAttribute the corresponding RecTerm and Constants are created
+SrcEAttribute.allInstances()->forAll(at | TrgRecTerm.allInstances()->one(rt | rt.op='type' and TrgConstant.allInstances()->one(c | rt.args->includes(c) and Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=at.name and c.type.name='@Attribute')))))
+
+--OCL26. It checks that for every EReference the corresponding RecTerm and Constants are created
+SrcEReference.allInstances()->forAll(rf | TrgRecTerm.allInstances()->one(rt | rt.op='type' and TrgConstant.allInstances()->one(c | rt.args->includes(c) and Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=rf.name and c.type.name='@Reference')))))
+
+--OCL27. It checks that for every EStructuralFeature, the proper Equation, RecTerm and Constants are created
+SrcEStructuralFeature.allInstances()->forAll(sf | TrgRecTerm.allInstances()->one(rt | rt.op='lowerBound' and rt.type.name='Int' and TrgConstant.allInstances()->one(c1 | rt.args->includes(c1) and Sequence{1..c1.op.size()}->exists(i | Sequence{i..c1.op.size()}->exists(j | c1.op.substring(i,j)=sf.name and TrgConstant.allInstances()->one(c2 | c2.op = sf.lowerBound.toString() and TrgEquation.allInstances()->one(eq | eq.lhs=rt and eq.rhs=c2)))))))
+
+--OCL28. It checks that for every EAttribute, the proper Equation, RecTerm and Constants are created
+SrcEAttribute.allInstances()->forAll(at | TrgRecTerm.allInstances()->one(rt | rt.op='lowerBound' and rt.type.name='Int' and TrgConstant.allInstances()->one(c1 | rt.args->includes(c1) and Sequence{1..c1.op.size()}->exists(i | Sequence{i..c1.op.size()}->exists(j | c1.op.substring(i,j)=at.name and TrgConstant.allInstances()->one(c2 | c2.op = at.lowerBound.toString() and TrgEquation.allInstances()->one(eq | eq.lhs=rt and eq.rhs=c2)))))))
+
+--OCL29. It checks that for every EReference, the proper Equation, RecTerm and Constants are created
+SrcEReference.allInstances()->forAll(rf | TrgRecTerm.allInstances()->one(rt | rt.op='lowerBound' and rt.type.name='Int' and TrgConstant.allInstances()->one(c1 | rt.args->includes(c1) and Sequence{1..c1.op.size()}->exists(i | Sequence{i..c1.op.size()}->exists(j | c1.op.substring(i,j)=rf.name and TrgConstant.allInstances()->one(c2 | c2.op = rf.lowerBound.toString() and TrgEquation.allInstances()->one(eq | eq.lhs=rt and eq.rhs=c2)))))))
+
+--OCL30. It checks that for every EStructuralFeature, the proper Equation, RecTerm and Constants are created
+SrcEStructuralFeature.allInstances()->forAll(sf | TrgRecTerm.allInstances()->one(rt | rt.op='upperBound' and rt.type.name='Int' and TrgConstant.allInstances()->one(c1 | rt.args->includes(c1) and Sequence{1..c1.op.size()}->exists(i | Sequence{i..c1.op.size()}->exists(j | c1.op.substring(i,j)=sf.name and TrgConstant.allInstances()->one(c2 | c2.op = if sf.upperBound = -1 then '*'	else sf.upperBound.toString() endif and TrgEquation.allInstances()->one(eq | eq.lhs=rt and eq.rhs=c2)))))))
+
+--OCL31. It checks that for every EAttribute, the proper Equation, RecTerm and Constants are created
+SrcEAttribute.allInstances()->forAll(at | TrgRecTerm.allInstances()->one(rt | rt.op='upperBound' and rt.type.name='Int' and TrgConstant.allInstances()->one(c1 | rt.args->includes(c1) and Sequence{1..c1.op.size()}->exists(i | Sequence{i..c1.op.size()}->exists(j | c1.op.substring(i,j)=at.name and TrgConstant.allInstances()->one(c2 | c2.op = if at.upperBound = -1 then '*'	else at.upperBound.toString() endif and TrgEquation.allInstances()->one(eq | eq.lhs=rt and eq.rhs=c2)))))))
+
+--OCL32. It checks that for every EReference, the proper Equation, RecTerm and Constants are created
+SrcEReference.allInstances()->forAll(rf | TrgRecTerm.allInstances()->one(rt | rt.op='upperBound' and rt.type.name='Int' and TrgConstant.allInstances()->one(c1 | rt.args->includes(c1) and Sequence{1..c1.op.size()}->exists(i | Sequence{i..c1.op.size()}->exists(j | c1.op.substring(i,j)=rf.name and TrgConstant.allInstances()->one(c2 | c2.op = if rf.upperBound = -1 then '*'	else rf.upperBound.toString() endif and TrgEquation.allInstances()->one(eq | eq.lhs=rt and eq.rhs=c2)))))))
+
+--OCL33. It checks that for every EStructuralFeature the corresponding RecTerm and Constant are created
+SrcEStructuralFeature.allInstances()->forAll(sf | TrgRecTerm.allInstances()->one(rt | rt.op='containingClass' and TrgConstant.allInstances()->one(c | rt.args->includes(c) and Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=sf.name)))))
+
+--OCL34. It checks that for every EAttribute the corresponding RecTerm and Constant are created
+SrcEAttribute.allInstances()->forAll(at | TrgRecTerm.allInstances()->one(rt | rt.op='containingClass' and TrgConstant.allInstances()->one(c | rt.args->includes(c) and Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=at.name)))))
+
+--OCL35. It checks that for every EReference the corresponding RecTerm and Constant are created
+SrcEReference.allInstances()->forAll(rf | TrgRecTerm.allInstances()->one(rt | rt.op='containingClass' and TrgConstant.allInstances()->one(c | rt.args->includes(c) and Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=rf.name)))))
+
+--OCL36. It checks that for every EReference, at least 9 Constants whose op feature is derived from its name are created
+SrcEReference.allInstances()->forAll(rf | TrgConstant.allInstances()->select(c | Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=rf.name)))->size()>9)
+
+--OCL37. It checks that for every EAttribute, at least 8 Constants whose op feature is derived from its name are created
+SrcEAttribute.allInstances()->forAll(at | TrgConstant.allInstances()->select(c | Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=at.name)))->size()>8)
+
+--OCL38. It checks that for every EClass and EEnum, the proper Equation, RecTerm and Constan have to be created
+SrcEClassifier.allInstances()->select(c | not c.oclIsTypeOf(SrcEDataType))->forAll(ec| TrgRecTerm.allInstances()->one(rt | rt.op='package' and rt.type.name='@Package' and TrgConstant.allInstances()->one(c | Sequence{1..c.op.size()}->exists(i | Sequence{i..c.op.size()}->exists(j | c.op.substring(i,j)=ec.name and rt.args->includes(c) and TrgEquation.allInstances()->one(eq | eq.lhs=rt))))))
+
+--OCL39. There are as many Variables with name 'X' as EEnum
+SrcEEnum.allInstances()->size() = TrgVariable.allInstances()->select(v | v.name='X')->size() 
+
+--OCL40. It checks that, for each EEnum, 4 RecTerms with type name @Enumeration are created
+SrcEClass.allInstances()->forAll(c | TrgConstant.allInstances()->select(ct | Sequence{1..ct.op.size()}->exists(i | Sequence{i..ct.op.size()}->exists(j | ct.op.substring(i,j)=c.name)))-> select(ct | TrgRecTerm.allInstances()->one(rt | rt.args->includes(ct) and TrgEquation.allInstances()->one(eq | eq.lhs=rt))) ->forAll(ct | TrgRecTerm.allInstances()->one(rt | rt.args->includes(ct) and rt.args->size()=1 and TrgEquation.allInstances()->one(eq | eq.lhs=rt))))
+
+--OCL41. It checks that the RecTerms that are the lhs of an Equation and that are created from an EClass have only one constant with a name derived from the EClass as args
+SrcEEnum.allInstances()->size() = TrgRecTerm.allInstances()->select(rt | rt.type.name='@Enumeration')->size()
+
+--OCL42. It checks that the number of EClasses and the number of RecTerms with op 'attributes' is the same
+SrcEClass.allInstances()->size() = TrgRecTerm.allInstances()->select(rt | rt.op = 'attributes') -> size()

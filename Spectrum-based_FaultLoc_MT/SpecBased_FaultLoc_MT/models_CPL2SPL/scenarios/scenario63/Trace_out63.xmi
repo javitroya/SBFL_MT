@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario63/AutomaticModel_CPL63.xmi#//@elements.0/@priorities.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/0/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubAction2Function">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario63/AutomaticModel_CPL63.xmi#//@elements.0/@priorities.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/1/@returnType"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario63/AutomaticModel_CPL63.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/2/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/2/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario63/AutomaticModel_CPL63.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/3/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/3/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario63/AutomaticModel_CPL63.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/4/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/4/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="Otherwise2SelectDefault">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario63/AutomaticModel_CPL63.xmi#//@elements.0/@otherwise"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario63/SPL_out63.xmi#/5"/>
+  </traceLinks>
+</trace:Trace>

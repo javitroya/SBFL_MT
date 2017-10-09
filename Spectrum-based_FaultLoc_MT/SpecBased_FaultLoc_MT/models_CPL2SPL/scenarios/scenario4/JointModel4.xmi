@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="awpydxufeo" subField="scwivgigfz"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcAddressSwitch" field="pkjqjqpdnu" subField="ilfiseulaq"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="nmvguoqrly"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="mspkjagqdt" recurse="cnbxbleily" ordering="mtkmnncxcu"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" recurse="owxrwutdbi" ordering="plpadvbrai"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcProxy" timeout="msgtryhhlz" recurse="bspvcgqjbj" ordering="xxbxuoduwz"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="nmvguoqrly"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgReturnStat>
+    <returnedValue xsi:type="jointPackage_CPL2SPL:TrgForwardExp">
+      <exp xsi:type="jointPackage_CPL2SPL:TrgConstantExp"/>
+    </returnedValue>
+  </jointPackage_CPL2SPL:TrgReturnStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+  <jointPackage_CPL2SPL:TrgSelectStat>
+    <matchedExp xsi:type="jointPackage_CPL2SPL:TrgSIPHeaderPlace" header="TO"/>
+  </jointPackage_CPL2SPL:TrgSelectStat>
+</xmi:XMI>

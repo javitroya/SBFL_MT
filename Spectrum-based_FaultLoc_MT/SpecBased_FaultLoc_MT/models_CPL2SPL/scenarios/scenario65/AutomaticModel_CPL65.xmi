@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <outgoing contents="//@elements.2"/>
+    <incoming contents="//@elements.6"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="ssjgsishvl"/>
+  <elements xsi:type="CPL:StringSwitch" field="wxbodzhfxe"/>
+  <elements xsi:type="CPL:StringSwitch" field="phrlhgsscs"/>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities contents="//@elements.6" less="gexkselnmu" greater="maauwvapjv" equal="hdhafkljry"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities less="zdyxwzkmeg" greater="nqqnhtuaxg" equal="gvggjomjcn"/>
+    <priorities less="kjwzizqjym" equal="ilnrxonyoi"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities greater="tgomhcwstl"/>
+    <priorities/>
+  </elements>
+  <elements xsi:type="CPL:Location" contents="//@elements.2" url="xhzfkzukcl" clear="jpylvhzrao"/>
+  <elements xsi:type="CPL:SubCall" ref="fsetqzjbaq"/>
+  <elements xsi:type="CPL:SubCall" ref="dncprljfws"/>
+  <elements xsi:type="CPL:SubCall" ref="ykygfjdtub"/>
+</CPL:CPLModel>

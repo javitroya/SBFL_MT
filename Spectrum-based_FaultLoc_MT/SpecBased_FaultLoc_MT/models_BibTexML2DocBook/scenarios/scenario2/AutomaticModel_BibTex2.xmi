@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="hzdvzuiepn" year="1994" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="hlotqizkpf" year="1995" title="A metrics suite for object oriented design" journal="IEEE Transactions on Software Engineering">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Craig Larman"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="jtfcfevygx" year="2000" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="gxytcdjdps" year="1991" title="A metrics suite for object oriented design" journal="Software -- Practice and Experience">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ohebloazdq" year="2000" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Bruce Schneier"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="z_joynjhho" year="1987" title="A classification and coparison framework for software architecture description languages" journal="Software and Systems Modeling">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="u_mz-mkjmi" year="1984" title="A classification and coparison framework for software architecture description languages">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="stiuksvxyo" year="2000" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Proceedings" id=" svemrwdgm" year="1995" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Proceedings" id="jspflvahvn" year="2000" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Booklet" id="bzvqfa-hox" year="1994"/>
+  <entries xsi:type="BibTeX:Booklet" id="xhqpdymmqb" year="1976"/>
+  <entries xsi:type="BibTeX:Booklet" id="rxpaluidfw" year="1995"/>
+  <entries xsi:type="BibTeX:Book" id="g_btqyds_v" year="1991" title="Graph drawing by force-directed placement" publisher="_qyoxcmddg">
+    <authors author="Marlon Dumas"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="v_ym_j-mna" year="1976" title="An intrusion-detection model" publisher="ezbwukq-zl">
+    <authors author="Martin Fowler"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="kxwvqpdyri"/>
+</BibTeX:BibTeXFile>

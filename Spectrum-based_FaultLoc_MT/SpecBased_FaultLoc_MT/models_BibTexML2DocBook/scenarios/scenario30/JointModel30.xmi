@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="aacgbtcnth" year="1987" title="Complexity measure">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="vphqpqadgj" year="1995" title="Program slicing">
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="enxjjfk_re" year="1994" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="kcqrsyhwos" year="1976" title="An intrusion-detection model" booktitle="gznkrlgidh">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Craig Larman"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="eshfd_uaaw" year="2000" title="QoS-aware middleware for Web services composition" publisher="_adxtfqckw" chapter="54">
+      <authors author="Paul Pettersson"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="w_vqatjimk"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="rhycpp-_jf"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="-oqdniaonz"/>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[-oqdniaonz] Misc"/>
+          <paras content="[aacgbtcnth] TechReport Complexity measure Edward N. Reingold Thomas M. J. Fruchterman Chris F. Kemerer Martin Fowler 1987"/>
+          <paras content="[enxjjfk_re] Proceedings 4 + 1 view model of architecture 1994"/>
+          <paras content="[eshfd_uaaw] InBook QoS-aware middleware for Web services composition Paul Pettersson Shyam R. Chidamber Craig Larman 2000 _adxtfqckw 54"/>
+          <paras content="[kcqrsyhwos] InProceedings An intrusion-detection model Donald E. Knuth Craig Larman Edward N. Reingold Robert C. Martin 1976 gznkrlgidh"/>
+          <paras content="[rhycpp-_jf] Misc"/>
+          <paras content="[vphqpqadgj] TechReport Program slicing Paul Pettersson 1995"/>
+          <paras content="[w_vqatjimk] Misc"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

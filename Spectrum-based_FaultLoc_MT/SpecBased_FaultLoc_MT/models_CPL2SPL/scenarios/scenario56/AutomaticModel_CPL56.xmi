@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <incoming/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="sseihlnxob">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="ehawlnilwh" tzurl="twupopqtnd">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:SubCall" ref="orfesdowlz"/>
+  <elements xsi:type="CPL:SubCall" ref="utgkumhzzq"/>
+  <elements xsi:type="CPL:SubCall" ref="uztbcaumzz"/>
+  <elements xsi:type="CPL:Proxy" recurse="ntyluxfrtq" ordering="fmcjhbecry">
+    <busy/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" timeout="vbuuafiblt" recurse="unlnxodfuv" ordering="odvzotrtjm">
+    <default contents="//@elements.1"/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" recurse="esrpbpkvxr" ordering="kgtfwibths">
+    <busy/>
+  </elements>
+  <elements xsi:type="CPL:Redirect" permanent="mfgzfbthxv"/>
+  <elements xsi:type="CPL:Redirect" permanent="zcfbhsctsu"/>
+  <elements xsi:type="CPL:Redirect" permanent="kgqqsackmp"/>
+</CPL:CPLModel>

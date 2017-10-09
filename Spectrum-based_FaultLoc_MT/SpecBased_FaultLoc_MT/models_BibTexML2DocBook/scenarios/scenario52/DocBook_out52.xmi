@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[bg-lawhfmi] InCollection 4 + 1 view model of architecture Liangzhao Zeng Bruce Schneier Donald E. Knuth Bruce Schneier 1997 lcyc zjwlr znsi-ixcnv"/>
+        <paras content="[h xxlukvrm] Article The model checker SPIN Thomas M. J. Fruchterman Elisabeth Freeman Edward N. Reingold 1984 Journal of Systems and Software"/>
+        <paras/>
+        <paras/>
+        <paras content="[jckqjwqurx] Misc"/>
+        <paras content="[kqcvxtcxwe] Misc"/>
+        <paras content="[lmfkjz q__] Unpublished A metrics suite for object oriented design Bruce Schneier Donald E. Knuth _wdxmbk fm"/>
+        <paras content="[mpav-frhp-] Misc"/>
+        <paras content="[p mfyyy py] TechReport QoS-aware middleware for Web services composition Kim G. Larsen Richard N. Taylor Marlon Dumas 1987"/>
+        <paras content="[qbxljx qpd] Unpublished A metrics suite for object oriented design Shyam R. Chidamber u gid qkrb"/>
+        <paras content="[tkyt_-xzmp] InProceedings QoS-aware middleware for Web services composition Donald E. Knuth Dorothy E. Denning Liangzhao Zeng Paul Pettersson 2004 -keilzrn t"/>
+        <paras content="[ua-huxeyuh] Book A classification and coparison framework for software architecture description languages Edward N. Reingold Donald E. Knuth Shyam R. Chidamber 1984 aclcyvrnht"/>
+        <paras content="[v_aqs-fu t] InProceedings QoS-aware middleware for Web services composition Wang Yi Martin Fowler 2004 v odkgvclr"/>
+        <paras content="[xvuli_uftg] InCollection Uppaal in a nutshell Chris F. Kemerer Edward N. Reingold 1997 _ lpu-hbk  fjxefylrkq"/>
+        <paras content="[yaupnjy- l] InProceedings Uppaal in a nutshell Marlon Dumas Nenad Medvidovic Paul Pettersson Shyam R. Chidamber 1997 xaqwss_p-s"/>
+        <paras content="[ytdkkncrzc] TechReport 4 + 1 view model of architecture Elisabeth Freeman Erich Gamma Edward N. Reingold Robert C. Martin 2000"/>
+        <paras content="[yvu_owmaez] Book Complexity measure Shyam R. Chidamber 1997 inenqvfb a"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Journal of Systems and Software"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

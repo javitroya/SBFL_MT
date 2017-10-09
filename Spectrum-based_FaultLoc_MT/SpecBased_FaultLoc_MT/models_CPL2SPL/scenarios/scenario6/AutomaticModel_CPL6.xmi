@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions contents="//@elements.6" id="zciingxthq"/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions id="mdargtdrfr"/>
+    <subActions contents="//@elements.3" id="rstckessqd"/>
+    <outgoing/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities contents="//@elements.3" less="skwuqtsjtd" equal="xapxhwrtth"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities greater="sxmuftcqee"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <priorities greater="bqvyikhgun" equal="pigauncher"/>
+    <priorities/>
+    <priorities less="cfvcoljmuz" greater="kiwpozuooe"/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="zccdnnbuvn" clear="ewxkltbfvj"/>
+  <elements xsi:type="CPL:Redirect" permanent="cewmfmjlsd"/>
+  <elements xsi:type="CPL:Redirect" permanent="fgfrbecoyu"/>
+  <elements xsi:type="CPL:Redirect" permanent="scheyavprr"/>
+</CPL:CPLModel>

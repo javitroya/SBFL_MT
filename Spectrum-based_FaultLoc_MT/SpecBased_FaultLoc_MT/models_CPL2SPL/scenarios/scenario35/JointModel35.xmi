@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_CPL2SPL="http://jointPackage_CPL2SPL/1.0">
+  <jointPackage_CPL2SPL:SrcCPLModel>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="oogbumvegf">
+      <strings contains="okivvduipd"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcStringSwitch" field="nqsyvgayyn">
+      <strings/>
+      <strings/>
+      <strings is="djcioicqwj" contains="njxqpaanpb"/>
+    </elements>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzid="ueppnecsji"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzid="bseihpzhiy" tzurl="uauzyxjbga"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcTimeSwitch" tzid="ytoivjjfwm" tzurl="meebcijohn"/>
+    <elements xsi:type="jointPackage_CPL2SPL:SrcLocation" contents="/0/@elements.4" url="qvkmaplrnw" clear="uvnjusfhbn"/>
+  </jointPackage_CPL2SPL:SrcCPLModel>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="oogbumvegf"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+  <jointPackage_CPL2SPL:TrgDeclarationStat>
+    <declaration xsi:type="jointPackage_CPL2SPL:TrgVariableDeclaration" name="nqsyvgayyn"/>
+  </jointPackage_CPL2SPL:TrgDeclarationStat>
+</xmi:XMI>

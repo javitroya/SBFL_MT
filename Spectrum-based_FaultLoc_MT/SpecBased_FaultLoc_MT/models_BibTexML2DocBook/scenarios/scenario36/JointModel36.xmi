@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="oohpgsdvkp" year="1987" title="Graph drawing by force-directed placement">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="vwm-ezv l-" title="Uppaal in a nutshell" note="ajlagiicav">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="_d-tlravzb" title="Complexity measure" note="t-macpgqvy">
+      <authors author="Craig Larman"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="jkqijvlkts" year="1997" title="An intrusion-detection model" booktitle="isgbmo-vol">
+      <authors author="Erich Gamma"/>
+      <authors author="Steve McConnell"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="afrfabpqfz" year="2004" title="An intrusion-detection model" booktitle="b_yqn- njp">
+      <authors author="Bruce Schneier"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="afpwgnvvxy" year="1987" title="QoS-aware middleware for Web services composition" publisher="dlt_altgis" booktitle="cgadvglk-i">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Chris F. Kemerer"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="rcjit_-xfi"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="_qxzvdaqfr"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="kbmpy  _sz"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="vrlj-hcbs " year="1976" title="Uppaal in a nutshell" school="wkfuchvxdi">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[_d-tlravzb] Unpublished Complexity measure Craig Larman Steve McConnell Shyam R. Chidamber Erich Gamma t-macpgqvy"/>
+          <paras content="[_qxzvdaqfr] Misc"/>
+          <paras content="[afpwgnvvxy] InCollection QoS-aware middleware for Web services composition Kim G. Larsen Chris F. Kemerer 1987 cgadvglk-i dlt_altgis"/>
+          <paras content="[afrfabpqfz] InProceedings An intrusion-detection model Bruce Schneier Philippe Kruchten 2004 b_yqn- njp"/>
+          <paras content="[jkqijvlkts] InProceedings An intrusion-detection model Erich Gamma Steve McConnell Nenad Medvidovic 1997 isgbmo-vol"/>
+          <paras content="[kbmpy  _sz] Misc"/>
+          <paras content="[oohpgsdvkp] TechReport Graph drawing by force-directed placement Richard N. Taylor Liangzhao Zeng Nenad Medvidovic 1987"/>
+          <paras content="[rcjit_-xfi] Misc"/>
+          <paras content="[vrlj-hcbs ] PhDThesis Uppaal in a nutshell Kim G. Larsen Robert C. Martin Philippe Kruchten Edward N. Reingold 1976 wkfuchvxdi"/>
+          <paras content="[vwm-ezv l-] Unpublished Uppaal in a nutshell Kim G. Larsen Chris F. Kemerer Shyam R. Chidamber ajlagiicav"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="hcyityt_zs" year="1995" title="Program slicing" journal="Software and Systems Modeling">
+    <authors author="Robert C. Martin"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ltpqongova" year="1994" title="An intrusion-detection model" journal="Software -- Practice and Experience">
+    <authors author="Martin Fowler"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="unnhphatsm" year="1997" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ozjzwaowm_" year="1987" title="The model checker SPIN" journal="IEEE Transactions on Software Engineering">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ghwkv ltgr" year="1976" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Martin Fowler"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ivczvncllo" year="1991" title="4 + 1 view model of architecture" journal="Software -- Practice and Experience">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="ug_ oixwmr" title="Complexity measure" note="hcfbob rck">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="nklazimmug" title="Program slicing" note="tf dwoxbzn">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="u    lwvjr" title="Graph drawing by force-directed placement" note="gobb vzkeg">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="f-m_byaypr" year="1976" title="Complexity measure" booktitle="uobzbcyujc">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Wang Yi"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="s-cen-iblo" year="1987" title="Graph drawing by force-directed placement" booktitle="g med_mpxy">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="e-ewyxfvyh" year="1987"/>
+  <entries xsi:type="BibTeX:Booklet" id="lulsurrtpn" year="1997"/>
+  <entries xsi:type="BibTeX:InCollection" id="zypg na_kw" year="2004" title="The model checker SPIN" publisher="ts-_vnyoga" booktitle="sfbdqfjkzk">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="ji-nopywju" year="2004" title="Uppaal in a nutshell" publisher="vutcedfsjp" booktitle="icmgmgfc_p">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+</BibTeX:BibTeXFile>

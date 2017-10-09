@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <outgoing/>
+    <incoming/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="wchtqbsdok" subField="tzqtavpinx">
+    <addresses contains="qlbujhkdjt" subDomainOf="kwphucuoat"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="owxruqedzd">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="ihnscliwyo">
+    <notPresent contents="//@elements.3"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="rosgqvhtfb">
+    <notPresent/>
+    <strings is="svkjylstdh"/>
+    <strings/>
+    <strings contains="wjlugffsbd"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages matches="arvqucyqdq"/>
+    <languages matches="olptykcfxt"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent contents="//@elements.7"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:Redirect" permanent="vhjzkhdxaj"/>
+  <elements xsi:type="CPL:Redirect" permanent="uuugoaoton"/>
+</CPL:CPLModel>

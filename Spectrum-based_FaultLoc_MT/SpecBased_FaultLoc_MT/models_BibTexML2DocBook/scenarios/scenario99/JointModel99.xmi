@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="cofhiomq f" year="2000" title="Graph drawing by force-directed placement" journal="Software and Systems Modeling">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="x--isfucpt" year="1995" title="Complexity measure" journal="IEEE Transactions on Software Engineering">
+      <authors author="Robert C. Martin"/>
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="lxgfbicrop" year="1997" title="Program slicing" journal="Software -- Practice and Experience">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ks huvpbbj" year="1976" title="Uppaal in a nutshell" journal="IEEE Transactions on Software Engineering">
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id=" vflibygat" year="1997" title="QoS-aware middleware for Web services composition" journal="Software and Systems Modeling">
+      <authors author="Steve McConnell"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="ydtr_fjls " year="1991" title="Program slicing">
+      <authors author="Bruce Schneier"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="kyou-vznic" year="1995" title="Program slicing">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="dkisf---yp" title="Program slicing"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="cnegke wwn" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="_obrhcle n" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="wrz nqswpr" year="1995" title="Complexity measure" publisher="rnprfoybyz">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="xvwdcixmih" year="1987" title="QoS-aware middleware for Web services composition" publisher="mb-_xfiizu">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="etvfplpkbz" year="1995" title="Uppaal in a nutshell" publisher="qfhvnuumee" chapter="65">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="pezgbqnpyf" year="1991" title="Program slicing" publisher="qe_jvmhyjt" chapter="63">
+      <authors author="Robert C. Martin"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Wang Yi"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="xobraumffy" year="1995" title="An intrusion-detection model" school="hboibgpyqw">
+      <authors author="Wang Yi"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="fr d  eu v" year="2000" title="A classification and coparison framework for software architecture description languages" school="jxxhzbbj-e">
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="mi-tdg_zz " year="1995" title="A metrics suite for object oriented design" school="ttyueulnoh">
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ vflibygat] Article QoS-aware middleware for Web services composition Steve McConnell Thomas M. J. Fruchterman 1997 Software and Systems Modeling"/>
+          <paras content="[_obrhcle n] Manual 4 + 1 view model of architecture"/>
+          <paras content="[cnegke wwn] Manual 4 + 1 view model of architecture"/>
+          <paras/>
+          <paras content="[dkisf---yp] Manual Program slicing"/>
+          <paras content="[etvfplpkbz] InBook Uppaal in a nutshell Nenad Medvidovic Marlon Dumas Kim G. Larsen Erich Gamma 1995 qfhvnuumee 65"/>
+          <paras content="[fr d  eu v] MasterThesis A classification and coparison framework for software architecture description languages Donald E. Knuth 2000 jxxhzbbj-e"/>
+          <paras content="[ks huvpbbj] Article Uppaal in a nutshell Philippe Kruchten 1976 IEEE Transactions on Software Engineering"/>
+          <paras content="[kyou-vznic] TechReport Program slicing Kim G. Larsen Elisabeth Freeman Marlon Dumas Erich Gamma 1995"/>
+          <paras/>
+          <paras content="[mi-tdg_zz ] MasterThesis A metrics suite for object oriented design Elisabeth Freeman 1995 ttyueulnoh"/>
+          <paras content="[pezgbqnpyf] InBook Program slicing Robert C. Martin Marlon Dumas Kim G. Larsen Wang Yi 1991 qe_jvmhyjt 63"/>
+          <paras content="[wrz nqswpr] Book Complexity measure Dorothy E. Denning Martin Fowler Shyam R. Chidamber 1995 rnprfoybyz"/>
+          <paras/>
+          <paras content="[xobraumffy] MasterThesis An intrusion-detection model Wang Yi Philippe Kruchten Liangzhao Zeng Kim G. Larsen 1995 hboibgpyqw"/>
+          <paras content="[xvwdcixmih] Book QoS-aware middleware for Web services composition Elisabeth Freeman Nenad Medvidovic Edward N. Reingold Craig Larman 1987 mb-_xfiizu"/>
+          <paras content="[ydtr_fjls ] TechReport Program slicing Bruce Schneier Marlon Dumas Nenad Medvidovic 1991"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Software -- Practice and Experience"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

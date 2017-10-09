@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="d_iwsld_aw" year="1976" title="The model checker SPIN" journal="Journal of Systems and Software">
+    <authors author="Erich Gamma"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="lf-yvcgznw" year="1987" title="Complexity measure" journal="Information and Software Technology">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ukrxvs-hds" year="1991" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="udhjsjpapk" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Manual" id="hsxbbplxh-" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:Manual" id="awwxxnw-iu" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Proceedings" id="bzvm-surbd" year="1991" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Proceedings" id="fghjejxmuw" year="1995" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Book" id="xovne-uqcs" year="1994" title="Program slicing" publisher="akctpwlqto">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="bgvbaukqhp" year="1987" title="QoS-aware middleware for Web services composition" publisher="snussw_ssi">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="ln-heum-hd" year="1991" title="Uppaal in a nutshell" publisher="tyjjvvotfq" booktitle="n qav_e ep">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="pqu-_mleia" year="2004" title="Uppaal in a nutshell" publisher="xzwczodgzr" booktitle="icjfadjclp">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id=" xpnys-lur" year="1987" title="A classification and coparison framework for software architecture description languages" school="kwdehmrcqq">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="bsuoxjvvoa" year="1994" title="Uppaal in a nutshell" school="xdeh-um-qe">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="c-hvebaths" year="2004" title="Complexity measure" school="jipmqzqvfs">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+</BibTeX:BibTeXFile>

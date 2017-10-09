@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="-dcgpxiulz" year="1987" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="bdkmxrluhp" year="1976" title="Graph drawing by force-directed placement" journal="IEEE Transactions on Software Engineering">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="zrxtvl-stu" year="2000" title="Graph drawing by force-directed placement">
+    <authors author="Craig Larman"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="bvbbperoxm" year="2000" title="QoS-aware middleware for Web services composition">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="adm-zmuple" year="1987" title="The model checker SPIN">
+    <authors author="Steve McConnell"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="twhpw_fgus" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Manual" id="niwiweluqy" title="Complexity measure"/>
+  <entries xsi:type="BibTeX:Manual" id="pvmkgzwfbe" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Proceedings" id="cbhwcnnybl" year="1976" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Proceedings" id="x-dvfexaoj" year="1997" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:Booklet" id="hmk-drmoht" year="1984"/>
+  <entries xsi:type="BibTeX:Book" id="ltjicozwph" year="2004" title="4 + 1 view model of architecture" publisher="d__ernkva ">
+    <authors author="Erich Gamma"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="z_-ullncd " year="1995" title="QoS-aware middleware for Web services composition" publisher="ivqetxb-mf">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+</BibTeX:BibTeXFile>

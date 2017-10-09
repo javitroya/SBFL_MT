@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[ce_fvmsdfs] InBook Program slicing Thomas M. J. Fruchterman Wang Yi Kim G. Larsen 1984 ctzios-vhv 43"/>
+        <paras content="[huwuw-gvsp] InCollection A classification and coparison framework for software architecture description languages Liangzhao Zeng Edward N. Reingold Erich Gamma Martin Fowler 1995 twvatgwpyl _gyvecxwto"/>
+        <paras content="[nwymzy-fkn] Booklet 1994"/>
+        <paras content="[ogvje_jpee] InProceedings Complexity measure Chris F. Kemerer 2004 t_qmajybga"/>
+        <paras content="[okzcetqiii] InBook Uppaal in a nutshell Kim G. Larsen Thomas M. J. Fruchterman 1987 nudhzxbp f 85"/>
+        <paras content="[qalynsqtmz] InProceedings QoS-aware middleware for Web services composition Shyam R. Chidamber Richard N. Taylor Chris F. Kemerer 1997 ohkqr -ppx"/>
+        <paras content="[tfqsldfp_o] InBook A classification and coparison framework for software architecture description languages Philippe Kruchten Thomas M. J. Fruchterman Chris F. Kemerer Chris F. Kemerer 1987 wlol_ehv-t 17"/>
+        <paras content="[tqnqmyzzds] Booklet 2004"/>
+        <paras/>
+        <paras content="[vrscuvj_wo] InCollection An intrusion-detection model Liangzhao Zeng Elisabeth Freeman Donald E. Knuth Erich Gamma 1994 tcwxlkd_qi dtcv-o--vm"/>
+        <paras content="[zd pgbwnd ] Booklet 1987"/>
+        <paras content="[zqpwtut jk] InCollection Complexity measure Elisabeth Freeman Craig Larman Robert C. Martin Thomas M. J. Fruchterman 1987 glq--qhg__ yqfrlckqpk"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Software -- Practice and Experience"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

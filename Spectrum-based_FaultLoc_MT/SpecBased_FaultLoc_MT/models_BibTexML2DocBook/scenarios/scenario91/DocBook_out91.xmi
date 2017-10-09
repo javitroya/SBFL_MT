@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[djmhh_iwen] Booklet 2000"/>
+        <paras content="[dt_yqcynxs] InBook An intrusion-detection model Donald E. Knuth 2000 mctkp vzws 11"/>
+        <paras content="[hvv ahyisb] TechReport Uppaal in a nutshell Nenad Medvidovic 1976"/>
+        <paras content="[rotssfgwei] TechReport Program slicing Nenad Medvidovic Shyam R. Chidamber Thomas M. J. Fruchterman Shyam R. Chidamber 1997"/>
+        <paras content="[vqtqcbygry] Manual The model checker SPIN"/>
+        <paras content="[x tbce_qhd] InBook The model checker SPIN Robert C. Martin Philippe Kruchten 1984 uahjowljmb 8"/>
+        <paras content="[xuigeuamou] Booklet 1997"/>
+        <paras content="[yovykmtljd] Booklet 1987"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Donald E. Knuth"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="An intrusion-detection model"/>
+        <paras content="Program slicing"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List"/>
+    </articles>
+  </books>
+</DocBook:DocBook>

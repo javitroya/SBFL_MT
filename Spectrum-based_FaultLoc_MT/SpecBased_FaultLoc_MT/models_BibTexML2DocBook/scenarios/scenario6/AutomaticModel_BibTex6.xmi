@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="w bibrqanj" year="1976" title="Graph drawing by force-directed placement" journal="Information and Software Technology">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Craig Larman"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="orshcfo lh" year="2000" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="xkmrpbvqza" year="2004" title="The model checker SPIN" journal="Journal of Systems and Software">
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="jd_hudqybh" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Manual" id="xwmsrqyyaq" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Manual" id="qrich_n   " title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="dbjl-fc qg" year="1991" title="Graph drawing by force-directed placement" school="s- r_lpbqa">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="n_rvtltabw" year="2000" title="The model checker SPIN" school="kdzgn qkdx">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+</BibTeX:BibTeXFile>

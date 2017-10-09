@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <SPL:Program>
+    <service name="unnamed">
+      <sessions xsi:type="SPL:Dialog">
+        <methods direction="in">
+          <type xsi:type="SPL:SimpleType" type="response"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="INVITE"/>
+        </methods>
+      </sessions>
+    </service>
+  </SPL:Program>
+  <SPL:Program>
+    <service name="unnamed">
+      <sessions xsi:type="SPL:Dialog">
+        <methods direction="out">
+          <type xsi:type="SPL:SimpleType" type="request"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </SPL:Program>
+  <SPL:Program>
+    <service name="unnamed">
+      <sessions xsi:type="SPL:Dialog"/>
+    </service>
+  </SPL:Program>
+  <SPL:LocalFunctionDeclaration name="kngkvwzohg">
+    <returnType xsi:type="SPL:SimpleType" type="response"/>
+  </SPL:LocalFunctionDeclaration>
+  <SPL:LocalFunctionDeclaration name="halfgrcaei">
+    <returnType xsi:type="SPL:SimpleType" type="response"/>
+  </SPL:LocalFunctionDeclaration>
+  <SPL:ReturnStat>
+    <returnedValue xsi:type="SPL:WithExp">
+      <exp xsi:type="SPL:ConstantExp">
+        <value xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="SPL:ReasonMessageField">
+        <exp xsi:type="SPL:ConstantExp">
+          <value xsi:type="SPL:StringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="SPL:HeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </SPL:ReturnStat>
+  <SPL:ConstantExp/>
+  <SPL:ReturnStat>
+    <returnedValue xsi:type="SPL:WithExp">
+      <exp xsi:type="SPL:ConstantExp">
+        <value xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="SPL:ReasonMessageField">
+        <exp xsi:type="SPL:ConstantExp">
+          <value xsi:type="SPL:StringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="SPL:HeadedMessageField" headerId="#contact:"/>
+    </returnedValue>
+  </SPL:ReturnStat>
+  <SPL:ConstantExp/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+</xmi:XMI>

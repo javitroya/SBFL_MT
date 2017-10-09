@@ -1,0 +1,117 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+-- @atlcompiler emftvm
+
+module MergeModels;
+create OUT : JointModel from IN1 : SimpleUML, IN2 : ER;
+
+--helper def : root : JointModel!JointMM = OclAny;
+--
+--entrypoint rule CreateContainer(){
+--	to
+--		jm : JointModel!JointMM(
+--			--The source and target models are suppose to have only one root element
+--			sourceRoot <- BibTexModel!BibTeXFile.allInstancesFrom('IN1') -> first(),
+--			targetRoot <- DocBookModel!DocBook.allInstancesFrom('IN2')->first()
+--		)
+--	do{
+--		thisModule.root <- jm;
+--	}
+--}
+
+-------------For each class that is not abstract in the source model (from inner to outer)-------------------
+--A filter is necessary when there are non-abstract classes having children, see BibTex2DocBook example
+
+rule Property2SrcProperty{
+	from
+		p : SimpleUML!Property
+	to
+		tp : JointModel!SrcProperty(
+			name <- p.name,
+			primitiveType <- p.primitiveType,
+			isContainment <- p.isContainment,
+			complexType <- p.complexType
+		)
+}
+
+rule Class2SrcClass{
+	from
+		c : SimpleUML!Class
+	to
+		tc : JointModel!SrcClass(
+			name <- c.name,
+			superClasses <- c.superClasses,
+			ownedProperty <- c.ownedProperty
+		)
+}
+
+-- This one corresponds to the root element. We write it the last one in order to contain the already created elements
+rule Package2SrcPackage{
+	from
+		p : SimpleUML!Package
+	to
+		tp : JointModel!SrcPackage(
+			name <- p.name,
+			ownedElements <- p.ownedElements
+		)
+}
+
+-------------For each class that is not abstract in the target model-------------------
+rule Attribute2TrgAttribute{
+	from
+		a : ER!Attribute
+	to
+		ta : JointModel!TrgAttribute(
+			name <- a.name,
+			type <- a.type
+		)
+}
+
+rule WeakReference2TrgWeakReference{
+	from
+		a : ER!WeakReference
+	to
+		ta : JointModel!TrgWeakReference(
+			name <- a.name,
+			type <- a.type
+		)
+}
+
+rule StrongReference2TrgStrongReference{
+	from
+		a : ER!StrongReference
+	to
+		ta : JointModel!TrgStrongReference(
+			name <- a.name,
+			type <- a.type
+		)
+}
+
+rule EntityType2TrgEntityType{
+	from
+		a : ER!EntityType
+	to 
+		ta : JointModel!TrgEntityType(
+			name <- a.name,
+			features <- a.features
+		)
+}
+
+rule ERModel2TrgERModel{
+	from
+		a : ER!ERModel
+	to
+		ta : JointModel!TrgERModel(
+			name <- a.name,
+			entities <- a.entities
+		)
+}

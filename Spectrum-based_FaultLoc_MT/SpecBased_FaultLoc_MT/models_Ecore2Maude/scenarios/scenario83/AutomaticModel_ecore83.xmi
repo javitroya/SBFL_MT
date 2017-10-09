@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="cyarnfrpjs" nsPrefix="pifbmnmgxi">
+  <eClassifiers xsi:type="ecore:EClass" name="okiakiipgg" instanceClassName="gvtpgooqrt" instanceTypeName="toriaykzqb">
+    <eOperations name="hvjtehlciq" lowerBound="65" eExceptions="//@eClassifiers.0 //@eClassifiers.1 //@eClassifiers.2">
+      <eParameters name="pjbfuirvkm" lowerBound="63" eType="//@eClassifiers.2"/>
+      <eParameters name="jjbupiltay" lowerBound="69"/>
+    </eOperations>
+    <eOperations name="wfdedardsz" ordered="false" lowerBound="23" upperBound="22" eExceptions="//@eClassifiers.0 //@eClassifiers.2 //@eClassifiers.1">
+      <eParameters name="rvcjclvlmo" ordered="false" unique="false"/>
+      <eParameters name="ixwmcuefra" ordered="false" lowerBound="79" eType="//@eClassifiers.2"/>
+      <eParameters name="apafbzmbdn" unique="false" eType="//@eClassifiers.0"/>
+    </eOperations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="zinhkpahim" instanceClassName="ewkmtdvjru" abstract="true">
+    <eOperations name="zqtumjhiep" lowerBound="69" eType="//@eClassifiers.2">
+      <eParameters name="dmllklxrpk" lowerBound="33"/>
+      <eParameters name="seionijdhk" lowerBound="32"/>
+    </eOperations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="luoojgfbdu" instanceClassName="ckfvgtiwqe">
+    <eLiterals name="pehgflpwcl" value="2" literal="kyhbhdjvkv"/>
+  </eClassifiers>
+</ecore:EPackage>

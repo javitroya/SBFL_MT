@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="ecij-n_wrx">
+  <ownedElements name="Computer"/>
+  <ownedElements name="Country">
+    <ownedProperty name="txokkhf pa" primitiveType="Double"/>
+  </ownedElements>
+</SimpleUml:Package>

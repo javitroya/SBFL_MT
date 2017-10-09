@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Maude="http://MaudeMM/1.0">
+  <Maude:MaudeSpec>
+    <els xsi:type="Maude:SModule" name="@ECORE@">
+      <els xsi:type="Maude:Sort" name="@Package"/>
+      <els xsi:type="Maude:Sort" name="@BasicType"/>
+      <els xsi:type="Maude:Sort" name="@Classifier"/>
+      <els xsi:type="Maude:Sort" name="@DataType"/>
+      <els xsi:type="Maude:Sort" name="@Class" subsortRels="/1/@els.11 /1/@els.20"/>
+      <els xsi:type="Maude:Sort" name="@Metamodel"/>
+      <els xsi:type="Maude:Sort" name="@ERROR@"/>
+      <els xsi:type="Maude:Sort" name="@Attribute"/>
+      <els xsi:type="Maude:Sort" name="@Reference"/>
+      <els xsi:type="Maude:Sort" name="Int"/>
+      <els xsi:type="Maude:Sort" name="Nat"/>
+      <els xsi:type="Maude:Sort" name="Nat"/>
+      <els xsi:type="Maude:Sort" name="Bool"/>
+      <els xsi:type="Maude:Sort" name="String"/>
+      <els xsi:type="Maude:Sort" name="List{OCL-Exp}"/>
+      <els xsi:type="Maude:Sort" name="@Enumeration"/>
+      <els xsi:type="Maude:Sort" name="@EnumerationInstance" subsortRels="/1/@els.128"/>
+      <els xsi:type="Maude:Sort" name="MyList"/>
+      <els xsi:type="Maude:Sort" name="OclVoid"/>
+    </els>
+  </Maude:MaudeSpec>
+  <Maude:SModule name="@GCESPYNTHG@">
+    <els xsi:type="Maude:ModImportation">
+      <imports xsi:type="Maude:ModuleIdModExp" module="/0/@els.0"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="@gcespynthg@" coarity="/0/@els.0/@els.5"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.5" op="@gcespynthg@"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;gcespynthg&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.0" op="packages">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.5" op="@gcespynthg@"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="gcespynthg" coarity="/0/@els.0/@els.0"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;gcespynthg&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.5" op="metamodel">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.5" op="@gcespynthg@"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="superPackage">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="subPackages">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="classes">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="__">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Sort" name="uprxkjuejt@gcespynthg" supersortRels="/1/@els.11"/>
+    <els xsi:type="Maude:SubsortRel" subsorts="/1/@els.10" supersorts="/0/@els.0/@els.4"/>
+    <els xsi:type="Maude:Operation" name="uprxkjuejt@gcespynthg" coarity="/1/@els.10"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;uprxkjuejt&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isAbstract">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="isAbstract"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.0" op="package">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="superTypes">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="references">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="attributes">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Sort" name="rovvkghgay@gcespynthg" supersortRels="/1/@els.20"/>
+    <els xsi:type="Maude:SubsortRel" subsorts="/1/@els.19" supersorts="/0/@els.0/@els.4"/>
+    <els xsi:type="Maude:Operation" name="rovvkghgay@gcespynthg" coarity="/1/@els.19"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;rovvkghgay&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isAbstract">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="isAbstract"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.0" op="package">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="superTypes">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="references">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="attributes">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.17" op="nil"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="kuygvofpkv@uprxkjuejt@gcespynthg" coarity="/0/@els.0/@els.8"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;kuygvofpkv&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="opposite">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="34"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isContainment">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="kuygvofpkv@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="iiolgpxiid@uprxkjuejt@gcespynthg" coarity="/0/@els.0/@els.8"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;iiolgpxiid&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="opposite">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="61"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isContainment">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="iiolgpxiid@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="ipsfcuuzlh@uprxkjuejt@gcespynthg" coarity="/0/@els.0/@els.8"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;ipsfcuuzlh&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="opposite">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="24"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isContainment">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ipsfcuuzlh@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="ccdsmhmmll@rovvkghgay@gcespynthg" coarity="/0/@els.0/@els.8"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;ccdsmhmmll&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="opposite">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="0"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isContainment">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ccdsmhmmll@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="ebxirbylru@rovvkghgay@gcespynthg" coarity="/0/@els.0/@els.8"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;ebxirbylru&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="opposite">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="46"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="11"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isContainment">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ebxirbylru@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="ftskdornwi@rovvkghgay@gcespynthg" coarity="/0/@els.0/@els.8"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;ftskdornwi&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.18" op="opposite">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.18" op="null"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="0"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isContainment">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.8" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="ftskdornwi@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="rpaxdtqlsu@uprxkjuejt@gcespynthg" coarity="/0/@els.0/@els.7"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;rpaxdtqlsu&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.3" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.3" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="16"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="uprxkjuejt@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isId">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="rpaxdtqlsu@uprxkjuejt@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Operation" name="owtnydgark@rovvkghgay@gcespynthg" coarity="/0/@els.0/@els.7"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;owtnydgark&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.3" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.3" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="18"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isId">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.1" op="specificDefaultValue">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="owtnydgark@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.1" op=" "/>
+    </els>
+    <els xsi:type="Maude:Operation" name="rqafvyfdyb@rovvkghgay@gcespynthg" coarity="/0/@els.0/@els.7"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;rqafvyfdyb&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.3" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.3" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="0"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="1"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isId">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.1" op="specificDefaultValue">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="rqafvyfdyb@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.1" op=" "/>
+    </els>
+    <els xsi:type="Maude:Operation" name="twcwvwxznh@rovvkghgay@gcespynthg" coarity="/0/@els.0/@els.7"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;twcwvwxznh&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.3" op="type">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.3" op="@NoType"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="lowerBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="0"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:Constant" type="/0/@els.0/@els.9" op="92"/>
+      <rhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.9" op="upperBound">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </rhs>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.4" op="containingClass_mut">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.4" op="rovvkghgay@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isId">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isOrdered">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="true"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.12" op="isUnique">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.6" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.12" op="false"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.1" op="specificDefaultValue">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.7" op="twcwvwxznh@rovvkghgay@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.1" op=" "/>
+    </els>
+    <els xsi:type="Maude:Sort" name="ukwelxxbgs@gcespynthg" supersortRels="/1/@els.128"/>
+    <els xsi:type="Maude:SubsortRel" subsorts="/1/@els.127" supersorts="/0/@els.0/@els.16"/>
+    <els xsi:type="Maude:Operation" name="ukwelxxbgs@gcespynthg" coarity="/0/@els.0/@els.15"/>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.15" op="metaAux">
+        <args xsi:type="Maude:Variable" type="/1/@els.127" name="X"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="ukwelxxbgs@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.13" op="name">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="ukwelxxbgs@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.13" op="&quot;ukwelxxbgs&quot;"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.0" op="package">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="ukwelxxbgs@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.0" op="gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.16" op="defaultValue">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="ukwelxxbgs@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.16" op="OclUndefined@ukwelxxbgs@gcespynthg"/>
+    </els>
+    <els xsi:type="Maude:Equation">
+      <lhs xsi:type="Maude:RecTerm" type="/0/@els.0/@els.17" op="literals">
+        <args xsi:type="Maude:Constant" type="/0/@els.0/@els.15" op="ukwelxxbgs@gcespynthg"/>
+      </lhs>
+      <rhs xsi:type="Maude:Constant" type="/0/@els.0/@els.14" op="mt-ord"/>
+    </els>
+  </Maude:SModule>
+</xmi:XMI>

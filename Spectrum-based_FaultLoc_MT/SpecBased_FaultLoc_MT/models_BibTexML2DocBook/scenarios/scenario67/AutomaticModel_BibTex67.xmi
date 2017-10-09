@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="le-omogq_g" year="1995" title="The model checker SPIN" journal="Information and Software Technology">
+    <authors author="Erich Gamma"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ztsgwwxekm" year="1995" title="4 + 1 view model of architecture" journal="Journal of Systems and Software">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="gisfqeaqgm" title="QoS-aware middleware for Web services composition"/>
+  <entries xsi:type="BibTeX:Manual" id=" qstdy_odm" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Manual" id="uyoi-nkiho" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Proceedings" id="cqlg-srccv" year="1994" title="An intrusion-detection model"/>
+  <entries xsi:type="BibTeX:InProceedings" id="_gcrdccomn" year="1991" title="Complexity measure" booktitle="ulqxwowial">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Craig Larman"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="nvhbcrsgfw" year="1987" title="QoS-aware middleware for Web services composition" booktitle="cnpz-ujzma">
+    <authors author="Steve McConnell"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="bzh-_v-gwv" year="2004" title="Program slicing" publisher="xz_fcwrjlr">
+    <authors author="Bruce Schneier"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="vns_bjvtqj" year="1984" title="QoS-aware middleware for Web services composition" publisher="ti rjeekeu">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Kim G. Larsen"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="pkgevbtvd-" year="1994" title="The model checker SPIN" publisher="xuqskmeyuw">
+    <authors author="Wang Yi"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id=" oylgzfzxb" year="1991" title="Graph drawing by force-directed placement" school="-oou_cuma ">
+    <authors author="Paul Pettersson"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="_ wgcdlul-" year="1997" title="QoS-aware middleware for Web services composition" school="kfqgbbioqw">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <SPL:Program>
+    <service name="unnamed">
+      <sessions xsi:type="SPL:Dialog">
+        <methods direction="in">
+          <type xsi:type="SPL:SimpleType" type="response"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="SPL:SimpleType" type="request"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </SPL:Program>
+  <SPL:Program>
+    <service name="unnamed">
+      <sessions xsi:type="SPL:Dialog"/>
+    </service>
+  </SPL:Program>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="uzmbhagnmf"/>
+  </SPL:DeclarationStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="xnxorlhavi"/>
+  </SPL:DeclarationStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="cgsalrdgso"/>
+  </SPL:DeclarationStat>
+</xmi:XMI>

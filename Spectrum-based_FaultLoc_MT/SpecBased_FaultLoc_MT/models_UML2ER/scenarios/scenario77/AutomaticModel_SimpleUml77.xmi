@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="aharkwlprg">
+  <ownedElements name="Product">
+    <ownedProperty name="bemrvsikcs" primitiveType="Double" isContainment="true"/>
+    <ownedProperty name="ilkuogvmob" complexType="//@ownedElements.0" isContainment="true"/>
+    <ownedProperty name="pgnnpyo-ya"/>
+  </ownedElements>
+  <ownedElements name="Product">
+    <ownedProperty name="zxsfzfedlb" primitiveType="Integer"/>
+    <ownedProperty name="u_sszctj  " primitiveType="Integer"/>
+    <ownedProperty name="kjgu dhayl"/>
+  </ownedElements>
+</SimpleUml:Package>

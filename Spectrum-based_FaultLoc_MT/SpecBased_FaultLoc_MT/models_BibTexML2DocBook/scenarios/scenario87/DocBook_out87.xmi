@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[bizolg_h_r] Manual 4 + 1 view model of architecture"/>
+        <paras content="[dgd_ecbksa] Unpublished An intrusion-detection model Steve McConnell o_txydvvds"/>
+        <paras content="[flebyaqlup] Manual 4 + 1 view model of architecture"/>
+        <paras content="[gibrqtn-wf] InBook An intrusion-detection model Bruce Schneier 1995 recbgizx_m 4"/>
+        <paras/>
+        <paras content="[kntzardnri] Misc"/>
+        <paras content="[lupqmjcosh] Misc"/>
+        <paras content="[me-wwzdver] Unpublished Complexity measure Steve McConnell Thomas M. J. Fruchterman Nenad Medvidovic Wang Yi kmhl_etdee"/>
+        <paras content="[nbkczjkqxd] MasterThesis Uppaal in a nutshell Erich Gamma Edward N. Reingold Wang Yi Philippe Kruchten 1997 eskc_brnvn"/>
+        <paras content="[nbp hfnxtf] Manual 4 + 1 view model of architecture"/>
+        <paras content="[njhurrlbae] TechReport A metrics suite for object oriented design Richard N. Taylor 1995"/>
+        <paras content="[qjgbtogu w] TechReport Complexity measure Paul Pettersson Marlon Dumas Philippe Kruchten 2004"/>
+        <paras content="[wrebiubmsk] Unpublished Graph drawing by force-directed placement Paul Pettersson Thomas M. J. Fruchterman Gerard J. Holzmann Elisabeth Freeman dqwdcd-fwz"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

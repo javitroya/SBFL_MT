@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario23/AutomaticModel_CPL23.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/0/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Incoming2Method">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario23/AutomaticModel_CPL23.xmi#//@elements.0/@incoming"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/0/@service/@sessions.0/@methods.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/0/@service/@sessions.0/@methods.0/@type"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/0/@service/@sessions.0/@methods.0/@methodName"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario23/AutomaticModel_CPL23.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/1/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/1/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario23/AutomaticModel_CPL23.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/2/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/2/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario23/AutomaticModel_CPL23.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/3/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario23/SPL_out23.xmi#/3/@returnedValue/@functionCall"/>
+  </traceLinks>
+</trace:Trace>

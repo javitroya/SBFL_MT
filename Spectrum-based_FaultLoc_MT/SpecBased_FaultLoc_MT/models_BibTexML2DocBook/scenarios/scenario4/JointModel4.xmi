@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="_z k -gkc " year="1991" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+      <authors author="Craig Larman"/>
+      <authors author="Wang Yi"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="dty ai-xlo" year="2004" title="Graph drawing by force-directed placement" journal="IEEE Transactions on Software Engineering">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="zsmhp_xwvf" title="4 + 1 view model of architecture" note="fy--ny odo">
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="vyb mqqqlc" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="ojytbrmtix"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="v-wfcjzmed"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="kmup-uasui"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="lli d_xtk " year="1997" title="A classification and coparison framework for software architecture description languages" school="gknlqyr_cs">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Wang Yi"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="_urvswbcgu" year="1976" title="Complexity measure" school="xlssdhib _">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[_urvswbcgu] PhDThesis Complexity measure Thomas M. J. Fruchterman Elisabeth Freeman 1976 xlssdhib _"/>
+          <paras/>
+          <paras/>
+          <paras content="[kmup-uasui] Misc"/>
+          <paras content="[lli d_xtk ] PhDThesis A classification and coparison framework for software architecture description languages Nenad Medvidovic Chris F. Kemerer Wang Yi Martin Fowler 1997 gknlqyr_cs"/>
+          <paras content="[ojytbrmtix] Misc"/>
+          <paras content="[v-wfcjzmed] Misc"/>
+          <paras content="[vyb mqqqlc] Manual 4 + 1 view model of architecture"/>
+          <paras content="[zsmhp_xwvf] Unpublished 4 + 1 view model of architecture Steve McConnell fy--ny odo"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Journal of Systems and Software"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="ig an_fhcd" year="1984" title="Uppaal in a nutshell" journal="Information and Software Technology">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="cqqcwvukss" year="1976" title="QoS-aware middleware for Web services composition" journal="Information and Software Technology">
+    <authors author="Steve McConnell"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="iuekca_- l" year="1994" title="An intrusion-detection model" journal="Software and Systems Modeling">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="itaowb_z-i" year="1995" title="The model checker SPIN" journal="IEEE Transactions on Software Engineering">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="yzegcuc do" year="1976" title="A classification and coparison framework for software architecture description languages" journal="Software -- Practice and Experience">
+    <authors author="Erich Gamma"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="cdwpfwyw--" year="1994" title="A classification and coparison framework for software architecture description languages" journal="Software and Systems Modeling">
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="duwqvhooaj" title="Complexity measure" note="dd ulhqll-">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="anl - hbpf" year="1987" title="An intrusion-detection model" booktitle="-nrheqsll_">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Robert C. Martin"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="pa cihwso_" year="1997" title="QoS-aware middleware for Web services composition" booktitle="ypxcqbnjwt">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="ljiihou-xn" year="2004" title="An intrusion-detection model" booktitle="wavso xurr">
+    <authors author="Marlon Dumas"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="kirykhb iv" year="1997" title="A metrics suite for object oriented design" publisher="tbo-adwck_">
+    <authors author="Steve McConnell"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="kqafyuwyxg" year="1994" title="Complexity measure" publisher="juk_luymad">
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="pwvwf_r td" year="2004" title="A classification and coparison framework for software architecture description languages" publisher="xtfuqqbosf" booktitle="m-akz-dnus">
+    <authors author="Paul Pettersson"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="t-o raauns" year="1976" title="Uppaal in a nutshell" publisher="qan _hqnrm" booktitle="gmxuvjgqqv">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="r-yyygiqfm" year="1976" title="A classification and coparison framework for software architecture description languages" publisher="o- miuttel" booktitle="nrn-_h-xyk">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+</BibTeX:BibTeXFile>

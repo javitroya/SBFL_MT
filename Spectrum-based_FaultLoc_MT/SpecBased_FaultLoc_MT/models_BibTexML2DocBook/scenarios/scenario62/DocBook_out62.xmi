@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[anl - hbpf] InProceedings An intrusion-detection model Dorothy E. Denning Elisabeth Freeman Robert C. Martin Edward N. Reingold 1987 -nrheqsll_"/>
+        <paras content="[cdwpfwyw--] Article A classification and coparison framework for software architecture description languages Marlon Dumas 1994 Software and Systems Modeling"/>
+        <paras content="[cqqcwvukss] Article QoS-aware middleware for Web services composition Steve McConnell Elisabeth Freeman Martin Fowler 1976 Information and Software Technology"/>
+        <paras content="[duwqvhooaj] Unpublished Complexity measure Thomas M. J. Fruchterman Martin Fowler Erich Gamma dd ulhqll-"/>
+        <paras/>
+        <paras/>
+        <paras/>
+        <paras content="[kirykhb iv] Book A metrics suite for object oriented design Steve McConnell Marlon Dumas Elisabeth Freeman 1997 tbo-adwck_"/>
+        <paras content="[kqafyuwyxg] Book Complexity measure Donald E. Knuth 1994 juk_luymad"/>
+        <paras content="[ljiihou-xn] InProceedings An intrusion-detection model Marlon Dumas Shyam R. Chidamber 2004 wavso xurr"/>
+        <paras content="[pa cihwso_] InProceedings QoS-aware middleware for Web services composition Edward N. Reingold Chris F. Kemerer Philippe Kruchten 1997 ypxcqbnjwt"/>
+        <paras content="[pwvwf_r td] InCollection A classification and coparison framework for software architecture description languages Paul Pettersson Gerard J. Holzmann Kim G. Larsen 2004 m-akz-dnus xtfuqqbosf"/>
+        <paras content="[r-yyygiqfm] InCollection A classification and coparison framework for software architecture description languages Elisabeth Freeman Edward N. Reingold Shyam R. Chidamber Steve McConnell 1976 nrn-_h-xyk o- miuttel"/>
+        <paras content="[t-o raauns] InCollection Uppaal in a nutshell Chris F. Kemerer Gerard J. Holzmann Nenad Medvidovic 1976 gmxuvjgqqv qan _hqnrm"/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Kim G. Larsen"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Complexity measure"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Information and Software Technology"/>
+        <paras content="Software -- Practice and Experience"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

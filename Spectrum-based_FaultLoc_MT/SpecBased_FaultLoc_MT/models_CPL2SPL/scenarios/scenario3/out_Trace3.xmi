@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="AutomaticModel_CPL3.xmi#//@elements.0/@notPresent"/>
+    <targetElements href="out_SPL3.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="AutomaticModel_CPL3.xmi#//@elements.1"/>
+    <targetElements href="out_SPL3.xmi#/1"/>
+    <targetElements href="out_SPL3.xmi#/1/@returnedValue"/>
+    <targetElements href="out_SPL3.xmi#/1/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="AutomaticModel_CPL3.xmi#//@elements.2"/>
+    <targetElements href="out_SPL3.xmi#/2"/>
+    <targetElements href="out_SPL3.xmi#/2/@returnedValue"/>
+    <targetElements href="out_SPL3.xmi#/2/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="AutomaticModel_CPL3.xmi#//@elements.3"/>
+    <targetElements href="out_SPL3.xmi#/3"/>
+    <targetElements href="out_SPL3.xmi#/3/@returnedValue"/>
+    <targetElements href="out_SPL3.xmi#/3/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirect2Return">
+    <sourceElements href="AutomaticModel_CPL3.xmi#//@elements.4"/>
+    <targetElements href="out_SPL3.xmi#/4"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@exp"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@exp/@value"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@exp/@value/@response"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@msgFields.0"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@msgFields.0/@exp"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@msgFields.0/@exp/@value"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@msgFields.1"/>
+    <targetElements href="out_SPL3.xmi#/4/@returnedValue/@msgFields.1/@exp"/>
+  </traceLinks>
+</trace:Trace>

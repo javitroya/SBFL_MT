@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="ykomnadpjt" tzurl="ieanmzjqhy"/>
+  <elements xsi:type="CPL:Location" url="bmetgbiika" clear="pauudwnrzx"/>
+  <elements xsi:type="CPL:Location" url="nzrhhmapuc" priority="rroucjwwux" clear="orgqedmsfl"/>
+  <elements xsi:type="CPL:Location" url="enrrbmbcqo" clear="kljodbflkd"/>
+  <elements xsi:type="CPL:SubCall" ref="gdofbsugct"/>
+</CPL:CPLModel>

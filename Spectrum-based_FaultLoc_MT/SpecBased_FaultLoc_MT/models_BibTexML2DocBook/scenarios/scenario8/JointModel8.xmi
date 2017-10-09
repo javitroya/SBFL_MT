@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="d_iwsld_aw" year="1976" title="The model checker SPIN" journal="Journal of Systems and Software">
+      <authors author="Erich Gamma"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="lf-yvcgznw" year="1987" title="Complexity measure" journal="Information and Software Technology">
+      <authors author="Philippe Kruchten"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="ukrxvs-hds" year="1991" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="udhjsjpapk" title="The model checker SPIN"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="hsxbbplxh-" title="An intrusion-detection model"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="awwxxnw-iu" title="A metrics suite for object oriented design"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="bzvm-surbd" year="1991" title="Graph drawing by force-directed placement"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="fghjejxmuw" year="1995" title="Program slicing"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="xovne-uqcs" year="1994" title="Program slicing" publisher="akctpwlqto">
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="bgvbaukqhp" year="1987" title="QoS-aware middleware for Web services composition" publisher="snussw_ssi">
+      <authors author="Elisabeth Freeman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="ln-heum-hd" year="1991" title="Uppaal in a nutshell" publisher="tyjjvvotfq" booktitle="n qav_e ep">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="pqu-_mleia" year="2004" title="Uppaal in a nutshell" publisher="xzwczodgzr" booktitle="icjfadjclp">
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id=" xpnys-lur" year="1987" title="A classification and coparison framework for software architecture description languages" school="kwdehmrcqq">
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="bsuoxjvvoa" year="1994" title="Uppaal in a nutshell" school="xdeh-um-qe">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="c-hvebaths" year="2004" title="Complexity measure" school="jipmqzqvfs">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ xpnys-lur] PhDThesis A classification and coparison framework for software architecture description languages Dorothy E. Denning Martin Fowler 1987 kwdehmrcqq"/>
+          <paras content="[awwxxnw-iu] Manual A metrics suite for object oriented design"/>
+          <paras content="[bgvbaukqhp] Book QoS-aware middleware for Web services composition Elisabeth Freeman 1987 snussw_ssi"/>
+          <paras content="[bsuoxjvvoa] PhDThesis Uppaal in a nutshell Shyam R. Chidamber Chris F. Kemerer Edward N. Reingold 1994 xdeh-um-qe"/>
+          <paras content="[bzvm-surbd] Proceedings Graph drawing by force-directed placement 1991"/>
+          <paras content="[c-hvebaths] PhDThesis Complexity measure Nenad Medvidovic Liangzhao Zeng Shyam R. Chidamber 2004 jipmqzqvfs"/>
+          <paras/>
+          <paras content="[fghjejxmuw] Proceedings Program slicing 1995"/>
+          <paras content="[hsxbbplxh-] Manual An intrusion-detection model"/>
+          <paras/>
+          <paras content="[ln-heum-hd] InCollection Uppaal in a nutshell Richard N. Taylor Steve McConnell 1991 n qav_e ep tyjjvvotfq"/>
+          <paras content="[pqu-_mleia] InCollection Uppaal in a nutshell Craig Larman 2004 icjfadjclp xzwczodgzr"/>
+          <paras content="[udhjsjpapk] Manual The model checker SPIN"/>
+          <paras content="[ukrxvs-hds] Article Uppaal in a nutshell Craig Larman 1991 Journal of Systems and Software"/>
+          <paras content="[xovne-uqcs] Book Program slicing Kim G. Larsen 1994 akctpwlqto"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Information and Software Technology"/>
+          <paras content="Journal of Systems and Software"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

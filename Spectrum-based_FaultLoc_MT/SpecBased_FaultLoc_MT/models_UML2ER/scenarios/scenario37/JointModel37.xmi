@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="artpdtn-ws">
+    <ownedElements name="Country" superClasses="/0/@ownedElements.1 /0/@ownedElements.0">
+      <ownedProperty name="-w lcbamsa" complexType="/0/@ownedElements.1" isContainment="true"/>
+      <ownedProperty name="wk-si_ajgn" isContainment="true"/>
+      <ownedProperty name="zcrpsyqxin" primitiveType="Integer" isContainment="true"/>
+    </ownedElements>
+    <ownedElements name="Country">
+      <ownedProperty name="howsfxvpaf" primitiveType="String" complexType="/0/@ownedElements.1" isContainment="true"/>
+    </ownedElements>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="artpdtn-ws">
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="Integer"/>
+    </entities>
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.1"/>
+    </entities>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

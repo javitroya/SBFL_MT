@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SPL:CompoundStat xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <statements xsi:type="SPL:DeclarationStat">
+    <declaration xsi:type="SPL:VariableDeclaration" name="r">
+      <type xsi:type="SPL:SimpleType" type="response"/>
+      <initExp xsi:type="SPL:ForwardExp">
+        <exp xsi:type="SPL:ConstantExp"/>
+      </initExp>
+    </declaration>
+  </statements>
+  <statements xsi:type="SPL:SelectStat">
+    <matchedExp xsi:type="SPL:Variable" source="//@statements.0/@declaration"/>
+    <selectCases>
+      <commentsBefore>// busy</commentsBefore>
+      <statements xsi:type="SPL:CompoundStat">
+        <statements xsi:type="SPL:DeclarationStat">
+          <declaration xsi:type="SPL:VariableDeclaration" name="r">
+            <type xsi:type="SPL:SimpleType" type="response"/>
+            <initExp xsi:type="SPL:ForwardExp">
+              <exp xsi:type="SPL:ConstantExp"/>
+            </initExp>
+          </declaration>
+        </statements>
+        <statements xsi:type="SPL:SelectStat">
+          <matchedExp xsi:type="SPL:Variable" source="//@statements.1/@selectCases.0/@statements.0/@statements.0/@declaration"/>
+          <selectCases>
+            <commentsBefore>// busy</commentsBefore>
+            <statements xsi:type="SPL:SelectStat">
+              <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+              <selectCases>
+                <values xsi:type="SPL:StringConstant" value="bvbxxmausq"/>
+              </selectCases>
+            </statements>
+            <values xsi:type="SPL:ResponseConstant">
+              <response xsi:type="SPL:ClientErrorResponse" errorKind="BUSY_HERE"/>
+            </values>
+          </selectCases>
+          <selectCases>
+            <commentsBefore>// noanswer</commentsBefore>
+            <values xsi:type="SPL:ResponseConstant">
+              <response xsi:type="SPL:ClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+            </values>
+          </selectCases>
+        </statements>
+      </statements>
+      <values xsi:type="SPL:ResponseConstant">
+        <response xsi:type="SPL:ClientErrorResponse" errorKind="BUSY_HERE"/>
+      </values>
+    </selectCases>
+  </statements>
+</SPL:CompoundStat>

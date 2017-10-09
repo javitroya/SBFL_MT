@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="y_fhxogz-n" year="1997" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Wang Yi"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ce_vhvlbrn" year="1997" title="Graph drawing by force-directed placement" journal="Journal of Systems and Software">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="dcrlyjcm e" year="2000" title="Complexity measure" journal="Software -- Practice and Experience">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ty qilth-t" year="2000" title="Complexity measure" journal="Software -- Practice and Experience">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ck-yxqwivy" year="1997" title="Complexity measure" journal="Journal of Systems and Software">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="cmajgdduav" year="1994" title="4 + 1 view model of architecture" journal="Software and Systems Modeling">
+    <authors author="Martin Fowler"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="zhxrglnypf" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Manual" id="bovxgtmnoh" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Manual" id="tjqv m  gc" title="Program slicing"/>
+  <entries xsi:type="BibTeX:InProceedings" id="vztzotiugg" year="1997" title="An intrusion-detection model" booktitle="qglxu_m -g">
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="egkwsaxilj" year="1987" title="Uppaal in a nutshell" publisher="f_gsch-n e" chapter="73">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="uaqhihzphj" year="1994" title="Uppaal in a nutshell" school="pjevsyfmy ">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Donald E. Knuth"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+</BibTeX:BibTeXFile>

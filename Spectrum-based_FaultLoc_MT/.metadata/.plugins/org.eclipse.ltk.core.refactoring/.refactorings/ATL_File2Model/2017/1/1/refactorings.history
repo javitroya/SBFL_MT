@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BibTeX2DocBook.xmi&apos; to &apos;models_BibTexML2DocBook&apos;&#x0D;&#x0A;- Original project: &apos;ATL_File2Model&apos;&#x0D;&#x0A;- Destination element: &apos;models_BibTexML2DocBook&apos;&#x0D;&#x0A;- Original element: &apos;BibTeX2DocBook.xmi&apos;" description="Copy file" element1="Transformations/BibTeX2DocBook.xmi" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1483723114163" target="/SpecBased_FaultLoc_MT/models_BibTexML2DocBook" units="0" version="1.0"/>
+</session>

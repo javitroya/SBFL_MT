@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions id="iqnhgtndzf"/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions id="ioqjfregop"/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions id="uhyfhbjpxf"/>
+    <subActions contents="//@elements.7" id="xhcddobaoq"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="sabmcbmwru"/>
+  <elements xsi:type="CPL:StringSwitch" field="wbumhcrpbf">
+    <strings contents="//@elements.11" is="fdgidzcyea"/>
+    <strings contents="//@elements.4" is="bsgyohecoc" contains="ifkykzkawz"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="jninnxpyen">
+    <notPresent/>
+    <otherwise contents="//@elements.12"/>
+    <strings contents="//@elements.14" is="zphsnblsxp"/>
+    <strings/>
+    <strings is="dxiyntgyli"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="szwbbrqmuf">
+    <otherwise/>
+    <strings contents="//@elements.10" contains="hcmrxhoywp"/>
+    <strings/>
+    <strings contains="dabdzsuyuu"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <otherwise/>
+    <languages contents="//@elements.8" matches="jjjsoapwzv"/>
+    <languages matches="bxyvluqsuh"/>
+    <languages matches="hozgpgiirp"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <otherwise/>
+    <languages contents="//@elements.15" matches="xiuioibgky"/>
+    <languages matches="kscbdlfxgn"/>
+    <languages matches="ziuycytryf"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages matches="srjirsztix"/>
+    <languages matches="bpkxhyooli"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="ugvtriaghh">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch">
+    <notPresent/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="xxpkvjzina" clear="zxwaxhzkec"/>
+  <elements xsi:type="CPL:Location" url="tkbofoytmy" priority="fhwaziazal" clear="tcqsynxbxh"/>
+  <elements xsi:type="CPL:Location" url="oqyxrmdjbm" clear="tongjonlom"/>
+  <elements xsi:type="CPL:Redirect" permanent="unwysogusx"/>
+</CPL:CPLModel>

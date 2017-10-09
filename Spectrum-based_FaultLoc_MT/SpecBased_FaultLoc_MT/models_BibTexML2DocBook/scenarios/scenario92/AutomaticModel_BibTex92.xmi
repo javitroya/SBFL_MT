@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="upzpxha-ho" year="1976" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Wang Yi"/>
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="rplrbwgxxr" year="1997" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ns_lxpsldv" year="1995" title="4 + 1 view model of architecture" journal="Software and Systems Modeling">
+    <authors author="Erich Gamma"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="-dsosgucqu" title="Program slicing" note="bozfxeptlb">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Craig Larman"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="elvttusjec" title="Complexity measure" note="m hgvaqdtt">
+    <authors author="Bruce Schneier"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="bcfsqvhqbr" year="1984" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:InProceedings" id="-n ywcqlpk" year="1991" title="Program slicing" booktitle="erp_vbexiw">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="wugqywyfzs" year="1995" title="A classification and coparison framework for software architecture description languages" booktitle="tqdzq bkpo">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="-moufgw_ys" year="1997" title="The model checker SPIN" booktitle="wjizqvkdiz">
+    <authors author="Erich Gamma"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="ujovbbgeia" year="1994"/>
+  <entries xsi:type="BibTeX:Booklet" id="faj jhoxjo" year="1976"/>
+  <entries xsi:type="BibTeX:InCollection" id="omfavfwmj-" year="1987" title="The model checker SPIN" publisher="cl-d-xvlkd" booktitle="wikntbxfv ">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="oxyzwkqwdi" year="1976" title="The model checker SPIN" publisher="drmqhj kew" chapter="2">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="alplaoku u" year="1997" title="Program slicing" school="arx_galhkh">
+    <authors author="Martin Fowler"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="nxmkeojsyh" year="1984" title="Complexity measure" journal="Software -- Practice and Experience">
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="widgicbxyx" year="1994" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="gpo kh_nbr" year="1997" title="A classification and coparison framework for software architecture description languages" journal="IEEE Transactions on Software Engineering">
+      <authors author="Martin Fowler"/>
+      <authors author="Donald E. Knuth"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="aascfqqzzs" year="1997" title="The model checker SPIN" journal="Software and Systems Modeling">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="zwmuvnzpj " year="1994" title="4 + 1 view model of architecture" journal="Journal of Systems and Software">
+      <authors author="Erich Gamma"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="hcpg mfef " year="1991" title="Graph drawing by force-directed placement">
+      <authors author="Marlon Dumas"/>
+      <authors author="Donald E. Knuth"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="fskfg_pa_s" year="1987" title="The model checker SPIN">
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="daglghdik-" year="1976" title="Graph drawing by force-directed placement">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="-ql-gcozpx" year="1984" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="jc-zyqmwbb" year="1984" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="xejuh-nkad" year="1997" title="QoS-aware middleware for Web services composition"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="x-uog_gktj" year="1997" title="4 + 1 view model of architecture" booktitle="fsznhat-ug">
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id=" l-actzfqd" year="1976" title="Uppaal in a nutshell" booktitle="mjfxawfezu">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="potsszq io" year="2000" title="The model checker SPIN" publisher="unhddgmbon">
+      <authors author="Donald E. Knuth"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="gwppm-xb_q" year="1997" title="4 + 1 view model of architecture" publisher=" pzzfiq_gu">
+      <authors author="Martin Fowler"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="utbpkwwsug" year="1994" title="The model checker SPIN" publisher="uatlz _uxu" chapter="25">
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Kim G. Larsen"/>
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="sapcaxhgrx" year="1987" title="A metrics suite for object oriented design" publisher="hhkauqld_z" chapter="20">
+      <authors author="Marlon Dumas"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="pjidgepo f" year="1997" title="4 + 1 view model of architecture" publisher="djnfjv-vqh" chapter="77">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Craig Larman"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="l nsfkyvqm"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="tovwrk-g-v"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="_rtkczysbe"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="vmt _grvsc" year="1984" title="Complexity measure" school="vtvqqb_e_y">
+      <authors author="Richard N. Taylor"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="nf_fuxbz_n" year="1987" title="A metrics suite for object oriented design" school="hdthwrd- x">
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="kgxbbhqkx " year="1984" title="Program slicing" school="pewhbolzqh">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[ l-actzfqd] InProceedings Uppaal in a nutshell Edward N. Reingold Edward N. Reingold 1976 mjfxawfezu"/>
+          <paras content="[-ql-gcozpx] Proceedings A classification and coparison framework for software architecture description languages 1984"/>
+          <paras content="[_rtkczysbe] Misc"/>
+          <paras content="[aascfqqzzs] Article The model checker SPIN Chris F. Kemerer Liangzhao Zeng Bruce Schneier 1997 Software and Systems Modeling"/>
+          <paras content="[daglghdik-] TechReport Graph drawing by force-directed placement Edward N. Reingold Dorothy E. Denning Richard N. Taylor Gerard J. Holzmann 1976"/>
+          <paras content="[fskfg_pa_s] TechReport The model checker SPIN Dorothy E. Denning 1987"/>
+          <paras/>
+          <paras content="[gwppm-xb_q] Book 4 + 1 view model of architecture Martin Fowler Chris F. Kemerer Paul Pettersson 1997  pzzfiq_gu"/>
+          <paras content="[hcpg mfef ] TechReport Graph drawing by force-directed placement Marlon Dumas Donald E. Knuth Dorothy E. Denning Donald E. Knuth 1991"/>
+          <paras content="[jc-zyqmwbb] Proceedings A classification and coparison framework for software architecture description languages 1984"/>
+          <paras content="[kgxbbhqkx ] MasterThesis Program slicing Edward N. Reingold Edward N. Reingold 1984 pewhbolzqh"/>
+          <paras content="[l nsfkyvqm] Misc"/>
+          <paras content="[nf_fuxbz_n] MasterThesis A metrics suite for object oriented design Thomas M. J. Fruchterman 1987 hdthwrd- x"/>
+          <paras/>
+          <paras content="[pjidgepo f] InBook 4 + 1 view model of architecture Kim G. Larsen Craig Larman Robert C. Martin 1997 djnfjv-vqh 77"/>
+          <paras content="[potsszq io] Book The model checker SPIN Donald E. Knuth Martin Fowler Shyam R. Chidamber Kim G. Larsen 2000 unhddgmbon"/>
+          <paras content="[sapcaxhgrx] InBook A metrics suite for object oriented design Marlon Dumas Philippe Kruchten Shyam R. Chidamber 1987 hhkauqld_z 20"/>
+          <paras content="[tovwrk-g-v] Misc"/>
+          <paras content="[utbpkwwsug] InBook The model checker SPIN Elisabeth Freeman Kim G. Larsen Philippe Kruchten 1994 uatlz _uxu 25"/>
+          <paras content="[vmt _grvsc] MasterThesis Complexity measure Richard N. Taylor 1984 vtvqqb_e_y"/>
+          <paras/>
+          <paras content="[x-uog_gktj] InProceedings 4 + 1 view model of architecture Paul Pettersson 1997 fsznhat-ug"/>
+          <paras content="[xejuh-nkad] Proceedings QoS-aware middleware for Web services composition 1997"/>
+          <paras/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software -- Practice and Experience"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

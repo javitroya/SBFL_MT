@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <SPL:Program>
+    <service name="unnamed">
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="xsqudzczfk">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="zscmvcblbu">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="eepnbmaiif">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="SPL:Dialog">
+        <methods direction="out">
+          <type xsi:type="SPL:SimpleType" type="request"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="NOTIFY"/>
+          <statements xsi:type="SPL:SelectStat">
+            <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+          </statements>
+        </methods>
+      </sessions>
+    </service>
+  </SPL:Program>
+  <SPL:SelectStat>
+    <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+    <selectDefault/>
+  </SPL:SelectStat>
+</xmi:XMI>

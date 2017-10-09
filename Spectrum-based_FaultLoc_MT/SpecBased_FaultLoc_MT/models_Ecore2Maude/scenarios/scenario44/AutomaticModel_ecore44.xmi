@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="lxzcwumljl" nsURI="jhkmzmnumz" nsPrefix="gnvhubfltc">
+  <eClassifiers xsi:type="ecore:EClass" name="yaavusffov" eSuperTypes="//@eClassifiers.1">
+    <eOperations name="fibkiiwpel" unique="false" upperBound="17"/>
+    <eOperations name="evqomefhvv" upperBound="49" eExceptions="//@eClassifiers.0 //@eClassifiers.3"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rtnmqcrgph" unique="false" volatile="true" defaultValueLiteral="sgiwaxmiqg"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="diyndwapdi" instanceClassName="voglxeinec" eSuperTypes="//@eClassifiers.1 //@eClassifiers.2 //@eClassifiers.0">
+    <eOperations name="ipwtwogvuk" eExceptions="//@eClassifiers.0 //@eClassifiers.3 //@eClassifiers.4 //@eClassifiers.1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kmmookdpgb" ordered="false" lowerBound="2" upperBound="62" eType="//@eClassifiers.4" defaultValueLiteral="xbjzkqfaje" eAttributeType="//@eClassifiers.3"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="wsxjqtgpep" ordered="false" eType="//@eClassifiers.4" volatile="true" derived="true" iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ekfugjkppb" lowerBound="73" upperBound="4" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="xmyywfgpib" eSuperTypes="//@eClassifiers.2 //@eClassifiers.0 //@eClassifiers.1">
+    <eOperations name="fgukotumxj" lowerBound="8" eType="//@eClassifiers.2"/>
+    <eOperations name="uodnpsemcf"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="uxwyjuuoot" unique="false"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="ytcpxwipol" instanceClassName="xoesglidep" instanceTypeName="mpxqlxhamr"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="eqgojoxrng" instanceTypeName="qqkzirdurn" serializable="false"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="giatsplkat" instanceTypeName="ywfrxsxvam"/>
+</ecore:EPackage>

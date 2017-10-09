@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="phedskh pn" year="1991" title="4 + 1 view model of architecture" journal="Information and Software Technology">
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mk-jndajrv" year="1984" title="4 + 1 view model of architecture" journal="Software and Systems Modeling">
+    <authors author="Erich Gamma"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="nywxnnztrq" year="1976" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Wang Yi"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="fzn q-rcho" year="1991" title="Uppaal in a nutshell" journal="Software -- Practice and Experience">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="loxuuqourl" year="2000" title="4 + 1 view model of architecture" journal="IEEE Transactions on Software Engineering">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="ojkmoq unl" year="2000" title="An intrusion-detection model" journal="IEEE Transactions on Software Engineering">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="a_twkytmsv" year="1987" title="Complexity measure">
+    <authors author="Martin Fowler"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="najaaqdrtj" title="The model checker SPIN" note="ncfjmghnxt">
+    <authors author="Bruce Schneier"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="a-wr-jhyzd" title="A metrics suite for object oriented design"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="wgfvfm_nhr" year="1997" title="4 + 1 view model of architecture" school="hrfpuulkrb">
+    <authors author="Martin Fowler"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="xyb-sfgrnx">
+  <ownedElements name="Product">
+    <ownedProperty name="sbgy-d- rh" primitiveType="Boolean" isContainment="true"/>
+    <ownedProperty name="acrrogzqxn" primitiveType="Boolean"/>
+  </ownedElements>
+</SimpleUml:Package>

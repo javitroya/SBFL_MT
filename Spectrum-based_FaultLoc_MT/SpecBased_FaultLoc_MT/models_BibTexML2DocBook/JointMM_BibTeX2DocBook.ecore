@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <ecore:EPackage name="jointPackage_BibTeX2DocBook" nsURI="http://jointPackage_bibtex2docbook/1.0"
+      nsPrefix="jointPackage_BibTeX2DocBook">
+    <eClassifiers xsi:type="ecore:EClass" name="JointMM">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sourceRoot" lowerBound="1"
+          eType="#/0/SrcMasterThesis" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetRoot" lowerBound="1"
+          eType="#/0/TrgDocBook" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcBibTeXFile">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="entries" ordered="false"
+          upperBound="-1" eType="#/0/SrcBibTeXEntry" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcArticle" eSuperTypes="#/0/SrcAuthoredEntry #/0/SrcDatedEntry #/0/SrcTitledEntry">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="journal" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcTechReport" eSuperTypes="#/0/SrcAuthoredEntry #/0/SrcDatedEntry #/0/SrcTitledEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcUnpublished" eSuperTypes="#/0/SrcAuthoredEntry #/0/SrcTitledEntry">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="note" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcManual" eSuperTypes="#/0/SrcTitledEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcProceedings" eSuperTypes="#/0/SrcDatedEntry #/0/SrcTitledEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcInProceedings" eSuperTypes="#/0/SrcProceedings #/0/SrcAuthoredEntry #/0/SrcBookTitledEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcBooklet" eSuperTypes="#/0/SrcDatedEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcBook" eSuperTypes="#/0/SrcAuthoredEntry #/0/SrcDatedEntry #/0/SrcTitledEntry">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="publisher" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcInCollection" eSuperTypes="#/0/SrcBook #/0/SrcBookTitledEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcInBook" eSuperTypes="#/0/SrcBook">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="chapter" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcPhDThesis" eSuperTypes="#/0/SrcThesisEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcMasterThesis" eSuperTypes="#/0/SrcThesisEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcAuthor">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="author" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcBibTeXEntry" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" ordered="false" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcAuthoredEntry" abstract="true"
+        eSuperTypes="#/0/SrcBibTeXEntry">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="authors" lowerBound="1"
+          upperBound="-1" eType="#/0/SrcAuthor" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcDatedEntry" abstract="true" eSuperTypes="#/0/SrcBibTeXEntry">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="year" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcTitledEntry" abstract="true" eSuperTypes="#/0/SrcBibTeXEntry">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcBookTitledEntry" abstract="true"
+        eSuperTypes="#/0/SrcBibTeXEntry">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="booktitle" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcMisc" eSuperTypes="#/0/SrcBibTeXEntry"/>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcThesisEntry" abstract="true" eSuperTypes="#/0/SrcAuthoredEntry #/0/SrcDatedEntry #/0/SrcTitledEntry">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="school" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgDocBook">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="books" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgBook" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgBook">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="articles" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgArticle" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgTitledElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgArticle" eSuperTypes="#/0/TrgTitledElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sections_1" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgSect1" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSection" abstract="true" eSuperTypes="#/0/TrgTitledElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="paras" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgPara" containment="true" eOpposite="#/0/TrgPara/section"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSect1" eSuperTypes="#/0/TrgSection">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sections_2" lowerBound="1"
+          upperBound="-1" eType="#/0/TrgSect2" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgSect2" eSuperTypes="#/0/TrgSection"/>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPara">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="content" ordered="false"
+          lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="section" lowerBound="1"
+          eType="#/0/TrgSection" eOpposite="#/0/TrgSection/paras"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ecore:EGenericType eClassifier="#/0/SrcBibTeXEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBibTeXEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBibTeXEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBibTeXEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcAuthoredEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcDatedEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcAuthoredEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcDatedEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcAuthoredEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcDatedEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcProceedings"/>
+  <ecore:EGenericType eClassifier="#/0/SrcAuthoredEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBookTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcDatedEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcAuthoredEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcDatedEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBook"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBookTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBook"/>
+  <ecore:EGenericType eClassifier="#/0/SrcBibTeXEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcAuthoredEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcDatedEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcTitledEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcThesisEntry"/>
+  <ecore:EGenericType eClassifier="#/0/SrcThesisEntry"/>
+  <ecore:EGenericType eClassifier="#/0/TrgTitledElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgTitledElement"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSection"/>
+  <ecore:EGenericType eClassifier="#/0/TrgSection"/>
+</xmi:XMI>

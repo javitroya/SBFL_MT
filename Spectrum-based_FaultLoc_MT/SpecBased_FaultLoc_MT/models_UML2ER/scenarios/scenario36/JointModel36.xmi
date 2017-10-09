@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="ckfa -i-wb">
+    <ownedElements name="Computer" superClasses="/0/@ownedElements.0">
+      <ownedProperty name="likcxsuoeu"/>
+      <ownedProperty name="imdabm ptp" complexType="/0/@ownedElements.0"/>
+      <ownedProperty name="  xbpq yla" isContainment="true"/>
+    </ownedElements>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="ckfa -i-wb">
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="new name for the feature" type="NoType"/>
+    </entities>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

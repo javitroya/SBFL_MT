@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="ngnrkrhjld">
+  <ownedElements name="Country">
+    <ownedProperty name="gtddgzhxag"/>
+    <ownedProperty name="idmeqaglrz" primitiveType="Integer"/>
+  </ownedElements>
+</SimpleUml:Package>

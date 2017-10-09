@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:InBook" id="qha xweamk" year="2000" title="A metrics suite for object oriented design" publisher="-jk vrmces" chapter="6">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="bvcddonltx" year="2000" title="Uppaal in a nutshell" publisher="nneiklm-to" chapter="17">
+    <authors author="Erich Gamma"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="bl qgynqij" year="2004" title="Complexity measure" publisher="i_rcrqnvll" chapter="14">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="mexyedpqpg"/>
+  <entries xsi:type="BibTeX:Misc" id="royg_sqhih"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="muvpnirb f" year="2000" title="Program slicing" school="esehmua_qk">
+    <authors author="Marlon Dumas"/>
+    <authors author="Richard N. Taylor"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="mtxm hln w" year="1987" title="Program slicing" school="zwgjijobdw">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="advumtirxr" year="2000" title="Graph drawing by force-directed placement" school="nndy-l_fsw">
+    <authors author="Paul Pettersson"/>
+  </entries>
+</BibTeX:BibTeXFile>

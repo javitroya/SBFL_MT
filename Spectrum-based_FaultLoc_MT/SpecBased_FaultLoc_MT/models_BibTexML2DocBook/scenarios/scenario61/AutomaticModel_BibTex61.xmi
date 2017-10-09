@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="cosmekkrum" year="1995" title="Graph drawing by force-directed placement" journal="Information and Software Technology">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="mbsgirhfxm" year="1984" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="xbxoiskgkf" year="2004" title="Graph drawing by force-directed placement" journal="Journal of Systems and Software">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="tzynwm_-qh" year="1976" title="QoS-aware middleware for Web services composition" journal="Information and Software Technology">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="jzrcg dcsw" year="2004" title="Graph drawing by force-directed placement" publisher=" wxiqkoj c" chapter="41">
+    <authors author="Martin Fowler"/>
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="o_vlwe-ism" year="1997" title="A classification and coparison framework for software architecture description languages" school="iuww-fesrq">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="cgo hwxdti" year="1976" title="A classification and coparison framework for software architecture description languages" school="pps-htixcg">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="fc-sinx-ki" year="1984" title="A classification and coparison framework for software architecture description languages" school="iqkkxlsroc">
+    <authors author="Marlon Dumas"/>
+    <authors author="Craig Larman"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="vr-eo jfiv" year="1995" title="Program slicing" school="zdhqc hmik">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+</BibTeX:BibTeXFile>

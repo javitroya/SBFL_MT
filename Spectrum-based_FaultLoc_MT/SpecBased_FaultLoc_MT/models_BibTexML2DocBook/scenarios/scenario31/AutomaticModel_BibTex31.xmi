@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="j jimhumfj" year="1991" title="A metrics suite for object oriented design" journal="Journal of Systems and Software">
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="jxz_bc_e-e" year="2004" title="4 + 1 view model of architecture" publisher="k s_svfhzc" booktitle="kjsnrauvsr">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="kegoixlms-" year="1984" title="Graph drawing by force-directed placement" publisher="eubjgumluu" chapter="95">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="_ up nrcil" year="1984" title="Complexity measure" publisher="fxwuoyysmz" chapter="78">
+    <authors author="Richard N. Taylor"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Bruce Schneier"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="qmkoouevju" year="1991" title="Program slicing" publisher="tlamwpoecq" chapter="23">
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="ax_brcxlao" year="1994" title="A classification and coparison framework for software architecture description languages" school="u-ceuuoi u">
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="t-ppmkwbfj" year="1991" title="An intrusion-detection model" school="xxipfitd_c">
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Marlon Dumas"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="iglxf_y--k" year="1991" title="Complexity measure" school="hbgpyxgf-h">
+    <authors author="Kim G. Larsen"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="n fvffmdpl" year="1997" title="4 + 1 view model of architecture" school="uozns ozv ">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="dqkzv_vsmq" year="1987" title="Graph drawing by force-directed placement" school="ojy-jq_-jz">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+</BibTeX:BibTeXFile>

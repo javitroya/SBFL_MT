@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="yshwzabosy" year="1997" title="Graph drawing by force-directed placement" journal="IEEE Transactions on Software Engineering">
+    <authors author="Craig Larman"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="vr-xyg nxy" year="2004" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Proceedings" id="lqiv_bsdvq" year="1987" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Proceedings" id="busqysgu_p" year="1991" title="QoS-aware middleware for Web services composition"/>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,276 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+-- @atlcompiler emftvm
+
+module MergeModels;
+create OUT : JointModel from IN1 : BibTexModel, IN2 : DocBookModel;
+
+--helper def : root : JointModel!JointMM = OclAny;
+--
+--entrypoint rule CreateContainer(){
+--	to
+--		jm : JointModel!JointMM(
+--			--The source and target models are suppose to have only one root element
+--			sourceRoot <- BibTexModel!BibTeXFile.allInstancesFrom('IN1') -> first(),
+--			targetRoot <- DocBookModel!DocBook.allInstancesFrom('IN2')->first()
+--		)
+--	do{
+--		thisModule.root <- jm;
+--	}
+--}
+
+-------------For each class that is not abstract in the source model-------------------
+	
+rule Author2SrcAuthor{
+	from
+		a : BibTexModel!Author
+	to
+		sa : JointModel!SrcAuthor(
+			author <- a.author
+		)
+}
+
+rule Atricle2SrcArticle{
+	from
+		a : BibTexModel!Article
+	to
+		sa : JointModel!SrcArticle(
+			journal <- a.journal,
+			authors <- a.authors,
+			year <- a.year,
+			title <- a.title,
+			id <- a.id
+		)
+}
+
+rule TechReport2SrcTechReport{
+	from
+		tr : BibTexModel!TechReport
+	to
+		str : JointModel!SrcTechReport(
+			authors <- tr.authors,
+			year <- tr.year,
+			title <- tr.title,
+			id <- tr.id
+		) 
+}
+
+rule Unpublished2SrcUnpublished{
+	from
+		u : BibTexModel!Unpublished
+	to
+		su : JointModel!SrcUnpublished(
+			note <- u.note,
+			authors <- u.authors,
+			title <- u.title,
+			id <- u.id
+		) 
+}
+
+rule Manual2SrcManual{
+	from
+		m : BibTexModel!Manual
+	to
+		sm : JointModel!SrcManual(
+			title <- m.title,
+			id <- m.id
+		) 
+}
+
+rule Proceedings2SrcProceedings{
+	from
+		p : BibTexModel!Proceedings (not p.oclIsTypeOf(BibTexModel!InProceedings))
+		--The filter is necessary when there are non-abstract classes having children
+	to
+		sp : JointModel!SrcProceedings(
+			year <- p.year,
+			title <- p.title,
+			id <- p.id
+		) 
+}
+
+rule InProceedings2SrcInProceedings{
+	from
+		ip : BibTexModel!InProceedings
+	to
+		sip : JointModel!SrcInProceedings(
+			year <- ip.year,
+			title <- ip.title,
+			authors <- ip.authors,
+			booktitle <- ip.booktitle,
+			id <- ip.id
+		) 
+}
+
+rule Booklet2SrcBooklet{
+	from
+		b : BibTexModel!Booklet
+	to
+		sb : JointModel!SrcBooklet(
+			year <- b.year,
+			id <- b.id
+		) 
+}
+
+rule Book2SrcBook{
+	from
+		b : BibTexModel!Book (not b.oclIsTypeOf(BibTexModel!InCollection) and not b.oclIsTypeOf(BibTexModel!InBook))
+		--The filter is necessary when there are non-abstract classes having children
+	to
+		sb : JointModel!SrcBook(
+			publisher <- b.publisher,
+			year <- b.year,
+			title <- b.title,
+			authors <- b.authors,
+			id <- b.id
+		) 
+}
+
+rule InCollection2SrcInCollection{
+	from
+		ic : BibTexModel!InCollection
+	to
+		sic : JointModel!SrcInCollection(
+			publisher <- ic.publisher,
+			year <- ic.year,
+			title <- ic.title,
+			authors <- ic.authors,
+			id <- ic.id,
+			booktitle <- ic.booktitle
+		) 
+}
+
+rule InBook2SrcInBook{
+	from
+		ib : BibTexModel!InBook
+	to
+		sib : JointModel!SrcInBook(
+			publisher <- ib.publisher,
+			year <- ib.year,
+			title <- ib.title,
+			authors <- ib.authors,
+			id <- ib.id,
+			chapter <- ib.chapter
+		) 
+}
+
+rule Misc2SrcMisc{
+	from
+		m : BibTexModel!Misc
+	to
+		sm : JointModel!SrcMisc(
+			id <- m.id
+		) 
+}
+
+rule PhDThesis2SrcPhDThesis{
+	from
+		pt : BibTexModel!PhDThesis
+	to
+		spt : JointModel!SrcPhDThesis(
+			year <- pt.year,
+			title <- pt.title,
+			authors <- pt.authors,
+			id <- pt.id,
+			school <- pt.school
+		) 
+}
+
+rule MasterThesis2SrcMasterThesis{
+	from
+		pt : BibTexModel!MasterThesis
+	to
+		spt : JointModel!SrcMasterThesis(
+			year <- pt.year,
+			title <- pt.title,
+			authors <- pt.authors,
+			id <- pt.id,
+			school <- pt.school
+		) 
+}
+
+
+
+-- This one corresponds to the root element. We write it the last one in order to contain the already created elements
+rule BibTeXFile2SrcBibTeXFile{
+	from
+		btm : BibTexModel!BibTeXFile
+	to 
+		sbtm : JointModel!SrcBibTeXFile(
+			entries <- btm.entries
+		)
+	do{
+		--thisModule.root.sourceRoot <- sbtm;	
+	}
+}
+
+-------------For each class that is not abstract in the target model-------------------
+rule Book2TrgBook{
+	from
+		b : DocBookModel!Book
+	to
+		tb : JointModel!TrgBook(
+			articles <- b.articles	
+		)
+}
+
+rule Article2TrgArticle{
+	from
+		a : DocBookModel!Article
+	to
+		ta : JointModel!TrgArticle(
+			title <- a.title,
+			sections_1 <- a.sections_1
+		)
+}
+
+rule Sect12TrgSect1{
+	from
+		s : DocBookModel!Sect1
+	to
+		ts : JointModel!TrgSect1(
+			title <- s.title,
+			paras <- s.paras,
+			sections_2 <- s.sections_2
+		)
+}
+
+rule Sect22TrgSect2{
+	from
+		s : DocBookModel!Sect2
+	to
+		ts : JointModel!TrgSect2(
+			title <- s.title,
+			paras <- s.paras
+		)
+}
+
+rule Para2TrgPara{
+	from
+		p : DocBookModel!Para
+	to
+		tp : JointModel!TrgPara(
+			content <- p.content
+		)
+}
+
+rule DocBook2TrgDocBook{
+	from
+		db : DocBookModel!DocBook
+	to
+		tdb : JointModel!TrgDocBook(
+			books <- db.books	
+		)
+	do{
+		--thisModule.root.targetRoot <- tdb;	
+	}
+}

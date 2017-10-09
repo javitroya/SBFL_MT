@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[- iikpafe_] TechReport A metrics suite for object oriented design Chris F. Kemerer Philippe Kruchten Liangzhao Zeng Bruce Schneier 1976"/>
+        <paras content="[dyubn-l-hy] TechReport Complexity measure Wang Yi Wang Yi Robert C. Martin 1976"/>
+        <paras content="[psoonrzerf] TechReport Uppaal in a nutshell Erich Gamma Elisabeth Freeman Dorothy E. Denning Steve McConnell 1991"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List"/>
+    </articles>
+  </books>
+</DocBook:DocBook>

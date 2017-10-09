@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="zhzamkc-su" year="1994" title="An intrusion-detection model">
+      <authors author="Paul Pettersson"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="xctpaojcck" title="QoS-aware middleware for Web services composition"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="fmaqb_tuy_" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="_yztavhlss" title="Graph drawing by force-directed placement"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="yasy-ecmzm" year="2000" title="An intrusion-detection model" publisher="q-o xdmyjh">
+      <authors author="Martin Fowler"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Craig Larman"/>
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBook" id="ajmxxsmiwz" year="1976" title="Uppaal in a nutshell" publisher="bptoqkj mi">
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="gobraajwmn" year="1995" title="An intrusion-detection model" school="bkvgwngoxl">
+      <authors author="Erich Gamma"/>
+      <authors author="Wang Yi"/>
+      <authors author="Robert C. Martin"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="e_crd_ram_" year="1991" title="Graph drawing by force-directed placement" school="wc-kbrgx x">
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[_yztavhlss] Manual Graph drawing by force-directed placement"/>
+          <paras content="[ajmxxsmiwz] Book Uppaal in a nutshell Donald E. Knuth 1976 bptoqkj mi"/>
+          <paras content="[e_crd_ram_] MasterThesis Graph drawing by force-directed placement Dorothy E. Denning 1991 wc-kbrgx x"/>
+          <paras content="[fmaqb_tuy_] Manual A classification and coparison framework for software architecture description languages"/>
+          <paras content="[gobraajwmn] MasterThesis An intrusion-detection model Erich Gamma Wang Yi Robert C. Martin Steve McConnell 1995 bkvgwngoxl"/>
+          <paras content="[xctpaojcck] Manual QoS-aware middleware for Web services composition"/>
+          <paras content="[yasy-ecmzm] Book An intrusion-detection model Martin Fowler Chris F. Kemerer Craig Larman Liangzhao Zeng 2000 q-o xdmyjh"/>
+          <paras content="[zhzamkc-su] TechReport An intrusion-detection model Paul Pettersson Chris F. Kemerer Edward N. Reingold 1994"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

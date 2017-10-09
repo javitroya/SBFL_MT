@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="igzavavcke">
+  <eClassifiers xsi:type="ecore:EDataType" name="lacfbfjclr" instanceTypeName="iwhsnbnnmq"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="ymqrbytkrb">
+    <eLiterals name="gagceyrzut" value="23"/>
+    <eLiterals name="ywsmykiapt" literal="jpoqbqbbdh"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="rwcdkqmiax" instanceClassName="dcflkfrsep" instanceTypeName="qzdzvegddc"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="cknamkngyy" instanceClassName="sxnbrbcupk" instanceTypeName="uuuclyundx"/>
+</ecore:EPackage>

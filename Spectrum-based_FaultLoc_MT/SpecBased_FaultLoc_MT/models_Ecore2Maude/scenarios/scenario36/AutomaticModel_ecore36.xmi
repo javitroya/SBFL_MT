@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="pkmkkvftsx">
+  <eClassifiers xsi:type="ecore:EClass" name="xbdxvldsaw" instanceClassName="kansjmfeuh" interface="true">
+    <eOperations name="ajtwfzsetv" unique="false" lowerBound="21" upperBound="46">
+      <eParameters name="qdsmffordo"/>
+      <eParameters name="fjhezmoomr" upperBound="80"/>
+    </eOperations>
+    <eOperations name="biorymrrqn" upperBound="93" eExceptions="//@eClassifiers.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="flehsxlxnf" lowerBound="8" upperBound="16" eType="//@eClassifiers.3" transient="true" defaultValueLiteral="zknqanjhkn" unsettable="true" iD="true" eAttributeType="//@eClassifiers.3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="woblgekvaa" instanceClassName="xcobfenwsr" abstract="true" eSuperTypes="//@eClassifiers.0 //@eClassifiers.2">
+    <eOperations name="ihvhqrkfis" lowerBound="26"/>
+    <eOperations name="owspjsahin" unique="false" lowerBound="27">
+      <eParameters name="eghxwrjstd" lowerBound="78"/>
+      <eParameters name="zsqchmwnxy" lowerBound="11"/>
+      <eParameters name="civigdfyte" ordered="false" lowerBound="39"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mbczpbcmdi" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fugmqoejxd" instanceTypeName="lvdpgtaexu">
+    <eOperations name="mordwuamzg" unique="false" upperBound="26" eExceptions="//@eClassifiers.2"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fatvzlilry" ordered="false" lowerBound="2" eType="//@eClassifiers.3" defaultValueLiteral="oofbdzdcrq" eAttributeType="//@eClassifiers.3"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="coszerrpou" upperBound="60"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="saacitygkb" ordered="false" lowerBound="43" upperBound="48" eType="//@eClassifiers.0" defaultValueLiteral="rzlgrpwsqp"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="jaczbymflx" instanceClassName="ssdopxkejp"/>
+</ecore:EPackage>

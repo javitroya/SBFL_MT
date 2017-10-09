@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:StringSwitch" field="xdjromgpiw">
+    <otherwise contents="//@elements.2"/>
+    <strings contains="gxanxkhizn"/>
+    <strings/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="rplahaazmp">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch">
+    <otherwise contents="//@elements.9"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzid="wdjsfxfmvo"/>
+  <elements xsi:type="CPL:SubCall" ref="bvqchxrcta"/>
+  <elements xsi:type="CPL:SubCall" ref="bgpvwqiojo"/>
+  <elements xsi:type="CPL:SubCall" ref="ebwpynnrps"/>
+  <elements xsi:type="CPL:Proxy" recurse="zcwengjcio" ordering="xqlxtfuvyz">
+    <busy/>
+  </elements>
+</CPL:CPLModel>

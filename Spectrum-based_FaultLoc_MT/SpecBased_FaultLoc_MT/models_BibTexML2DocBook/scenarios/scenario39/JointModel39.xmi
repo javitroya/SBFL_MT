@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="wu vvkvdbj" year="2004" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+      <authors author="Erich Gamma"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="addtwj dyx" year="1997" title="A metrics suite for object oriented design">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="hgpvt b gq" year="1987" title="A metrics suite for object oriented design">
+      <authors author="Kim G. Larsen"/>
+      <authors author="Donald E. Knuth"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Martin Fowler"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcTechReport" id="eysqenwxfq" year="1991" title="Uppaal in a nutshell">
+      <authors author="Bruce Schneier"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="em_nvwrirn" title="4 + 1 view model of architecture"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="lekk_syohm" title="Uppaal in a nutshell"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="_jilqyynma" year="1997" title="The model checker SPIN" booktitle="jnybfwsxgv">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="vqx-le-els" year="1997" title="QoS-aware middleware for Web services composition" booktitle="rqth-iri-k">
+      <authors author="Steve McConnell"/>
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="douzrurft_" year="1976"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="nvdtmxoo-w" year="1997"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="iwscrejjgs" year="1984"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="yrgwisnvgc"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="nhg_ f rql" year="2004" title="Graph drawing by force-directed placement" school="odhxbhkgfg">
+      <authors author="Wang Yi"/>
+      <authors author="Philippe Kruchten"/>
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[_jilqyynma] InProceedings The model checker SPIN Shyam R. Chidamber Richard N. Taylor Shyam R. Chidamber 1997 jnybfwsxgv"/>
+          <paras content="[addtwj dyx] TechReport A metrics suite for object oriented design Richard N. Taylor Liangzhao Zeng 1997"/>
+          <paras content="[douzrurft_] Booklet 1976"/>
+          <paras content="[em_nvwrirn] Manual 4 + 1 view model of architecture"/>
+          <paras content="[eysqenwxfq] TechReport Uppaal in a nutshell Bruce Schneier Thomas M. J. Fruchterman Kim G. Larsen 1991"/>
+          <paras content="[hgpvt b gq] TechReport A metrics suite for object oriented design Kim G. Larsen Donald E. Knuth Shyam R. Chidamber Martin Fowler 1987"/>
+          <paras content="[iwscrejjgs] Booklet 1984"/>
+          <paras content="[lekk_syohm] Manual Uppaal in a nutshell"/>
+          <paras content="[nhg_ f rql] MasterThesis Graph drawing by force-directed placement Wang Yi Philippe Kruchten Shyam R. Chidamber 2004 odhxbhkgfg"/>
+          <paras content="[nvdtmxoo-w] Booklet 1997"/>
+          <paras content="[vqx-le-els] InProceedings QoS-aware middleware for Web services composition Steve McConnell Kim G. Larsen 1997 rqth-iri-k"/>
+          <paras/>
+          <paras content="[yrgwisnvgc] Misc"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Steve McConnell"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="The model checker SPIN"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Journal of Systems and Software"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

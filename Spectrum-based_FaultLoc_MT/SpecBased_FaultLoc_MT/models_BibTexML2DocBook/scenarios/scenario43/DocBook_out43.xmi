@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[busqysgu_p] Proceedings QoS-aware middleware for Web services composition 1991"/>
+        <paras content="[lqiv_bsdvq] Proceedings The model checker SPIN 1987"/>
+        <paras content="[vr-xyg nxy] Proceedings A classification and coparison framework for software architecture description languages 2004"/>
+        <paras/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Craig Larman"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

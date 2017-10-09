@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:StringSwitch" field="ckzppjjyzd">
+    <strings is="tzvqhhwwhf"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="ypablnkura">
+    <strings/>
+    <strings contents="//@elements.2" is="golhvcgkug"/>
+    <strings contains="xcchnvzuxa"/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="vuyxosvuev">
+    <times dtstart="cccjchpemv" dtend="ybexjljgvg" freq="vfgwfaporu" until="uhikcdslhk" interval="mpbhpofiaz" bySecond="qquvazzfgo" byMonthDay="pwntvzxmws" byWeekNo="droauqnttg" byMonth="uripubwrhc" wkst="uajflzkbde"/>
+  </elements>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:PrioritySwitch"/>
+  <elements xsi:type="CPL:Location" contents="//@elements.9" url="szqlfnaomo" priority="cezmltirds" clear="fxftmugbfh"/>
+  <elements xsi:type="CPL:Location" url="sifxzgbyww" clear="pecqhmfihg"/>
+  <elements xsi:type="CPL:Redirect" permanent="vqgdrugrto"/>
+  <elements xsi:type="CPL:Redirect" permanent="yzsqndqsdt"/>
+  <elements xsi:type="CPL:Redirect" permanent="fopsxxoqwi"/>
+</CPL:CPLModel>

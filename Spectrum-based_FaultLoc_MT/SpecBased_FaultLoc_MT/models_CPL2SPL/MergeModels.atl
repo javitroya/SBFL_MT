@@ -1,0 +1,1133 @@
+---------------------------------------------------------------------------------------
+--- Copyright (c) 2017 Universidad de Sevilla.
+--- All rights reserved. This program and the accompanying materials
+--- are made available under the terms of the Eclipse Public License v1.0
+--- which accompanies this distribution, and is available at
+--- http://www.eclipse.org/legal/epl-v10.html
+---
+--- Contributors:
+--- Javier Troya (Universidad de Sevilla, Spain) - implementation
+---------------------------------------------------------------------------------------
+
+module MergeModels;
+create OUT : JointModel from IN1 : CPL, IN2 : SPL;
+
+--helper def : root : JointModel!JointMM = OclAny;
+--
+--entrypoint rule CreateContainer(){
+--	to
+--		jm : JointModel!JointMM(
+--			--The source and target models are suppose to have only one root element
+--			sourceRoot <- BibTexModel!BibTeXFile.allInstancesFrom('IN1') -> first(),
+--			targetRoot <- DocBookModel!DocBook.allInstancesFrom('IN2')->first()
+--		)
+--	do{
+--		thisModule.root <- jm;
+--	}
+--}
+
+-------------For each class that is not abstract in the source model (from inner to outer)-------------------
+--A filter is necessary when there are non-abstract classes having children, see BibTex2DocBook example
+
+rule CPLModel2SrcCPLModel{
+	from s : CPL!CPLModel
+	to   t : JointModel!SrcCPLModel(
+			elements <- s.elements
+		)
+}
+
+rule CPL2SrcCPL{
+	from
+		s : CPL!CPL
+	to
+		t : JointModel!SrcCPL(
+			subActions <- s.subActions,
+			outgoing <- s.outgoing,
+			incoming <- s.incoming
+		)
+}
+
+rule SubAction2SrcSubAction{
+	from
+		s : CPL!SubAction
+	to
+		t : JointModel!SrcSubAction(
+			contents <- s.contents,
+			id <- s.id
+		)
+}
+
+rule Outgoing2SrcOutgoing{
+	from
+		s : CPL!Outgoing
+	to
+		t : JointModel!SrcOutgoing(
+			contents <- s.contents
+		)
+}
+
+rule Incoming2SrcIncoming{
+	from
+		s : CPL!Incoming
+	to
+		t : JointModel!SrcIncoming(
+			contents <- s.contents
+		)
+}
+
+
+
+rule Otherwise2SrcOtherwise{
+	from
+		s : CPL!Otherwise
+	to
+		t : JointModel!SrcOtherwise(
+			contents <- s.contents
+		)
+}
+
+rule SwitchedAddress2SrcSwitchedAddress{
+	from
+		s : CPL!SwitchedAddress
+	to
+		t : JointModel!SrcSwitchedAddress(
+			contents <- s.contents,
+			is <- s.is,
+			contains <- s.contains,
+			subDomainOf <- s.subDomainOf			
+		)
+}
+
+rule SwitchedString2SrcSwitchedString{
+	from
+		s : CPL!SwitchedString
+	to
+		t : JointModel!SrcSwitchedString(
+			contents <- s.contents,
+			is <- s.is,
+			contains <- s.contains
+		)
+}
+
+rule SwitchedLanguage2SrcSwitchedLanguage{
+	from
+		s : CPL!SwitchedLanguage
+	to
+		t : JointModel!SrcSwitchedLanguage(
+			contents <- s.contents,
+			matches <- s.matches
+		)
+}
+
+rule SwitchedTime2SrcSwitchedTime{
+	from
+		s : CPL!SwitchedTime
+	to
+		t : JointModel!SrcSwitchedTime(
+			contents <- s.contents,
+			dtstart <- s.dtstart,
+			dtend <- s.dtend,
+			duration <- s.duration,
+			freq <- s.freq,
+			until <- s.until,
+			count <- s.count,
+			interval <- s.interval,
+			bySecond <- s.bySecond,
+			byMinute <- s.byMinute,
+			byHour <- s.byHour,
+			byDay <- s.byDay,
+			byMonthDay <- s.byMonthDay,
+			byYearDay <- s.byYearDay,
+			byWeekNo <- s.byWeekNo,
+			byMonth <- s.byMonth,
+			wkst <- s.wkst,
+			bySetPos <- s.bySetPos
+		)
+}
+
+rule SwitchedPriority2SrcSwitchedPriority{
+	from
+		s : CPL!SwitchedPriority
+	to
+		t : JointModel!SrcSwitchedPriority(
+			contents <- s.contents,
+			less <- s.less,
+			greater <- s.greater,
+			equal <- s.equal
+		)
+}
+
+rule Busy2SrcBusy{
+	from
+		s : CPL!Busy
+	to
+		t : JointModel!SrcBusy(
+			contents <- s.contents
+		)
+}
+
+rule Failure2SrcFailure{
+	from
+		s : CPL!Failure
+	to
+		t : JointModel!SrcFailure(
+			contents <- s.contents
+		)
+}
+
+rule NoAnswer2SrcNoAnswer{
+	from
+		s : CPL!NoAnswer
+	to
+		t : JointModel!SrcNoAnswer(
+			contents <- s.contents
+		)
+}
+
+rule Redirection2SrcRedirection{
+	from
+		s : CPL!Redirection
+	to
+		t : JointModel!SrcRedirection(
+			contents <- s.contents
+		)
+}
+
+rule Default2SrcDefault{
+	from
+		s : CPL!Default
+	to
+		t : JointModel!SrcDefault(
+			contents <- s.contents
+		)
+}
+
+rule AddressSwitch2SrcAddressSwitch{
+	from
+		s : CPL!AddressSwitch
+	to
+		t : JointModel!SrcAddressSwitch(
+			notPresent <- s.notPresent,
+			otherwise <- s.otherwise,
+			field <- s.field,
+			subField <- s.subField,
+			addresses <- s.addresses
+		)
+}
+
+rule StringSwitch2SrcStringSwitch{
+	from
+		s : CPL!StringSwitch
+	to
+		t : JointModel!SrcStringSwitch(
+			notPresent <- s.notPresent,
+			otherwise <- s.otherwise,
+			field <- s.field,
+			strings <- s.strings
+		)
+}
+
+rule LanguageSwitch2SrcLanguageSwitch{
+	from
+		s : CPL!LanguageSwitch
+	to
+		t : JointModel!SrcLanguageSwitch(
+			notPresent <- s.notPresent,
+			otherwise <- s.otherwise,
+			languages <- s.languages
+		)
+}
+
+rule TimeSwitch2SrcTimeSwitch{
+	from
+		s : CPL!TimeSwitch
+	to
+		t : JointModel!SrcTimeSwitch(
+			notPresent <- s.notPresent,
+			otherwise <- s.otherwise,
+			tzid <- s.tzid,
+			tzurl <- s.tzurl,
+			times <- s.times
+		)
+}
+
+rule PrioritySwitch2SrcPrioritySwitch{
+	from
+		s : CPL!PrioritySwitch
+	to
+		t : JointModel!SrcPrioritySwitch(
+			notPresent <- s.notPresent,
+			otherwise <- s.otherwise,
+			priorities <- s.priorities
+		)
+}
+
+rule Location2SrcLocation{
+	from
+		s : CPL!Location
+	to
+		t : JointModel!SrcLocation(
+			contents <- s.contents,
+			url <- s.url,
+			priority <- s.priority,
+			clear <- s.clear
+		)
+}
+
+rule SubCall2SrcSubCall{
+	from
+		s : CPL!SubCall
+	to
+		t : JointModel!SrcSubCall(
+			ref <- s.ref
+		)
+}
+
+rule NotPresent2SrcNotPresent{
+	from
+		s : CPL!NotPresent
+	to
+		t : JointModel!SrcNotPresent(
+			contents <- s.contents
+		)
+}
+
+rule Proxy2SrcProxy{
+	from
+		s : CPL!Proxy
+	to
+		t : JointModel!SrcProxy(
+			timeout <- s.timeout,
+			recurse <- s.recurse,
+			ordering <- s.ordering,
+			busy <- s.busy,
+			noAnswer <- s.noAnswer,
+			redirection <- s.redirection,
+			failure <- s.failure,
+			default <- s.default
+		)
+}
+
+rule Redirect2SrcRedirect{
+	from
+		s : CPL!Redirect
+	to
+		t : JointModel!SrcRedirect(
+			permanent <- s.permanent	
+		)
+}
+
+rule Reject2SrcReject{
+	from
+		s : CPL!Reject
+	to
+		t : JointModel!SrcReject(
+			status <- s.status,
+			reason <- s.reason
+		)
+}
+
+
+
+-----------------For each class that is not abstract in the target model-------------------
+
+rule Program2TrgProgram{
+	from
+		s : SPL!Program
+	to
+		t : JointModel!TrgProgram(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			service <- s.service
+		)
+}
+
+rule Service2TrgService{
+	from
+		s : SPL!Service
+	to
+		t : JointModel!TrgService(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name,
+			declarations <- s.declarations,
+			sessions <- s.sessions
+		)
+}
+
+rule Registration2TrgRegistration{
+	from
+		s : SPL!Registration
+	to
+		t : JointModel!TrgRegistration(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			declarations <- s.declarations,
+			sessions <- s.sessions
+		)
+}
+
+rule Dialog2TrgDialog{
+	from
+		s : SPL!Dialog
+	to
+		t : JointModel!TrgDialog(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			declarations <- s.declarations,
+			methods <- s.methods
+		)
+}
+
+rule Event2TrgEvent{
+	from
+		s : SPL!Event
+	to
+		t : JointModel!TrgEvent(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			eventId <- s.eventId,
+			declarations <- s.declarations,
+			sessions <- s.sessions
+		)
+}
+
+rule Method2TrgMethod{
+	from
+		s : SPL!Method
+	to
+		t : JointModel!TrgMethod(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			type <- s.type,
+			direction <- s.direction,
+			methodName <- s.methodName,
+			arguments <- s.arguments,
+			statements <- s.statements,
+			branches <- s.branches
+		)
+}
+
+rule Argument2TrgArgument{
+	from
+		s : SPL!Argument
+	to
+		t : JointModel!TrgArgument(
+			name <- s.name,
+			type <- s.type,
+			initExp <- s.initExp
+		)
+}
+
+rule SIPMethodName2TrgSIPMethodName{
+	from
+		s : SPL!SIPMethodName
+	to
+		t : JointModel!TrgSIPMethodName(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name
+		)
+}
+
+rule ControlMethodName2TrgControlMethodName{
+	from
+		s : SPL!ControlMethodName
+	to
+		t : JointModel!TrgControlMethodName(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name
+		)
+}
+
+rule Branch2TrgBranch{
+	from
+		s : SPL!Branch (not s.oclIsTypeOf(SPL!DefaultBranch) and
+						  not s.oclIsTypeOf(SPL!NamedBranch))
+	to
+		t : JointModel!TrgBranch(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			statements <- s.statements
+		)
+}
+
+rule DefaultBranch2TrgDefaultBranch{
+	from
+		s : SPL!DefaultBranch
+	to
+		t : JointModel!TrgDefaultBranch(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			statements <- s.statements
+		)
+}
+
+rule NamedBranch2TrgNamedBranch{
+	from
+		s : SPL!NamedBranch
+	to
+		t : JointModel!TrgNamedBranch(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			statements <- s.statements,
+			name <- s.name
+		)
+}
+
+rule SimpleType2TrgSimpleType{
+	from
+		s : SPL!SimpleType
+	to
+		t : JointModel!TrgSimpleType(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			type <- s.type
+		)
+}
+
+rule SequenceType2TrgSequenceType{
+	from
+		s : SPL!SequenceType
+	to
+		t : JointModel!TrgSequenceType(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			type <- s.type,
+			modifier <- s.modifier,
+			size <- s.size
+		)
+}
+
+rule DefinedType2TrgDefinedType{
+	from
+		s : SPL!DefinedType
+	to
+		t : JointModel!TrgDefinedType(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			typeName <- s.typeName
+		)
+}
+
+rule VariableDeclaration2TrgVariableDeclaration{
+	from
+		s : SPL!VariableDeclaration (not s.oclIsTypeOf(SPL!Argument) and
+			                        not s.oclIsTypeOf(SPL!WhenHeader))
+	to
+		t : JointModel!TrgVariableDeclaration(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name,
+			type <- s.type,
+			initExp <- s.initExp
+		)
+}
+
+rule RemoteFunctionDeclaration2TrgRemoteFunctionDeclaration{
+	from
+		s : SPL!RemoteFunctionDeclaration
+	to
+		t : JointModel!TrgRemoteFunctionDeclaration(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name,
+			returnType <- s.returnType,
+			arguments <- s.arguments,
+			functionLocation <- s.functionLocation
+		)
+}
+
+rule LocalFunctionDeclaration2TrgLocalFunctionDeclaration{
+	from
+		s : SPL!LocalFunctionDeclaration
+	to
+		t : JointModel!TrgLocalFunctionDeclaration(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name,
+			returnType <- s.returnType,
+			arguments <- s.arguments,
+			statements <- s.statements
+		)
+}
+
+rule StructureDeclaration2TrgStructureDeclaration{
+	from
+		s : SPL!StructureDeclaration
+	to
+		t : JointModel!TrgStructureDeclaration(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name
+		)
+}
+
+rule StructureProperty2TrgStructureProperty{
+	from
+		s : SPL!StructureProperty
+	to
+		t : JointModel!TrgStructureProperty(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			name <- s.name,
+			type <- s.type
+		)
+}
+
+rule FunctionCall2TrgFunctionCall{
+	from
+		s : SPL!FunctionCall
+	to
+		t : JointModel!TrgFunctionCall(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			function <- s.function,
+			parameters <- s.parameters
+		)
+}
+
+rule CompoundStat2TrgCompoundStat{
+	from
+		s : SPL!CompoundStat
+	to
+		t : JointModel!TrgCompoundStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			statements <- s.statements
+		)
+}
+
+rule SetStat2TrgSetStat{
+	from
+		s : SPL!SetStat
+	to
+		t : JointModel!TrgSetStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			target <- s.target,
+			setValue <- s.setValue
+		)
+}
+
+rule DeclarationStat2TrgDeclarationStat{
+	from
+		s : SPL!DeclarationStat
+	to
+		t : JointModel!TrgDeclarationStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			declaration <- s.declaration
+		)
+}
+
+rule ReturnStat2TrgReturnStat{
+	from
+		s : SPL!ReturnStat
+	to
+		t : JointModel!TrgReturnStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			returnedValue <- s.returnedValue,
+			branch <- s.branch
+		)
+}
+
+rule IfStat2TrgIfStat{
+	from
+		s : SPL!IfStat
+	to
+		t : JointModel!TrgIfStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			condition <- s.condition,
+			thenStatements <- s.thenStatements,
+			elseStatements <- s.elseStatements
+		)
+}
+
+rule WhenStat2TrgWhenStat{
+	from
+		s : SPL!WhenStat
+	to
+		t : JointModel!TrgWhenStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			idExp <- s.idExp,
+			whenHeaders <- s.whenHeaders,
+			statements <- s.statements,
+			elseStatements <- s.elseStatements
+		)
+}
+
+rule ForeachStat2TrgForeachStat{
+	from
+		s : SPL!ForeachStat
+	to
+		t : JointModel!TrgForeachStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			iteratorName <- s.iteratorName,
+			sequenceExp <- s.sequenceExp,
+			statements <- s.statements
+		)
+}
+
+rule SelectStat2TrgSelectStat{
+	from
+		s : SPL!SelectStat
+	to
+		t : JointModel!TrgSelectStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			matchedExp <- s.matchedExp,
+			selectCases <- s.selectCases,
+			selectDefault <- s.selectDefault
+		)
+}
+
+rule FunctionCallStat2TrgFunctionCallStat{
+	from
+		s : SPL!FunctionCallStat
+	to
+		t : JointModel!TrgFunctionCallStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			functionCall <- s.functionCall
+		)
+}
+
+rule ContinueStat2TrgContinueStat{
+	from
+		s : SPL!ContinueStat
+	to
+		t : JointModel!TrgContinueStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter
+		)
+}
+
+rule BreakStat2TrgBreakStat{
+	from
+		s : SPL!BreakStat
+	to
+		t : JointModel!TrgBreakStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter
+		)
+}
+
+rule PushStat2TrgPushStat{
+	from
+		s : SPL!PushStat
+	to
+		t : JointModel!TrgPushStat(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			target <- s.target,
+			pushedValue <- s.pushedValue
+		)
+}
+
+rule WhenHeader2TrgWhenHeader{
+	from
+		s : SPL!WhenHeader
+	to
+		t : JointModel!TrgWhenHeader(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			type <- s.type,
+			initExp <- s.initExp,
+			headerId <- s.headerId,
+			value <- s.value
+		)
+}
+
+rule SelectDefault2TrgSelectDefault{
+	from
+		s : SPL!SelectDefault
+	to
+		t : JointModel!TrgSelectDefault(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			statements <- s.statements
+		)
+}
+
+rule SelectCase2TrgSelectCase{
+	from
+		s : SPL!SelectCase
+	to
+		t : JointModel!TrgSelectCase(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			statements <- s.statements,
+			values <- s.values
+		)
+}
+
+rule ConstantExp2TrgConstantExp{
+	from
+		s : SPL!ConstantExp
+	to
+		t : JointModel!TrgConstantExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			value <- s.value
+		)
+}
+
+rule OperatorExp2TrgOperatorExp{
+	from
+		s : SPL!OperatorExp
+	to
+		t : JointModel!TrgOperatorExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			opName <- s.opName,
+			leftExp <- s.leftExp,
+			rightExp <- s.rightExp
+		)
+}
+
+rule ForwardExp2TrgForwardExp{
+	from
+		s : SPL!ForwardExp
+	to
+		t : JointModel!TrgForwardExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			isParallel <- s.isParallel,
+			exp <- s.exp
+		)
+}
+
+rule WithExp2TrgWithExp{
+	from
+		s : SPL!WithExp
+	to
+		t : JointModel!TrgWithExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			exp <- s.exp,
+			msgFields <- s.msgFields
+		)
+}
+
+rule BlockExp2TrgBlockExp{
+	from
+		s : SPL!BlockExp
+	to
+		t : JointModel!TrgBlockExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			exp <- s.exp
+		)
+}
+
+rule ReasonExp2TrgReasonExp{
+	from
+		s : SPL!ReasonExp
+	to
+		t : JointModel!TrgReasonExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter
+		)
+}
+
+rule BODYExp2TrgBODYExp{
+	from
+		s : SPL!BODYExp
+	to
+		t : JointModel!TrgBODYExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter
+		)
+}
+
+rule RequestURIExp2TrgRequestURIExp{
+	from
+		s : SPL!RequestURIExp
+	to
+		t : JointModel!TrgRequestURIExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter
+		)
+}
+
+rule PopExp2TrgPopExp{
+	from
+		s : SPL!PopExp
+	to
+		t : JointModel!TrgPopExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			source <- s.source
+		)
+}
+
+rule FunctionCallExp2TrgFunctionCallExp{
+	from
+		s : SPL!FunctionCallExp
+	to
+		t : JointModel!TrgFunctionCallExp(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			functionCall <- s.functionCall
+		)
+}
+
+rule SIPHeaderPlace2TrgSIPHeaderPlace{
+	from
+		s : SPL!SIPHeaderPlace
+	to
+		t : JointModel!TrgSIPHeaderPlace(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			header <- s.header
+		)
+}
+
+rule PropertyCallPlace2TrgPropertyCallPlace{
+	from
+		s : SPL!PropertyCallPlace
+	to
+		t : JointModel!TrgPropertyCallPlace(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			propName <- s.propName,
+			source <- s.source
+		)
+}
+
+rule Variable2TrgVariable{
+	from
+		s : SPL!Variable
+	to
+		t : JointModel!TrgVariable(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			source <- s.source
+		)
+}
+
+rule ReasonMessageField2TrgReasonMessageField{
+	from
+		s : SPL!ReasonMessageField
+	to
+		t : JointModel!TrgReasonMessageField(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			exp <- s.exp
+		)
+}
+
+rule HeadedMessageField2TrgHeadedMessageField{
+	from
+		s : SPL!HeadedMessageField
+	to
+		t : JointModel!TrgHeadedMessageField(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			exp <- s.exp,
+			headerId <- s.headerId
+		)
+}
+
+rule BooleanConstant2TrgBooleanConstant{
+	from
+		s : SPL!BooleanConstant
+	to
+		t : JointModel!TrgBooleanConstant(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			value <- s.value
+		)
+}
+
+rule IntegerConstant2TrgIntegerConstant{
+	from
+		s : SPL!IntegerConstant
+	to
+		t : JointModel!TrgIntegerConstant(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			value <- s.value
+		)
+}
+
+rule StringConstant2TrgStringConstant{
+	from
+		s : SPL!StringConstant
+	to
+		t : JointModel!TrgStringConstant(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			value <- s.value
+		)
+}
+
+rule URIConstant2TrgURIConstant{
+	from
+		s : SPL!URIConstant
+	to
+		t : JointModel!TrgURIConstant(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			uri <- s.uri
+		)
+}
+
+rule SequenceConstant2TrgSequenceConstant{
+	from
+		s : SPL!SequenceConstant
+	to
+		t : JointModel!TrgSequenceConstant(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			values <- s.values
+		)
+}
+
+rule ResponseConstant2TrgResponseConstant{
+	from
+		s : SPL!ResponseConstant
+	to
+		t : JointModel!TrgResponseConstant(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			response <- s.response
+		)
+}
+
+rule SuccessResponse2TrgSuccessResponse{
+	from
+		s : SPL!SuccessResponse
+	to
+		t : JointModel!TrgSuccessResponse(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			successKind <- s.successKind
+		)
+}
+
+rule ErrorResponse2TrgErrorResponse{
+	from
+		s : SPL!ErrorResponse (not s.oclIsTypeOf(SPL!ClientErrorResponse) and
+							   not s.oclIsTypeOf(SPL!GlobalErrorResponse) and
+							   not s.oclIsTypeOf(SPL!RedirectionErrorResponse) and
+							   not s.oclIsTypeOf(SPL!ServerErrorResponse))
+	to
+		t : JointModel!TrgErrorResponse(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter
+		)
+}
+
+rule ClientErrorResponse2TrgClientErrorResponse{
+	from
+		s : SPL!ClientErrorResponse
+	to
+		t : JointModel!TrgClientErrorResponse(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			errorKind <- s.errorKind
+		)
+}
+
+rule GlobalErrorResponse2TrgGlobalErrorResponse{
+	from
+		s : SPL!GlobalErrorResponse
+	to
+		t : JointModel!TrgGlobalErrorResponse(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			errorKind <- s.errorKind
+		)
+}
+
+rule RedirectionErrorResponse2TrgRedirectionErrorResponse{
+	from
+		s : SPL!RedirectionErrorResponse
+	to
+		t : JointModel!TrgRedirectionErrorResponse(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			errorKind <- s.errorKind
+		)
+}
+
+rule ServerErrorResponse2TrgServerErrorResponse{
+	from
+		s : SPL!ServerErrorResponse
+	to
+		t : JointModel!TrgServerErrorResponse(
+			location <- s.location,
+			commentsBefore <- s.commentsBefore,
+			commentsAfter <- s.commentsAfter,
+			errorKind <- s.errorKind
+		)
+}
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="elddwmijqt" year="2000" title="Complexity measure" journal="Journal of Systems and Software">
+      <authors author="Kim G. Larsen"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="hul unpgdc" year="1991" title="Complexity measure" journal="Information and Software Technology">
+      <authors author="Edward N. Reingold"/>
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="fhxenwfkai" title="A classification and coparison framework for software architecture description languages" note="cpkyozrjk_">
+      <authors author="Wang Yi"/>
+      <authors author="Bruce Schneier"/>
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="cu wpn rac" title="Complexity measure" note="cl p p mrv">
+      <authors author="Wang Yi"/>
+      <authors author="Donald E. Knuth"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Marlon Dumas"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="v_rirgu _s" title="An intrusion-detection model"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="prozhbg p_" title="Uppaal in a nutshell"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="sfnqbbwd_p" year="1997" title="Program slicing" booktitle="vdgpwqxpsg">
+      <authors author="Dorothy E. Denning"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="wdezltdtfk" year="2004" title="A classification and coparison framework for software architecture description languages" school="bv-qwcmvcx">
+      <authors author="Martin Fowler"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Edward N. Reingold"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="girv-wuyqz" year="1994" title="4 + 1 view model of architecture" school="qtannlboeu">
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcPhDThesis" id="ijf mbmlp-" year="1994" title="Complexity measure" school="-gvzjutrcr">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Erich Gamma"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[cu wpn rac] Unpublished Complexity measure Wang Yi Donald E. Knuth Dorothy E. Denning Marlon Dumas cl p p mrv"/>
+          <paras/>
+          <paras content="[fhxenwfkai] Unpublished A classification and coparison framework for software architecture description languages Wang Yi Bruce Schneier Liangzhao Zeng Edward N. Reingold cpkyozrjk_"/>
+          <paras content="[girv-wuyqz] PhDThesis 4 + 1 view model of architecture Thomas M. J. Fruchterman Shyam R. Chidamber Gerard J. Holzmann 1994 qtannlboeu"/>
+          <paras content="[hul unpgdc] Article Complexity measure Edward N. Reingold Nenad Medvidovic Robert C. Martin 1991 Information and Software Technology"/>
+          <paras content="[ijf mbmlp-] PhDThesis Complexity measure Chris F. Kemerer Erich Gamma Edward N. Reingold 1994 -gvzjutrcr"/>
+          <paras content="[prozhbg p_] Manual Uppaal in a nutshell"/>
+          <paras content="[sfnqbbwd_p] InProceedings Program slicing Dorothy E. Denning 1997 vdgpwqxpsg"/>
+          <paras content="[v_rirgu _s] Manual An intrusion-detection model"/>
+          <paras content="[wdezltdtfk] PhDThesis A classification and coparison framework for software architecture description languages Martin Fowler Martin Fowler Edward N. Reingold Nenad Medvidovic 2004 bv-qwcmvcx"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Kim G. Larsen"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="Information and Software Technology"/>
+          <paras content="Journal of Systems and Software"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

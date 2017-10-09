@@ -1,0 +1,266 @@
+/********************************************************************************
+* Copyright (c) 2017 Universidad de Sevilla.
+* All rights reserved. This program and the accompanying materials
+* are made available under the terms of the Eclipse Public License v1.0
+* which accompanies this distribution, and is available at
+* http://www.eclipse.org/legal/epl-v10.html
+*
+* Contributors:
+* Javier Troya (Universidad de Sevilla, Spain) - implementation
+*******************************************************************************/
+
+package eu.eii.fault.localization.evaluation.tse15;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+public class Evaluation_TSE15_EXAM {
+	
+	/**************************** PARAMETERS FOR THE UML2ER EXAMPLE ********************************/
+	/**We need the canonical path in order to navigate the subfolders**/
+	final static String executionsCanPath = "UML2ER";
+	/**Name of the files with the matching tables**/
+	final static String matchingTableFileName = "SimpleUml2ERMT";
+	static int numRules = 8;
+	static int numConstraints = 10;
+	/*********************END OF PARAMETERS FOR THE UML2ER EXAMPLE ********************************/
+	
+	/**************************** PARAMETERS FOR THE BIBTEX2DOCBOOK EXAMPLE ********************************/
+//	/**We need the canonical path in order to navigate the subfolders**/
+//	final static String executionsCanPath = "BibTexML2DocBook";
+//	/**Name of the files with the matching tables**/
+//	final static String matchingTableFileName = "BibTeX2DocBookMT";
+//	static int numRules = 9;
+//	static int numConstraints = 16;
+	/*********************END OF PARAMETERS FOR THE BIBTEX2DOCBOOK EXAMPLE ********************************/
+	
+	/**************************** PARAMETERS FOR THE CPL2SPL EXAMPLE ********************************/
+//	/**We need the canonical path in order to navigate the subfolders**/
+//	final static String executionsCanPath = "CPL2SPL";
+//	/**Name of the files with the matching tables**/
+//	final static String matchingTableFileName = "CPL2SPLMT";
+//	static int numRules = 19;
+//	static int numConstraints = 16;
+	/*********************END OF PARAMETERS FOR THE CPL2SPL EXAMPLE ********************************/
+	
+	/**************************** PARAMETERS FOR THE ECORE2MAUDE EXAMPLE ********************************/
+//	/**We need the canonical path in order to navigate the subfolders**/
+//	final static String executionsCanPath = "Ecore2Maude";
+//	/**Name of the files with the matching tables**/
+//	final static String matchingTableFileName = "Ecore2MaudeMT";
+//	static int numRules = 39;
+//	static int numConstraints = 3;
+	/*********************END OF PARAMETERS FOR THE ECORE2Maude EXAMPLE ********************************/
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		Map<Integer, Map<List<Integer>, List<Integer>>> mutants_buggyRules_ocls = storeBuggyRulesMutants();
+		List<List<Double>> examValues = computeEXAM(mutants_buggyRules_ocls);
+		printResults(examValues,mutants_buggyRules_ocls);
+		
+		System.out.println("The execution ended successfully. The results are stored in " + executionsCanPath + "/EXAM_Results.csv");
+	}
+	
+	public static boolean printResults(List<List<Double>> examValues, Map<Integer, Map<List<Integer>, List<Integer>>> mutants_buggyRules_ocls) throws IOException{
+		boolean res = true;
+		//Let's create the file with the results
+		File result = new File(executionsCanPath + "/EXAM_Results.csv");
+		if (result.exists()) result.delete();
+		result.createNewFile();
+		FileWriter fw = new FileWriter(result.getAbsoluteFile());
+		BufferedWriter bw = new BufferedWriter(fw);
+		
+		bw.write("Mutant;Buggy_rules;OCL;EXAM_BC;EXAM_WC;EXAM_AVG\n");
+		
+		//Let's get the lists with the exam values:
+		List<Double> examsBC = examValues.get(0);
+		List<Double> examsWC = examValues.get(1);
+		List<Double> examsAVG = examValues.get(2);
+		int index = 0;
+		
+		Iterator<Integer> mutIterator = mutants_buggyRules_ocls.keySet().iterator();
+		while (mutIterator.hasNext()){
+			Integer mutant = mutIterator.next(); //Number of the corresponding mutant
+			Map<List<Integer>, List<Integer>> buggyRules_ocls = mutants_buggyRules_ocls.get(mutant);
+			List<Integer> buggyRules = (List<Integer>) buggyRules_ocls.keySet().toArray()[0];
+			List<Integer> ocls = buggyRules_ocls.get(buggyRules);
+			for (Integer ocl : ocls){
+				bw.write(mutant + ";");
+				bw.write(buggyRules.get(0).toString());
+				for (Integer buggyRule : buggyRules){
+					if (buggyRule!=buggyRules.get(0)) bw.write("," + buggyRule );
+				}
+				bw.write(";" + ocl + ";");
+				bw.write(examsBC.get(index).toString()+";");
+				bw.write(examsWC.get(index).toString()+";");
+				bw.write(examsAVG.get(index).toString()+";");
+				bw.write("\n");
+				index++;				
+			}
+		}
+		
+		bw.close();
+		return res;
+	}
+	
+	public static List<List<Double>> computeEXAM(Map<Integer, Map<List<Integer>, List<Integer>>> mutants_buggyRules_ocls) throws IOException{
+		List<List<Double>> result = new ArrayList<List<Double>>();
+		List<Double> examsBC = new ArrayList<Double>();
+		List<Double> examsWC = new ArrayList<Double>();
+		List<Double> examsAVG = new ArrayList<Double>();
+		
+		//We have to compute the EXAM for each mutant and each OCL that fails for the mutant
+		Iterator<Integer> mutIterator = mutants_buggyRules_ocls.keySet().iterator();
+		while (mutIterator.hasNext()){
+			Integer mutant = mutIterator.next(); //Number of the corresponding mutant
+			//We get the values of the matching tables for the correspondint mutant
+			List<List<Double>> valuesCC = getCCValues(numRules, numConstraints, mutant);
+			List<List<Double>> valuesRCR = getRCRValues(numRules, numConstraints, mutant);
+			
+			Map<List<Integer>, List<Integer>> buggyRules_ocls = mutants_buggyRules_ocls.get(mutant);
+			List<Integer> buggyRules = (List<Integer>) buggyRules_ocls.keySet().toArray()[0];
+			List<Integer> ocls = buggyRules_ocls.get(buggyRules);
+			//We want the EXAM value for each ocl of each mutant
+			for (Integer ocl : ocls){
+				//Let's get the CC and RCR values of the buggy rule. If there are several
+				//buggy rules, we take the one with the highest CC
+				Double ccBuggyRule = 0.0;
+				Double rcrBuggyRule = 0.0;
+				for (Integer buggyRule : buggyRules){
+					if (valuesCC.get(ocl-1).get(buggyRule-1)>ccBuggyRule){
+						ccBuggyRule = valuesCC.get(ocl-1).get(buggyRule-1);
+						rcrBuggyRule = valuesRCR.get(ocl-1).get(buggyRule-1);
+					}
+				}
+				//Let's compute the EXAM
+				int repeated = 0;
+				int comparator = 0;
+				int index = 0;
+				for (Double cc : valuesCC.get(ocl-1)){
+					Double rcr = valuesRCR.get(ocl-1).get(index);
+					/*compareTo is for comparing Double values:
+					 * a.compareTo(b) == 0 if the values are the same
+					 * a.compareTo(b) < 0 if a<b
+					 * a.compareTo(b) > 0 if a>b
+					 */
+					if (cc.compareTo(ccBuggyRule)>0) comparator++;
+					if (cc.compareTo(ccBuggyRule)==0 && rcr.compareTo(rcrBuggyRule)>0) comparator++;
+					if (cc.compareTo(ccBuggyRule)==0 && rcr.compareTo(rcrBuggyRule)==0) repeated++;
+					index++;
+				}
+				Double examBC = (double) (comparator + 1) / numRules;
+				Double examWC = (double) (comparator + repeated) / numRules;
+				Double examAVG = (double) (examBC + examWC) / 2;
+				examsBC.add(examBC);
+				examsWC.add(examWC);
+				examsAVG.add(examAVG);
+			}
+		}		
+		
+		result.add(examsBC);
+		result.add(examsWC);
+		result.add(examsAVG);
+		return result;
+	}
+	
+	/**
+	 * @return This method reads the corresponding "buggyRules.csv" file, where it is stored the buggy rules and the OCLs that fail for each mutant.
+	 * It returns a Map<Integer, Map<List<Integer>, List<Integer>>> with this information. For instance, if we have in the CSV file:
+	 * 1;8,10;1,2,3   meaning that, for mutant 1, rules 8 and 10 are buggy, and OCLs 1, 2 and 3 fail, the we would have:
+	 * Map<1, Map<[8,10], [1,2,3]>>
+	 * @throws IOException
+	 */
+	public static Map<Integer, Map<List<Integer>, List<Integer>>> storeBuggyRulesMutants() throws IOException{
+		Map<Integer, Map<List<Integer>, List<Integer>>> result = new HashMap<Integer, Map<List<Integer>, List<Integer>>>();
+		BufferedReader br = new BufferedReader(new FileReader(executionsCanPath + "/buggyRulesMutants.csv"));
+		String line = br.readLine();
+		while ((line = br.readLine())!=null){
+			String[] values = line.split(";");
+			//The third value is the list of OCL expressions that fail, separated by commas. Let's put them in a list
+			String[] oclsString = values[2].split(",");
+			List<Integer> ocls = new ArrayList<Integer>();
+			for (String oclString : oclsString)
+				ocls.add(Integer.parseInt(oclString));
+			//The second value is the list of buggy rules, separated by commas. Let's put them in a list
+			String[] buggyRulesString = values[1].split(",");
+			List<Integer> buggyRules = new ArrayList<Integer>();
+			for (String buggyRuleString : buggyRulesString)
+				buggyRules.add(Integer.parseInt(buggyRuleString));
+			
+			//Let's create the corresponding Map with these values:
+			Map<List<Integer>, List<Integer>> buggyRule_ocl = new HashMap<List<Integer>, List<Integer>>();
+			buggyRule_ocl.put(buggyRules, ocls);
+			
+			//Now, let's get the mutant, which is in the first position, and let's put it as key of the structure to return
+			Integer mutant = Integer.parseInt(values[0]);
+			result.put(mutant, buggyRule_ocl);
+				
+		}
+		
+		return result;
+	}
+	
+	/**
+	 * @param numRules
+	 * @param numConstraints
+	 * @param specificMutant. Number of specific mutant for which we read the matching tables
+	 * @return It returns a List<List<Double>> structure that stores the CC table that is extracted from the corresponding CSV file
+	 * with the matching tables. For this, it reads the CC part by rows and stores it in the result
+	 * @throws IOException
+	 */
+	public static List<List<Double>> getCCValues(int numRules, int numConstraints, int specificMutant) throws IOException{
+		List<List<Double>> result = new ArrayList<List<Double>>();
+		BufferedReader br = new BufferedReader(new FileReader(executionsCanPath + "/matchingTables/" + matchingTableFileName + "_Mutant" + specificMutant + ".csv"));
+		String line = br.readLine();
+		//Let's read a line and create a List<Double> for each constraint
+		for (int i=1; i<=numConstraints; i++){
+			List<Double> valuesCC = new ArrayList<Double>();
+			line = br.readLine();
+			String[] values = line.split(";");
+			for (String strCC : values){
+				valuesCC.add(Double.parseDouble(strCC));
+			}
+			result.add(valuesCC);
+		}		
+		return result;
+	}
+	
+	/**
+	 * @param numRules
+	 * @param numConstraints
+	 * @param specificMutant. Number of specific mutant for which we read the matching tables
+	 * @return It returns a List<List<Double>> structure that stores the RCR table that is extracted from the corresponding CSV file
+	 * with the matching tables. For this, it reads the RCR part by rows and stores it in the result
+	 * @throws IOException
+	 */
+	public static List<List<Double>> getRCRValues(int numRules, int numConstraints, int specificMutant) throws IOException{
+		List<List<Double>> result = new ArrayList<List<Double>>();
+		BufferedReader br = new BufferedReader(new FileReader(executionsCanPath + "/matchingTables/" + matchingTableFileName + "_Mutant" + specificMutant + ".csv"));
+		String line = null;
+		//We have to go down in the file, to the part of the RCR table
+		for (int i=1; i<=numConstraints*2 + 7; i++) 
+			br.readLine();
+		//Let's read a line and create a List<Double> for each constraint
+		for (int i=1; i<=numConstraints; i++){
+			List<Double> valuesRCR = new ArrayList<Double>();
+			line = br.readLine();
+			String[] values = line.split(";");
+			for (String strCC : values){
+				valuesRCR.add(Double.parseDouble(strCC));
+			}
+			result.add(valuesRCR);
+		}		
+		return result;
+	}
+
+}

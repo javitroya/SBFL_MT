@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario69/AutomaticModel_CPL69.xmi#//@elements.2/@notPresent"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario69/AutomaticModel_CPL69.xmi#//@elements.3/@notPresent"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/1"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario69/AutomaticModel_CPL69.xmi#//@elements.4/@notPresent"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/2"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario69/AutomaticModel_CPL69.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/3/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario69/AutomaticModel_CPL69.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/4/@declaration"/>
+  </traceLinks>
+  <traceLinks ruleName="StringSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario69/AutomaticModel_CPL69.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario69/SPL_out69.xmi#/5/@declaration"/>
+  </traceLinks>
+</trace:Trace>

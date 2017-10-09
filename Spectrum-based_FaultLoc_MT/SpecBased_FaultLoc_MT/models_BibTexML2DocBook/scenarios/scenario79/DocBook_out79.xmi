@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras/>
+        <paras/>
+        <paras content="[hwmihewkkr] Article The model checker SPIN Dorothy E. Denning Paul Pettersson Richard N. Taylor Gerard J. Holzmann 1997 Software and Systems Modeling"/>
+        <paras content="[mhmyazuvld] Booklet 1987"/>
+        <paras/>
+        <paras content="[twj rkivs_] Misc"/>
+        <paras content="[zrzfdxjbio] Misc"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Donald E. Knuth"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="An intrusion-detection model"/>
+        <paras content="Program slicing"/>
+        <paras content="The model checker SPIN"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="Journal of Systems and Software"/>
+        <paras content="Software -- Practice and Experience"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

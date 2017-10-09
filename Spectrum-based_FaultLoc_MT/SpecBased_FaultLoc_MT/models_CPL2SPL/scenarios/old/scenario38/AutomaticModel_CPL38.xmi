@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions id="ydebwcqyma"/>
+    <subActions contents="//@elements.9" id="looicuwmig"/>
+    <subActions id="awqrppfonn"/>
+    <outgoing/>
+    <incoming/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions id="cilzzyjoka"/>
+    <subActions contents="//@elements.11" id="upoveaiqws"/>
+    <subActions id="dhylqabdvw"/>
+    <subActions contents="//@elements.9" id="aqxlgpizdk"/>
+    <outgoing/>
+    <incoming contents="//@elements.8"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="sldwhhdbxr">
+    <notPresent/>
+    <otherwise/>
+    <addresses is="hegxsivdyb" subDomainOf="cbrczthkcd"/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="fluftnaufw" subField="uruhybvyfb">
+    <notPresent/>
+    <otherwise/>
+    <addresses contains="ntubfyiebv"/>
+    <addresses contains="edmfwxcfun"/>
+    <addresses is="akyztrwuba" contains="qzfnzhbgae"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="aehahkqkic">
+    <notPresent contents="//@elements.4"/>
+    <otherwise/>
+    <strings is="skrgmtnnub"/>
+    <strings is="xozqgvhnet" contains="ylpsdpseej"/>
+    <strings is="ggrmysdzff" contains="uxjzlnynjo"/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="ojtzbbcmpy">
+    <notPresent/>
+    <otherwise/>
+    <strings is="gtpdieilya" contains="xifrdfsvqr"/>
+    <strings is="ydmexqdlwc" contains="hcwcuadfzm"/>
+    <strings is="lfrwzqxuom"/>
+    <strings is="hlpxrvscpb" contains="nmfybdrlhw"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+    <otherwise/>
+    <languages matches="uidvwbpqbo"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <notPresent/>
+    <otherwise/>
+    <languages contents="//@elements.5" matches="iudkbxygev"/>
+  </elements>
+  <elements xsi:type="CPL:Redirect" permanent="wtjxsfvkrw"/>
+  <elements xsi:type="CPL:Reject" status="wdkbdpuchq"/>
+  <elements xsi:type="CPL:Reject" status="hnkfdqwyvd" reason="vquldrghnp"/>
+  <elements xsi:type="CPL:Reject" status="bkgagwzske" reason="cmysozqdoi"/>
+  <elements xsi:type="CPL:Reject" status="zzihekooaj"/>
+</CPL:CPLModel>

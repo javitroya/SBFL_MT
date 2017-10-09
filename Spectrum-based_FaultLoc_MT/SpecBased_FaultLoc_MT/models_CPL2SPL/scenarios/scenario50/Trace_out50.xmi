@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario50/AutomaticModel_CPL50.xmi#//@elements.0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/0/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/0/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario50/AutomaticModel_CPL50.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/1/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/1/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario50/AutomaticModel_CPL50.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/2/@service"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/2/@service/@sessions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario50/AutomaticModel_CPL50.xmi#//@elements.11"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/3/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/3/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario50/AutomaticModel_CPL50.xmi#//@elements.3"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/4/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario50/AutomaticModel_CPL50.xmi#//@elements.4"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/5/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="AddressSwitch2SelectStat">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario50/AutomaticModel_CPL50.xmi#//@elements.5"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/6"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario50/SPL_out50.xmi#/6/@matchedExp"/>
+  </traceLinks>
+</trace:Trace>

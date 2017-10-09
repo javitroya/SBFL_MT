@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:CPL"/>
+  <elements xsi:type="CPL:StringSwitch" field="qhlrwbupvl">
+    <strings contents="//@elements.8"/>
+    <strings/>
+  </elements>
+  <elements xsi:type="CPL:StringSwitch" field="qqdbietorr">
+    <strings is="riwhpesdru"/>
+    <strings contents="//@elements.9" is="lzcxgwkwms"/>
+  </elements>
+  <elements xsi:type="CPL:LanguageSwitch">
+    <languages contents="//@elements.4" matches="xncqvbcpnb"/>
+    <languages matches="kmxildysmd"/>
+    <languages matches="rtaakbsvxi"/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" recurse="zicqtjhuqo" ordering="kwnyvyugmu">
+    <busy/>
+    <redirection/>
+  </elements>
+  <elements xsi:type="CPL:Redirect" permanent="mczoaatnqe"/>
+  <elements xsi:type="CPL:Redirect" permanent="uixwursmjl"/>
+  <elements xsi:type="CPL:Redirect" permanent="hxebzlfadf"/>
+</CPL:CPLModel>

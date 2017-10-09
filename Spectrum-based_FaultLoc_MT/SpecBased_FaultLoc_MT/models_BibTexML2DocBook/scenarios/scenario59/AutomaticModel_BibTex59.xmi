@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="tm-hmqdtgr" year="1994" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="qswlrf icu" title="The model checker SPIN" note="hnmhzomqs-">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Nenad Medvidovic"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="afk kgu_as" title="A metrics suite for object oriented design" note="unsgfe_pln">
+    <authors author="Bruce Schneier"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="nbyadnxkzt" title="An intrusion-detection model" note="_rtjcnqer ">
+    <authors author="Gerard J. Holzmann"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="tosgayimej" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Manual" id="ps- hjygib" title="Program slicing"/>
+  <entries xsi:type="BibTeX:Proceedings" id="zc-yabiihz" year="1995" title="A classification and coparison framework for software architecture description languages"/>
+  <entries xsi:type="BibTeX:Proceedings" id="asqievyulf" year="1997" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Book" id="-bwcpiepbp" year="1994" title="A metrics suite for object oriented design" publisher="-sqgefrjhz">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="k-navqvqih" year="1991" title="A metrics suite for object oriented design" publisher="uhgbpsjuav">
+    <authors author="Philippe Kruchten"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Book" id="t__wq- cqy" year="1995" title="QoS-aware middleware for Web services composition" publisher="yesrgjrcsa">
+    <authors author="Martin Fowler"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="ykmdy_xj_d" year="1991" title="An intrusion-detection model" publisher="unqjusq vw" booktitle="lrffukxxyg">
+    <authors author="Robert C. Martin"/>
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="bkfiycn h " year="1997" title="The model checker SPIN" publisher="-j czaqeyb" booktitle="vc alhrvzk">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="z--rptibmm" year="1991" title="Complexity measure" publisher="m e-- ysdz" booktitle="ifyam-fjmm">
+    <authors author="Chris F. Kemerer"/>
+  </entries>
+</BibTeX:BibTeXFile>

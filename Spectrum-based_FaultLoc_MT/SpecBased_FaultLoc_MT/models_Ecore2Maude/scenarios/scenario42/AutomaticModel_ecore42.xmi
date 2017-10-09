@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="cfxqqakzeg" nsPrefix="grzbgzxpji">
+  <eClassifiers xsi:type="ecore:EClass" name="mrpqgphdol" instanceClassName="irbyrbxmsa" instanceTypeName="uxnrznwpot" abstract="true">
+    <eOperations name="fecvejfnuk" eExceptions="//@eClassifiers.0 //@eClassifiers.1"/>
+    <eOperations name="ccsgkzgppc" lowerBound="22" upperBound="53" eExceptions="//@eClassifiers.1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hgjgihcebv" transient="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="skweyflcck" ordered="false" upperBound="25" volatile="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pctiuaxmbx" changeable="false" defaultValueLiteral="wbprtjilug" eOpposite="//@eClassifiers.0/@eStructuralFeatures.2"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="oupamxipfr" ordered="false" unique="false" lowerBound="99" changeable="false" transient="true" defaultValueLiteral="vqiojdzxsw" unsettable="true" resolveProxies="false" eReferenceType="//@eClassifiers.2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="uharspghti" instanceClassName="uvdsulmbxw" interface="true" eSuperTypes="//@eClassifiers.1 //@eClassifiers.0">
+    <eOperations name="esjkxomjvr" lowerBound="87" eExceptions="//@eClassifiers.2 //@eClassifiers.0 //@eClassifiers.3"/>
+    <eOperations name="lacunpbqbk" lowerBound="82" upperBound="69" eExceptions="//@eClassifiers.1 //@eClassifiers.0 //@eClassifiers.3"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fwminwktgp" unique="false" lowerBound="73" upperBound="97" volatile="true" defaultValueLiteral="okusnriwbp" unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="whusfpfpvt" upperBound="20" eType="//@eClassifiers.2" changeable="false" containment="true" eReferenceType="//@eClassifiers.0" eKeys="//@eClassifiers.0/@eStructuralFeatures.1 //@eClassifiers.1/@eStructuralFeatures.0"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="nqgnoihtxc" abstract="true" eSuperTypes="//@eClassifiers.0 //@eClassifiers.1">
+    <eOperations name="ajedbetvzh" lowerBound="62" eExceptions="//@eClassifiers.3 //@eClassifiers.2"/>
+    <eOperations name="vikodurcbd" lowerBound="18" upperBound="72" eType="//@eClassifiers.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="twmwddisdf" unique="false" lowerBound="98" changeable="false"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="tnlwiacuiy"/>
+</ecore:EPackage>

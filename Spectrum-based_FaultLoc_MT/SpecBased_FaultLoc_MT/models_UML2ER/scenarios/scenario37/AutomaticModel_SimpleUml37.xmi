@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="artpdtn-ws">
+  <ownedElements name="Country" superClasses="//@ownedElements.1 //@ownedElements.0">
+    <ownedProperty name="-w lcbamsa" complexType="//@ownedElements.1" isContainment="true"/>
+    <ownedProperty name="wk-si_ajgn" isContainment="true"/>
+    <ownedProperty name="zcrpsyqxin" primitiveType="Integer" isContainment="true"/>
+  </ownedElements>
+  <ownedElements name="Country">
+    <ownedProperty name="howsfxvpaf" primitiveType="String" complexType="//@ownedElements.1" isContainment="true"/>
+  </ownedElements>
+</SimpleUml:Package>

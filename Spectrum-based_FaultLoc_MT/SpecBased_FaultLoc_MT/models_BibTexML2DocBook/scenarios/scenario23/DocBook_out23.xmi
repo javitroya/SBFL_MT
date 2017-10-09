@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[advumtirxr] MasterThesis Graph drawing by force-directed placement Paul Pettersson 2000 nndy-l_fsw"/>
+        <paras content="[bl qgynqij] InBook Complexity measure Gerard J. Holzmann Dorothy E. Denning Paul Pettersson 2004 i_rcrqnvll 14"/>
+        <paras content="[bvcddonltx] InBook Uppaal in a nutshell Erich Gamma Liangzhao Zeng 2000 nneiklm-to 17"/>
+        <paras content="[mexyedpqpg] Misc"/>
+        <paras content="[mtxm hln w] MasterThesis Program slicing Steve McConnell 1987 zwgjijobdw"/>
+        <paras content="[muvpnirb f] MasterThesis Program slicing Marlon Dumas Richard N. Taylor Martin Fowler Steve McConnell 2000 esehmua_qk"/>
+        <paras content="[qha xweamk] InBook A metrics suite for object oriented design Liangzhao Zeng Craig Larman 2000 -jk vrmces 6"/>
+        <paras content="[royg_sqhih] Misc"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Craig Larman"/>
+        <paras content="Dorothy E. Denning"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Gerard J. Holzmann"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Paul Pettersson"/>
+        <paras content="Richard N. Taylor"/>
+        <paras content="Steve McConnell"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List"/>
+    </articles>
+  </books>
+</DocBook:DocBook>

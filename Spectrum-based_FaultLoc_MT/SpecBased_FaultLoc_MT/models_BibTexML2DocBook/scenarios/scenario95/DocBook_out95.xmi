@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras/>
+        <paras content="[ ncl-uejh ] PhDThesis Program slicing Steve McConnell 1994 ghglshao-w"/>
+        <paras/>
+        <paras content="[egudvqapkn] Proceedings Uppaal in a nutshell 1987"/>
+        <paras content="[emvaxtnzeo] Article A metrics suite for object oriented design Elisabeth Freeman 1994 Software and Systems Modeling"/>
+        <paras content="[fvnqtosxjc] Misc"/>
+        <paras content="[gipzsmwymu] Article A metrics suite for object oriented design Bruce Schneier 1991 Information and Software Technology"/>
+        <paras content="[jojgtpym--] TechReport QoS-aware middleware for Web services composition Steve McConnell Bruce Schneier 1991"/>
+        <paras content="[n_khk-cohm] InProceedings A metrics suite for object oriented design Donald E. Knuth Wang Yi Liangzhao Zeng 2000 nsoevdofxi"/>
+        <paras content="[pkwmnotpfj] PhDThesis A classification and coparison framework for software architecture description languages Robert C. Martin Robert C. Martin Donald E. Knuth 2000 sshavwdr__"/>
+        <paras content="[pvull_r-ao] Misc"/>
+        <paras content="[qfgbmxmab_] InProceedings A classification and coparison framework for software architecture description languages Martin Fowler Donald E. Knuth Martin Fowler 1987 bbyy-wrzz-"/>
+        <paras content="[quru-dlsgs] PhDThesis The model checker SPIN Thomas M. J. Fruchterman Chris F. Kemerer 1976 jdakumadtr"/>
+        <paras content="[ramcgrfxfa] TechReport Complexity measure Donald E. Knuth Marlon Dumas Robert C. Martin Shyam R. Chidamber 1987"/>
+        <paras/>
+        <paras/>
+        <paras content="[ywvfeq_zqx] InProceedings Complexity measure Edward N. Reingold 1976 zsrsnsxxll"/>
+        <paras content="[zxxhgkposh] Misc"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Bruce Schneier"/>
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Donald E. Knuth"/>
+        <paras content="Edward N. Reingold"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Erich Gamma"/>
+        <paras content="Liangzhao Zeng"/>
+        <paras content="Marlon Dumas"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Philippe Kruchten"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Shyam R. Chidamber"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="A metrics suite for object oriented design"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Program slicing"/>
+        <paras content="QoS-aware middleware for Web services composition"/>
+        <paras content="The model checker SPIN"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Information and Software Technology"/>
+        <paras content="Software -- Practice and Experience"/>
+        <paras content="Software and Systems Modeling"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

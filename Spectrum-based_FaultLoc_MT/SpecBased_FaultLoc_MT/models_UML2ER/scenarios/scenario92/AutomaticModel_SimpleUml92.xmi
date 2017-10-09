@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SimpleUml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SimpleUml="http://SimpleUML" name="tkfvyyl-se">
+  <ownedElements name="House" superClasses="//@ownedElements.1 //@ownedElements.2">
+    <ownedProperty name=" ngayc buh" primitiveType="Boolean" complexType="//@ownedElements.0" isContainment="true"/>
+    <ownedProperty name="kyzdsoir u" complexType="//@ownedElements.0"/>
+  </ownedElements>
+  <ownedElements name="Country" superClasses="//@ownedElements.1">
+    <ownedProperty name="mr haxkme " isContainment="true"/>
+  </ownedElements>
+  <ownedElements name="House">
+    <ownedProperty name="z-kxitpidu" isContainment="true"/>
+  </ownedElements>
+</SimpleUml:Package>

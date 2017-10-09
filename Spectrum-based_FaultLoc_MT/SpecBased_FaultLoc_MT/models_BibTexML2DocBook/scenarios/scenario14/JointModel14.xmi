@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="jnihaejcip" title="Graph drawing by force-directed placement" note="epraxnekvr">
+      <authors author="Bruce Schneier"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="rsypirqh_h" title="A classification and coparison framework for software architecture description languages" note="rjfe_ywmgc">
+      <authors author="Shyam R. Chidamber"/>
+      <authors author="Donald E. Knuth"/>
+      <authors author="Marlon Dumas"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcProceedings" id="r-txjgzyiq" year="1997" title="A classification and coparison framework for software architecture description languages"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInCollection" id="wxglslpddr" year="1997" title="Uppaal in a nutshell" publisher="obucoqhydy" booktitle="wjhzbs_svt">
+      <authors author="Richard N. Taylor"/>
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[jnihaejcip] Unpublished Graph drawing by force-directed placement Bruce Schneier Paul Pettersson epraxnekvr"/>
+          <paras content="[r-txjgzyiq] Proceedings A classification and coparison framework for software architecture description languages 1997"/>
+          <paras content="[rsypirqh_h] Unpublished A classification and coparison framework for software architecture description languages Shyam R. Chidamber Donald E. Knuth Marlon Dumas Nenad Medvidovic rjfe_ywmgc"/>
+          <paras content="[wxglslpddr] InCollection Uppaal in a nutshell Richard N. Taylor Liangzhao Zeng 1997 wjhzbs_svt obucoqhydy"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Shyam R. Chidamber"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

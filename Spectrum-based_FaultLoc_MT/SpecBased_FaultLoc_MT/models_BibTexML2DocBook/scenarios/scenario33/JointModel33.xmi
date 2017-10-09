@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id=" kmycf-htc" year="1987" title="An intrusion-detection model" journal="IEEE Transactions on Software Engineering">
+      <authors author="Robert C. Martin"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="yug-vodcll" year="1991" title="4 + 1 view model of architecture" journal="Information and Software Technology">
+      <authors author="Robert C. Martin"/>
+      <authors author="Craig Larman"/>
+      <authors author="Edward N. Reingold"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="mpozdqmkpr" year="1995" title="Uppaal in a nutshell" journal="Journal of Systems and Software">
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcArticle" id="hhrlfkajno" year="1997" title="A metrics suite for object oriented design" journal="Software and Systems Modeling">
+      <authors author="Wang Yi"/>
+      <authors author="Elisabeth Freeman"/>
+      <authors author="Gerard J. Holzmann"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="nboqfrnfk-" title="Program slicing" note="ukuqyycrpm">
+      <authors author="Philippe Kruchten"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="lqmk-evfnc" title="QoS-aware middleware for Web services composition" note="kgkcnmmiwq">
+      <authors author="Bruce Schneier"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcUnpublished" id="datnqbetwc" title="QoS-aware middleware for Web services composition" note=" n-sq_kcia">
+      <authors author="Marlon Dumas"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+      <authors author="Nenad Medvidovic"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="lesnewblwk" title="Complexity measure"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcManual" id="sxt-kpsgix" title="A metrics suite for object oriented design"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInProceedings" id="docww_jrvj" year="2004" title="A classification and coparison framework for software architecture description languages" booktitle="brzt_w-gye">
+      <authors author="Martin Fowler"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Donald E. Knuth"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="s-yx_m goj" year="2000"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcBooklet" id="ualoff_ jq" year="1994"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="fy_qwjman " year="1995" title="Uppaal in a nutshell" publisher="gq_lyakxzt" chapter="87">
+      <authors author="Chris F. Kemerer"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Thomas M. J. Fruchterman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="xr_zptmosv" year="1984" title="4 + 1 view model of architecture" publisher="uyowabvegv" chapter="93">
+      <authors author="Shyam R. Chidamber"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="rpej_qulpf" year="1984" title="Uppaal in a nutshell" publisher="fjqyqdcsz-" chapter="33">
+      <authors author="Nenad Medvidovic"/>
+      <authors author="Chris F. Kemerer"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras/>
+          <paras content="[datnqbetwc] Unpublished QoS-aware middleware for Web services composition Marlon Dumas Thomas M. J. Fruchterman Nenad Medvidovic  n-sq_kcia"/>
+          <paras content="[docww_jrvj] InProceedings A classification and coparison framework for software architecture description languages Martin Fowler Richard N. Taylor Chris F. Kemerer Donald E. Knuth 2004 brzt_w-gye"/>
+          <paras content="[fy_qwjman ] InBook Uppaal in a nutshell Chris F. Kemerer Dorothy E. Denning Martin Fowler Thomas M. J. Fruchterman 1995 gq_lyakxzt 87"/>
+          <paras/>
+          <paras content="[lesnewblwk] Manual Complexity measure"/>
+          <paras content="[lqmk-evfnc] Unpublished QoS-aware middleware for Web services composition Bruce Schneier kgkcnmmiwq"/>
+          <paras/>
+          <paras content="[nboqfrnfk-] Unpublished Program slicing Philippe Kruchten ukuqyycrpm"/>
+          <paras content="[rpej_qulpf] InBook Uppaal in a nutshell Nenad Medvidovic Chris F. Kemerer 1984 fjqyqdcsz- 33"/>
+          <paras content="[s-yx_m goj] Booklet 2000"/>
+          <paras content="[sxt-kpsgix] Manual A metrics suite for object oriented design"/>
+          <paras content="[ualoff_ jq] Booklet 1994"/>
+          <paras content="[xr_zptmosv] InBook 4 + 1 view model of architecture Shyam R. Chidamber 1984 uyowabvegv 93"/>
+          <paras/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Bruce Schneier"/>
+          <paras content="Chris F. Kemerer"/>
+          <paras content="Craig Larman"/>
+          <paras content="Donald E. Knuth"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Edward N. Reingold"/>
+          <paras content="Elisabeth Freeman"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Nenad Medvidovic"/>
+          <paras content="Philippe Kruchten"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Robert C. Martin"/>
+          <paras content="Shyam R. Chidamber"/>
+          <paras content="Thomas M. J. Fruchterman"/>
+          <paras content="Wang Yi"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="4 + 1 view model of architecture"/>
+          <paras content="A classification and coparison framework for software architecture description languages"/>
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="An intrusion-detection model"/>
+          <paras content="Complexity measure"/>
+          <paras content="Program slicing"/>
+          <paras content="QoS-aware middleware for Web services composition"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List">
+          <paras content="IEEE Transactions on Software Engineering"/>
+          <paras content="Information and Software Technology"/>
+          <paras content="Journal of Systems and Software"/>
+          <paras content="Software and Systems Modeling"/>
+        </sections_1>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

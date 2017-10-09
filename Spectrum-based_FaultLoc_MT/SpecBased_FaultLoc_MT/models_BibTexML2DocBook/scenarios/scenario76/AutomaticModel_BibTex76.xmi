@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="np_h_ckrpi" year="1987" title="Uppaal in a nutshell" journal="Software -- Practice and Experience">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="kmhwlbqkhv" year="1984" title="The model checker SPIN"/>
+  <entries xsi:type="BibTeX:Proceedings" id="ry_cxb zwg" year="2000" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Proceedings" id="-fido-rc_ " year="2004" title="Graph drawing by force-directed placement"/>
+  <entries xsi:type="BibTeX:Book" id="vgsztlw gz" year="1995" title="Uppaal in a nutshell" publisher="uhl vgxkam">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Wang Yi"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="hdrzyfp kj"/>
+  <entries xsi:type="BibTeX:Misc" id="ozmrjtdqgm"/>
+</BibTeX:BibTeXFile>

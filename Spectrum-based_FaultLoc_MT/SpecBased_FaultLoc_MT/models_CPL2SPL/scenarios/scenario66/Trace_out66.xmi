@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario66/AutomaticModel_CPL66.xmi#//@elements.1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario66/SPL_out66.xmi#/0"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario66/SPL_out66.xmi#/0/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario66/SPL_out66.xmi#/0/@returnedValue/@functionCall"/>
+  </traceLinks>
+  <traceLinks ruleName="SubCall2Return">
+    <sourceElements href="models_CPL2SPL/scenarios/scenario66/AutomaticModel_CPL66.xmi#//@elements.2"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario66/SPL_out66.xmi#/1"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario66/SPL_out66.xmi#/1/@returnedValue"/>
+    <targetElements href="models_CPL2SPL/scenarios/scenario66/SPL_out66.xmi#/1/@returnedValue/@functionCall"/>
+  </traceLinks>
+</trace:Trace>

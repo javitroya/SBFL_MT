@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocBook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DocBook="http://DocBook/1.0">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[_urvswbcgu] PhDThesis Complexity measure Thomas M. J. Fruchterman Elisabeth Freeman 1976 xlssdhib _"/>
+        <paras/>
+        <paras/>
+        <paras content="[kmup-uasui] Misc"/>
+        <paras content="[lli d_xtk ] PhDThesis A classification and coparison framework for software architecture description languages Nenad Medvidovic Chris F. Kemerer Wang Yi Martin Fowler 1997 gknlqyr_cs"/>
+        <paras content="[ojytbrmtix] Misc"/>
+        <paras content="[v-wfcjzmed] Misc"/>
+        <paras content="[vyb mqqqlc] Manual 4 + 1 view model of architecture"/>
+        <paras content="[zsmhp_xwvf] Unpublished 4 + 1 view model of architecture Steve McConnell fy--ny odo"/>
+      </sections_1>
+      <sections_1 title="Authors List">
+        <paras content="Chris F. Kemerer"/>
+        <paras content="Craig Larman"/>
+        <paras content="Elisabeth Freeman"/>
+        <paras content="Martin Fowler"/>
+        <paras content="Nenad Medvidovic"/>
+        <paras content="Robert C. Martin"/>
+        <paras content="Steve McConnell"/>
+        <paras content="Thomas M. J. Fruchterman"/>
+        <paras content="Wang Yi"/>
+      </sections_1>
+      <sections_1 title="Titles List">
+        <paras content="4 + 1 view model of architecture"/>
+        <paras content="A classification and coparison framework for software architecture description languages"/>
+        <paras content="Complexity measure"/>
+        <paras content="Graph drawing by force-directed placement"/>
+        <paras content="Uppaal in a nutshell"/>
+      </sections_1>
+      <sections_1 title="Journals List">
+        <paras content="IEEE Transactions on Software Engineering"/>
+        <paras content="Journal of Systems and Software"/>
+      </sections_1>
+    </articles>
+  </books>
+</DocBook:DocBook>

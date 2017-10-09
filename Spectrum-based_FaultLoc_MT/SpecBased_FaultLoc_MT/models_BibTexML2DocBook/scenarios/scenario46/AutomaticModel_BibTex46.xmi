@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="rsfe_lqvda" year="2000" title="QoS-aware middleware for Web services composition" journal="Software -- Practice and Experience">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="ssbl w jep" title="A classification and coparison framework for software architecture description languages" note=" -qsfcsyrv">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="cewxybnoip" title="A metrics suite for object oriented design" note="kurajlkssn">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="qtqajhbwfo" title="An intrusion-detection model" note="xdpdrhtx  ">
+    <authors author="Robert C. Martin"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Booklet" id="hhotc_nkga" year="1997"/>
+  <entries xsi:type="BibTeX:Booklet" id="xsjndfkura" year="2000"/>
+  <entries xsi:type="BibTeX:Book" id="yujnhezars" year="1994" title="Complexity measure" publisher="-_d_xlrybg">
+    <authors author="Edward N. Reingold"/>
+  </entries>
+  <entries xsi:type="BibTeX:InCollection" id="zykjtzbjic" year="1994" title="The model checker SPIN" publisher="w-woungpsa" booktitle="rcqvxulxmm">
+    <authors author="Paul Pettersson"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="lurkzwtzhr"/>
+  <entries xsi:type="BibTeX:PhDThesis" id="zggoropfxk" year="1997" title="A metrics suite for object oriented design" school="lslly jdbc">
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="wwr zgddt-" year="1984" title="4 + 1 view model of architecture" school="ptlymvygii">
+    <authors author="Robert C. Martin"/>
+    <authors author="Philippe Kruchten"/>
+    <authors author="Paul Pettersson"/>
+  </entries>
+</BibTeX:BibTeXFile>

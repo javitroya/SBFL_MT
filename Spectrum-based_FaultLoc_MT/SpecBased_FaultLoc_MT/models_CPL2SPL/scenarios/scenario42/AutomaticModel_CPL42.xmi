@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions id="ujbilulyna"/>
+    <subActions contents="//@elements.5" id="uskrlkxngl"/>
+  </elements>
+  <elements xsi:type="CPL:Location" url="awkjyurzce" priority="ljfmqrecvu" clear="tneogcpqcn"/>
+  <elements xsi:type="CPL:Location" url="wqhcvvucsf" priority="kxbkvrjlby" clear="vottwkqofd"/>
+  <elements xsi:type="CPL:SubCall" ref="gafzpukvbr"/>
+  <elements xsi:type="CPL:Redirect" permanent="pyrtmycwso"/>
+  <elements xsi:type="CPL:Redirect" permanent="ohhizgracj"/>
+  <elements xsi:type="CPL:Redirect" permanent="kmawmvcbab"/>
+</CPL:CPLModel>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://ecore" name="zldbmethtk" nsPrefix="wvkwkuwizb">
+  <eClassifiers xsi:type="ecore:EClass" name="gvqalbnryu" instanceClassName="tvmvhpkyad">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="excprxnuwb" lowerBound="32" defaultValueLiteral="tymmamnuin" containment="true" eOpposite="//@eClassifiers.1/@eStructuralFeatures.0"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sjjsstsnzs" ordered="false" defaultValueLiteral="isbxcncsrr" derived="true" resolveProxies="false"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="jetiaajnip" unique="false" lowerBound="1" eType="//@eClassifiers.2" resolveProxies="false"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="vnhvudwpck" instanceClassName="joqwpnqxoi" instanceTypeName="cbvbbmzqhq">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ovnzcldoro" lowerBound="70" upperBound="21" eType="//@eClassifiers.3" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mdwqcjuszj" upperBound="15" eType="//@eClassifiers.4" unsettable="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="rlmtycfpyw" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="jzbnxwuabu" upperBound="68" changeable="false" defaultValueLiteral="saogsyjjak"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="oqvvnzetgr" instanceClassName="uiqoeflbft">
+    <eLiterals name="ajoatgzmkr" value="95"/>
+    <eLiterals name="byxxoewpkb" value="59" literal="gxkfspzwbr"/>
+    <eLiterals name="pqgloaijvv" value="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="roecpafnmd"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="nzykoddzpn" instanceClassName="vtsunmodft" instanceTypeName="rdfitfeteb">
+    <eLiterals name="ldhjzcnuni" value="29"/>
+    <eLiterals name="zkeclmgxkx" value="52"/>
+  </eClassifiers>
+</ecore:EPackage>

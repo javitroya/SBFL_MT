@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Package">
+    <sourceElements href="models_UML2ER/scenarios/scenario1/AutomaticModel_SimpleUML1.xmi#/"/>
+    <targetElements href="models_UML2ER/scenarios/scenario1/ER_out1.xmi#/"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario1/AutomaticModel_SimpleUML1.xmi#/"/>
+    <targetElements href="models_UML2ER/scenarios/scenario1/ER_out1.xmi#/"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="models_UML2ER/scenarios/scenario1/AutomaticModel_SimpleUML1.xmi#//@ownedElements.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario1/ER_out1.xmi#//@entities.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="models_UML2ER/scenarios/scenario1/AutomaticModel_SimpleUML1.xmi#//@ownedElements.0"/>
+    <targetElements href="models_UML2ER/scenarios/scenario1/ER_out1.xmi#//@entities.0"/>
+  </traceLinks>
+</trace:Trace>

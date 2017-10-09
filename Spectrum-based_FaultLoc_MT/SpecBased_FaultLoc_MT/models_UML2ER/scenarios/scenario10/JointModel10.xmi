@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="ulgglwpook">
+    <ownedElements name="Country"/>
+    <ownedElements name="Country"/>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="ulgglwpook">
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

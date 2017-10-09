@@ -1,0 +1,53 @@
+module UML2ER_Mutant12;
+create OUT : ER, TM : TMM from IN : SimpleUML;
+
+--R1
+abstract rule NamedElement{ 
+ from s : SimpleUML!NamedElement
+ to   t : ER!Element(
+ 	name <- s.name
+	)
+}
+--R2
+rule Package extends NamedElement{
+  from s: SimpleUML!Package
+  to t: ER!ERModel(
+        entities <- s.ownedElements 
+	)
+}
+--R3
+rule Class extends NamedElement{
+  from s: SimpleUML!Class
+  to t: ER!EntityType (
+     features <- s.ownedProperty 
+	 )
+}
+--R4
+abstract rule Property extends NamedElement{
+  from s: SimpleUML!Property
+  to t: ER!Feature ()
+}
+--R5
+rule Attributes extends Property{
+  from s: SimpleUML!Property (not s.complexType.oclIsUndefined()) -- (s.complexType.oclIsUndefined())    Mutation: filter condition change
+  to t: ER!Attribute (
+     type <- if s.primitiveType.oclIsUndefined() then 'NoType' else s.primitiveType endif	
+  )
+}
+--R6
+abstract rule References extends Property{
+  from s: SimpleUML!Property (s.complexType.oclIsUndefined()) -- (not s.complexType.oclIsUndefined())    Mutation: filter condition change
+  to t: ER!Reference (
+     type <- s.complexType 
+  )
+}
+--R7
+rule WeakReferences extends References{
+  from s: SimpleUML!Property (not s.isContainment)
+  to t: ER!WeakReference()
+}
+--R8
+rule StrongReferences extends References{
+  from s: SimpleUML!Property (s.isContainment)
+  to t: ER!StrongReference(),
+}

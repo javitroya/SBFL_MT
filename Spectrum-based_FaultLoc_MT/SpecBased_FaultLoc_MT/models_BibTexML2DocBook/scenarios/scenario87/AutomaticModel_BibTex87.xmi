@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="jirwm_-epa" year="1987" title="QoS-aware middleware for Web services composition" journal="IEEE Transactions on Software Engineering">
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="njhurrlbae" year="1995" title="A metrics suite for object oriented design">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="qjgbtogu w" year="2004" title="Complexity measure">
+    <authors author="Paul Pettersson"/>
+    <authors author="Marlon Dumas"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="wrebiubmsk" title="Graph drawing by force-directed placement" note="dqwdcd-fwz">
+    <authors author="Paul Pettersson"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Gerard J. Holzmann"/>
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="me-wwzdver" title="Complexity measure" note="kmhl_etdee">
+    <authors author="Steve McConnell"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Nenad Medvidovic"/>
+    <authors author="Wang Yi"/>
+  </entries>
+  <entries xsi:type="BibTeX:Unpublished" id="dgd_ecbksa" title="An intrusion-detection model" note="o_txydvvds">
+    <authors author="Steve McConnell"/>
+  </entries>
+  <entries xsi:type="BibTeX:Manual" id="bizolg_h_r" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Manual" id="flebyaqlup" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:Manual" id="nbp hfnxtf" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:InBook" id="gibrqtn-wf" year="1995" title="An intrusion-detection model" publisher="recbgizx_m" chapter="4">
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="kntzardnri"/>
+  <entries xsi:type="BibTeX:Misc" id="lupqmjcosh"/>
+  <entries xsi:type="BibTeX:MasterThesis" id="nbkczjkqxd" year="1997" title="Uppaal in a nutshell" school="eskc_brnvn">
+    <authors author="Erich Gamma"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Wang Yi"/>
+    <authors author="Philippe Kruchten"/>
+  </entries>
+</BibTeX:BibTeXFile>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="BibTeX2" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="bibtex2"/>
+			<item value="UML2ER"/>
+			<item value="uml2er"/>
+			<item value="pivot"/>
+			<item value="ocl"/>
+			<item value="join"/>
+			<item value="mut"/>
+			<item value="exam"/>
+		</list>
+		<list key="replacehistory">
+			<item value="//"/>
+			<item value="&quot;ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean&quot;"/>
+			<item value="&quot;ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt&quot;"/>
+			<item value="&quot;ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString&quot;"/>
+			<item value="#//"/>
+			<item value="at"/>
+			<item value="rf"/>
+			<item value="t |"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="381" key="DIALOG_HEIGHT"/>
+		<item value="1493" key="DIALOG_X_ORIGIN"/>
+		<item value="213" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SPL="http://spl/1.0">
+  <SPL:Program>
+    <service name="unnamed">
+      <declarations xsi:type="SPL:LocalFunctionDeclaration" name="fmsvhitkjd">
+        <returnType xsi:type="SPL:SimpleType" type="response"/>
+      </declarations>
+      <sessions xsi:type="SPL:Dialog">
+        <methods direction="in">
+          <type xsi:type="SPL:SimpleType" type="response"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="INVITE"/>
+        </methods>
+        <methods direction="out">
+          <type xsi:type="SPL:SimpleType" type="request"/>
+          <methodName xsi:type="SPL:SIPMethodName" name="NOTIFY"/>
+        </methods>
+      </sessions>
+    </service>
+  </SPL:Program>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:RedirectionErrorResponse/>
+  <SPL:CompoundStat>
+    <statements xsi:type="SPL:DeclarationStat">
+      <declaration xsi:type="SPL:VariableDeclaration" name="r">
+        <type xsi:type="SPL:SimpleType" type="response"/>
+        <initExp xsi:type="SPL:ForwardExp">
+          <exp xsi:type="SPL:ConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="SPL:SelectStat">
+      <matchedExp xsi:type="SPL:Variable" source="/12/@statements.0/@declaration"/>
+      <selectCases>
+        <commentsBefore>// busy</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="BUSY_HERE"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// noanswer</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// redirection</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MULTIPLE_CHOICES"/>
+        </values>
+      </selectCases>
+      <selectCases xsi:type="SPL:ErrorResponse"/>
+      <selectDefault>
+        <commentsBefore>// default</commentsBefore>
+      </selectDefault>
+    </statements>
+  </SPL:CompoundStat>
+  <SPL:CompoundStat>
+    <statements xsi:type="SPL:DeclarationStat">
+      <declaration xsi:type="SPL:VariableDeclaration" name="r">
+        <type xsi:type="SPL:SimpleType" type="response"/>
+        <initExp xsi:type="SPL:ForwardExp">
+          <exp xsi:type="SPL:ConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="SPL:SelectStat">
+      <matchedExp xsi:type="SPL:Variable" source="/13/@statements.0/@declaration"/>
+      <selectCases>
+        <commentsBefore>// busy</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="BUSY_HERE"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// noanswer</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// redirection</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MULTIPLE_CHOICES"/>
+        </values>
+      </selectCases>
+      <selectCases xsi:type="SPL:ErrorResponse"/>
+      <selectDefault>
+        <commentsBefore>// default</commentsBefore>
+      </selectDefault>
+    </statements>
+  </SPL:CompoundStat>
+  <SPL:CompoundStat>
+    <statements xsi:type="SPL:DeclarationStat">
+      <declaration xsi:type="SPL:VariableDeclaration" name="r">
+        <type xsi:type="SPL:SimpleType" type="response"/>
+        <initExp xsi:type="SPL:ForwardExp">
+          <exp xsi:type="SPL:ConstantExp"/>
+        </initExp>
+      </declaration>
+    </statements>
+    <statements xsi:type="SPL:SelectStat">
+      <matchedExp xsi:type="SPL:Variable" source="/14/@statements.0/@declaration"/>
+      <selectCases>
+        <commentsBefore>// busy</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="BUSY_HERE"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// noanswer</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:ClientErrorResponse" errorKind="REQUEST_TIMEOUT"/>
+        </values>
+      </selectCases>
+      <selectCases>
+        <commentsBefore>// redirection</commentsBefore>
+        <values xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MULTIPLE_CHOICES"/>
+        </values>
+      </selectCases>
+      <selectCases xsi:type="SPL:ErrorResponse"/>
+      <selectDefault>
+        <commentsBefore>// default</commentsBefore>
+      </selectDefault>
+    </statements>
+  </SPL:CompoundStat>
+  <SPL:ReturnStat>
+    <returnedValue xsi:type="SPL:FunctionCallExp">
+      <functionCall/>
+    </returnedValue>
+  </SPL:ReturnStat>
+  <SPL:ReturnStat>
+    <returnedValue xsi:type="SPL:WithExp">
+      <exp xsi:type="SPL:ConstantExp">
+        <value xsi:type="SPL:ResponseConstant">
+          <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+        </value>
+      </exp>
+      <msgFields xsi:type="SPL:ReasonMessageField">
+        <exp xsi:type="SPL:ConstantExp">
+          <value xsi:type="SPL:StringConstant" value="unspecified"/>
+        </exp>
+      </msgFields>
+      <msgFields xsi:type="SPL:HeadedMessageField" headerId="#contact:">
+        <exp xsi:type="SPL:ConstantExp"/>
+      </msgFields>
+    </returnedValue>
+  </SPL:ReturnStat>
+  <SPL:SelectStat>
+    <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant" value="oqhizabhze"/>
+    </selectCases>
+    <selectCases xsi:type="SPL:RedirectionErrorResponse"/>
+    <selectDefault/>
+  </SPL:SelectStat>
+  <SPL:SelectStat>
+    <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant" value="ewyhavgpno"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant" value="dwjwperogx"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant"/>
+    </selectCases>
+    <selectCases>
+      <values xsi:type="SPL:StringConstant" value="ojsxmxvbup"/>
+    </selectCases>
+    <selectCases xsi:type="SPL:RedirectionErrorResponse"/>
+    <selectDefault/>
+  </SPL:SelectStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="azheksuczx"/>
+  </SPL:DeclarationStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="jokcsbwoso"/>
+  </SPL:DeclarationStat>
+  <SPL:DeclarationStat>
+    <declaration xsi:type="SPL:VariableDeclaration" name="ordxaomjye"/>
+  </SPL:DeclarationStat>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault>
+    <statements xsi:type="SPL:SelectStat">
+      <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant"/>
+      </selectCases>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant"/>
+      </selectCases>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant"/>
+      </selectCases>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant"/>
+      </selectCases>
+      <selectCases xsi:type="SPL:RedirectionErrorResponse"/>
+      <selectDefault/>
+    </statements>
+  </SPL:SelectDefault>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault>
+    <statements xsi:type="SPL:ReturnStat">
+      <returnedValue xsi:type="SPL:FunctionCallExp">
+        <functionCall/>
+      </returnedValue>
+    </statements>
+  </SPL:SelectDefault>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault/>
+  <SPL:SelectDefault>
+    <statements xsi:type="SPL:ReturnStat">
+      <returnedValue xsi:type="SPL:WithExp">
+        <exp xsi:type="SPL:ConstantExp">
+          <value xsi:type="SPL:ResponseConstant">
+            <response xsi:type="SPL:RedirectionErrorResponse" errorKind="MOVED_TEMPORARILY"/>
+          </value>
+        </exp>
+        <msgFields xsi:type="SPL:ReasonMessageField">
+          <exp xsi:type="SPL:ConstantExp">
+            <value xsi:type="SPL:StringConstant" value="unspecified"/>
+          </exp>
+        </msgFields>
+        <msgFields xsi:type="SPL:HeadedMessageField" headerId="#contact:">
+          <exp xsi:type="SPL:ConstantExp"/>
+        </msgFields>
+      </returnedValue>
+    </statements>
+  </SPL:SelectDefault>
+  <SPL:SelectDefault>
+    <statements xsi:type="SPL:SelectStat">
+      <matchedExp xsi:type="SPL:SIPHeaderPlace" header="TO"/>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant"/>
+      </selectCases>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant" value="iobdxxqaey"/>
+      </selectCases>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant"/>
+      </selectCases>
+      <selectCases>
+        <values xsi:type="SPL:StringConstant"/>
+      </selectCases>
+      <selectCases xsi:type="SPL:RedirectionErrorResponse"/>
+      <selectDefault/>
+    </statements>
+  </SPL:SelectDefault>
+</xmi:XMI>

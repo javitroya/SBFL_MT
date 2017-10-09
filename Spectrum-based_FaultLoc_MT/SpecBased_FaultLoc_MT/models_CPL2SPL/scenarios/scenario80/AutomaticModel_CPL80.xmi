@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CPL:CPLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CPL="http://cpl/1.0">
+  <elements xsi:type="CPL:CPL">
+    <subActions id="xwcuuisfhn"/>
+    <subActions contents="//@elements.7" id="apcphcqeqr"/>
+    <subActions contents="//@elements.9" id="rlxtceavbm"/>
+    <incoming contents="//@elements.3"/>
+  </elements>
+  <elements xsi:type="CPL:CPL">
+    <subActions id="pwjkkqqiwv"/>
+    <subActions id="tskoewfmvw"/>
+    <outgoing/>
+    <incoming/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="jbjqhsnkyf">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:AddressSwitch" field="klfnafitam"/>
+  <elements xsi:type="CPL:TimeSwitch" tzid="ffqvfiqpsj" tzurl="abtdxbbzrr">
+    <otherwise/>
+  </elements>
+  <elements xsi:type="CPL:TimeSwitch" tzurl="uddfpaprha"/>
+  <elements xsi:type="CPL:Location" url="cusrzbhzwc" priority="nxwmfznwwz" clear="admocbmxih"/>
+  <elements xsi:type="CPL:Location" url="cvwtygjtrq" clear="dcstvtchvc"/>
+  <elements xsi:type="CPL:Proxy" recurse="pyoonjiony" ordering="dvukfvobia">
+    <busy contents="//@elements.7"/>
+    <noAnswer/>
+  </elements>
+  <elements xsi:type="CPL:Proxy" timeout="bvfvwnmeff" recurse="hrenuytqqu" ordering="xuakijpyno"/>
+</CPL:CPLModel>

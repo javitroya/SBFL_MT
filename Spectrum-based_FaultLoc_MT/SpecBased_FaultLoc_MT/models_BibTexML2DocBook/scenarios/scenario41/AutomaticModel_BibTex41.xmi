@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:Article" id="qpiiozcvn " year="1997" title="Program slicing" journal="Journal of Systems and Software">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Paul Pettersson"/>
+    <authors author="Liangzhao Zeng"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="dusqcin lj" year="1997" title="A classification and coparison framework for software architecture description languages" journal="Information and Software Technology">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="zrqjvmbyox" year="1987" title="An intrusion-detection model" journal="Information and Software Technology">
+    <authors author="Marlon Dumas"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Donald E. Knuth"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="lohuezzb_b" year="2004" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="kluvydfntz" year="2000" title="Uppaal in a nutshell" journal="Software and Systems Modeling">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Dorothy E. Denning"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+  <entries xsi:type="BibTeX:Article" id="xoxouchoie" year="1991" title="An intrusion-detection model" journal="Journal of Systems and Software">
+    <authors author="Robert C. Martin"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="plpmdqirkl" year="1991" title="An intrusion-detection model">
+    <authors author="Elisabeth Freeman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="myxdktrjhp" year="2000" title="Program slicing" booktitle="ibejeaxjew">
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="przipbvy q" year="1991" title="Graph drawing by force-directed placement" booktitle="olylgfnyri">
+    <authors author="Richard N. Taylor"/>
+  </entries>
+  <entries xsi:type="BibTeX:InProceedings" id="wnobwugxbm" year="1984" title="Uppaal in a nutshell" booktitle="mlcahmb-c-">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="bnxows_vqr" year="1987" title="A metrics suite for object oriented design" school="gk nxnxfzp">
+    <authors author="Dorothy E. Denning"/>
+  </entries>
+  <entries xsi:type="BibTeX:PhDThesis" id="ikehtmeys_" year="2000" title="A classification and coparison framework for software architecture description languages" school="waczrc pby">
+    <authors author="Shyam R. Chidamber"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="jmw _jsxtq" year="1987" title="An intrusion-detection model" school="biwdrpgxsb">
+    <authors author="Elisabeth Freeman"/>
+    <authors author="Martin Fowler"/>
+    <authors author="Erich Gamma"/>
+    <authors author="Bruce Schneier"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="jq-xqd_gld" year="1997" title="Complexity measure" school="yokrd vvhh">
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Steve McConnell"/>
+    <authors author="Kim G. Larsen"/>
+  </entries>
+  <entries xsi:type="BibTeX:MasterThesis" id="_m_dtmpruh" year="2004" title="Uppaal in a nutshell" school="buyh_iw kw">
+    <authors author="Liangzhao Zeng"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Erich Gamma"/>
+  </entries>
+</BibTeX:BibTeXFile>

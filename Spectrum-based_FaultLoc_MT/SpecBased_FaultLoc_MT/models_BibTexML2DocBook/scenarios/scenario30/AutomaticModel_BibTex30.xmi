@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BibTeX:BibTeXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BibTeX="http://BibTeX/1.0">
+  <entries xsi:type="BibTeX:TechReport" id="aacgbtcnth" year="1987" title="Complexity measure">
+    <authors author="Edward N. Reingold"/>
+    <authors author="Thomas M. J. Fruchterman"/>
+    <authors author="Chris F. Kemerer"/>
+    <authors author="Martin Fowler"/>
+  </entries>
+  <entries xsi:type="BibTeX:TechReport" id="vphqpqadgj" year="1995" title="Program slicing">
+    <authors author="Paul Pettersson"/>
+  </entries>
+  <entries xsi:type="BibTeX:Proceedings" id="enxjjfk_re" year="1994" title="4 + 1 view model of architecture"/>
+  <entries xsi:type="BibTeX:InProceedings" id="kcqrsyhwos" year="1976" title="An intrusion-detection model" booktitle="gznkrlgidh">
+    <authors author="Donald E. Knuth"/>
+    <authors author="Craig Larman"/>
+    <authors author="Edward N. Reingold"/>
+    <authors author="Robert C. Martin"/>
+  </entries>
+  <entries xsi:type="BibTeX:InBook" id="eshfd_uaaw" year="2000" title="QoS-aware middleware for Web services composition" publisher="_adxtfqckw" chapter="54">
+    <authors author="Paul Pettersson"/>
+    <authors author="Shyam R. Chidamber"/>
+    <authors author="Craig Larman"/>
+  </entries>
+  <entries xsi:type="BibTeX:Misc" id="w_vqatjimk"/>
+  <entries xsi:type="BibTeX:Misc" id="rhycpp-_jf"/>
+  <entries xsi:type="BibTeX:Misc" id="-oqdniaonz"/>
+</BibTeX:BibTeXFile>

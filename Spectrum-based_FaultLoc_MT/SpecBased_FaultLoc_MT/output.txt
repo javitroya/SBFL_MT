@@ -1,0 +1,116 @@
+http://BibTeX/1.0
+http://DocBook/1.0
+http://jointPackage_bibtex2docbook/1.0
+If the error "java.lang.ClassCastException: org.eclipse.emf.ecore.impl.EFactoryImpl cannot be cast to jointPackage.JointPackageFactory" comes next, simply ignore it.
+java.lang.ClassCastException: org.eclipse.emf.ecore.impl.EFactoryImpl cannot be cast to jointPackage_BibTeX2DocBook.JointPackage_BibTeX2DocBookFactory
+	at jointPackage_BibTeX2DocBook.impl.JointPackage_BibTeX2DocBookFactoryImpl.init(JointPackage_BibTeX2DocBookFactoryImpl.java:30)
+	at jointPackage_BibTeX2DocBook.JointPackage_BibTeX2DocBookFactory.<clinit>(JointPackage_BibTeX2DocBookFactory.java:22)
+	at jointPackage_BibTeX2DocBook.impl.JointPackage_BibTeX2DocBookPackageImpl.<init>(JointPackage_BibTeX2DocBookPackageImpl.java:278)
+	at jointPackage_BibTeX2DocBook.impl.JointPackage_BibTeX2DocBookPackageImpl.init(JointPackage_BibTeX2DocBookPackageImpl.java:304)
+	at jointPackage_BibTeX2DocBook.JointPackage_BibTeX2DocBookPackage.<clinit>(JointPackage_BibTeX2DocBookPackage.java:57)
+	at es.us.eii.fault.localization.mt.main.FaultLocalizationMT_Main.main(FaultLocalizationMT_Main.java:714)
+The Module container of the MT is: ATL.impl.ModuleImpl@123c48d0 (location: 1:1-381:2, commentsBefore: null, commentsAfter: null) (name: BibTeX2DocBook) (isRefining: false)
+Names of the rules: [Main, Author, UntitledEntry, TitledEntry_Title_NoArticle, TitledEntry_NoTitle_NoArticle, Article_Title_Journal, Article_NoTitle_Journal, Article_Title_NoJournal, Article_NoTitle_NoJournal]
+Rules executions: {Article_Title_NoJournal=[I@14fff5e7, TitledEntry_Title_NoArticle=[I@1203d787, Article_NoTitle_Journal=[I@1f72fbd1, Article_Title_Journal=[I@6f785a27, Author=[I@443dae2, Article_NoTitle_NoJournal=[I@8f09a02, UntitledEntry=[I@5454be, Main=[I@2dd08ff1, TitledEntry_NoTitle_NoArticle=[I@37dec463}
+
+***In the following it is printed, for each rule, how many times it is executed in each of the 100 executions***
+
+Rule: Article_Title_NoJournal, number of executions: 1 1 0 0 1 0 1 1 1 0 1 1 0 0 0 0 1 0 0 0 0 2 0 0 1 1 2 1 1 0 0 2 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 2 1 0 1 0 0 0 1 1 0 0 0 2 0 1 0 1 1 0 0 0 0 0 0 3 1 0 3 0 1 2 0 1 0 0 2 0 0 0 0 0 1 0 2 0 2 0 
+Rule: TitledEntry_Title_NoArticle, number of executions: 3 3 4 3 4 2 3 6 2 7 5 2 5 3 1 2 3 6 6 4 6 5 5 5 4 6 5 4 3 5 6 3 4 7 4 5 4 5 5 0 3 2 3 4 5 6 0 5 5 3 3 5 3 3 0 1 2 6 8 5 2 2 3 2 4 3 6 0 5 4 4 3 7 5 1 2 3 2 0 2 2 3 6 2 3 6 6 8 3 4 4 4 4 5 4 7 3 6 4 4 
+Rule: Article_NoTitle_Journal, number of executions: 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Rule: Article_Title_Journal, number of executions: 3 3 2 2 4 3 2 2 4 1 3 1 0 0 1 4 4 1 0 1 2 2 0 0 3 1 2 2 3 0 1 4 4 2 0 0 1 3 1 2 3 4 1 1 3 1 1 0 1 1 4 2 3 4 4 1 2 1 1 1 2 4 0 4 1 2 2 2 0 2 2 2 1 1 2 1 3 3 3 1 2 1 2 3 3 2 1 0 3 3 0 2 2 1 4 1 2 0 3 1 
+Rule: Author, number of executions: 17 14 13 9 20 8 11 17 12 17 15 13 0 8 7 13 19 19 13 15 14 19 10 12 18 14 18 14 15 9 16 16 17 17 11 13 12 16 12 6 17 11 2 13 19 11 3 13 15 8 17 18 16 16 15 5 13 15 15 16 12 17 10 18 13 15 16 11 8 12 15 14 18 11 5 5 16 13 9 11 13 6 19 15 19 18 13 18 19 14 6 18 13 15 16 16 14 11 18 9 
+Rule: Article_NoTitle_NoJournal, number of executions: 0 2 0 0 0 0 1 0 1 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3 0 0 1 0 0 1 0 0 1 0 0 0 0 0 
+Rule: UntitledEntry, number of executions: 1 4 2 3 3 0 1 0 2 2 2 1 0 0 0 3 4 3 0 2 4 0 2 0 3 0 4 0 0 3 0 2 2 0 1 3 3 5 4 0 0 1 0 0 0 3 3 0 2 0 0 3 0 4 3 2 0 3 0 0 0 0 0 0 2 0 0 3 2 1 0 2 1 2 3 2 3 3 3 3 1 0 1 0 2 0 2 4 1 0 3 2 1 5 3 0 3 3 0 3 
+Rule: Main, number of executions: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Rule: TitledEntry_NoTitle_NoArticle, number of executions: 5 3 0 1 12 3 1 6 5 6 3 6 0 1 2 6 3 7 2 3 6 6 1 3 2 2 8 4 3 0 3 5 5 3 2 2 2 1 3 0 6 3 0 6 7 1 0 2 3 1 9 6 1 6 6 0 4 2 5 3 3 7 0 4 2 4 5 1 1 4 6 4 5 3 0 2 2 5 0 2 2 1 5 2 10 9 4 7 6 0 1 5 6 6 5 3 7 0 8 1 
+
+***OCL1 constraint processed***
+TrgBook.allInstances()->forAll(b | b.articles->exists(a | a.title = 'BibTeXML to DocBook'))
+***OCL2 constraint processed***
+TrgArticle.allInstances()->forAll(a | a.sections_1->size() >= 4 and a.sections_1->at(1).title = 'References List' and a.sections_1->at(2).title = 'Authors List' and a.sections_1->at(3).title = 'Titles List' and a.sections_1->at(4).title = 'Journals List')
+***OCL3 constraint processed***
+SrcAuthor.allInstances()->forAll(au|TrgArticle.allInstances()->exists(a|a.sections_1->at(2).paras->exists(p|p.content=au.author )))
+***OCL4 constraint processed***
+SrcAuthor.allInstances()->forAll(a | TrgPara.allInstances()->exists(p | p.content = a.author and p.section.title = 'Authors List'))
+***OCL5 constraint processed***
+SrcBooklet.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['.concat(b.id).concat('] Booklet ').concat(b.year) and p.section.title = 'References List'))
+***OCL6 constraint processed***
+SrcUnpublished.allInstances()->forAll(b|TrgPara.allInstances()->exists(p|p.content='[' + b.id + '] Unpublished ' + b.title + ' ' + b.authors->iterate(e;str:String=''|str+e.author+' ') + b.note  and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL7 constraint processed***
+SrcPhDThesis.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '[' + b.id + '] PhDThesis ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.school and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL8 constraint processed***
+SrcBook.allInstances()->select(b|b.oclIsTypeOf(SrcBook))->forAll(b | TrgPara.allInstances()->exists(p | p.content ='['+b.id+'] Book ' + b.title + ' ' + b.authors->iterate(e; str : String =  '' | str + e.author + ' ') + b.year + ' ' + b.publisher and p.section.title = 'References List') and	TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL9 constraint processed***
+SrcInBook.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '[' + b.id + '] InBook ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.publisher + ' ' + b.chapter.toString() and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL10 constraint processed***
+SrcTechReport.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] TechReport ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year and p.section.title = 'References List') and	TrgPara.allInstances()->exists(p | p.content = b.title and	p.section.title = 'Titles List'))
+***OCL11 constraint processed***
+SrcManual.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['.concat(b.id).concat('] Manual ').concat(b.title) and p.section.title = 'References List')	and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL12 constraint processed***
+SrcProceedings.allInstances()->select(p|p.oclIsTypeOf(SrcProceedings))->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] Proceedings ' + b.title + ' ' + b.year and p.section.title = 'References List') and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL13 constraint processed***
+SrcInProceedings.allInstances()->forAll(b |	TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] InProceedings ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author+ ' ') + b.year + ' ' + b.booktitle) and	TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL14 constraint processed***
+SrcInCollection.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] InCollection ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.booktitle + ' ' + b.publisher) and	TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List'))
+***OCL15 constraint processed***
+SrcArticle.allInstances()->forAll(b | TrgPara.allInstances()->exists(p | p.content = '['+b.id+'] Article ' + b.title + ' ' + b.authors->iterate(e; str : String = '' | str + e.author + ' ') + b.year + ' ' + b.journal) and TrgPara.allInstances()->exists(p | p.content = b.title and p.section.title = 'Titles List') and TrgPara.allInstances()->exists(p | p.content = b.journal and p.section.title = 'Journals List'))
+***OCL16 constraint processed***
+SrcBibTeXFile.allInstances()->size() = TrgDocBook.allInstances()->size() and SrcBibTeXFile.allInstances()->size() = TrgBook.allInstances()->size()
+***OCL17 constraint processed***
+SrcTitledEntry.allInstances() -> forAll(te | TrgPara.allInstances()->exists(p | p.content = te.title and p.section.title = 'Titles List'))
+***OCL18 constraint processed***
+SrcArticle.allInstances()->forAll(a | TrgPara.allInstances()->exists(p | p.content = a.journal and p.section.title = 'Journals List'))
+***OCL19 constraint processed***
+SrcTitledEntry.allInstances()->forAll(te | TrgSect1.allInstances() -> exists(s | s.paras -> exists(p | p.content = te.title)))
+***OCL20 constraint processed***
+not TrgSect1.allInstances() -> asSequence() -> select(s | s.title = 'Authors List') -> first().paras -> exists(p1,p2 | p1<>p2 and p1.content=p2.content)
+***OCL21 constraint processed***
+not TrgSect1.allInstances() -> asSequence() -> select(s | s.title = 'Titles List') -> first().paras -> exists(p1,p2 | p1<>p2 and p1.content=p2.content)
+***OCL22 constraint processed***
+not TrgSect1.allInstances() -> asSequence() -> select(s | s.title = 'Journals List') -> first().paras -> exists(p1,p2 | p1<>p2 and p1.content=p2.content)
+***OCL23 constraint processed***
+SrcBibTeXEntry.allInstances()->size() = TrgSect1.allInstances()->select(s | s.title = 'References List') -> asSequence() -> first().paras -> size()
+***OCL24 constraint processed***
+SrcTitledEntry.allInstances()->iterate(e; te : Sequence(SrcTitledEntry) = Sequence {} |	if te->collect(ee | ee.title)->includes(e.title) then	te else	te->including(e) endif) -> size() = TrgSect1.allInstances()->select(s | s.title = 'Titles List') -> asSequence() -> first().paras -> size()
+***OCL25 constraint processed***
+SrcAuthor.allInstances()->iterate(e; a : Sequence(SrcAuthor) = Sequence {} | if a->collect(ee | ee.author)->includes(e.author) then	a else a->including(e) endif ) -> size() = TrgSect1.allInstances()->select(s | s.title = 'Authors List') -> asSequence() -> first().paras -> size()
+***OCL26 constraint processed***
+SrcArticle.allInstances()->iterate(e; a : Sequence(SrcArticle) = Sequence {} | if a->collect(ee | ee.journal)->includes(e.journal) then	a else a->including(e) endif ) -> size() = TrgSect1.allInstances()->select(s | s.title = 'Journals List') -> asSequence() -> first().paras -> size()
+***For each of the 100 executions, the following displays, for each OCL constraint, a '1' if the constraint fails and a '0' if it does not***
+Please note, when no OCL constraint fails, the suspiciousness results will be 0 or NaN
+OCL1: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL2: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL3: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL4: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL5: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL6: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL7: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL8: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL9: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL10: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL11: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL12: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL13: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL14: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL15: 1111111111110011110111001111101111001111111111101111111111111101111101111111111111111110110111111011
+OCL16: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL17: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL18: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL19: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL20: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL21: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL22: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL23: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL24: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL25: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+OCL26: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+The OCL constraints that have not been satisfied are: OCL15  
+
+************The results have been generated successfully!!************
+A summary of the results can be found in models_BibTexML2DocBook/results/BibTeX2DocBook_Mutant1--suspiciousnessResults.csv
+Also, a file for each violated OCL assertion is generated in models_BibTexML2DocBook/results/BibTeX2DocBook_Mutant1--OCLX.csv
+
+ The whole execution has taken 10627 miliseconds.

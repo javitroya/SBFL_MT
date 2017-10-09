@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_BibTeX2DocBook="http://jointPackage_bibtex2docbook/1.0">
+  <jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="qha xweamk" year="2000" title="A metrics suite for object oriented design" publisher="-jk vrmces" chapter="6">
+      <authors author="Liangzhao Zeng"/>
+      <authors author="Craig Larman"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="bvcddonltx" year="2000" title="Uppaal in a nutshell" publisher="nneiklm-to" chapter="17">
+      <authors author="Erich Gamma"/>
+      <authors author="Liangzhao Zeng"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcInBook" id="bl qgynqij" year="2004" title="Complexity measure" publisher="i_rcrqnvll" chapter="14">
+      <authors author="Gerard J. Holzmann"/>
+      <authors author="Dorothy E. Denning"/>
+      <authors author="Paul Pettersson"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="mexyedpqpg"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMisc" id="royg_sqhih"/>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="muvpnirb f" year="2000" title="Program slicing" school="esehmua_qk">
+      <authors author="Marlon Dumas"/>
+      <authors author="Richard N. Taylor"/>
+      <authors author="Martin Fowler"/>
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="mtxm hln w" year="1987" title="Program slicing" school="zwgjijobdw">
+      <authors author="Steve McConnell"/>
+    </entries>
+    <entries xsi:type="jointPackage_BibTeX2DocBook:SrcMasterThesis" id="advumtirxr" year="2000" title="Graph drawing by force-directed placement" school="nndy-l_fsw">
+      <authors author="Paul Pettersson"/>
+    </entries>
+  </jointPackage_BibTeX2DocBook:SrcBibTeXFile>
+  <jointPackage_BibTeX2DocBook:TrgDocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[advumtirxr] MasterThesis Graph drawing by force-directed placement Paul Pettersson 2000 nndy-l_fsw"/>
+          <paras content="[bl qgynqij] InBook Complexity measure Gerard J. Holzmann Dorothy E. Denning Paul Pettersson 2004 i_rcrqnvll 14"/>
+          <paras content="[bvcddonltx] InBook Uppaal in a nutshell Erich Gamma Liangzhao Zeng 2000 nneiklm-to 17"/>
+          <paras content="[mexyedpqpg] Misc"/>
+          <paras content="[mtxm hln w] MasterThesis Program slicing Steve McConnell 1987 zwgjijobdw"/>
+          <paras content="[muvpnirb f] MasterThesis Program slicing Marlon Dumas Richard N. Taylor Martin Fowler Steve McConnell 2000 esehmua_qk"/>
+          <paras content="[qha xweamk] InBook A metrics suite for object oriented design Liangzhao Zeng Craig Larman 2000 -jk vrmces 6"/>
+          <paras content="[royg_sqhih] Misc"/>
+        </sections_1>
+        <sections_1 title="Authors List">
+          <paras content="Craig Larman"/>
+          <paras content="Dorothy E. Denning"/>
+          <paras content="Erich Gamma"/>
+          <paras content="Gerard J. Holzmann"/>
+          <paras content="Liangzhao Zeng"/>
+          <paras content="Marlon Dumas"/>
+          <paras content="Martin Fowler"/>
+          <paras content="Paul Pettersson"/>
+          <paras content="Richard N. Taylor"/>
+          <paras content="Steve McConnell"/>
+        </sections_1>
+        <sections_1 title="Titles List">
+          <paras content="A metrics suite for object oriented design"/>
+          <paras content="Complexity measure"/>
+          <paras content="Graph drawing by force-directed placement"/>
+          <paras content="Program slicing"/>
+          <paras content="Uppaal in a nutshell"/>
+        </sections_1>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </jointPackage_BibTeX2DocBook:TrgDocBook>
+</xmi:XMI>

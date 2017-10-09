@@ -5,6 +5,7 @@ This projects supports and verifies the evaluation performed in [1]. It has been
 There are two projects, namely Evaluation_Comparison_TSE15 and SpecBased_FaultLoc_MT. 
 
 "Evaluation_Comparison_TSE15"
+
 This project’s aim is to obtain the EXAM score out of the matching tables obtained with the approach by Burgueño et al. [2] for all the case studies. In order to run it, the only available class, namely Evaluation_TSE15_EXAM.java must be executed. As we can see in such class, there are four lines of code that must be uncommented in order to obtain the EXAM scores for each of the case studies. The remaining case studies must be commented.
 The class can be executed by right-clicking and selecting Run As -> Java Application. A file called EXAM_Results.csv will be created within the folder corresponding to the executed case study.
 

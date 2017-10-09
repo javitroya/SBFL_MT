@@ -11,7 +11,7 @@ The class can be executed by right-clicking and selecting Run As -> Java Applica
 
 "SpecBased_FaultLoc_MT"
 
-This project contains the executable to compute the suspiciousness values with the 18 techniques. Folders “models_<caseStudyName>” contain all the artifacts regarding each of the case studies. 
+This project contains the executable to compute the suspiciousness values with the 18 techniques. Folders “models_caseStudyName” contain all the artifacts regarding each of the case studies. 
 The executable Java file is available at src->es.us.eii.faul.localization.mt.main-> FaultLocalizationMT_Main
 In order to execute it with the different model transformations serving as case studies and the different mutants, several lines of code must be commented and uncommented. After doing so, the class can be executed by right-clicking and selecting Run As -> Java Application. The code contains explanations for executing each case study:
 -	BibTex2DocBook. An explanation can be found in lines 74-81.

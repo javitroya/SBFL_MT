@@ -1,7 +1,7 @@
 # SBFL_MT
 Implementation of the Spectrum-Based Fault Localization in Model Transformations
 
-This projects supports and verifies the evaluation performed in [1]. It has been developed with Eclipse Modeling Tools, version Mars. Java 8 is needed in order to execute it, as well as the ATL and ATL EMFTVM plugins. An eclipse bundle with the proper configuration is available on the project’s website: https://gestionproyectos.us.es/projects/itim/wiki 
+This projects supports and verifies the evaluation performed in [1]. It has been developed with Eclipse Modeling Tools, version Mars. Java 8 is needed in order to execute it, as well as the ATL and ATL EMFTVM plugins. 
 There are two projects, namely Evaluation_Comparison_TSE15 and SpecBased_FaultLoc_MT. 
 
 "Evaluation_Comparison_TSE15"

@@ -21,4 +21,5 @@ In order to execute it with the different model transformations serving as case 
 After executing the program, some information will be displayed in the console. At the end, it indicates the files generated after the execution and where to locate them.
 
 [1] Javier Troya, Sergio Segura, José A. Parejo, Antonio Ruiz-Cortés. "Spectrum-Based Fault Localization in Model Transformations". Submitted to The Transactions on Software and Methodology, 2017
+
 [2] Loli Burgueño, Javier Troya, Manuel Wimmer, Antonio Vallecillo. "Static Fault Localization in Model Transformations". IEEE Transactions on Software Engineering, Volume 41, 5 (2015), 490-506. http://dx.doi.org/10.1109/TSE.2014.2375201
